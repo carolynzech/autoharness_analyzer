@@ -1,0 +1,13 @@
+fn_name;inline_assembly;unsafe_dereference;unsafe_call;unsafe_static_access;unsafe_union_access
+pod::from_bytes;0;1;0;0;0
+pod::from_bytes_mut;0;1;0;0;0
+pod::slice_from_bytes;0;0;1;0;0
+pod::slice_from_bytes_mut;0;0;1;0;0
+pod::bytes_of;0;0;1;0;0
+pod::bytes_of_mut;0;0;1;0;0
+pod::bytes_of_slice;0;0;1;0;0
+pod::bytes_of_slice_mut;0;0;1;0;0
+<&'a read::read_cache::ReadCache<R> as read::read_ref::ReadRef<'a>>::read_bytes_at;0;2;0;0;0
+<&'a read::read_cache::ReadCache<R> as read::read_ref::ReadRef<'a>>::read_bytes_at_until;0;1;0;0;0
+<read::util::DebugByte as rustc_std_workspace_core::fmt::Debug>::fmt;0;0;1;0;0
+<read::pe::export::ExportTarget<'a> as rustc_std_workspace_core::fmt::Debug>::fmt;0;0;1;0;0

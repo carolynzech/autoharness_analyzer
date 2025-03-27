@@ -1,0 +1,2 @@
+fn_name;boxes;closures;coroutines;floats;fn_defs;fn_ptrs;generics;interior_muts;raw_ptrs;recursive_types;mut_refs;simd;unions
+<libunwind::_Unwind_Reason_Code as core::fmt::Debug>::fmt;0;0;0;0;0;0;1;0;0;2;2;0;0

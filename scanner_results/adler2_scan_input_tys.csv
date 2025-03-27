@@ -1,0 +1,11 @@
+fn_name;boxes;closures;coroutines;floats;fn_defs;fn_ptrs;generics;interior_muts;raw_ptrs;recursive_types;mut_refs;simd;unions
+algo::<impl Adler32>::compute;0;0;0;0;0;0;0;0;0;1;1;0;0
+<algo::U32X4 as rustc_std_workspace_core::ops::AddAssign>::add_assign;0;0;0;0;0;0;0;0;0;0;1;0;0
+<algo::U32X4 as rustc_std_workspace_core::ops::RemAssign<u32>>::rem_assign;0;0;0;0;0;0;0;0;0;0;1;0;0
+<algo::U32X4 as rustc_std_workspace_core::ops::MulAssign<u32>>::mul_assign;0;0;0;0;0;0;0;0;0;0;1;0;0
+<Adler32 as rustc_std_workspace_core::fmt::Debug>::fmt;0;0;0;0;0;0;1;0;0;3;2;0;0
+<Adler32 as rustc_std_workspace_core::clone::Clone>::clone;0;0;0;0;0;0;0;0;0;1;0;0;0
+Adler32::checksum;0;0;0;0;0;0;0;0;0;1;0;0;0
+Adler32::write_slice;0;0;0;0;0;0;0;0;0;1;1;0;0
+<Adler32 as rustc_std_workspace_core::hash::Hasher>::finish;0;0;0;0;0;0;0;0;0;1;0;0;0
+<Adler32 as rustc_std_workspace_core::hash::Hasher>::write;0;0;0;0;0;0;0;0;0;1;1;0;0

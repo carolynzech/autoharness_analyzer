@@ -1,0 +1,18 @@
+fn_name;iterators;loops;nested_loops
+bridge::arena::Arena::alloc_raw;0;1;0
+<bridge::fxhash::FxHasher as std::hash::Hasher>::write;0;1;0
+<std::vec::Vec<T> as bridge::rpc::Encode<S>>::encode;0;1;0
+<std::vec::Vec<T> as bridge::rpc::DecodeMut<'a, '_, S>>::decode;0;1;0
+<bridge::server::CrossThread<P> as bridge::server::ExecutionStrategy>::run_bridge_and_client;0;1;0
+bridge::symbol::Symbol::is_valid_ascii_ident;1;0;0
+<std::vec::Vec<T> as bridge::Mark>::mark;1;0;0
+<std::vec::Vec<T> as bridge::Unmark>::unmark;1;0;0
+diagnostic::Diagnostic::emit::to_internal;2;0;0
+escape::escape_bytes;0;4;0
+<TokenStream as std::iter::FromIterator<TokenTree>>::from_iter;1;0;0
+<TokenStream as std::iter::FromIterator<TokenStream>>::from_iter;1;0;0
+<TokenStream as std::iter::Extend<TokenTree>>::extend;1;0;0
+<TokenStream as std::iter::Extend<TokenStream>>::extend;1;0;0
+<token_stream::IntoIter as std::iter::Iterator>::count;1;0;0
+quote::quote;46;29;0
+quote::quote_span;2;0;0

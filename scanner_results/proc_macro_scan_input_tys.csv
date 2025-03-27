@@ -1,0 +1,484 @@
+fn_name;boxes;closures;coroutines;floats;fn_defs;fn_ptrs;generics;interior_muts;raw_ptrs;recursive_types;mut_refs;simd;unions
+bridge::arena::Arena::grow;1;0;0;0;0;0;3;1;2;13;0;0;1
+bridge::arena::Arena::alloc_raw_without_grow;1;0;0;0;0;0;3;1;2;13;0;0;1
+bridge::arena::Arena::alloc_raw;1;0;0;0;0;0;3;1;2;13;0;0;1
+bridge::arena::Arena::alloc_str;1;0;0;0;0;0;3;1;2;13;0;0;1
+<bridge::buffer::Buffer as std::ops::Deref>::deref;0;0;0;0;0;2;0;0;1;5;0;0;0
+<bridge::buffer::Buffer as std::ops::DerefMut>::deref_mut;0;0;0;0;0;2;0;0;1;5;1;0;0
+bridge::buffer::Buffer::clear;0;0;0;0;0;2;0;0;1;5;1;0;0
+bridge::buffer::Buffer::take;0;0;0;0;0;2;0;0;1;5;1;0;0
+bridge::buffer::Buffer::extend_from_array;0;0;0;0;0;2;0;0;1;5;1;0;0
+bridge::buffer::Buffer::extend_from_slice;0;0;0;0;0;2;0;0;1;5;1;0;0
+bridge::buffer::Buffer::push;0;0;0;0;0;2;0;0;1;5;1;0;0
+<bridge::buffer::Buffer as std::io::Write>::write;0;0;0;0;0;2;0;0;1;5;1;0;0
+<bridge::buffer::Buffer as std::io::Write>::write_all;0;0;0;0;0;2;0;0;1;5;1;0;0
+<bridge::buffer::Buffer as std::io::Write>::flush;0;0;0;0;0;2;0;0;1;5;1;0;0
+<bridge::buffer::Buffer as std::ops::Drop>::drop;0;0;0;0;0;2;0;0;1;5;1;0;0
+<bridge::buffer::Buffer as std::convert::From<std::vec::Vec<u8>>>::from;0;0;0;0;0;0;3;0;1;7;0;0;0
+<bridge::buffer::Buffer as std::convert::From<std::vec::Vec<u8>>>::from::to_vec;0;0;0;0;0;2;0;0;1;5;0;0;0
+<bridge::buffer::Buffer as std::convert::From<std::vec::Vec<u8>>>::from::reserve;0;0;0;0;0;2;0;0;1;5;0;0;0
+<bridge::buffer::Buffer as std::convert::From<std::vec::Vec<u8>>>::from::drop;0;0;0;0;0;2;0;0;1;5;0;0;0
+<bridge::client::FreeFunctions as std::ops::Drop>::drop;0;0;0;0;0;0;1;0;1;0;1;0;0
+<bridge::client::FreeFunctions as bridge::rpc::Encode<S>>::encode;0;0;0;0;0;2;2;0;2;5;2;0;0
+<&bridge::client::FreeFunctions as bridge::rpc::Encode<S>>::encode;0;0;0;0;0;2;2;0;2;5;2;0;0
+<&mut bridge::client::FreeFunctions as bridge::rpc::Encode<S>>::encode;0;0;0;0;0;2;2;0;2;5;3;0;0
+<bridge::client::FreeFunctions as bridge::rpc::DecodeMut<'_, '_, S>>::decode;0;0;0;0;0;0;1;0;0;0;2;0;0
+<bridge::client::TokenStream as std::ops::Drop>::drop;0;0;0;0;0;0;1;0;1;0;1;0;0
+<bridge::client::TokenStream as bridge::rpc::Encode<S>>::encode;0;0;0;0;0;2;2;0;2;5;2;0;0
+<&bridge::client::TokenStream as bridge::rpc::Encode<S>>::encode;0;0;0;0;0;2;2;0;2;5;2;0;0
+<&mut bridge::client::TokenStream as bridge::rpc::Encode<S>>::encode;0;0;0;0;0;2;2;0;2;5;3;0;0
+<bridge::client::TokenStream as bridge::rpc::DecodeMut<'_, '_, S>>::decode;0;0;0;0;0;0;1;0;0;0;2;0;0
+<bridge::client::SourceFile as std::ops::Drop>::drop;0;0;0;0;0;0;1;0;1;0;1;0;0
+<bridge::client::SourceFile as bridge::rpc::Encode<S>>::encode;0;0;0;0;0;2;2;0;2;5;2;0;0
+<&bridge::client::SourceFile as bridge::rpc::Encode<S>>::encode;0;0;0;0;0;2;2;0;2;5;2;0;0
+<&mut bridge::client::SourceFile as bridge::rpc::Encode<S>>::encode;0;0;0;0;0;2;2;0;2;5;3;0;0
+<bridge::client::SourceFile as bridge::rpc::DecodeMut<'_, '_, S>>::decode;0;0;0;0;0;0;1;0;0;0;2;0;0
+<bridge::client::Span as std::clone::Clone>::clone;0;0;0;0;0;0;1;0;1;0;0;0;0
+<bridge::client::Span as std::cmp::PartialEq>::eq;0;0;0;0;0;0;2;0;2;0;0;0;0
+<bridge::client::Span as std::cmp::Eq>::assert_receiver_is_total_eq;0;0;0;0;0;0;1;0;1;0;0;0;0
+<bridge::client::Span as std::hash::Hash>::hash;0;0;0;0;0;0;2;0;1;0;1;0;0
+<bridge::client::Span as bridge::rpc::Encode<S>>::encode;0;0;0;0;0;2;2;0;2;5;2;0;0
+<bridge::client::Span as bridge::rpc::DecodeMut<'_, '_, S>>::decode;0;0;0;0;0;0;1;0;0;0;2;0;0
+<bridge::client::TokenStream as std::clone::Clone>::clone;0;0;0;0;0;0;1;0;1;0;0;0;0
+<bridge::client::SourceFile as std::clone::Clone>::clone;0;0;0;0;0;0;1;0;1;0;0;0;0
+<bridge::client::Span as std::fmt::Debug>::fmt;0;0;0;0;0;0;2;0;1;2;2;0;0
+bridge::client::FreeFunctions::drop;0;0;0;0;0;0;1;0;1;0;0;0;0
+bridge::client::FreeFunctions::emit_diagnostic;0;0;0;0;0;0;4;0;2;19;0;0;0
+bridge::client::TokenStream::drop;0;0;0;0;0;0;1;0;1;0;0;0;0
+bridge::client::TokenStream::clone;0;0;0;0;0;0;1;0;1;0;0;0;0
+bridge::client::TokenStream::is_empty;0;0;0;0;0;0;1;0;1;0;0;0;0
+bridge::client::TokenStream::expand_expr;0;0;0;0;0;0;1;0;1;0;0;0;0
+bridge::client::TokenStream::to_string;0;0;0;0;0;0;1;0;1;0;0;0;0
+bridge::client::TokenStream::from_token_tree;0;0;0;0;0;0;6;0;1;22;0;0;0
+bridge::client::TokenStream::concat_trees;0;0;0;0;0;0;9;0;3;31;0;0;0
+bridge::client::TokenStream::concat_streams;0;0;0;0;0;0;4;0;3;8;0;0;0
+bridge::client::TokenStream::into_trees;0;0;0;0;0;0;1;0;1;0;0;0;0
+bridge::client::SourceFile::drop;0;0;0;0;0;0;1;0;1;0;0;0;0
+bridge::client::SourceFile::clone;0;0;0;0;0;0;1;0;1;0;0;0;0
+bridge::client::SourceFile::eq;0;0;0;0;0;0;2;0;2;0;0;0;0
+bridge::client::SourceFile::path;0;0;0;0;0;0;1;0;1;0;0;0;0
+bridge::client::SourceFile::is_real;0;0;0;0;0;0;1;0;1;0;0;0;0
+bridge::client::Span::debug;0;0;0;0;0;0;1;0;1;0;0;0;0
+bridge::client::Span::source_file;0;0;0;0;0;0;1;0;1;0;0;0;0
+bridge::client::Span::parent;0;0;0;0;0;0;1;0;1;0;0;0;0
+bridge::client::Span::source;0;0;0;0;0;0;1;0;1;0;0;0;0
+bridge::client::Span::byte_range;0;0;0;0;0;0;1;0;1;0;0;0;0
+bridge::client::Span::start;0;0;0;0;0;0;1;0;1;0;0;0;0
+bridge::client::Span::end;0;0;0;0;0;0;1;0;1;0;0;0;0
+bridge::client::Span::line;0;0;0;0;0;0;1;0;1;0;0;0;0
+bridge::client::Span::column;0;0;0;0;0;0;1;0;1;0;0;0;0
+bridge::client::Span::join;0;0;0;0;0;0;2;0;2;0;0;0;0
+bridge::client::Span::subspan;0;0;0;0;0;0;3;0;1;2;0;0;0
+bridge::client::Span::resolved_at;0;0;0;0;0;0;2;0;2;0;0;0;0
+bridge::client::Span::source_text;0;0;0;0;0;0;1;0;1;0;0;0;0
+bridge::client::Span::save_span;0;0;0;0;0;0;1;0;1;0;0;0;0
+bridge::client::state::set;0;0;0;0;0;3;5;1;4;14;1;0;0
+<bridge::client::state::set::RestoreOnDrop as std::ops::Drop>::drop;0;0;0;0;0;0;0;0;1;0;1;0;0
+<bridge::client::Client<I, O> as std::clone::Clone>::clone;0;0;0;0;0;5;4;1;4;16;1;0;0
+bridge::client::run_client;0;0;0;0;0;3;3;0;4;10;1;0;0
+<bridge::client::ProcMacro as std::clone::Clone>::clone;0;0;0;0;0;5;5;1;4;28;1;0;0
+bridge::client::ProcMacro::name;0;0;0;0;0;5;5;1;4;28;1;0;0
+<bridge::closure::Closure<'a, A, R> as std::convert::From<&'a mut F>>::from;0;0;0;0;0;0;1;0;0;0;1;0;0
+<bridge::closure::Closure<'a, A, R> as std::convert::From<&'a mut F>>::from::call;0;0;0;0;0;0;1;0;1;0;0;0;0
+bridge::closure::Closure::<'a, A, R>::call;0;0;0;0;0;1;3;0;2;3;2;0;0
+bridge::fxhash::FxHasher::add_to_hash;0;0;0;0;0;0;0;0;0;0;1;0;0
+<bridge::fxhash::FxHasher as std::hash::Hasher>::write;0;0;0;0;0;0;0;0;0;0;1;0;0
+<bridge::fxhash::FxHasher as std::hash::Hasher>::write_u8;0;0;0;0;0;0;0;0;0;0;1;0;0
+<bridge::fxhash::FxHasher as std::hash::Hasher>::write_u16;0;0;0;0;0;0;0;0;0;0;1;0;0
+<bridge::fxhash::FxHasher as std::hash::Hasher>::write_u32;0;0;0;0;0;0;0;0;0;0;1;0;0
+<bridge::fxhash::FxHasher as std::hash::Hasher>::write_u64;0;0;0;0;0;0;0;0;0;0;1;0;0
+<bridge::fxhash::FxHasher as std::hash::Hasher>::write_usize;0;0;0;0;0;0;0;0;0;0;1;0;0
+bridge::handle::OwnedStore::<T>::new;0;0;0;0;0;0;0;1;0;0;0;0;0
+bridge::handle::OwnedStore::<T>::alloc;1;0;0;0;0;0;9;1;1;26;1;0;4
+bridge::handle::OwnedStore::<T>::take;1;0;0;0;0;0;9;1;1;26;1;0;4
+<bridge::handle::OwnedStore<T> as std::ops::Index<std::num::NonZero<u32>>>::index;1;0;0;0;0;0;9;1;1;26;0;0;4
+<bridge::handle::OwnedStore<T> as std::ops::IndexMut<std::num::NonZero<u32>>>::index_mut;1;0;0;0;0;0;9;1;1;26;1;0;4
+bridge::handle::InternedStore::<T>::new;0;0;0;0;0;0;0;1;0;0;0;0;0
+bridge::handle::InternedStore::<T>::alloc;1;0;0;0;0;1;13;1;1;40;1;0;4
+bridge::handle::InternedStore::<T>::copy;1;0;0;0;0;1;13;1;1;40;1;0;4
+<() as bridge::rpc::Encode<S>>::encode;0;0;0;0;0;2;1;0;1;5;2;0;0
+<() as bridge::rpc::DecodeMut<'_, '_, S>>::decode;0;0;0;0;0;0;1;0;0;0;2;0;0
+<u8 as bridge::rpc::Encode<S>>::encode;0;0;0;0;0;2;1;0;1;5;2;0;0
+<u8 as bridge::rpc::DecodeMut<'_, '_, S>>::decode;0;0;0;0;0;0;1;0;0;0;2;0;0
+<u32 as bridge::rpc::Encode<S>>::encode;0;0;0;0;0;2;1;0;1;5;2;0;0
+<u32 as bridge::rpc::DecodeMut<'_, '_, S>>::decode;0;0;0;0;0;0;1;0;0;0;2;0;0
+<usize as bridge::rpc::Encode<S>>::encode;0;0;0;0;0;2;1;0;1;5;2;0;0
+<usize as bridge::rpc::DecodeMut<'_, '_, S>>::decode;0;0;0;0;0;0;1;0;0;0;2;0;0
+<bool as bridge::rpc::Encode<S>>::encode;0;0;0;0;0;2;1;0;1;5;2;0;0
+<bool as bridge::rpc::DecodeMut<'_, '_, S>>::decode;0;0;0;0;0;0;1;0;0;0;2;0;0
+<char as bridge::rpc::Encode<S>>::encode;0;0;0;0;0;2;1;0;1;5;2;0;0
+<char as bridge::rpc::DecodeMut<'_, '_, S>>::decode;0;0;0;0;0;0;1;0;0;0;2;0;0
+<std::num::NonZero<u32> as bridge::rpc::Encode<S>>::encode;0;0;0;0;0;2;2;0;1;5;2;0;0
+<std::num::NonZero<u32> as bridge::rpc::DecodeMut<'_, '_, S>>::decode;0;0;0;0;0;0;1;0;0;0;2;0;0
+<(A, B) as bridge::rpc::Encode<S>>::encode;0;0;0;0;0;2;3;0;1;5;2;0;0
+<(A, B) as bridge::rpc::DecodeMut<'a, '_, S>>::decode;0;0;0;0;0;0;1;0;0;0;2;0;0
+<&[u8] as bridge::rpc::Encode<S>>::encode;0;0;0;0;0;2;1;0;1;5;2;0;0
+<&'a [u8] as bridge::rpc::DecodeMut<'a, '_, S>>::decode;0;0;0;0;0;0;1;0;0;0;2;0;0
+<&str as bridge::rpc::Encode<S>>::encode;0;0;0;0;0;2;1;0;1;5;2;0;0
+<&'a str as bridge::rpc::DecodeMut<'a, '_, S>>::decode;0;0;0;0;0;0;1;0;0;0;2;0;0
+<std::string::String as bridge::rpc::Encode<S>>::encode;0;0;0;0;0;2;4;0;2;12;2;0;0
+<std::string::String as bridge::rpc::DecodeMut<'_, '_, S>>::decode;0;0;0;0;0;0;1;0;0;0;2;0;0
+<std::vec::Vec<T> as bridge::rpc::Encode<S>>::encode;0;0;0;0;0;2;5;0;2;11;2;0;0
+<std::vec::Vec<T> as bridge::rpc::DecodeMut<'a, '_, S>>::decode;0;0;0;0;0;0;1;0;0;0;2;0;0
+bridge::rpc::<impl std::convert::From<bridge::rpc::PanicMessage> for std::boxed::Box<(dyn std::any::Any + std::marker::Send + 'static)>>::from;0;0;0;0;0;0;3;0;1;7;0;0;0
+bridge::rpc::PanicMessage::as_str;0;0;0;0;0;0;3;0;1;7;0;0;0
+<bridge::rpc::PanicMessage as bridge::rpc::Encode<S>>::encode;0;0;0;0;0;2;4;0;2;12;2;0;0
+<bridge::rpc::PanicMessage as bridge::rpc::DecodeMut<'_, '_, S>>::decode;0;0;0;0;0;0;1;0;0;0;2;0;0
+bridge::selfless_reify::reify_to_extern_c_fn_hrt_bridge::wrapper;0;0;0;0;0;3;2;0;4;10;1;0;0
+bridge::server::HandleStore::<S>::new;0;0;0;0;0;0;0;1;0;3;0;0;0
+bridge::server::<impl bridge::rpc::Encode<bridge::server::HandleStore<bridge::server::MarkedTypes<S>>> for bridge::Marked<<S as bridge::server::Types>::FreeFunctions, bridge::client::FreeFunctions>>::encode;1;0;0;0;0;3;16;1;3;56;2;0;4
+bridge::server::<impl bridge::rpc::DecodeMut<'_, '_, bridge::server::HandleStore<bridge::server::MarkedTypes<S>>> for bridge::Marked<<S as bridge::server::Types>::FreeFunctions, bridge::client::FreeFunctions>>::decode;1;0;0;0;0;1;13;1;1;50;2;0;4
+bridge::server::<impl bridge::rpc::Decode<'_, 's, bridge::server::HandleStore<bridge::server::MarkedTypes<S>>> for &'s bridge::Marked<<S as bridge::server::Types>::FreeFunctions, bridge::client::FreeFunctions>>::decode;1;0;0;0;0;1;13;1;1;50;1;0;4
+bridge::server::<impl bridge::rpc::DecodeMut<'_, 's, bridge::server::HandleStore<bridge::server::MarkedTypes<S>>> for &'s mut bridge::Marked<<S as bridge::server::Types>::FreeFunctions, bridge::client::FreeFunctions>>::decode;1;0;0;0;0;1;13;1;1;50;2;0;4
+bridge::server::<impl bridge::rpc::Encode<bridge::server::HandleStore<bridge::server::MarkedTypes<S>>> for bridge::Marked<<S as bridge::server::Types>::TokenStream, bridge::client::TokenStream>>::encode;1;0;0;0;0;3;16;1;3;56;2;0;4
+bridge::server::<impl bridge::rpc::DecodeMut<'_, '_, bridge::server::HandleStore<bridge::server::MarkedTypes<S>>> for bridge::Marked<<S as bridge::server::Types>::TokenStream, bridge::client::TokenStream>>::decode;1;0;0;0;0;1;13;1;1;50;2;0;4
+bridge::server::<impl bridge::rpc::Decode<'_, 's, bridge::server::HandleStore<bridge::server::MarkedTypes<S>>> for &'s bridge::Marked<<S as bridge::server::Types>::TokenStream, bridge::client::TokenStream>>::decode;1;0;0;0;0;1;13;1;1;50;1;0;4
+bridge::server::<impl bridge::rpc::DecodeMut<'_, 's, bridge::server::HandleStore<bridge::server::MarkedTypes<S>>> for &'s mut bridge::Marked<<S as bridge::server::Types>::TokenStream, bridge::client::TokenStream>>::decode;1;0;0;0;0;1;13;1;1;50;2;0;4
+bridge::server::<impl bridge::rpc::Encode<bridge::server::HandleStore<bridge::server::MarkedTypes<S>>> for bridge::Marked<<S as bridge::server::Types>::SourceFile, bridge::client::SourceFile>>::encode;1;0;0;0;0;3;16;1;3;56;2;0;4
+bridge::server::<impl bridge::rpc::DecodeMut<'_, '_, bridge::server::HandleStore<bridge::server::MarkedTypes<S>>> for bridge::Marked<<S as bridge::server::Types>::SourceFile, bridge::client::SourceFile>>::decode;1;0;0;0;0;1;13;1;1;50;2;0;4
+bridge::server::<impl bridge::rpc::Decode<'_, 's, bridge::server::HandleStore<bridge::server::MarkedTypes<S>>> for &'s bridge::Marked<<S as bridge::server::Types>::SourceFile, bridge::client::SourceFile>>::decode;1;0;0;0;0;1;13;1;1;50;1;0;4
+bridge::server::<impl bridge::rpc::DecodeMut<'_, 's, bridge::server::HandleStore<bridge::server::MarkedTypes<S>>> for &'s mut bridge::Marked<<S as bridge::server::Types>::SourceFile, bridge::client::SourceFile>>::decode;1;0;0;0;0;1;13;1;1;50;2;0;4
+bridge::server::<impl bridge::rpc::Encode<bridge::server::HandleStore<bridge::server::MarkedTypes<S>>> for bridge::Marked<<S as bridge::server::Types>::Span, bridge::client::Span>>::encode;1;0;0;0;0;3;16;1;3;56;2;0;4
+bridge::server::<impl bridge::rpc::DecodeMut<'_, '_, bridge::server::HandleStore<bridge::server::MarkedTypes<S>>> for bridge::Marked<<S as bridge::server::Types>::Span, bridge::client::Span>>::decode;1;0;0;0;0;1;13;1;1;50;2;0;4
+bridge::server::FreeFunctions::drop;0;0;0;0;0;0;2;0;0;0;1;0;0
+bridge::server::TokenStream::drop;0;0;0;0;0;0;2;0;0;0;1;0;0
+bridge::server::TokenStream::clone;0;0;0;0;0;0;2;0;0;0;1;0;0
+bridge::server::SourceFile::drop;0;0;0;0;0;0;2;0;0;0;1;0;0
+bridge::server::SourceFile::clone;0;0;0;0;0;0;2;0;0;0;1;0;0
+<bridge::server::MarkedTypes<S> as bridge::server::Server>::globals;0;0;0;0;0;0;1;0;0;1;1;0;0
+<bridge::server::MarkedTypes<S> as bridge::server::Server>::with_symbol_string;0;0;0;0;0;0;2;0;0;1;0;0;0
+<bridge::server::MarkedTypes<S> as bridge::server::FreeFunctions>::drop;0;0;0;0;0;0;2;0;0;2;1;0;0
+<bridge::server::MarkedTypes<S> as bridge::server::FreeFunctions>::injected_env_var;0;0;0;0;0;0;1;0;0;1;1;0;0
+<bridge::server::MarkedTypes<S> as bridge::server::FreeFunctions>::track_env_var;0;0;0;0;0;0;2;0;0;1;1;0;0
+<bridge::server::MarkedTypes<S> as bridge::server::FreeFunctions>::track_path;0;0;0;0;0;0;1;0;0;1;1;0;0
+<bridge::server::MarkedTypes<S> as bridge::server::FreeFunctions>::literal_from_str;0;0;0;0;0;0;1;0;0;1;1;0;0
+<bridge::server::MarkedTypes<S> as bridge::server::FreeFunctions>::emit_diagnostic;0;0;0;0;0;0;6;0;1;20;1;0;0
+<bridge::server::MarkedTypes<S> as bridge::server::TokenStream>::drop;0;0;0;0;0;0;2;0;0;2;1;0;0
+<bridge::server::MarkedTypes<S> as bridge::server::TokenStream>::clone;0;0;0;0;0;0;2;0;0;2;1;0;0
+<bridge::server::MarkedTypes<S> as bridge::server::TokenStream>::is_empty;0;0;0;0;0;0;2;0;0;2;1;0;0
+<bridge::server::MarkedTypes<S> as bridge::server::TokenStream>::expand_expr;0;0;0;0;0;0;2;0;0;2;1;0;0
+<bridge::server::MarkedTypes<S> as bridge::server::TokenStream>::from_str;0;0;0;0;0;0;1;0;0;1;1;0;0
+<bridge::server::MarkedTypes<S> as bridge::server::TokenStream>::to_string;0;0;0;0;0;0;2;0;0;2;1;0;0
+<bridge::server::MarkedTypes<S> as bridge::server::TokenStream>::from_token_tree;0;0;0;0;0;0;8;0;0;22;1;0;0
+<bridge::server::MarkedTypes<S> as bridge::server::TokenStream>::concat_trees;0;0;0;0;0;0;12;0;1;31;1;0;0
+<bridge::server::MarkedTypes<S> as bridge::server::TokenStream>::concat_streams;0;0;0;0;0;0;7;0;1;9;1;0;0
+<bridge::server::MarkedTypes<S> as bridge::server::TokenStream>::into_trees;0;0;0;0;0;0;2;0;0;2;1;0;0
+<bridge::server::MarkedTypes<S> as bridge::server::SourceFile>::drop;0;0;0;0;0;0;2;0;0;2;1;0;0
+<bridge::server::MarkedTypes<S> as bridge::server::SourceFile>::clone;0;0;0;0;0;0;2;0;0;2;1;0;0
+<bridge::server::MarkedTypes<S> as bridge::server::SourceFile>::eq;0;0;0;0;0;0;3;0;0;3;1;0;0
+<bridge::server::MarkedTypes<S> as bridge::server::SourceFile>::path;0;0;0;0;0;0;2;0;0;2;1;0;0
+<bridge::server::MarkedTypes<S> as bridge::server::SourceFile>::is_real;0;0;0;0;0;0;2;0;0;2;1;0;0
+<bridge::server::MarkedTypes<S> as bridge::server::Span>::debug;0;0;0;0;0;0;2;0;0;2;1;0;0
+<bridge::server::MarkedTypes<S> as bridge::server::Span>::source_file;0;0;0;0;0;0;2;0;0;2;1;0;0
+<bridge::server::MarkedTypes<S> as bridge::server::Span>::parent;0;0;0;0;0;0;2;0;0;2;1;0;0
+<bridge::server::MarkedTypes<S> as bridge::server::Span>::source;0;0;0;0;0;0;2;0;0;2;1;0;0
+<bridge::server::MarkedTypes<S> as bridge::server::Span>::byte_range;0;0;0;0;0;0;2;0;0;2;1;0;0
+<bridge::server::MarkedTypes<S> as bridge::server::Span>::start;0;0;0;0;0;0;2;0;0;2;1;0;0
+<bridge::server::MarkedTypes<S> as bridge::server::Span>::end;0;0;0;0;0;0;2;0;0;2;1;0;0
+<bridge::server::MarkedTypes<S> as bridge::server::Span>::line;0;0;0;0;0;0;2;0;0;2;1;0;0
+<bridge::server::MarkedTypes<S> as bridge::server::Span>::column;0;0;0;0;0;0;2;0;0;2;1;0;0
+<bridge::server::MarkedTypes<S> as bridge::server::Span>::join;0;0;0;0;0;0;3;0;0;3;1;0;0
+<bridge::server::MarkedTypes<S> as bridge::server::Span>::subspan;0;0;0;0;0;0;4;0;0;4;1;0;0
+<bridge::server::MarkedTypes<S> as bridge::server::Span>::resolved_at;0;0;0;0;0;0;3;0;0;3;1;0;0
+<bridge::server::MarkedTypes<S> as bridge::server::Span>::source_text;0;0;0;0;0;0;2;0;0;2;1;0;0
+<bridge::server::MarkedTypes<S> as bridge::server::Span>::save_span;0;0;0;0;0;0;2;0;0;2;1;0;0
+<bridge::server::MarkedTypes<S> as bridge::server::Span>::recover_proc_macro_span;0;0;0;0;0;0;1;0;0;1;1;0;0
+<bridge::server::MarkedTypes<S> as bridge::server::Symbol>::normalize_and_validate_ident;0;0;0;0;0;0;1;0;0;1;1;0;0
+<bridge::server::Dispatcher<bridge::server::MarkedTypes<S>> as bridge::server::DispatcherTrait>::dispatch;1;0;0;0;0;3;13;1;2;57;1;0;4
+<bridge::server::RunningSameThreadGuard as std::ops::Drop>::drop;0;0;0;0;0;0;0;0;0;0;1;0;0
+<bridge::server::MaybeCrossThread<P> as bridge::server::ExecutionStrategy>::run_bridge_and_client;0;0;0;0;0;6;4;0;5;17;2;0;0
+<bridge::server::SameThread as bridge::server::ExecutionStrategy>::run_bridge_and_client;0;0;0;0;0;6;3;0;5;16;2;0;0
+<bridge::server::CrossThread<P> as bridge::server::ExecutionStrategy>::run_bridge_and_client;0;0;0;0;0;6;4;0;5;17;2;0;0
+bridge::server::run_server;0;0;0;0;0;4;5;1;4;14;1;0;0
+bridge::server::<impl bridge::client::Client<TokenStream, TokenStream>>::run;0;0;0;0;0;5;8;1;4;18;1;0;0
+bridge::server::<impl bridge::client::Client<(TokenStream, TokenStream), TokenStream>>::run;0;0;0;0;0;5;9;1;4;19;1;0;0
+<bridge::symbol::Symbol as std::hash::Hash>::hash;0;0;0;0;0;0;2;0;0;0;1;0;0
+<bridge::symbol::Symbol as std::fmt::Debug>::fmt;0;0;0;0;0;0;2;0;0;2;2;0;0
+<bridge::symbol::Symbol as std::fmt::Display>::fmt;0;0;0;0;0;0;2;0;0;2;2;0;0
+<bridge::symbol::Symbol as bridge::rpc::Encode<S>>::encode;0;0;0;0;0;2;2;0;1;5;2;0;0
+bridge::symbol::<impl bridge::rpc::DecodeMut<'_, '_, bridge::server::HandleStore<bridge::server::MarkedTypes<S>>> for bridge::Marked<<S as bridge::server::Types>::Symbol, bridge::symbol::Symbol>>::decode;1;0;0;0;0;1;13;1;1;50;2;0;4
+bridge::symbol::<impl bridge::rpc::Encode<bridge::server::HandleStore<bridge::server::MarkedTypes<S>>> for bridge::Marked<<S as bridge::server::Types>::Symbol, bridge::symbol::Symbol>>::encode;1;0;0;0;0;3;16;1;2;56;2;0;4
+<bridge::symbol::Symbol as bridge::rpc::DecodeMut<'_, '_, S>>::decode;0;0;0;0;0;0;1;0;0;0;2;0;0
+bridge::symbol::Interner::intern;1;0;0;0;0;1;8;1;2;31;1;0;1
+bridge::symbol::Interner::get;1;0;0;0;0;1;9;1;2;31;0;0;1
+bridge::symbol::Interner::clear;1;0;0;0;0;1;8;1;2;31;1;0;1
+<bridge::api_tags::FreeFunctions as bridge::rpc::Encode<S>>::encode;0;0;0;0;0;2;1;0;1;5;2;0;0
+<bridge::api_tags::FreeFunctions as bridge::rpc::DecodeMut<'a, '_, S>>::decode;0;0;0;0;0;0;1;0;0;0;2;0;0
+<bridge::api_tags::TokenStream as bridge::rpc::Encode<S>>::encode;0;0;0;0;0;2;1;0;1;5;2;0;0
+<bridge::api_tags::TokenStream as bridge::rpc::DecodeMut<'a, '_, S>>::decode;0;0;0;0;0;0;1;0;0;0;2;0;0
+<bridge::api_tags::SourceFile as bridge::rpc::Encode<S>>::encode;0;0;0;0;0;2;1;0;1;5;2;0;0
+<bridge::api_tags::SourceFile as bridge::rpc::DecodeMut<'a, '_, S>>::decode;0;0;0;0;0;0;1;0;0;0;2;0;0
+<bridge::api_tags::Span as bridge::rpc::Encode<S>>::encode;0;0;0;0;0;2;1;0;1;5;2;0;0
+<bridge::api_tags::Span as bridge::rpc::DecodeMut<'a, '_, S>>::decode;0;0;0;0;0;0;1;0;0;0;2;0;0
+<bridge::api_tags::Symbol as bridge::rpc::Encode<S>>::encode;0;0;0;0;0;2;1;0;1;5;2;0;0
+<bridge::api_tags::Symbol as bridge::rpc::DecodeMut<'a, '_, S>>::decode;0;0;0;0;0;0;1;0;0;0;2;0;0
+<bridge::api_tags::Method as bridge::rpc::Encode<S>>::encode;0;0;0;0;0;2;1;0;1;5;2;0;0
+<bridge::api_tags::Method as bridge::rpc::DecodeMut<'a, '_, S>>::decode;0;0;0;0;0;0;1;0;0;0;2;0;0
+<bridge::Marked<T, M> as std::clone::Clone>::clone;0;0;0;0;0;0;2;0;0;2;0;0;0
+<bridge::Marked<T, M> as std::cmp::PartialEq>::eq;0;0;0;0;0;0;4;0;0;4;0;0;0
+<bridge::Marked<T, M> as std::cmp::Eq>::assert_receiver_is_total_eq;0;0;0;0;0;0;2;0;0;2;0;0;0
+<bridge::Marked<T, M> as std::hash::Hash>::hash;0;0;0;0;0;0;3;0;0;2;1;0;0
+<bridge::Marked<T, M> as bridge::Mark>::mark;0;0;0;0;0;0;2;0;0;2;0;0;0
+<bridge::Marked<T, M> as bridge::Unmark>::unmark;0;0;0;0;0;0;2;0;0;2;0;0;0
+<&'a mut bridge::Marked<T, M> as bridge::Unmark>::unmark;0;0;0;0;0;0;4;0;0;0;1;0;0
+<std::vec::Vec<T> as bridge::Mark>::mark;0;0;0;0;0;0;3;0;1;7;0;0;0
+<std::vec::Vec<T> as bridge::Unmark>::unmark;0;0;0;0;0;0;3;0;1;7;0;0;0
+<std::string::String as bridge::Mark>::mark;0;0;0;0;0;0;3;0;1;7;0;0;0
+<std::string::String as bridge::Unmark>::unmark;0;0;0;0;0;0;3;0;1;7;0;0;0
+<bridge::LitKind as bridge::Mark>::mark;0;0;0;0;0;0;0;0;0;2;0;0;0
+<bridge::LitKind as bridge::Unmark>::unmark;0;0;0;0;0;0;0;0;0;2;0;0;0
+bridge::<impl bridge::rpc::Encode<S> for Delimiter>::encode;0;0;0;0;0;2;1;0;1;5;2;0;0
+bridge::<impl bridge::rpc::DecodeMut<'a, '_, S> for Delimiter>::decode;0;0;0;0;0;0;1;0;0;0;2;0;0
+bridge::<impl bridge::rpc::Encode<S> for diagnostic::Level>::encode;0;0;0;0;0;2;1;0;1;5;2;0;0
+bridge::<impl bridge::rpc::DecodeMut<'a, '_, S> for diagnostic::Level>::decode;0;0;0;0;0;0;1;0;0;0;2;0;0
+bridge::<impl bridge::rpc::Encode<S> for Spacing>::encode;0;0;0;0;0;2;1;0;1;5;2;0;0
+bridge::<impl bridge::rpc::DecodeMut<'a, '_, S> for Spacing>::decode;0;0;0;0;0;0;1;0;0;0;2;0;0
+<bridge::LitKind as std::clone::Clone>::clone;0;0;0;0;0;0;0;0;0;2;0;0;0
+<bridge::LitKind as std::cmp::Eq>::assert_receiver_is_total_eq;0;0;0;0;0;0;0;0;0;2;0;0;0
+<bridge::LitKind as std::cmp::PartialEq>::eq;0;0;0;0;0;0;0;0;0;4;0;0;0
+<bridge::LitKind as std::fmt::Debug>::fmt;0;0;0;0;0;0;1;0;0;4;2;0;0
+<bridge::LitKind as bridge::rpc::Encode<S>>::encode;0;0;0;0;0;2;1;0;1;7;2;0;0
+<bridge::LitKind as bridge::rpc::DecodeMut<'a, '_, S>>::decode;0;0;0;0;0;0;1;0;0;0;2;0;0
+bridge::<impl bridge::rpc::Encode<S> for std::collections::Bound<T>>::encode;0;0;0;0;0;2;3;0;1;6;2;0;0
+bridge::<impl bridge::rpc::DecodeMut<'a, '_, S> for std::collections::Bound<T>>::decode;0;0;0;0;0;0;1;0;0;0;2;0;0
+<std::collections::Bound<T> as bridge::Mark>::mark;0;0;0;0;0;0;1;0;0;2;0;0;0
+<std::collections::Bound<T> as bridge::Unmark>::unmark;0;0;0;0;0;0;1;0;0;2;0;0;0
+bridge::<impl bridge::rpc::Encode<S> for std::option::Option<T>>::encode;0;0;0;0;0;2;3;0;1;5;2;0;0
+bridge::<impl bridge::rpc::DecodeMut<'a, '_, S> for std::option::Option<T>>::decode;0;0;0;0;0;0;1;0;0;0;2;0;0
+<std::option::Option<T> as bridge::Mark>::mark;0;0;0;0;0;0;1;0;0;1;0;0;0
+<std::option::Option<T> as bridge::Unmark>::unmark;0;0;0;0;0;0;1;0;0;1;0;0;0
+bridge::<impl bridge::rpc::Encode<S> for std::result::Result<T, E>>::encode;0;0;0;0;0;2;5;0;1;5;2;0;0
+bridge::<impl bridge::rpc::DecodeMut<'a, '_, S> for std::result::Result<T, E>>::decode;0;0;0;0;0;0;1;0;0;0;2;0;0
+<std::result::Result<T, E> as bridge::Mark>::mark;0;0;0;0;0;0;2;0;0;2;0;0;0
+<std::result::Result<T, E> as bridge::Unmark>::unmark;0;0;0;0;0;0;2;0;0;2;0;0;0
+<bridge::DelimSpan<Span> as std::clone::Clone>::clone;0;0;0;0;0;0;1;0;0;3;0;0;0
+<bridge::DelimSpan<Span> as bridge::rpc::Encode<S>>::encode;0;0;0;0;0;2;3;0;1;7;2;0;0
+<bridge::DelimSpan<Span> as bridge::rpc::DecodeMut<'a, '_, S>>::decode;0;0;0;0;0;0;1;0;0;0;2;0;0
+<bridge::DelimSpan<Span> as bridge::Mark>::mark;0;0;0;0;0;0;1;0;0;3;0;0;0
+<bridge::DelimSpan<Span> as bridge::Unmark>::unmark;0;0;0;0;0;0;1;0;0;3;0;0;0
+<bridge::Group<TokenStream, Span> as std::clone::Clone>::clone;0;0;0;0;0;0;4;0;0;4;0;0;0
+<bridge::Group<TokenStream, Span> as bridge::rpc::Encode<S>>::encode;0;0;0;0;0;2;7;0;1;7;2;0;0
+<bridge::Group<TokenStream, Span> as bridge::rpc::DecodeMut<'a, '_, S>>::decode;0;0;0;0;0;0;1;0;0;0;2;0;0
+<bridge::Group<TokenStream, Span> as bridge::Mark>::mark;0;0;0;0;0;0;4;0;0;4;0;0;0
+<bridge::Group<TokenStream, Span> as bridge::Unmark>::unmark;0;0;0;0;0;0;4;0;0;4;0;0;0
+<bridge::Punct<Span> as std::clone::Clone>::clone;0;0;0;0;0;0;1;0;0;1;0;0;0
+<bridge::Punct<Span> as bridge::rpc::Encode<S>>::encode;0;0;0;0;0;2;3;0;1;5;2;0;0
+<bridge::Punct<Span> as bridge::rpc::DecodeMut<'a, '_, S>>::decode;0;0;0;0;0;0;1;0;0;0;2;0;0
+<bridge::Punct<Span> as bridge::Mark>::mark;0;0;0;0;0;0;1;0;0;1;0;0;0
+<bridge::Punct<Span> as bridge::Unmark>::unmark;0;0;0;0;0;0;1;0;0;1;0;0;0
+<bridge::Ident<Span, Symbol> as std::clone::Clone>::clone;0;0;0;0;0;0;2;0;0;2;0;0;0
+<bridge::Ident<Span, Symbol> as std::cmp::Eq>::assert_receiver_is_total_eq;0;0;0;0;0;0;2;0;0;2;0;0;0
+<bridge::Ident<Span, Symbol> as std::cmp::PartialEq>::eq;0;0;0;0;0;0;4;0;0;4;0;0;0
+<bridge::Ident<Span, Symbol> as bridge::rpc::Encode<S>>::encode;0;0;0;0;0;2;5;0;1;5;2;0;0
+<bridge::Ident<Span, Symbol> as bridge::rpc::DecodeMut<'a, '_, S>>::decode;0;0;0;0;0;0;1;0;0;0;2;0;0
+<bridge::Ident<Span, Symbol> as bridge::Mark>::mark;0;0;0;0;0;0;2;0;0;2;0;0;0
+<bridge::Ident<Span, Symbol> as bridge::Unmark>::unmark;0;0;0;0;0;0;2;0;0;2;0;0;0
+<bridge::Literal<Span, Symbol> as std::clone::Clone>::clone;0;0;0;0;0;0;3;0;0;5;0;0;0
+<bridge::Literal<Span, Symbol> as std::cmp::Eq>::assert_receiver_is_total_eq;0;0;0;0;0;0;3;0;0;5;0;0;0
+<bridge::Literal<Span, Symbol> as std::cmp::PartialEq>::eq;0;0;0;0;0;0;6;0;0;10;0;0;0
+<bridge::Literal<Sp, Sy> as bridge::rpc::Encode<S>>::encode;0;0;0;0;0;2;6;0;1;8;2;0;0
+<bridge::Literal<Sp, Sy> as bridge::rpc::DecodeMut<'a, '_, S>>::decode;0;0;0;0;0;0;1;0;0;0;2;0;0
+<bridge::Literal<Sp, Sy> as bridge::Mark>::mark;0;0;0;0;0;0;5;0;0;3;0;0;0
+<bridge::Literal<Sp, Sy> as bridge::Unmark>::unmark;0;0;0;0;0;0;5;0;0;3;0;0;0
+<bridge::TokenTree<TokenStream, Span, Symbol> as std::clone::Clone>::clone;0;0;0;0;0;0;6;0;0;21;0;0;0
+<bridge::TokenTree<TokenStream, Span, Symbol> as bridge::rpc::Encode<S>>::encode;0;0;0;0;0;2;10;0;1;23;2;0;0
+<bridge::TokenTree<TokenStream, Span, Symbol> as bridge::rpc::DecodeMut<'a, '_, S>>::decode;0;0;0;0;0;0;1;0;0;0;2;0;0
+<bridge::TokenTree<TokenStream, Span, Symbol> as bridge::Mark>::mark;0;0;0;0;0;0;6;0;0;21;0;0;0
+<bridge::TokenTree<TokenStream, Span, Symbol> as bridge::Unmark>::unmark;0;0;0;0;0;0;6;0;0;21;0;0;0
+<bridge::Diagnostic<Span> as std::clone::Clone>::clone;0;0;0;0;0;0;4;0;1;15;0;0;0
+<bridge::Diagnostic<Span> as std::fmt::Debug>::fmt;0;0;0;0;0;0;5;0;1;17;2;0;0
+<bridge::Diagnostic<Span> as bridge::rpc::Encode<S>>::encode;0;0;0;0;0;2;6;0;2;23;2;0;0
+<bridge::Diagnostic<Span> as bridge::rpc::DecodeMut<'a, '_, S>>::decode;0;0;0;0;0;0;1;0;0;0;2;0;0
+<bridge::Diagnostic<Span> as bridge::Mark>::mark;0;0;0;0;0;0;4;0;1;15;0;0;0
+<bridge::Diagnostic<Span> as bridge::Unmark>::unmark;0;0;0;0;0;0;4;0;1;15;0;0;0
+<bridge::ExpnGlobals<Span> as std::clone::Clone>::clone;0;0;0;0;0;0;1;0;0;3;0;0;0
+<bridge::ExpnGlobals<Span> as bridge::rpc::Encode<S>>::encode;0;0;0;0;0;2;3;0;1;7;2;0;0
+<bridge::ExpnGlobals<Span> as bridge::rpc::DecodeMut<'a, '_, S>>::decode;0;0;0;0;0;0;1;0;0;0;2;0;0
+<bridge::ExpnGlobals<Span> as bridge::Mark>::mark;0;0;0;0;0;0;1;0;0;3;0;0;0
+<bridge::ExpnGlobals<Span> as bridge::Unmark>::unmark;0;0;0;0;0;0;1;0;0;3;0;0;0
+bridge::<impl bridge::rpc::Encode<S> for std::ops::Range<T>>::encode;0;0;0;0;0;2;3;0;1;6;2;0;0
+bridge::<impl bridge::rpc::DecodeMut<'a, '_, S> for std::ops::Range<T>>::decode;0;0;0;0;0;0;1;0;0;0;2;0;0
+<std::ops::Range<T> as bridge::Mark>::mark;0;0;0;0;0;0;2;0;0;1;0;0;0
+<std::ops::Range<T> as bridge::Unmark>::unmark;0;0;0;0;0;0;2;0;0;1;0;0;0
+<diagnostic::Level as std::fmt::Debug>::fmt;0;0;0;0;0;0;1;0;0;2;2;0;0
+<Span as diagnostic::MultiSpan>::into_spans;0;0;0;0;0;0;1;0;1;0;0;0;0
+<std::vec::Vec<Span> as diagnostic::MultiSpan>::into_spans;0;0;0;0;0;0;3;0;2;7;0;0;0
+<&'a [Span] as diagnostic::MultiSpan>::into_spans;0;0;0;0;0;0;1;0;1;0;0;0;0
+<diagnostic::Diagnostic as std::clone::Clone>::clone;0;0;0;0;0;0;3;0;2;15;0;0;0
+<diagnostic::Diagnostic as std::fmt::Debug>::fmt;0;0;0;0;0;0;4;0;2;17;2;0;0
+<diagnostic::Children<'a> as std::fmt::Debug>::fmt;0;0;0;0;0;0;5;0;3;20;2;0;0
+<diagnostic::Children<'a> as std::clone::Clone>::clone;0;0;0;0;0;0;4;0;3;18;0;0;0
+<diagnostic::Children<'a> as std::iter::Iterator>::next;0;0;0;0;0;0;4;0;3;18;1;0;0
+diagnostic::Diagnostic::span_error;0;0;0;0;0;0;5;0;2;15;0;0;0
+diagnostic::Diagnostic::error;0;0;0;0;0;0;4;0;2;15;0;0;0
+diagnostic::Diagnostic::span_warning;0;0;0;0;0;0;5;0;2;15;0;0;0
+diagnostic::Diagnostic::warning;0;0;0;0;0;0;4;0;2;15;0;0;0
+diagnostic::Diagnostic::span_note;0;0;0;0;0;0;5;0;2;15;0;0;0
+diagnostic::Diagnostic::note;0;0;0;0;0;0;4;0;2;15;0;0;0
+diagnostic::Diagnostic::span_help;0;0;0;0;0;0;5;0;2;15;0;0;0
+diagnostic::Diagnostic::help;0;0;0;0;0;0;4;0;2;15;0;0;0
+diagnostic::Diagnostic::level;0;0;0;0;0;0;3;0;2;15;0;0;0
+diagnostic::Diagnostic::set_level;0;0;0;0;0;0;3;0;2;15;1;0;0
+diagnostic::Diagnostic::message;0;0;0;0;0;0;3;0;2;15;0;0;0
+diagnostic::Diagnostic::set_message;0;0;0;0;0;0;4;0;2;15;1;0;0
+diagnostic::Diagnostic::spans;0;0;0;0;0;0;3;0;2;15;0;0;0
+diagnostic::Diagnostic::set_spans;0;0;0;0;0;0;4;0;2;15;1;0;0
+diagnostic::Diagnostic::children;0;0;0;0;0;0;3;0;2;15;0;0;0
+diagnostic::Diagnostic::emit;0;0;0;0;0;0;3;0;2;15;0;0;0
+diagnostic::Diagnostic::emit::to_internal;0;0;0;0;0;0;3;0;2;15;0;0;0
+<escape::EscapeOptions as std::clone::Clone>::clone;0;0;0;0;0;0;0;0;0;2;0;0;0
+escape::escape_bytes;0;0;0;0;0;0;0;0;0;2;0;0;0
+escape::escape_single_byte;0;0;0;0;0;0;3;0;1;9;1;0;0
+escape::escape_single_char;0;0;0;0;0;0;3;0;1;9;1;0;0
+<TokenTree as to_tokens::ToTokens>::to_tokens;0;0;0;0;0;0;6;0;2;21;1;0;0
+<TokenTree as to_tokens::ToTokens>::into_token_stream;0;0;0;0;0;0;5;0;1;20;0;0;0
+<TokenStream as to_tokens::ToTokens>::to_tokens;0;0;0;0;0;0;2;0;2;2;1;0;0
+<TokenStream as to_tokens::ToTokens>::into_token_stream;0;0;0;0;0;0;1;0;1;1;0;0;0
+<Literal as to_tokens::ToTokens>::to_tokens;0;0;0;0;0;0;4;0;2;6;1;0;0
+<Ident as to_tokens::ToTokens>::to_tokens;0;0;0;0;0;0;4;0;2;2;1;0;0
+<Punct as to_tokens::ToTokens>::to_tokens;0;0;0;0;0;0;3;0;2;1;1;0;0
+<Group as to_tokens::ToTokens>::to_tokens;0;0;0;0;0;0;5;0;2;6;1;0;0
+<&T as to_tokens::ToTokens>::to_tokens;0;0;0;0;0;0;2;0;1;1;1;0;0
+<&mut T as to_tokens::ToTokens>::to_tokens;0;0;0;0;0;0;2;0;1;1;2;0;0
+<std::boxed::Box<T> as to_tokens::ToTokens>::to_tokens;1;0;0;0;0;0;2;0;1;1;1;0;0
+<std::rc::Rc<T> as to_tokens::ToTokens>::to_tokens;0;0;0;0;0;0;3;1;2;7;1;0;0
+<std::borrow::Cow<'_, T> as to_tokens::ToTokens>::to_tokens;0;0;0;0;0;0;3;0;1;2;1;0;0
+<std::option::Option<T> as to_tokens::ToTokens>::to_tokens;0;0;0;0;0;0;2;0;1;2;1;0;0
+<u8 as to_tokens::ToTokens>::to_tokens;0;0;0;0;0;0;1;0;1;1;1;0;0
+<u16 as to_tokens::ToTokens>::to_tokens;0;0;0;0;0;0;1;0;1;1;1;0;0
+<u32 as to_tokens::ToTokens>::to_tokens;0;0;0;0;0;0;1;0;1;1;1;0;0
+<u64 as to_tokens::ToTokens>::to_tokens;0;0;0;0;0;0;1;0;1;1;1;0;0
+<u128 as to_tokens::ToTokens>::to_tokens;0;0;0;0;0;0;1;0;1;1;1;0;0
+<i8 as to_tokens::ToTokens>::to_tokens;0;0;0;0;0;0;1;0;1;1;1;0;0
+<i16 as to_tokens::ToTokens>::to_tokens;0;0;0;0;0;0;1;0;1;1;1;0;0
+<i32 as to_tokens::ToTokens>::to_tokens;0;0;0;0;0;0;1;0;1;1;1;0;0
+<i64 as to_tokens::ToTokens>::to_tokens;0;0;0;0;0;0;1;0;1;1;1;0;0
+<i128 as to_tokens::ToTokens>::to_tokens;0;0;0;0;0;0;1;0;1;1;1;0;0
+<f32 as to_tokens::ToTokens>::to_tokens;0;0;0;1;0;0;1;0;1;1;1;0;0
+<f64 as to_tokens::ToTokens>::to_tokens;0;0;0;1;0;0;1;0;1;1;1;0;0
+<usize as to_tokens::ToTokens>::to_tokens;0;0;0;0;0;0;1;0;1;1;1;0;0
+<isize as to_tokens::ToTokens>::to_tokens;0;0;0;0;0;0;1;0;1;1;1;0;0
+<bool as to_tokens::ToTokens>::to_tokens;0;0;0;0;0;0;1;0;1;1;1;0;0
+<char as to_tokens::ToTokens>::to_tokens;0;0;0;0;0;0;1;0;1;1;1;0;0
+<str as to_tokens::ToTokens>::to_tokens;0;0;0;0;0;0;1;0;1;1;1;0;0
+<std::string::String as to_tokens::ToTokens>::to_tokens;0;0;0;0;0;0;4;0;2;8;1;0;0
+<std::ffi::CStr as to_tokens::ToTokens>::to_tokens;0;0;0;0;0;0;1;0;1;1;1;0;0
+<std::ffi::CString as to_tokens::ToTokens>::to_tokens;1;0;0;0;0;0;1;0;1;1;1;0;0
+<TokenStream as std::clone::Clone>::clone;0;0;0;0;0;0;1;0;1;1;0;0;0
+<LexError as std::fmt::Debug>::fmt;0;0;0;0;0;0;1;0;0;2;2;0;0
+<LexError as std::fmt::Display>::fmt;0;0;0;0;0;0;1;0;0;2;2;0;0
+<ExpandError as std::fmt::Debug>::fmt;0;0;0;0;0;0;1;0;0;2;2;0;0
+<ExpandError as std::fmt::Display>::fmt;0;0;0;0;0;0;1;0;0;2;2;0;0
+TokenStream::is_empty;0;0;0;0;0;0;1;0;1;1;0;0;0
+TokenStream::expand_expr;0;0;0;0;0;0;1;0;1;1;0;0;0
+<TokenStream as std::fmt::Display>::fmt;0;0;0;0;0;0;2;0;1;3;2;0;0
+<TokenStream as std::fmt::Debug>::fmt;0;0;0;0;0;0;2;0;1;3;2;0;0
+tree_to_bridge_tree;0;0;0;0;0;0;5;0;1;20;0;0;0
+<TokenStream as std::convert::From<TokenTree>>::from;0;0;0;0;0;0;5;0;1;20;0;0;0
+ConcatTreesHelper::push;0;0;0;0;0;0;13;0;3;50;1;0;0
+ConcatTreesHelper::build;0;0;0;0;0;0;8;0;2;30;0;0;0
+ConcatTreesHelper::append_to;0;0;0;0;0;0;9;0;3;31;1;0;0
+ConcatStreamsHelper::push;0;0;0;0;0;0;4;0;3;8;1;0;0
+ConcatStreamsHelper::build;0;0;0;0;0;0;3;0;2;7;0;0;0
+ConcatStreamsHelper::append_to;0;0;0;0;0;0;4;0;3;8;1;0;0
+<TokenStream as std::iter::Extend<TokenTree>>::extend;0;0;0;0;0;0;2;0;1;1;1;0;0
+<TokenStream as std::iter::Extend<TokenStream>>::extend;0;0;0;0;0;0;2;0;1;1;1;0;0
+<token_stream::IntoIter as std::clone::Clone>::clone;0;0;0;0;0;0;7;0;2;28;0;0;0
+<token_stream::IntoIter as std::iter::Iterator>::next;0;0;0;0;0;0;7;0;2;28;1;0;0
+<token_stream::IntoIter as std::iter::Iterator>::size_hint;0;0;0;0;0;0;7;0;2;28;0;0;0
+<token_stream::IntoIter as std::iter::Iterator>::count;0;0;0;0;0;0;7;0;2;28;0;0;0
+token_stream::<impl std::iter::IntoIterator for TokenStream>::into_iter;0;0;0;0;0;0;1;0;1;1;0;0;0
+quote::quote;0;0;0;0;0;0;1;0;1;1;0;0;0
+quote::quote_span;0;0;0;0;0;0;2;0;2;1;0;0;0
+<Span as std::clone::Clone>::clone;0;0;0;0;0;0;1;0;1;0;0;0;0
+Span::source_file;0;0;0;0;0;0;1;0;1;0;0;0;0
+Span::parent;0;0;0;0;0;0;1;0;1;0;0;0;0
+Span::source;0;0;0;0;0;0;1;0;1;0;0;0;0
+Span::byte_range;0;0;0;0;0;0;1;0;1;0;0;0;0
+Span::start;0;0;0;0;0;0;1;0;1;0;0;0;0
+Span::end;0;0;0;0;0;0;1;0;1;0;0;0;0
+Span::line;0;0;0;0;0;0;1;0;1;0;0;0;0
+Span::column;0;0;0;0;0;0;1;0;1;0;0;0;0
+Span::join;0;0;0;0;0;0;2;0;2;0;0;0;0
+Span::resolved_at;0;0;0;0;0;0;2;0;2;0;0;0;0
+Span::located_at;0;0;0;0;0;0;2;0;2;0;0;0;0
+Span::eq;0;0;0;0;0;0;2;0;2;0;0;0;0
+Span::source_text;0;0;0;0;0;0;1;0;1;0;0;0;0
+Span::save_span;0;0;0;0;0;0;1;0;1;0;0;0;0
+Span::error;0;0;0;0;0;0;2;0;1;0;0;0;0
+Span::warning;0;0;0;0;0;0;2;0;1;0;0;0;0
+Span::note;0;0;0;0;0;0;2;0;1;0;0;0;0
+Span::help;0;0;0;0;0;0;2;0;1;0;0;0;0
+<Span as std::fmt::Debug>::fmt;0;0;0;0;0;0;2;0;1;2;2;0;0
+<SourceFile as std::clone::Clone>::clone;0;0;0;0;0;0;1;0;1;0;0;0;0
+SourceFile::path;0;0;0;0;0;0;1;0;1;0;0;0;0
+SourceFile::is_real;0;0;0;0;0;0;1;0;1;0;0;0;0
+<SourceFile as std::fmt::Debug>::fmt;0;0;0;0;0;0;2;0;1;2;2;0;0
+<SourceFile as std::cmp::PartialEq>::eq;0;0;0;0;0;0;2;0;2;0;0;0;0
+<TokenTree as std::clone::Clone>::clone;0;0;0;0;0;0;5;0;1;20;0;0;0
+TokenTree::span;0;0;0;0;0;0;5;0;1;20;0;0;0
+TokenTree::set_span;0;0;0;0;0;0;6;0;2;20;1;0;0
+<TokenTree as std::fmt::Debug>::fmt;0;0;0;0;0;0;6;0;1;22;2;0;0
+<TokenTree as std::convert::From<Group>>::from;0;0;0;0;0;0;4;0;1;5;0;0;0
+<TokenTree as std::convert::From<Ident>>::from;0;0;0;0;0;0;3;0;1;1;0;0;0
+<TokenTree as std::convert::From<Punct>>::from;0;0;0;0;0;0;2;0;1;0;0;0;0
+<TokenTree as std::convert::From<Literal>>::from;0;0;0;0;0;0;3;0;1;5;0;0;0
+<TokenTree as std::fmt::Display>::fmt;0;0;0;0;0;0;6;0;1;22;2;0;0
+<Group as std::clone::Clone>::clone;0;0;0;0;0;0;4;0;1;5;0;0;0
+<Delimiter as std::fmt::Debug>::fmt;0;0;0;0;0;0;1;0;0;2;2;0;0
+Group::new;0;0;0;0;0;0;1;0;1;1;0;0;0
+Group::delimiter;0;0;0;0;0;0;4;0;1;5;0;0;0
+Group::stream;0;0;0;0;0;0;4;0;1;5;0;0;0
+Group::span;0;0;0;0;0;0;4;0;1;5;0;0;0
+Group::span_open;0;0;0;0;0;0;4;0;1;5;0;0;0
+Group::span_close;0;0;0;0;0;0;4;0;1;5;0;0;0
+Group::set_span;0;0;0;0;0;0;5;0;2;5;1;0;0
+<Group as std::fmt::Display>::fmt;0;0;0;0;0;0;5;0;1;7;2;0;0
+<Group as std::fmt::Debug>::fmt;0;0;0;0;0;0;5;0;1;7;2;0;0
+<Punct as std::clone::Clone>::clone;0;0;0;0;0;0;2;0;1;0;0;0;0
+<Spacing as std::fmt::Debug>::fmt;0;0;0;0;0;0;1;0;0;2;2;0;0
+Punct::as_char;0;0;0;0;0;0;2;0;1;0;0;0;0
+Punct::spacing;0;0;0;0;0;0;2;0;1;0;0;0;0
+Punct::span;0;0;0;0;0;0;2;0;1;0;0;0;0
+Punct::set_span;0;0;0;0;0;0;3;0;2;0;1;0;0
+<Punct as std::fmt::Display>::fmt;0;0;0;0;0;0;3;0;1;2;2;0;0
+<Punct as std::fmt::Debug>::fmt;0;0;0;0;0;0;3;0;1;2;2;0;0
+<Punct as std::cmp::PartialEq<char>>::eq;0;0;0;0;0;0;2;0;1;0;0;0;0
+<impl std::cmp::PartialEq<Punct> for char>::eq;0;0;0;0;0;0;2;0;1;0;0;0;0
+<Ident as std::clone::Clone>::clone;0;0;0;0;0;0;3;0;1;1;0;0;0
+Ident::new;0;0;0;0;0;0;1;0;1;0;0;0;0
+Ident::new_raw;0;0;0;0;0;0;1;0;1;0;0;0;0
+Ident::span;0;0;0;0;0;0;3;0;1;1;0;0;0
+Ident::set_span;0;0;0;0;0;0;4;0;2;1;1;0;0
+<Ident as std::fmt::Display>::fmt;0;0;0;0;0;0;4;0;1;3;2;0;0
+<Ident as std::fmt::Debug>::fmt;0;0;0;0;0;0;4;0;1;3;2;0;0
+<Literal as std::clone::Clone>::clone;0;0;0;0;0;0;3;0;1;5;0;0;0
+Literal::new;0;0;0;0;0;0;1;0;0;2;0;0;0
+Literal::f32_unsuffixed;0;0;0;1;0;0;0;0;0;0;0;0;0
+Literal::f32_suffixed;0;0;0;1;0;0;0;0;0;0;0;0;0
+Literal::f64_unsuffixed;0;0;0;1;0;0;0;0;0;0;0;0;0
+Literal::f64_suffixed;0;0;0;1;0;0;0;0;0;0;0;0;0
+Literal::span;0;0;0;0;0;0;3;0;1;5;0;0;0
+Literal::set_span;0;0;0;0;0;0;4;0;2;5;1;0;0
+Literal::subspan;0;0;0;0;0;0;4;0;1;5;0;0;0
+Literal::with_symbol_and_suffix;0;0;0;0;0;0;4;0;1;5;0;0;0
+Literal::with_stringify_parts;0;0;0;0;0;0;4;0;1;5;0;0;0
+<Literal as std::fmt::Display>::fmt;0;0;0;0;0;0;4;0;1;7;2;0;0
+<Literal as std::fmt::Debug>::fmt;0;0;0;0;0;0;4;0;1;7;2;0;0
+bridge::client::state::set::RestoreOnDrop;0;0;0;0;0;0;0;0;1;0;0;0;0
+bridge::rpc::PanicMessage::String;0;0;0;0;0;0;3;0;1;7;0;0;0
+bridge::TokenTree::Group;0;0;0;0;0;0;4;0;0;4;0;0;0
+bridge::TokenTree::Literal;0;0;0;0;0;0;5;0;0;3;0;0;0
+diagnostic::Children;0;0;0;0;0;0;4;0;3;18;0;0;0
+TokenStream;0;0;0;0;0;0;1;0;1;1;0;0;0
+token_stream::IntoIter;0;0;0;0;0;0;7;0;2;28;0;0;0
+Span;0;0;0;0;0;0;1;0;1;0;0;0;0
+SourceFile;0;0;0;0;0;0;1;0;1;0;0;0;0
+TokenTree::Group;0;0;0;0;0;0;4;0;1;5;0;0;0
+TokenTree::Ident;0;0;0;0;0;0;3;0;1;1;0;0;0
+TokenTree::Punct;0;0;0;0;0;0;2;0;1;0;0;0;0
+TokenTree::Literal;0;0;0;0;0;0;3;0;1;5;0;0;0
+Group;0;0;0;0;0;0;4;0;1;5;0;0;0
+Punct;0;0;0;0;0;0;2;0;1;0;0;0;0
+Ident;0;0;0;0;0;0;3;0;1;1;0;0;0
+Literal;0;0;0;0;0;0;3;0;1;5;0;0;0

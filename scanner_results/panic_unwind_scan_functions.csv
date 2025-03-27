@@ -1,0 +1,6 @@
+name;is_unsafe;has_unsafe_ops;has_unsupported_input;has_loop_or_iterator
+__rust_start_panic;true;true;true;false
+__rust_panic_cleanup;true;true;true;false
+imp::panic::exception_cleanup;false;true;true;false
+imp::cleanup;true;true;true;false
+imp::panic;true;true;false;false

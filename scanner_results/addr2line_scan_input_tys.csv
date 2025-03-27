@@ -1,0 +1,78 @@
+fn_name;boxes;closures;coroutines;floats;fn_defs;fn_ptrs;generics;interior_muts;raw_ptrs;recursive_types;mut_refs;simd;unions
+frame::FrameIter::<'ctx, R>::new_location;0;0;0;0;0;0;1;0;0;2;0;0;0
+frame::FrameIter::<'ctx, R>::new_frames;12;0;0;0;0;0;37;3;3;459;0;0;8
+frame::FrameIter::<'ctx, R>::next;9;0;0;0;0;0;15;2;1;355;1;0;4
+frame::FunctionName::<R>::raw_name;0;0;0;0;0;0;2;0;0;1;0;0;0
+frame::FunctionName::<R>::demangle;0;0;0;0;0;0;2;0;0;1;0;0;0
+frame::demangle_auto;0;0;0;0;0;0;2;0;0;1;0;0;0
+function::LazyFunctions::<R>::borrow;5;0;0;0;0;0;18;2;1;307;0;0;4
+function::LazyFunction::<R>::borrow;15;0;0;0;0;0;32;4;2;622;0;0;8
+function::Functions::<R>::parse;1;0;0;0;0;0;15;1;1;262;0;0;4
+function::Functions::<R>::find_address;4;0;0;0;0;0;3;1;0;40;0;0;0
+function::Functions::<R>::parse_inlined_functions;17;0;0;0;0;0;32;4;2;627;0;0;8
+function::Function::<R>::parse;13;0;0;0;0;0;31;3;2;587;0;0;8
+function::Function::<R>::parse_children;12;0;0;0;0;0;16;2;1;377;1;0;4
+function::Function::<R>::skip;1;0;0;0;0;0;17;0;2;72;1;0;4
+function::Function::<R>::find_inlined_functions;2;0;0;0;0;0;2;0;0;12;0;0;0
+function::InlinedFunction::<R>::parse;12;0;0;0;0;0;21;2;2;388;1;0;4
+function::name_attr;13;0;0;0;0;0;32;3;2;644;0;0;8
+function::name_entry;13;0;0;0;0;0;31;3;2;587;0;0;8
+lazy::LazyCell::<T>::borrow;0;0;0;0;0;0;1;1;0;2;0;0;0
+lazy::LazyCell::<T>::borrow_with;0;0;0;0;0;0;2;1;0;2;0;0;0
+line::LazyLines::borrow;4;0;0;0;0;0;24;2;3;402;0;0;4
+line::Lines::parse;1;0;0;0;0;0;20;1;2;366;0;0;4
+line::Lines::file;3;0;0;0;0;0;3;0;1;14;0;0;0
+line::Lines::ranges;3;0;0;0;0;0;3;0;1;14;0;0;0
+line::Lines::row_location;3;0;0;0;0;0;3;0;1;16;0;0;0
+line::Lines::find_location;3;0;0;0;0;0;3;0;1;14;0;0;0
+line::Lines::find_location_range;3;0;0;0;0;0;3;0;1;14;0;0;0
+<line::LineLocationRangeIter<'ctx> as rustc_std_workspace_core::iter::Iterator>::next;3;0;0;0;0;0;3;0;1;17;1;0;0
+line::render_file;1;0;0;0;0;0;23;1;2;429;0;0;4
+line::path_push;0;0;0;0;0;0;3;0;1;7;1;0;0
+lookup::LookupResult::<L>::skip_all_loads;1;0;0;0;0;0;13;1;1;117;0;0;4
+lookup::LookupResult::<L>::map;1;0;0;0;0;0;14;1;1;117;0;0;4
+lookup::LookupResult::<L>::unwrap;1;0;0;0;0;0;13;1;1;117;0;0;4
+lookup::SimpleLookup::<T, R, F>::new_complete;1;0;0;0;0;0;14;1;1;128;0;0;4
+lookup::SimpleLookup::<T, R, F>::new_needs_load;1;0;0;0;0;0;14;1;1;114;0;0;4
+<lookup::SimpleLookup<T, R, F> as lookup::LookupContinuation>::resume;1;0;0;0;0;0;17;1;1;135;0;0;4
+<lookup::MappedLookup<T, L, F> as lookup::LookupContinuation>::resume;1;0;0;0;0;0;17;1;1;133;0;0;4
+lookup::LoopingLookup::<T, L, F>::new_lookup;1;0;0;0;0;0;15;1;1;116;0;0;4
+<lookup::LoopingLookup<T, L, F> as lookup::LookupContinuation>::resume;1;0;0;0;0;0;17;1;1;133;0;0;4
+unit::ResUnit::<R>::unit_ref;10;0;0;0;0;0;26;3;2;422;0;0;8
+unit::ResUnit::<R>::dwarf_and_unit;21;0;0;0;0;0;28;4;2;637;0;0;8
+unit::ResUnit::<R>::parse_lines;10;0;0;0;0;0;26;3;2;422;0;0;8
+unit::ResUnit::<R>::parse_functions;21;0;0;0;0;0;28;4;2;637;0;0;8
+unit::ResUnit::<R>::parse_inlined_functions;21;0;0;0;0;0;28;4;2;637;0;0;8
+unit::ResUnit::<R>::find_location;10;0;0;0;0;0;26;3;2;422;0;0;8
+unit::ResUnit::<R>::find_location_range;10;0;0;0;0;0;26;3;2;422;0;0;8
+unit::ResUnit::<R>::find_function_or_location;21;0;0;0;0;0;28;4;2;637;0;0;8
+unit::ResUnits::<R>::parse;1;0;0;0;0;0;12;1;1;110;0;0;4
+unit::ResUnits::<R>::iter;11;0;0;0;0;0;14;2;1;318;0;0;4
+unit::ResUnits::<R>::find_offset;11;0;0;0;0;0;16;2;1;318;0;0;4
+unit::ResUnits::<R>::find;11;0;0;0;0;0;14;2;1;318;0;0;4
+unit::ResUnits::<R>::find_range;11;0;0;0;0;0;14;2;1;318;0;0;4
+unit::ResUnits::<R>::find_location_range;12;0;0;0;0;0;26;3;2;428;0;0;8
+unit::DwoUnit::<R>::unit_ref;1;0;0;0;0;0;14;1;1;249;0;0;4
+unit::SupUnits::<R>::parse;1;0;0;0;0;0;12;1;1;110;0;0;4
+unit::SupUnits::<R>::find_offset;2;0;0;0;0;0;15;1;1;190;0;0;4
+unit::LocationRangeIter::<'ctx, R>::next_loc;10;0;0;0;0;0;15;2;1;336;1;0;4
+<unit::LocationRangeIter<'ctx, R> as rustc_std_workspace_core::iter::Iterator>::next;10;0;0;0;0;0;15;2;1;336;1;0;4
+<DebugFile as rustc_std_workspace_core::fmt::Debug>::fmt;0;0;0;0;0;0;1;0;0;2;2;0;0
+Context::<R>::from_sections;0;0;0;0;0;0;11;0;0;10;0;0;0
+Context::<R>::from_dwarf;1;0;0;0;0;0;12;1;1;110;0;0;4
+Context::<R>::from_arc_dwarf;1;0;0;0;0;0;12;1;1;110;0;0;4
+Context::<R>::find_dwarf_and_unit;12;0;0;0;0;0;14;2;1;325;0;0;4
+Context::<R>::find_location;12;0;0;0;0;0;14;2;1;325;0;0;4
+Context::<R>::find_location_range;12;0;0;0;0;0;14;2;1;325;0;0;4
+Context::<R>::find_frames;12;0;0;0;0;0;14;2;1;325;0;0;4
+Context::<R>::preload_units;12;0;0;0;0;0;14;2;1;325;0;0;4
+Context::<R>::parse_lines;12;0;0;0;0;0;14;2;1;325;0;0;4
+Context::<R>::parse_functions;12;0;0;0;0;0;14;2;1;325;0;0;4
+Context::<R>::parse_inlined_functions;12;0;0;0;0;0;14;2;1;325;0;0;4
+Context::<R>::find_unit;12;0;0;0;0;0;16;2;1;325;0;0;4
+RangeAttributes::<R>::for_each_range;1;0;0;0;0;0;18;1;1;267;0;0;4
+frame::FrameIter;9;0;0;0;0;0;15;2;1;354;0;0;4
+frame::FrameIterState::Location;0;0;0;0;0;0;1;0;0;3;0;0;0
+frame::FrameIterState::Frames;9;0;0;0;0;0;15;2;1;352;0;0;4
+function::LazyFunctions;4;0;0;0;0;0;3;1;0;44;0;0;0
+line::LazyLines;3;0;0;0;0;0;4;1;1;36;0;0;0

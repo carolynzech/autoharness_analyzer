@@ -1,0 +1,10 @@
+fn_name;iterators;loops;nested_loops
+inflate::core::HuffmanTable::tree_lookup;0;1;0
+inflate::core::decode_huffman_code;0;6;0
+inflate::core::read_bits;0;1;0
+inflate::core::init_tree;0;25;0
+inflate::core::transfer;0;2;0
+inflate::core::decompress_fast;0;17;0
+inflate::core::decompress;0;148;0
+inflate::stream::inflate_loop;0;6;0
+inflate::decompress_slice_iter_to_slice;0;8;0

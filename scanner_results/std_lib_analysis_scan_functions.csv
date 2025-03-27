@@ -1,0 +1,2 @@
+name;is_unsafe;has_unsafe_ops;has_unsupported_input;has_loop_or_iterator
+dummy;false;false;false;false

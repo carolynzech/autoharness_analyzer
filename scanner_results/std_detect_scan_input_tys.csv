@@ -1,0 +1,6 @@
+fn_name;boxes;closures;coroutines;floats;fn_defs;fn_ptrs;generics;interior_muts;raw_ptrs;recursive_types;mut_refs;simd;unions
+detect::cache::Initializer::set;0;0;0;0;0;0;0;0;0;0;1;0;0
+detect::cache::Initializer::unset;0;0;0;0;0;0;0;0;0;0;1;0;0
+detect::cache::Cache::test;0;0;0;0;0;0;0;1;0;0;0;0;0
+detect::cache::Cache::initialize;0;0;0;0;0;0;0;1;0;0;0;0;0
+detect::cache::Cache;0;0;0;0;0;0;0;1;0;0;0;0;0

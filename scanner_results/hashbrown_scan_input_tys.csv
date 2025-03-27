@@ -1,0 +1,563 @@
+fn_name;boxes;closures;coroutines;floats;fn_defs;fn_ptrs;generics;interior_muts;raw_ptrs;recursive_types;mut_refs;simd;unions
+<control::bitmask::BitMaskIter as rustc_std_workspace_core::iter::Iterator>::next;0;0;0;0;0;0;0;0;0;0;1;0;0
+control::group::sse2::Group::load;0;0;0;0;0;0;0;0;1;0;0;0;0
+control::group::sse2::Group::load_aligned;0;0;0;0;0;0;0;0;1;0;0;0;0
+control::group::sse2::Group::store_aligned;0;0;0;0;0;0;0;0;1;0;0;0;0
+<control::tag::Tag as rustc_std_workspace_core::fmt::Debug>::fmt;0;0;0;0;0;0;1;0;0;2;2;0;0
+control::tag::TagSliceExt::fill_empty;0;0;0;0;0;0;1;0;0;0;1;0;0
+<[control::tag::Tag] as control::tag::TagSliceExt>::fill_tag;0;0;0;0;0;0;0;0;0;0;1;0;0
+raw::offset_from;0;0;0;0;0;0;2;0;2;0;0;0;0
+<raw::ProbeSeq as rustc_std_workspace_core::clone::Clone>::clone;0;0;0;0;0;0;0;0;0;1;0;0;0
+raw::ProbeSeq::move_next;0;0;0;0;0;0;0;0;0;1;1;0;0
+<raw::TableLayout as rustc_std_workspace_core::clone::Clone>::clone;0;0;0;0;0;0;0;0;0;1;0;0;0
+raw::TableLayout::calculate_layout_for;0;0;0;0;0;0;0;0;0;1;0;0;0
+<raw::Bucket<T> as rustc_std_workspace_core::clone::Clone>::clone;0;0;0;0;0;0;1;0;1;2;0;0;0
+raw::Bucket::<T>::from_base_index;0;0;0;0;0;0;1;0;1;1;0;0;0
+raw::Bucket::<T>::to_base_index;0;0;0;0;0;0;2;0;2;3;0;0;0
+raw::Bucket::<T>::as_ptr;0;0;0;0;0;0;1;0;1;2;0;0;0
+raw::Bucket::<T>::as_non_null;0;0;0;0;0;0;1;0;1;2;0;0;0
+raw::Bucket::<T>::next_n;0;0;0;0;0;0;1;0;1;2;0;0;0
+raw::Bucket::<T>::drop;0;0;0;0;0;0;1;0;1;2;0;0;0
+raw::Bucket::<T>::read;0;0;0;0;0;0;1;0;1;2;0;0;0
+raw::Bucket::<T>::write;0;0;0;0;0;0;2;0;1;2;0;0;0
+raw::Bucket::<T>::as_ref;0;0;0;0;0;0;1;0;1;2;0;0;0
+raw::Bucket::<T>::as_mut;0;0;0;0;0;0;1;0;1;2;0;0;0
+raw::RawTable::<T, A>::allocator;0;0;0;0;0;0;2;0;1;5;0;0;0
+raw::RawTable::<T, A>::data_end;0;0;0;0;0;0;2;0;1;5;0;0;0
+raw::RawTable::<T, A>::data_start;0;0;0;0;0;0;2;0;1;5;0;0;0
+raw::RawTable::<T, A>::allocation_size;0;0;0;0;0;0;2;0;1;5;0;0;0
+raw::RawTable::<T, A>::bucket_index;0;0;0;0;0;0;3;0;2;7;0;0;0
+raw::RawTable::<T, A>::bucket;0;0;0;0;0;0;2;0;1;5;0;0;0
+raw::RawTable::<T, A>::erase_no_drop;0;0;0;0;0;0;3;0;2;7;1;0;0
+raw::RawTable::<T, A>::erase;0;0;0;0;0;0;3;0;2;7;1;0;0
+raw::RawTable::<T, A>::remove;0;0;0;0;0;0;3;0;2;7;1;0;0
+raw::RawTable::<T, A>::remove_entry;0;0;0;0;0;0;3;0;1;5;1;0;0
+raw::RawTable::<T, A>::clear_no_drop;0;0;0;0;0;0;2;0;1;5;1;0;0
+raw::RawTable::<T, A>::clear;0;0;0;0;0;0;2;0;1;5;1;0;0
+raw::RawTable::<T, A>::shrink_to;0;0;0;0;0;0;3;0;1;5;1;0;0
+raw::RawTable::<T, A>::reserve;0;0;0;0;0;0;3;0;1;5;1;0;0
+raw::RawTable::<T, A>::try_reserve;0;0;0;0;0;0;3;0;1;5;1;0;0
+raw::RawTable::<T, A>::reserve_rehash;0;0;0;0;0;0;3;0;1;5;1;0;0
+raw::RawTable::<T, A>::resize;0;0;0;0;0;0;3;0;1;5;1;0;0
+raw::RawTable::<T, A>::insert;0;0;0;0;0;0;4;0;1;5;1;0;0
+raw::RawTable::<T, A>::insert_entry;0;0;0;0;0;0;4;0;1;5;1;0;0
+raw::RawTable::<T, A>::insert_no_grow;0;0;0;0;0;0;3;0;1;5;1;0;0
+raw::RawTable::<T, A>::replace_bucket_with;0;0;0;0;0;0;4;0;2;7;1;0;0
+raw::RawTable::<T, A>::find_or_find_insert_slot;0;0;0;0;0;0;4;0;1;5;1;0;0
+raw::RawTable::<T, A>::insert_in_slot;0;0;0;0;0;0;3;0;1;5;1;0;0
+raw::RawTable::<T, A>::find;0;0;0;0;0;0;3;0;1;5;0;0;0
+raw::RawTable::<T, A>::get;0;0;0;0;0;0;3;0;1;5;0;0;0
+raw::RawTable::<T, A>::get_mut;0;0;0;0;0;0;3;0;1;5;1;0;0
+raw::RawTable::<T, A>::get_many_mut;0;0;0;0;0;0;3;0;1;5;1;0;0
+raw::RawTable::<T, A>::get_many_unchecked_mut;0;0;0;0;0;0;3;0;1;5;1;0;0
+raw::RawTable::<T, A>::get_many_mut_pointers;0;0;0;0;0;0;3;0;1;5;1;0;0
+raw::RawTable::<T, A>::capacity;0;0;0;0;0;0;2;0;1;5;0;0;0
+raw::RawTable::<T, A>::len;0;0;0;0;0;0;2;0;1;5;0;0;0
+raw::RawTable::<T, A>::is_empty;0;0;0;0;0;0;2;0;1;5;0;0;0
+raw::RawTable::<T, A>::buckets;0;0;0;0;0;0;2;0;1;5;0;0;0
+raw::RawTable::<T, A>::is_bucket_full;0;0;0;0;0;0;2;0;1;5;0;0;0
+raw::RawTable::<T, A>::iter;0;0;0;0;0;0;2;0;1;5;0;0;0
+raw::RawTable::<T, A>::iter_hash;0;0;0;0;0;0;2;0;1;5;0;0;0
+raw::RawTable::<T, A>::drain;0;0;0;0;0;0;2;0;1;5;1;0;0
+raw::RawTable::<T, A>::drain_iter_from;0;0;0;0;0;0;3;0;3;10;1;0;0
+raw::RawTable::<T, A>::into_iter_from;0;0;0;0;0;0;3;0;3;10;0;0;0
+raw::RawTable::<T, A>::into_allocation;0;0;0;0;0;0;2;0;1;5;0;0;0
+raw::RawTableInner::new_uninitialized;0;0;0;0;0;0;1;0;0;1;0;0;0
+raw::RawTableInner::fallible_with_capacity;0;0;0;0;0;0;1;0;0;1;0;0;0
+raw::RawTableInner::with_capacity;0;0;0;0;0;0;1;0;0;1;0;0;0
+raw::RawTableInner::fix_insert_slot;0;0;0;0;0;0;1;0;1;2;0;0;0
+raw::RawTableInner::find_insert_slot_in_group;0;0;0;0;0;0;1;0;1;3;0;0;0
+raw::RawTableInner::find_or_find_insert_slot_inner;0;0;0;0;0;0;1;0;1;3;1;0;0
+raw::RawTableInner::prepare_insert_slot;0;0;0;0;0;0;1;0;1;2;1;0;0
+raw::RawTableInner::find_insert_slot;0;0;0;0;0;0;1;0;1;2;0;0;0
+raw::RawTableInner::find_inner;0;0;0;0;0;0;1;0;1;3;1;0;0
+raw::RawTableInner::prepare_rehash_in_place;0;0;0;0;0;0;1;0;1;2;1;0;0
+raw::RawTableInner::iter;0;0;0;0;0;0;1;0;1;2;0;0;0
+raw::RawTableInner::drop_elements;0;0;0;0;0;0;1;0;1;2;1;0;0
+raw::RawTableInner::drop_inner_table;0;0;0;0;0;0;2;0;1;3;1;0;0
+raw::RawTableInner::bucket;0;0;0;0;0;0;1;0;1;2;0;0;0
+raw::RawTableInner::bucket_ptr;0;0;0;0;0;0;1;0;1;2;0;0;0
+raw::RawTableInner::data_end;0;0;0;0;0;0;1;0;1;2;0;0;0
+raw::RawTableInner::probe_seq;0;0;0;0;0;0;1;0;1;2;0;0;0
+raw::RawTableInner::record_item_insert_at;0;0;0;0;0;0;1;0;1;2;1;0;0
+raw::RawTableInner::is_in_same_group;0;0;0;0;0;0;1;0;1;2;0;0;0
+raw::RawTableInner::set_ctrl_hash;0;0;0;0;0;0;1;0;1;2;1;0;0
+raw::RawTableInner::replace_ctrl_hash;0;0;0;0;0;0;1;0;1;2;1;0;0
+raw::RawTableInner::set_ctrl;0;0;0;0;0;0;1;0;1;2;1;0;0
+raw::RawTableInner::ctrl;0;0;0;0;0;0;1;0;1;2;0;0;0
+raw::RawTableInner::ctrl_slice;0;0;0;0;0;0;1;0;1;2;1;0;0
+raw::RawTableInner::buckets;0;0;0;0;0;0;1;0;1;2;0;0;0
+raw::RawTableInner::is_bucket_full;0;0;0;0;0;0;1;0;1;2;0;0;0
+raw::RawTableInner::num_ctrl_bytes;0;0;0;0;0;0;1;0;1;2;0;0;0
+raw::RawTableInner::is_empty_singleton;0;0;0;0;0;0;1;0;1;2;0;0;0
+raw::RawTableInner::prepare_resize;0;0;0;0;0;0;2;0;1;3;0;0;0
+raw::RawTableInner::reserve_rehash_inner;0;0;0;0;0;1;4;0;3;7;2;0;0
+raw::RawTableInner::full_buckets_indices;0;0;0;0;0;0;1;0;1;2;0;0;0
+raw::RawTableInner::resize_inner;0;0;0;0;0;0;3;0;2;7;2;0;0
+raw::RawTableInner::rehash_in_place;0;0;0;0;0;1;3;0;3;6;2;0;0
+raw::RawTableInner::free_buckets;0;0;0;0;0;0;2;0;1;3;1;0;0
+raw::RawTableInner::allocation_info;0;0;0;0;0;0;1;0;1;3;0;0;0
+raw::RawTableInner::allocation_size_or_zero;0;0;0;0;0;0;1;0;1;3;0;0;0
+raw::RawTableInner::clear_no_drop;0;0;0;0;0;0;1;0;1;2;1;0;0
+raw::RawTableInner::erase;0;0;0;0;0;0;1;0;1;2;1;0;0
+<raw::RawTable<T, A> as rustc_std_workspace_core::clone::Clone>::clone;0;0;0;0;0;0;2;0;1;5;0;0;0
+<raw::RawTable<T, A> as rustc_std_workspace_core::clone::Clone>::clone_from;0;0;0;0;0;0;4;0;2;10;1;0;0
+<raw::RawTable<T, A> as raw::RawTableClone>::clone_from_spec;0;0;0;0;0;0;4;0;2;10;1;0;0
+<raw::RawTable<T, A> as raw::RawTableClone>::clone_from_spec;0;0;0;0;0;0;4;0;2;10;1;0;0
+raw::RawTable::<T, A>::clone_from_impl;0;0;0;0;0;0;4;0;2;10;1;0;0
+<raw::RawTable<T, A> as rustc_std_workspace_core::ops::Drop>::drop;0;0;0;0;0;0;2;0;1;5;1;0;0
+<raw::RawTable<T, A> as rustc_std_workspace_core::iter::IntoIterator>::into_iter;0;0;0;0;0;0;2;0;1;5;0;0;0
+raw::RawIterRange::<T>::new;0;0;0;0;0;0;1;0;2;2;0;0;0
+raw::RawIterRange::<T>::next_impl;0;0;0;0;0;0;1;0;2;4;1;0;0
+raw::RawIterRange::<T>::fold_impl;0;0;0;0;0;0;3;0;2;4;0;0;0
+<raw::RawIterRange<T> as rustc_std_workspace_core::clone::Clone>::clone;0;0;0;0;0;0;1;0;2;4;0;0;0
+<raw::RawIterRange<T> as rustc_std_workspace_core::iter::Iterator>::next;0;0;0;0;0;0;1;0;2;4;1;0;0
+<raw::RawIterRange<T> as rustc_std_workspace_core::iter::Iterator>::size_hint;0;0;0;0;0;0;1;0;2;4;0;0;0
+raw::RawIter::<T>::drop_elements;0;0;0;0;0;0;1;0;2;5;1;0;0
+<raw::RawIter<T> as rustc_std_workspace_core::clone::Clone>::clone;0;0;0;0;0;0;1;0;2;5;0;0;0
+<raw::RawIter<T> as rustc_std_workspace_core::iter::Iterator>::next;0;0;0;0;0;0;1;0;2;5;1;0;0
+<raw::RawIter<T> as rustc_std_workspace_core::iter::Iterator>::size_hint;0;0;0;0;0;0;1;0;2;5;0;0;0
+<raw::RawIter<T> as rustc_std_workspace_core::iter::Iterator>::fold;0;0;0;0;0;0;3;0;2;5;0;0;0
+raw::FullBucketsIndices::next_impl;0;0;0;0;0;0;1;0;1;1;1;0;0
+<raw::FullBucketsIndices as rustc_std_workspace_core::iter::Iterator>::next;0;0;0;0;0;0;1;0;1;1;1;0;0
+<raw::FullBucketsIndices as rustc_std_workspace_core::iter::Iterator>::size_hint;0;0;0;0;0;0;1;0;1;1;0;0;0
+raw::RawIntoIter::<T, A>::iter;0;0;0;0;0;0;2;0;2;12;0;0;0
+<raw::RawIntoIter<T, A> as rustc_std_workspace_core::ops::Drop>::drop;0;0;0;0;0;0;2;0;2;12;1;0;0
+<raw::RawIntoIter<T, A> as rustc_std_workspace_core::iter::Iterator>::next;0;0;0;0;0;0;2;0;2;12;1;0;0
+<raw::RawIntoIter<T, A> as rustc_std_workspace_core::iter::Iterator>::size_hint;0;0;0;0;0;0;2;0;2;12;0;0;0
+raw::RawDrain::<'_, T, A>::iter;0;0;0;0;0;0;4;0;2;16;0;0;0
+<raw::RawDrain<'_, T, A> as rustc_std_workspace_core::ops::Drop>::drop;0;0;0;0;0;0;4;0;2;16;1;0;0
+<raw::RawDrain<'_, T, A> as rustc_std_workspace_core::iter::Iterator>::next;0;0;0;0;0;0;4;0;2;16;1;0;0
+<raw::RawDrain<'_, T, A> as rustc_std_workspace_core::iter::Iterator>::size_hint;0;0;0;0;0;0;4;0;2;16;0;0;0
+<raw::RawIterHashInner as rustc_std_workspace_core::clone::Clone>::clone;0;0;0;0;0;0;1;0;1;4;0;0;0
+raw::RawIterHash::<T>::new;0;0;0;0;0;0;2;0;1;5;0;0;0
+<raw::RawIterHash<T> as rustc_std_workspace_core::clone::Clone>::clone;0;0;0;0;0;0;1;0;1;6;0;0;0
+raw::RawIterHashInner::new;0;0;0;0;0;0;1;0;1;2;0;0;0
+<raw::RawIterHash<T> as rustc_std_workspace_core::iter::Iterator>::next;0;0;0;0;0;0;1;0;1;6;1;0;0
+<raw::RawIterHashInner as rustc_std_workspace_core::iter::Iterator>::next;0;0;0;0;0;0;1;0;1;4;1;0;0
+raw::RawExtractIf::<'_, T, A>::next;0;0;0;0;0;0;5;0;2;13;2;0;0
+<map::HashMap<K, V, S, A> as rustc_std_workspace_core::clone::Clone>::clone;0;0;0;0;0;0;6;0;1;7;0;0;0
+<map::HashMap<K, V, S, A> as rustc_std_workspace_core::clone::Clone>::clone_from;0;0;0;0;0;0;12;0;2;14;1;0;0
+map::HashMap::<K, V, S, A>::allocator;0;0;0;0;0;0;6;0;1;7;0;0;0
+map::HashMap::<K, V, S, A>::hasher;0;0;0;0;0;0;6;0;1;7;0;0;0
+map::HashMap::<K, V, S, A>::capacity;0;0;0;0;0;0;6;0;1;7;0;0;0
+map::HashMap::<K, V, S, A>::keys;0;0;0;0;0;0;6;0;1;7;0;0;0
+map::HashMap::<K, V, S, A>::values;0;0;0;0;0;0;6;0;1;7;0;0;0
+map::HashMap::<K, V, S, A>::values_mut;0;0;0;0;0;0;6;0;1;7;1;0;0
+map::HashMap::<K, V, S, A>::iter;0;0;0;0;0;0;6;0;1;7;0;0;0
+map::HashMap::<K, V, S, A>::iter_mut;0;0;0;0;0;0;6;0;1;7;1;0;0
+map::HashMap::<K, V, S, A>::len;0;0;0;0;0;0;6;0;1;7;0;0;0
+map::HashMap::<K, V, S, A>::is_empty;0;0;0;0;0;0;6;0;1;7;0;0;0
+map::HashMap::<K, V, S, A>::drain;0;0;0;0;0;0;6;0;1;7;1;0;0
+map::HashMap::<K, V, S, A>::retain;0;0;0;0;0;0;7;0;1;7;1;0;0
+map::HashMap::<K, V, S, A>::extract_if;0;0;0;0;0;0;7;0;1;7;1;0;0
+map::HashMap::<K, V, S, A>::clear;0;0;0;0;0;0;6;0;1;7;1;0;0
+map::HashMap::<K, V, S, A>::into_keys;0;0;0;0;0;0;6;0;1;7;0;0;0
+map::HashMap::<K, V, S, A>::into_values;0;0;0;0;0;0;6;0;1;7;0;0;0
+map::HashMap::<K, V, S, A>::reserve;0;0;0;0;0;0;6;0;1;7;1;0;0
+map::HashMap::<K, V, S, A>::try_reserve;0;0;0;0;0;0;6;0;1;7;1;0;0
+map::HashMap::<K, V, S, A>::shrink_to_fit;0;0;0;0;0;0;6;0;1;7;1;0;0
+map::HashMap::<K, V, S, A>::shrink_to;0;0;0;0;0;0;6;0;1;7;1;0;0
+map::HashMap::<K, V, S, A>::entry;0;0;0;0;0;0;7;0;1;7;1;0;0
+map::HashMap::<K, V, S, A>::entry_ref;0;0;0;0;0;0;7;0;1;7;1;0;0
+map::HashMap::<K, V, S, A>::get;0;0;0;0;0;0;7;0;1;7;0;0;0
+map::HashMap::<K, V, S, A>::get_key_value;0;0;0;0;0;0;7;0;1;7;0;0;0
+map::HashMap::<K, V, S, A>::get_inner;0;0;0;0;0;0;7;0;1;7;0;0;0
+map::HashMap::<K, V, S, A>::get_key_value_mut;0;0;0;0;0;0;7;0;1;7;1;0;0
+map::HashMap::<K, V, S, A>::contains_key;0;0;0;0;0;0;7;0;1;7;0;0;0
+map::HashMap::<K, V, S, A>::get_mut;0;0;0;0;0;0;7;0;1;7;1;0;0
+map::HashMap::<K, V, S, A>::get_inner_mut;0;0;0;0;0;0;7;0;1;7;1;0;0
+map::HashMap::<K, V, S, A>::get_many_mut;0;0;0;0;0;0;7;0;1;7;1;0;0
+map::HashMap::<K, V, S, A>::get_many_unchecked_mut;0;0;0;0;0;0;7;0;1;7;1;0;0
+map::HashMap::<K, V, S, A>::get_many_key_value_mut;0;0;0;0;0;0;7;0;1;7;1;0;0
+map::HashMap::<K, V, S, A>::get_many_key_value_unchecked_mut;0;0;0;0;0;0;7;0;1;7;1;0;0
+map::HashMap::<K, V, S, A>::get_many_mut_inner;0;0;0;0;0;0;7;0;1;7;1;0;0
+map::HashMap::<K, V, S, A>::get_many_unchecked_mut_inner;0;0;0;0;0;0;7;0;1;7;1;0;0
+map::HashMap::<K, V, S, A>::build_hashes_inner;0;0;0;0;0;0;7;0;1;7;0;0;0
+map::HashMap::<K, V, S, A>::insert;0;0;0;0;0;0;8;0;1;7;1;0;0
+map::HashMap::<K, V, S, A>::find_or_find_insert_slot;0;0;0;0;0;0;7;0;1;7;1;0;0
+map::HashMap::<K, V, S, A>::insert_unique_unchecked;0;0;0;0;0;0;8;0;1;7;1;0;0
+map::HashMap::<K, V, S, A>::try_insert;0;0;0;0;0;0;8;0;1;7;1;0;0
+map::HashMap::<K, V, S, A>::remove;0;0;0;0;0;0;7;0;1;7;1;0;0
+map::HashMap::<K, V, S, A>::remove_entry;0;0;0;0;0;0;7;0;1;7;1;0;0
+map::HashMap::<K, V, S, A>::allocation_size;0;0;0;0;0;0;6;0;1;7;0;0;0
+<map::HashMap<K, V, S, A> as rustc_std_workspace_core::cmp::PartialEq>::eq;0;0;0;0;0;0;12;0;2;14;0;0;0
+<map::HashMap<K, V, S, A> as rustc_std_workspace_core::fmt::Debug>::fmt;0;0;0;0;0;0;7;0;1;9;2;0;0
+<map::HashMap<K, V, S, A> as rustc_std_workspace_core::ops::Index<&Q>>::index;0;0;0;0;0;0;11;0;1;3;0;0;0
+<map::Iter<'_, K, V> as rustc_std_workspace_core::clone::Clone>::clone;0;0;0;0;0;0;3;0;2;8;0;0;0
+<map::Iter<'_, K, V> as rustc_std_workspace_core::fmt::Debug>::fmt;0;0;0;0;0;0;4;0;2;10;2;0;0
+map::IterMut::<'_, K, V>::iter;0;0;0;0;0;0;3;0;2;8;1;0;0
+map::IntoIter::<K, V, A>::iter;0;0;0;0;0;0;5;0;2;13;0;0;0
+<map::IntoKeys<K, V, A> as rustc_std_workspace_core::iter::Iterator>::next;0;0;0;0;0;0;5;0;2;16;1;0;0
+<map::IntoKeys<K, V, A> as rustc_std_workspace_core::iter::Iterator>::size_hint;0;0;0;0;0;0;5;0;2;16;0;0;0
+<map::IntoKeys<K, V, A> as rustc_std_workspace_core::iter::Iterator>::fold;0;0;0;0;0;0;7;0;2;16;0;0;0
+<map::IntoKeys<K, V, A> as rustc_std_workspace_core::iter::ExactSizeIterator>::len;0;0;0;0;0;0;5;0;2;16;0;0;0
+<map::IntoKeys<K, V, A> as rustc_std_workspace_core::fmt::Debug>::fmt;0;0;0;0;0;0;6;0;2;18;2;0;0
+<map::IntoValues<K, V, A> as rustc_std_workspace_core::iter::Iterator>::next;0;0;0;0;0;0;5;0;2;16;1;0;0
+<map::IntoValues<K, V, A> as rustc_std_workspace_core::iter::Iterator>::size_hint;0;0;0;0;0;0;5;0;2;16;0;0;0
+<map::IntoValues<K, V, A> as rustc_std_workspace_core::iter::Iterator>::fold;0;0;0;0;0;0;7;0;2;16;0;0;0
+<map::IntoValues<K, V, A> as rustc_std_workspace_core::iter::ExactSizeIterator>::len;0;0;0;0;0;0;5;0;2;16;0;0;0
+<map::IntoValues<K, V, A> as rustc_std_workspace_core::fmt::Debug>::fmt;0;0;0;0;0;0;6;0;2;18;2;0;0
+<map::Keys<'_, K, V> as rustc_std_workspace_core::clone::Clone>::clone;0;0;0;0;0;0;3;0;2;10;0;0;0
+<map::Keys<'_, K, V> as rustc_std_workspace_core::fmt::Debug>::fmt;0;0;0;0;0;0;4;0;2;12;2;0;0
+<map::Values<'_, K, V> as rustc_std_workspace_core::clone::Clone>::clone;0;0;0;0;0;0;3;0;2;10;0;0;0
+<map::Values<'_, K, V> as rustc_std_workspace_core::fmt::Debug>::fmt;0;0;0;0;0;0;4;0;2;12;2;0;0
+map::Drain::<'_, K, V, A>::iter;0;0;0;0;0;0;7;0;2;17;0;0;0
+<map::ExtractIf<'_, K, V, F, A> as rustc_std_workspace_core::iter::Iterator>::next;0;0;0;0;0;0;8;0;2;15;2;0;0
+<map::ExtractIf<'_, K, V, F, A> as rustc_std_workspace_core::iter::Iterator>::size_hint;0;0;0;0;0;0;8;0;2;15;1;0;0
+<map::Entry<'_, K, V, S, A> as rustc_std_workspace_core::fmt::Debug>::fmt;0;0;0;0;0;0;11;0;1;24;3;0;0
+<map::OccupiedEntry<'_, K, V, S, A> as rustc_std_workspace_core::fmt::Debug>::fmt;0;0;0;0;0;0;11;0;1;13;3;0;0
+<map::VacantEntry<'_, K, V, S, A> as rustc_std_workspace_core::fmt::Debug>::fmt;0;0;0;0;0;0;11;0;1;10;3;0;0
+<map::EntryRef<'_, '_, K, Q, V, S, A> as rustc_std_workspace_core::fmt::Debug>::fmt;0;0;0;0;0;0;16;0;1;26;4;0;0
+<map::VacantEntryRef<'_, '_, K, Q, V, S, A> as rustc_std_workspace_core::fmt::Debug>::fmt;0;0;0;0;0;0;12;0;1;10;3;0;0
+<map::OccupiedError<'_, K, V, S, A> as rustc_std_workspace_core::fmt::Debug>::fmt;0;0;0;0;0;0;11;0;1;18;3;0;0
+<map::OccupiedError<'_, K, V, S, A> as rustc_std_workspace_core::fmt::Display>::fmt;0;0;0;0;0;0;11;0;1;18;3;0;0
+<&'a map::HashMap<K, V, S, A> as rustc_std_workspace_core::iter::IntoIterator>::into_iter;0;0;0;0;0;0;10;0;1;3;0;0;0
+<&'a mut map::HashMap<K, V, S, A> as rustc_std_workspace_core::iter::IntoIterator>::into_iter;0;0;0;0;0;0;10;0;1;3;1;0;0
+<map::HashMap<K, V, S, A> as rustc_std_workspace_core::iter::IntoIterator>::into_iter;0;0;0;0;0;0;6;0;1;7;0;0;0
+<map::Iter<'a, K, V> as rustc_std_workspace_core::iter::Iterator>::next;0;0;0;0;0;0;3;0;2;8;1;0;0
+<map::Iter<'a, K, V> as rustc_std_workspace_core::iter::Iterator>::size_hint;0;0;0;0;0;0;3;0;2;8;0;0;0
+<map::Iter<'a, K, V> as rustc_std_workspace_core::iter::Iterator>::fold;0;0;0;0;0;0;5;0;2;8;0;0;0
+<map::Iter<'_, K, V> as rustc_std_workspace_core::iter::ExactSizeIterator>::len;0;0;0;0;0;0;3;0;2;8;0;0;0
+<map::IterMut<'a, K, V> as rustc_std_workspace_core::iter::Iterator>::next;0;0;0;0;0;0;3;0;2;8;2;0;0
+<map::IterMut<'a, K, V> as rustc_std_workspace_core::iter::Iterator>::size_hint;0;0;0;0;0;0;3;0;2;8;1;0;0
+<map::IterMut<'a, K, V> as rustc_std_workspace_core::iter::Iterator>::fold;0;0;0;0;0;0;5;0;2;8;1;0;0
+<map::IterMut<'_, K, V> as rustc_std_workspace_core::iter::ExactSizeIterator>::len;0;0;0;0;0;0;3;0;2;8;1;0;0
+<map::IterMut<'_, K, V> as rustc_std_workspace_core::fmt::Debug>::fmt;0;0;0;0;0;0;4;0;2;10;3;0;0
+<map::IntoIter<K, V, A> as rustc_std_workspace_core::iter::Iterator>::next;0;0;0;0;0;0;5;0;2;13;1;0;0
+<map::IntoIter<K, V, A> as rustc_std_workspace_core::iter::Iterator>::size_hint;0;0;0;0;0;0;5;0;2;13;0;0;0
+<map::IntoIter<K, V, A> as rustc_std_workspace_core::iter::Iterator>::fold;0;0;0;0;0;0;7;0;2;13;0;0;0
+<map::IntoIter<K, V, A> as rustc_std_workspace_core::iter::ExactSizeIterator>::len;0;0;0;0;0;0;5;0;2;13;0;0;0
+<map::IntoIter<K, V, A> as rustc_std_workspace_core::fmt::Debug>::fmt;0;0;0;0;0;0;6;0;2;15;2;0;0
+<map::Keys<'a, K, V> as rustc_std_workspace_core::iter::Iterator>::next;0;0;0;0;0;0;3;0;2;10;1;0;0
+<map::Keys<'a, K, V> as rustc_std_workspace_core::iter::Iterator>::size_hint;0;0;0;0;0;0;3;0;2;10;0;0;0
+<map::Keys<'a, K, V> as rustc_std_workspace_core::iter::Iterator>::fold;0;0;0;0;0;0;5;0;2;10;0;0;0
+<map::Keys<'_, K, V> as rustc_std_workspace_core::iter::ExactSizeIterator>::len;0;0;0;0;0;0;3;0;2;10;0;0;0
+<map::Values<'a, K, V> as rustc_std_workspace_core::iter::Iterator>::next;0;0;0;0;0;0;3;0;2;10;1;0;0
+<map::Values<'a, K, V> as rustc_std_workspace_core::iter::Iterator>::size_hint;0;0;0;0;0;0;3;0;2;10;0;0;0
+<map::Values<'a, K, V> as rustc_std_workspace_core::iter::Iterator>::fold;0;0;0;0;0;0;5;0;2;10;0;0;0
+<map::Values<'_, K, V> as rustc_std_workspace_core::iter::ExactSizeIterator>::len;0;0;0;0;0;0;3;0;2;10;0;0;0
+<map::ValuesMut<'a, K, V> as rustc_std_workspace_core::iter::Iterator>::next;0;0;0;0;0;0;3;0;2;10;2;0;0
+<map::ValuesMut<'a, K, V> as rustc_std_workspace_core::iter::Iterator>::size_hint;0;0;0;0;0;0;3;0;2;10;1;0;0
+<map::ValuesMut<'a, K, V> as rustc_std_workspace_core::iter::Iterator>::fold;0;0;0;0;0;0;5;0;2;10;1;0;0
+<map::ValuesMut<'_, K, V> as rustc_std_workspace_core::iter::ExactSizeIterator>::len;0;0;0;0;0;0;3;0;2;10;1;0;0
+<map::ValuesMut<'_, K, V> as rustc_std_workspace_core::fmt::Debug>::fmt;0;0;0;0;0;0;4;0;2;12;3;0;0
+<map::Drain<'_, K, V, A> as rustc_std_workspace_core::iter::Iterator>::next;0;0;0;0;0;0;7;0;2;17;1;0;0
+<map::Drain<'_, K, V, A> as rustc_std_workspace_core::iter::Iterator>::size_hint;0;0;0;0;0;0;7;0;2;17;0;0;0
+<map::Drain<'_, K, V, A> as rustc_std_workspace_core::iter::Iterator>::fold;0;0;0;0;0;0;9;0;2;17;0;0;0
+<map::Drain<'_, K, V, A> as rustc_std_workspace_core::iter::ExactSizeIterator>::len;0;0;0;0;0;0;7;0;2;17;0;0;0
+<map::Drain<'_, K, V, A> as rustc_std_workspace_core::fmt::Debug>::fmt;0;0;0;0;0;0;8;0;2;19;2;0;0
+map::Entry::<'a, K, V, S, A>::insert;0;0;0;0;0;0;11;0;1;22;1;0;0
+map::Entry::<'a, K, V, S, A>::or_insert;0;0;0;0;0;0;11;0;1;22;1;0;0
+map::Entry::<'a, K, V, S, A>::or_insert_with;0;0;0;0;0;0;11;0;1;22;1;0;0
+map::Entry::<'a, K, V, S, A>::or_insert_with_key;0;0;0;0;0;0;11;0;1;22;1;0;0
+map::Entry::<'a, K, V, S, A>::key;0;0;0;0;0;0;10;0;1;22;1;0;0
+map::Entry::<'a, K, V, S, A>::and_modify;0;0;0;0;0;0;11;0;1;22;1;0;0
+map::Entry::<'a, K, V, S, A>::and_replace_entry_with;0;0;0;0;0;0;11;0;1;22;1;0;0
+map::Entry::<'a, K, V, S, A>::or_default;0;0;0;0;0;0;10;0;1;22;1;0;0
+map::OccupiedEntry::<'a, K, V, S, A>::key;0;0;0;0;0;0;10;0;1;11;1;0;0
+map::OccupiedEntry::<'a, K, V, S, A>::remove_entry;0;0;0;0;0;0;10;0;1;11;1;0;0
+map::OccupiedEntry::<'a, K, V, S, A>::get;0;0;0;0;0;0;10;0;1;11;1;0;0
+map::OccupiedEntry::<'a, K, V, S, A>::get_mut;0;0;0;0;0;0;10;0;1;11;2;0;0
+map::OccupiedEntry::<'a, K, V, S, A>::into_mut;0;0;0;0;0;0;10;0;1;11;1;0;0
+map::OccupiedEntry::<'a, K, V, S, A>::insert;0;0;0;0;0;0;11;0;1;11;2;0;0
+map::OccupiedEntry::<'a, K, V, S, A>::remove;0;0;0;0;0;0;10;0;1;11;1;0;0
+map::OccupiedEntry::<'a, K, V, S, A>::replace_entry_with;0;0;0;0;0;0;11;0;1;11;1;0;0
+map::VacantEntry::<'a, K, V, S, A>::key;0;0;0;0;0;0;10;0;1;8;1;0;0
+map::VacantEntry::<'a, K, V, S, A>::into_key;0;0;0;0;0;0;10;0;1;8;1;0;0
+map::VacantEntry::<'a, K, V, S, A>::insert;0;0;0;0;0;0;11;0;1;8;1;0;0
+map::VacantEntry::<'a, K, V, S, A>::insert_entry;0;0;0;0;0;0;11;0;1;8;1;0;0
+map::EntryRef::<'a, 'b, K, Q, V, S, A>::insert;0;0;0;0;0;0;16;0;1;24;2;0;0
+map::EntryRef::<'a, 'b, K, Q, V, S, A>::or_insert;0;0;0;0;0;0;16;0;1;24;2;0;0
+map::EntryRef::<'a, 'b, K, Q, V, S, A>::or_insert_with;0;0;0;0;0;0;16;0;1;24;2;0;0
+map::EntryRef::<'a, 'b, K, Q, V, S, A>::or_insert_with_key;0;0;0;0;0;0;16;0;1;24;2;0;0
+map::EntryRef::<'a, 'b, K, Q, V, S, A>::key;0;0;0;0;0;0;15;0;1;24;2;0;0
+map::EntryRef::<'a, 'b, K, Q, V, S, A>::and_modify;0;0;0;0;0;0;16;0;1;24;2;0;0
+map::EntryRef::<'a, 'b, K, Q, V, S, A>::or_default;0;0;0;0;0;0;15;0;1;24;2;0;0
+map::VacantEntryRef::<'a, 'b, K, Q, V, S, A>::key;0;0;0;0;0;0;11;0;1;8;1;0;0
+map::VacantEntryRef::<'a, 'b, K, Q, V, S, A>::insert;0;0;0;0;0;0;12;0;1;8;1;0;0
+map::VacantEntryRef::<'a, 'b, K, Q, V, S, A>::insert_entry;0;0;0;0;0;0;12;0;1;8;1;0;0
+<map::HashMap<K, V, S, A> as rustc_std_workspace_core::iter::Extend<(K, V)>>::extend;0;0;0;0;0;0;7;0;1;7;1;0;0
+<map::HashMap<K, V, S, A> as rustc_std_workspace_core::iter::Extend<(K, V)>>::extend_one;0;0;0;0;0;0;8;0;1;7;1;0;0
+<map::HashMap<K, V, S, A> as rustc_std_workspace_core::iter::Extend<(K, V)>>::extend_reserve;0;0;0;0;0;0;6;0;1;7;1;0;0
+<map::HashMap<K, V, S, A> as rustc_std_workspace_core::iter::Extend<(&'a K, &'a V)>>::extend;0;0;0;0;0;0;11;0;1;3;1;0;0
+<map::HashMap<K, V, S, A> as rustc_std_workspace_core::iter::Extend<(&'a K, &'a V)>>::extend_one;0;0;0;0;0;0;12;0;1;3;1;0;0
+<map::HashMap<K, V, S, A> as rustc_std_workspace_core::iter::Extend<(&'a K, &'a V)>>::extend_reserve;0;0;0;0;0;0;10;0;1;3;1;0;0
+<map::HashMap<K, V, S, A> as rustc_std_workspace_core::iter::Extend<&'a (K, V)>>::extend;0;0;0;0;0;0;11;0;1;3;1;0;0
+<map::HashMap<K, V, S, A> as rustc_std_workspace_core::iter::Extend<&'a (K, V)>>::extend_one;0;0;0;0;0;0;12;0;1;3;1;0;0
+<map::HashMap<K, V, S, A> as rustc_std_workspace_core::iter::Extend<&'a (K, V)>>::extend_reserve;0;0;0;0;0;0;10;0;1;3;1;0;0
+map::assert_covariance::map_key;0;0;0;0;0;0;6;0;1;4;0;0;0
+map::assert_covariance::map_val;0;0;0;0;0;0;6;0;1;4;0;0;0
+map::assert_covariance::iter_key;0;0;0;0;0;0;3;0;2;7;0;0;0
+map::assert_covariance::iter_val;0;0;0;0;0;0;3;0;2;7;0;0;0
+map::assert_covariance::into_iter_key;0;0;0;0;0;0;5;0;2;12;0;0;0
+map::assert_covariance::into_iter_val;0;0;0;0;0;0;5;0;2;12;0;0;0
+map::assert_covariance::keys_key;0;0;0;0;0;0;3;0;2;9;0;0;0
+map::assert_covariance::keys_val;0;0;0;0;0;0;3;0;2;9;0;0;0
+map::assert_covariance::values_key;0;0;0;0;0;0;3;0;2;9;0;0;0
+map::assert_covariance::values_val;0;0;0;0;0;0;3;0;2;9;0;0;0
+map::assert_covariance::drain;0;0;0;0;0;0;7;0;2;15;0;0;0
+raw_entry::<impl map::HashMap<K, V, S, A>>::raw_entry_mut;0;0;0;0;0;0;6;0;1;7;1;0;0
+raw_entry::<impl map::HashMap<K, V, S, A>>::raw_entry;0;0;0;0;0;0;6;0;1;7;0;0;0
+raw_entry::RawEntryBuilderMut::<'a, K, V, S, A>::from_key;0;0;0;0;0;0;11;0;1;7;1;0;0
+raw_entry::RawEntryBuilderMut::<'a, K, V, S, A>::from_key_hashed_nocheck;0;0;0;0;0;0;11;0;1;7;1;0;0
+raw_entry::RawEntryBuilderMut::<'a, K, V, S, A>::from_hash;0;0;0;0;0;0;11;0;1;7;1;0;0
+raw_entry::RawEntryBuilderMut::<'a, K, V, S, A>::search;0;0;0;0;0;0;11;0;1;7;1;0;0
+raw_entry::RawEntryBuilder::<'a, K, V, S, A>::from_key;0;0;0;0;0;0;11;0;1;7;0;0;0
+raw_entry::RawEntryBuilder::<'a, K, V, S, A>::from_key_hashed_nocheck;0;0;0;0;0;0;11;0;1;7;0;0;0
+raw_entry::RawEntryBuilder::<'a, K, V, S, A>::search;0;0;0;0;0;0;11;0;1;7;0;0;0
+raw_entry::RawEntryBuilder::<'a, K, V, S, A>::from_hash;0;0;0;0;0;0;11;0;1;7;0;0;0
+raw_entry::RawEntryMut::<'a, K, V, S, A>::insert;0;0;0;0;0;0;8;0;1;20;1;0;0
+raw_entry::RawEntryMut::<'a, K, V, S, A>::or_insert;0;0;0;0;0;0;8;0;1;20;1;0;0
+raw_entry::RawEntryMut::<'a, K, V, S, A>::or_insert_with;0;0;0;0;0;0;7;0;1;20;1;0;0
+raw_entry::RawEntryMut::<'a, K, V, S, A>::and_modify;0;0;0;0;0;0;7;0;1;20;1;0;0
+raw_entry::RawEntryMut::<'a, K, V, S, A>::and_replace_entry_with;0;0;0;0;0;0;7;0;1;20;1;0;0
+raw_entry::RawOccupiedEntryMut::<'a, K, V, S, A>::key;0;0;0;0;0;0;6;0;1;10;1;0;0
+raw_entry::RawOccupiedEntryMut::<'a, K, V, S, A>::key_mut;0;0;0;0;0;0;6;0;1;10;2;0;0
+raw_entry::RawOccupiedEntryMut::<'a, K, V, S, A>::into_key;0;0;0;0;0;0;6;0;1;10;1;0;0
+raw_entry::RawOccupiedEntryMut::<'a, K, V, S, A>::get;0;0;0;0;0;0;6;0;1;10;1;0;0
+raw_entry::RawOccupiedEntryMut::<'a, K, V, S, A>::into_mut;0;0;0;0;0;0;6;0;1;10;1;0;0
+raw_entry::RawOccupiedEntryMut::<'a, K, V, S, A>::get_mut;0;0;0;0;0;0;6;0;1;10;2;0;0
+raw_entry::RawOccupiedEntryMut::<'a, K, V, S, A>::get_key_value;0;0;0;0;0;0;6;0;1;10;1;0;0
+raw_entry::RawOccupiedEntryMut::<'a, K, V, S, A>::get_key_value_mut;0;0;0;0;0;0;6;0;1;10;2;0;0
+raw_entry::RawOccupiedEntryMut::<'a, K, V, S, A>::into_key_value;0;0;0;0;0;0;6;0;1;10;1;0;0
+raw_entry::RawOccupiedEntryMut::<'a, K, V, S, A>::insert;0;0;0;0;0;0;7;0;1;10;2;0;0
+raw_entry::RawOccupiedEntryMut::<'a, K, V, S, A>::insert_key;0;0;0;0;0;0;7;0;1;10;2;0;0
+raw_entry::RawOccupiedEntryMut::<'a, K, V, S, A>::remove;0;0;0;0;0;0;6;0;1;10;1;0;0
+raw_entry::RawOccupiedEntryMut::<'a, K, V, S, A>::remove_entry;0;0;0;0;0;0;6;0;1;10;1;0;0
+raw_entry::RawOccupiedEntryMut::<'a, K, V, S, A>::replace_entry_with;0;0;0;0;0;0;7;0;1;10;1;0;0
+raw_entry::RawVacantEntryMut::<'a, K, V, S, A>::insert;0;0;0;0;0;0;8;0;1;7;1;0;0
+raw_entry::RawVacantEntryMut::<'a, K, V, S, A>::insert_hashed_nocheck;0;0;0;0;0;0;8;0;1;7;1;0;0
+raw_entry::RawVacantEntryMut::<'a, K, V, S, A>::insert_with_hasher;0;0;0;0;0;0;9;0;1;7;1;0;0
+raw_entry::RawVacantEntryMut::<'a, K, V, S, A>::insert_entry;0;0;0;0;0;0;8;0;1;7;1;0;0
+<raw_entry::RawEntryBuilderMut<'_, K, V, S, A> as rustc_std_workspace_core::fmt::Debug>::fmt;0;0;0;0;0;0;11;0;1;9;3;0;0
+<raw_entry::RawEntryMut<'_, K, V, S, A> as rustc_std_workspace_core::fmt::Debug>::fmt;0;0;0;0;0;0;7;0;1;22;3;0;0
+<raw_entry::RawOccupiedEntryMut<'_, K, V, S, A> as rustc_std_workspace_core::fmt::Debug>::fmt;0;0;0;0;0;0;7;0;1;12;3;0;0
+<raw_entry::RawVacantEntryMut<'_, K, V, S, A> as rustc_std_workspace_core::fmt::Debug>::fmt;0;0;0;0;0;0;7;0;1;9;3;0;0
+<raw_entry::RawEntryBuilder<'_, K, V, S, A> as rustc_std_workspace_core::fmt::Debug>::fmt;0;0;0;0;0;0;11;0;1;9;2;0;0
+rustc_entry::<impl map::HashMap<K, V, S, A>>::rustc_entry;0;0;0;0;0;0;7;0;1;7;1;0;0
+<rustc_entry::RustcEntry<'_, K, V, A> as rustc_std_workspace_core::fmt::Debug>::fmt;0;0;0;0;0;0;6;0;1;19;3;0;0
+<rustc_entry::RustcOccupiedEntry<'_, K, V, A> as rustc_std_workspace_core::fmt::Debug>::fmt;0;0;0;0;0;0;6;0;1;11;3;0;0
+<rustc_entry::RustcVacantEntry<'_, K, V, A> as rustc_std_workspace_core::fmt::Debug>::fmt;0;0;0;0;0;0;6;0;1;9;3;0;0
+rustc_entry::RustcEntry::<'a, K, V, A>::insert;0;0;0;0;0;0;6;0;1;17;1;0;0
+rustc_entry::RustcEntry::<'a, K, V, A>::or_insert;0;0;0;0;0;0;6;0;1;17;1;0;0
+rustc_entry::RustcEntry::<'a, K, V, A>::or_insert_with;0;0;0;0;0;0;6;0;1;17;1;0;0
+rustc_entry::RustcEntry::<'a, K, V, A>::key;0;0;0;0;0;0;5;0;1;17;1;0;0
+rustc_entry::RustcEntry::<'a, K, V, A>::and_modify;0;0;0;0;0;0;6;0;1;17;1;0;0
+rustc_entry::RustcEntry::<'a, K, V, A>::or_default;0;0;0;0;0;0;5;0;1;17;1;0;0
+rustc_entry::RustcOccupiedEntry::<'a, K, V, A>::key;0;0;0;0;0;0;5;0;1;9;1;0;0
+rustc_entry::RustcOccupiedEntry::<'a, K, V, A>::remove_entry;0;0;0;0;0;0;5;0;1;9;1;0;0
+rustc_entry::RustcOccupiedEntry::<'a, K, V, A>::get;0;0;0;0;0;0;5;0;1;9;1;0;0
+rustc_entry::RustcOccupiedEntry::<'a, K, V, A>::get_mut;0;0;0;0;0;0;5;0;1;9;2;0;0
+rustc_entry::RustcOccupiedEntry::<'a, K, V, A>::into_mut;0;0;0;0;0;0;5;0;1;9;1;0;0
+rustc_entry::RustcOccupiedEntry::<'a, K, V, A>::insert;0;0;0;0;0;0;6;0;1;9;2;0;0
+rustc_entry::RustcOccupiedEntry::<'a, K, V, A>::remove;0;0;0;0;0;0;5;0;1;9;1;0;0
+rustc_entry::RustcVacantEntry::<'a, K, V, A>::key;0;0;0;0;0;0;5;0;1;7;1;0;0
+rustc_entry::RustcVacantEntry::<'a, K, V, A>::into_key;0;0;0;0;0;0;5;0;1;7;1;0;0
+rustc_entry::RustcVacantEntry::<'a, K, V, A>::insert;0;0;0;0;0;0;6;0;1;7;1;0;0
+rustc_entry::RustcVacantEntry::<'a, K, V, A>::insert_entry;0;0;0;0;0;0;6;0;1;7;1;0;0
+rustc_entry::<impl map::IterMut<'_, K, V>>::rustc_iter;0;0;0;0;0;0;3;0;2;8;1;0;0
+rustc_entry::<impl map::IntoIter<K, V>>::rustc_iter;0;0;0;0;0;0;5;0;2;12;0;0;0
+rustc_entry::<impl map::Drain<'_, K, V>>::rustc_iter;0;0;0;0;0;0;7;0;2;16;0;0;0
+scopeguard::ScopeGuard::<T, F>::into_inner;0;0;0;0;0;0;2;0;0;2;0;0;0
+<scopeguard::ScopeGuard<T, F> as rustc_std_workspace_core::ops::Deref>::deref;0;0;0;0;0;0;2;0;0;2;0;0;0
+<scopeguard::ScopeGuard<T, F> as rustc_std_workspace_core::ops::DerefMut>::deref_mut;0;0;0;0;0;0;2;0;0;2;1;0;0
+<scopeguard::ScopeGuard<T, F> as rustc_std_workspace_core::ops::Drop>::drop;0;0;0;0;0;0;2;0;0;2;1;0;0
+<set::HashSet<T, S, A> as rustc_std_workspace_core::clone::Clone>::clone;0;0;0;0;0;0;8;0;1;7;0;0;0
+<set::HashSet<T, S, A> as rustc_std_workspace_core::clone::Clone>::clone_from;0;0;0;0;0;0;16;0;2;14;1;0;0
+set::HashSet::<T, S, A>::capacity;0;0;0;0;0;0;8;0;1;7;0;0;0
+set::HashSet::<T, S, A>::iter;0;0;0;0;0;0;8;0;1;7;0;0;0
+set::HashSet::<T, S, A>::len;0;0;0;0;0;0;8;0;1;7;0;0;0
+set::HashSet::<T, S, A>::is_empty;0;0;0;0;0;0;8;0;1;7;0;0;0
+set::HashSet::<T, S, A>::drain;0;0;0;0;0;0;8;0;1;7;1;0;0
+set::HashSet::<T, S, A>::retain;0;0;0;0;0;0;9;0;1;7;1;0;0
+set::HashSet::<T, S, A>::extract_if;0;0;0;0;0;0;9;0;1;7;1;0;0
+set::HashSet::<T, S, A>::clear;0;0;0;0;0;0;8;0;1;7;1;0;0
+set::HashSet::<T, S, A>::allocator;0;0;0;0;0;0;8;0;1;7;0;0;0
+set::HashSet::<T, S, A>::hasher;0;0;0;0;0;0;8;0;1;7;0;0;0
+set::HashSet::<T, S, A>::reserve;0;0;0;0;0;0;8;0;1;7;1;0;0
+set::HashSet::<T, S, A>::try_reserve;0;0;0;0;0;0;8;0;1;7;1;0;0
+set::HashSet::<T, S, A>::shrink_to_fit;0;0;0;0;0;0;8;0;1;7;1;0;0
+set::HashSet::<T, S, A>::shrink_to;0;0;0;0;0;0;8;0;1;7;1;0;0
+set::HashSet::<T, S, A>::difference;0;0;0;0;0;0;16;0;2;14;0;0;0
+set::HashSet::<T, S, A>::symmetric_difference;0;0;0;0;0;0;16;0;2;14;0;0;0
+set::HashSet::<T, S, A>::intersection;0;0;0;0;0;0;16;0;2;14;0;0;0
+set::HashSet::<T, S, A>::union;0;0;0;0;0;0;16;0;2;14;0;0;0
+set::HashSet::<T, S, A>::contains;0;0;0;0;0;0;9;0;1;7;0;0;0
+set::HashSet::<T, S, A>::get;0;0;0;0;0;0;9;0;1;7;0;0;0
+set::HashSet::<T, S, A>::get_or_insert;0;0;0;0;0;0;9;0;1;7;1;0;0
+set::HashSet::<T, S, A>::get_or_insert_with;0;0;0;0;0;0;10;0;1;7;1;0;0
+set::HashSet::<T, S, A>::entry;0;0;0;0;0;0;9;0;1;7;1;0;0
+set::HashSet::<T, S, A>::is_disjoint;0;0;0;0;0;0;16;0;2;14;0;0;0
+set::HashSet::<T, S, A>::is_subset;0;0;0;0;0;0;16;0;2;14;0;0;0
+set::HashSet::<T, S, A>::is_superset;0;0;0;0;0;0;16;0;2;14;0;0;0
+set::HashSet::<T, S, A>::insert;0;0;0;0;0;0;9;0;1;7;1;0;0
+set::HashSet::<T, S, A>::insert_unique_unchecked;0;0;0;0;0;0;9;0;1;7;1;0;0
+set::HashSet::<T, S, A>::replace;0;0;0;0;0;0;9;0;1;7;1;0;0
+set::HashSet::<T, S, A>::remove;0;0;0;0;0;0;9;0;1;7;1;0;0
+set::HashSet::<T, S, A>::take;0;0;0;0;0;0;9;0;1;7;1;0;0
+set::HashSet::<T, S, A>::allocation_size;0;0;0;0;0;0;8;0;1;7;0;0;0
+<set::HashSet<T, S, A> as rustc_std_workspace_core::cmp::PartialEq>::eq;0;0;0;0;0;0;16;0;2;14;0;0;0
+<set::HashSet<T, S, A> as rustc_std_workspace_core::fmt::Debug>::fmt;0;0;0;0;0;0;9;0;1;9;2;0;0
+<set::HashSet<T, S, A> as rustc_std_workspace_core::convert::From<map::HashMap<T, (), S, A>>>::from;0;0;0;0;0;0;8;0;1;4;0;0;0
+<set::HashSet<T, S, A> as rustc_std_workspace_core::iter::Extend<T>>::extend;0;0;0;0;0;0;9;0;1;7;1;0;0
+<set::HashSet<T, S, A> as rustc_std_workspace_core::iter::Extend<T>>::extend_one;0;0;0;0;0;0;9;0;1;7;1;0;0
+<set::HashSet<T, S, A> as rustc_std_workspace_core::iter::Extend<T>>::extend_reserve;0;0;0;0;0;0;8;0;1;7;1;0;0
+<set::HashSet<T, S, A> as rustc_std_workspace_core::iter::Extend<&'a T>>::extend;0;0;0;0;0;0;10;0;1;6;1;0;0
+<set::HashSet<T, S, A> as rustc_std_workspace_core::iter::Extend<&'a T>>::extend_one;0;0;0;0;0;0;10;0;1;6;1;0;0
+<set::HashSet<T, S, A> as rustc_std_workspace_core::iter::Extend<&'a T>>::extend_reserve;0;0;0;0;0;0;9;0;1;6;1;0;0
+<&set::HashSet<T, S, A> as rustc_std_workspace_core::ops::BitOr<&set::HashSet<T, S, A>>>::bitor;0;0;0;0;0;0;22;0;2;8;0;0;0
+<&set::HashSet<T, S, A> as rustc_std_workspace_core::ops::BitAnd<&set::HashSet<T, S, A>>>::bitand;0;0;0;0;0;0;22;0;2;8;0;0;0
+<&set::HashSet<T, S, A> as rustc_std_workspace_core::ops::BitXor<&set::HashSet<T, S, A>>>::bitxor;0;0;0;0;0;0;22;0;2;8;0;0;0
+<&set::HashSet<T, S, A> as rustc_std_workspace_core::ops::Sub<&set::HashSet<T, S, A>>>::sub;0;0;0;0;0;0;22;0;2;8;0;0;0
+<set::HashSet<T, S, A> as rustc_std_workspace_core::ops::BitOrAssign<&set::HashSet<T, S, A>>>::bitor_assign;0;0;0;0;0;0;18;0;2;12;1;0;0
+<set::HashSet<T, S, A> as rustc_std_workspace_core::ops::BitAndAssign<&set::HashSet<T, S, A>>>::bitand_assign;0;0;0;0;0;0;18;0;2;12;1;0;0
+<set::HashSet<T, S, A> as rustc_std_workspace_core::ops::BitXorAssign<&set::HashSet<T, S, A>>>::bitxor_assign;0;0;0;0;0;0;18;0;2;12;1;0;0
+<set::HashSet<T, S, A> as rustc_std_workspace_core::ops::SubAssign<&set::HashSet<T, S, A>>>::sub_assign;0;0;0;0;0;0;18;0;2;12;1;0;0
+<&'a set::HashSet<T, S, A> as rustc_std_workspace_core::iter::IntoIterator>::into_iter;0;0;0;0;0;0;9;0;1;6;0;0;0
+<set::HashSet<T, S, A> as rustc_std_workspace_core::iter::IntoIterator>::into_iter;0;0;0;0;0;0;8;0;1;7;0;0;0
+<set::Iter<'_, K> as rustc_std_workspace_core::clone::Clone>::clone;0;0;0;0;0;0;3;0;2;10;0;0;0
+<set::Iter<'a, K> as rustc_std_workspace_core::iter::Iterator>::next;0;0;0;0;0;0;3;0;2;10;1;0;0
+<set::Iter<'a, K> as rustc_std_workspace_core::iter::Iterator>::size_hint;0;0;0;0;0;0;3;0;2;10;0;0;0
+<set::Iter<'a, K> as rustc_std_workspace_core::iter::Iterator>::fold;0;0;0;0;0;0;5;0;2;10;0;0;0
+<set::Iter<'_, K> as rustc_std_workspace_core::iter::ExactSizeIterator>::len;0;0;0;0;0;0;3;0;2;10;0;0;0
+<set::Iter<'_, K> as rustc_std_workspace_core::fmt::Debug>::fmt;0;0;0;0;0;0;4;0;2;12;2;0;0
+<set::IntoIter<K, A> as rustc_std_workspace_core::iter::Iterator>::next;0;0;0;0;0;0;5;0;2;14;1;0;0
+<set::IntoIter<K, A> as rustc_std_workspace_core::iter::Iterator>::size_hint;0;0;0;0;0;0;5;0;2;14;0;0;0
+<set::IntoIter<K, A> as rustc_std_workspace_core::iter::Iterator>::fold;0;0;0;0;0;0;7;0;2;14;0;0;0
+<set::IntoIter<K, A> as rustc_std_workspace_core::iter::ExactSizeIterator>::len;0;0;0;0;0;0;5;0;2;14;0;0;0
+<set::IntoIter<K, A> as rustc_std_workspace_core::fmt::Debug>::fmt;0;0;0;0;0;0;6;0;2;16;2;0;0
+<set::Drain<'_, K, A> as rustc_std_workspace_core::iter::Iterator>::next;0;0;0;0;0;0;7;0;2;18;1;0;0
+<set::Drain<'_, K, A> as rustc_std_workspace_core::iter::Iterator>::size_hint;0;0;0;0;0;0;7;0;2;18;0;0;0
+<set::Drain<'_, K, A> as rustc_std_workspace_core::iter::Iterator>::fold;0;0;0;0;0;0;9;0;2;18;0;0;0
+<set::Drain<'_, K, A> as rustc_std_workspace_core::iter::ExactSizeIterator>::len;0;0;0;0;0;0;7;0;2;18;0;0;0
+<set::Drain<'_, K, A> as rustc_std_workspace_core::fmt::Debug>::fmt;0;0;0;0;0;0;8;0;2;20;2;0;0
+<set::ExtractIf<'_, K, F, A> as rustc_std_workspace_core::iter::Iterator>::next;0;0;0;0;0;0;7;0;2;14;2;0;0
+<set::ExtractIf<'_, K, F, A> as rustc_std_workspace_core::iter::Iterator>::size_hint;0;0;0;0;0;0;7;0;2;14;1;0;0
+<set::Intersection<'_, T, S, A> as rustc_std_workspace_core::clone::Clone>::clone;0;0;0;0;0;0;11;0;2;23;0;0;0
+<set::Intersection<'a, T, S, A> as rustc_std_workspace_core::iter::Iterator>::next;0;0;0;0;0;0;11;0;2;23;1;0;0
+<set::Intersection<'a, T, S, A> as rustc_std_workspace_core::iter::Iterator>::size_hint;0;0;0;0;0;0;11;0;2;23;0;0;0
+<set::Intersection<'a, T, S, A> as rustc_std_workspace_core::iter::Iterator>::fold;0;0;0;0;0;0;13;0;2;23;0;0;0
+<set::Intersection<'_, T, S, A> as rustc_std_workspace_core::fmt::Debug>::fmt;0;0;0;0;0;0;12;0;2;25;2;0;0
+<set::Difference<'_, T, S, A> as rustc_std_workspace_core::clone::Clone>::clone;0;0;0;0;0;0;11;0;2;23;0;0;0
+<set::Difference<'a, T, S, A> as rustc_std_workspace_core::iter::Iterator>::next;0;0;0;0;0;0;11;0;2;23;1;0;0
+<set::Difference<'a, T, S, A> as rustc_std_workspace_core::iter::Iterator>::size_hint;0;0;0;0;0;0;11;0;2;23;0;0;0
+<set::Difference<'a, T, S, A> as rustc_std_workspace_core::iter::Iterator>::fold;0;0;0;0;0;0;13;0;2;23;0;0;0
+<set::Difference<'_, T, S, A> as rustc_std_workspace_core::fmt::Debug>::fmt;0;0;0;0;0;0;12;0;2;25;2;0;0
+<set::SymmetricDifference<'_, T, S, A> as rustc_std_workspace_core::clone::Clone>::clone;0;0;0;0;0;0;13;0;2;29;0;0;0
+<set::SymmetricDifference<'a, T, S, A> as rustc_std_workspace_core::iter::Iterator>::next;0;0;0;0;0;0;13;0;2;29;1;0;0
+<set::SymmetricDifference<'a, T, S, A> as rustc_std_workspace_core::iter::Iterator>::size_hint;0;0;0;0;0;0;13;0;2;29;0;0;0
+<set::SymmetricDifference<'a, T, S, A> as rustc_std_workspace_core::iter::Iterator>::fold;0;0;0;0;0;0;15;0;2;29;0;0;0
+<set::SymmetricDifference<'_, T, S, A> as rustc_std_workspace_core::fmt::Debug>::fmt;0;0;0;0;0;0;14;0;2;31;2;0;0
+<set::Union<'_, T, S, A> as rustc_std_workspace_core::clone::Clone>::clone;0;0;0;0;0;0;13;0;2;29;0;0;0
+<set::Union<'_, T, S, A> as rustc_std_workspace_core::fmt::Debug>::fmt;0;0;0;0;0;0;14;0;2;31;2;0;0
+<set::Union<'a, T, S, A> as rustc_std_workspace_core::iter::Iterator>::next;0;0;0;0;0;0;13;0;2;29;1;0;0
+<set::Union<'a, T, S, A> as rustc_std_workspace_core::iter::Iterator>::size_hint;0;0;0;0;0;0;13;0;2;29;0;0;0
+<set::Union<'a, T, S, A> as rustc_std_workspace_core::iter::Iterator>::fold;0;0;0;0;0;0;15;0;2;29;0;0;0
+<set::Entry<'_, T, S, A> as rustc_std_workspace_core::fmt::Debug>::fmt;0;0;0;0;0;0;12;0;1;27;3;0;0
+<set::OccupiedEntry<'_, T, S, A> as rustc_std_workspace_core::fmt::Debug>::fmt;0;0;0;0;0;0;12;0;1;14;3;0;0
+<set::VacantEntry<'_, T, S, A> as rustc_std_workspace_core::fmt::Debug>::fmt;0;0;0;0;0;0;12;0;1;11;3;0;0
+set::Entry::<'a, T, S, A>::insert;0;0;0;0;0;0;11;0;1;25;1;0;0
+set::Entry::<'a, T, S, A>::or_insert;0;0;0;0;0;0;11;0;1;25;1;0;0
+set::Entry::<'a, T, S, A>::get;0;0;0;0;0;0;11;0;1;25;1;0;0
+set::OccupiedEntry::<'_, T, S, A>::get;0;0;0;0;0;0;11;0;1;12;1;0;0
+set::OccupiedEntry::<'_, T, S, A>::remove;0;0;0;0;0;0;11;0;1;12;1;0;0
+set::VacantEntry::<'a, T, S, A>::get;0;0;0;0;0;0;11;0;1;9;1;0;0
+set::VacantEntry::<'a, T, S, A>::into_value;0;0;0;0;0;0;11;0;1;9;1;0;0
+set::VacantEntry::<'a, T, S, A>::insert;0;0;0;0;0;0;11;0;1;9;1;0;0
+set::assert_covariance::set;0;0;0;0;0;0;8;0;1;4;0;0;0
+set::assert_covariance::iter;0;0;0;0;0;0;3;0;2;9;0;0;0
+set::assert_covariance::into_iter;0;0;0;0;0;0;5;0;2;13;0;0;0
+set::assert_covariance::difference;0;0;0;0;0;0;11;0;2;21;0;0;0
+set::assert_covariance::symmetric_difference;0;0;0;0;0;0;13;0;2;27;0;0;0
+set::assert_covariance::intersection;0;0;0;0;0;0;11;0;2;21;0;0;0
+set::assert_covariance::union;0;0;0;0;0;0;13;0;2;27;0;0;0
+set::assert_covariance::drain;0;0;0;0;0;0;7;0;2;17;0;0;0
+table::HashTable::<T, A>::allocator;0;0;0;0;0;0;2;0;1;7;0;0;0
+table::HashTable::<T, A>::find;0;0;0;0;0;0;3;0;1;7;0;0;0
+table::HashTable::<T, A>::find_mut;0;0;0;0;0;0;3;0;1;7;1;0;0
+table::HashTable::<T, A>::find_entry;0;0;0;0;0;0;3;0;1;7;1;0;0
+table::HashTable::<T, A>::entry;0;0;0;0;0;0;4;0;1;7;1;0;0
+table::HashTable::<T, A>::insert_unique;0;0;0;0;0;0;4;0;1;7;1;0;0
+table::HashTable::<T, A>::clear;0;0;0;0;0;0;2;0;1;7;1;0;0
+table::HashTable::<T, A>::shrink_to_fit;0;0;0;0;0;0;3;0;1;7;1;0;0
+table::HashTable::<T, A>::shrink_to;0;0;0;0;0;0;3;0;1;7;1;0;0
+table::HashTable::<T, A>::reserve;0;0;0;0;0;0;3;0;1;7;1;0;0
+table::HashTable::<T, A>::try_reserve;0;0;0;0;0;0;3;0;1;7;1;0;0
+table::HashTable::<T, A>::capacity;0;0;0;0;0;0;2;0;1;7;0;0;0
+table::HashTable::<T, A>::len;0;0;0;0;0;0;2;0;1;7;0;0;0
+table::HashTable::<T, A>::is_empty;0;0;0;0;0;0;2;0;1;7;0;0;0
+table::HashTable::<T, A>::iter;0;0;0;0;0;0;2;0;1;7;0;0;0
+table::HashTable::<T, A>::iter_mut;0;0;0;0;0;0;2;0;1;7;1;0;0
+table::HashTable::<T, A>::iter_hash;0;0;0;0;0;0;2;0;1;7;0;0;0
+table::HashTable::<T, A>::iter_hash_mut;0;0;0;0;0;0;2;0;1;7;1;0;0
+table::HashTable::<T, A>::retain;0;0;0;0;0;0;3;0;1;7;1;0;0
+table::HashTable::<T, A>::drain;0;0;0;0;0;0;2;0;1;7;1;0;0
+table::HashTable::<T, A>::extract_if;0;0;0;0;0;0;3;0;1;7;1;0;0
+table::HashTable::<T, A>::get_many_mut;0;0;0;0;0;0;3;0;1;7;1;0;0
+table::HashTable::<T, A>::get_many_unchecked_mut;0;0;0;0;0;0;3;0;1;7;1;0;0
+table::HashTable::<T, A>::allocation_size;0;0;0;0;0;0;2;0;1;7;0;0;0
+<table::HashTable<T, A> as rustc_std_workspace_core::iter::IntoIterator>::into_iter;0;0;0;0;0;0;2;0;1;7;0;0;0
+<&'a table::HashTable<T, A> as rustc_std_workspace_core::iter::IntoIterator>::into_iter;0;0;0;0;0;0;4;0;1;5;0;0;0
+<&'a mut table::HashTable<T, A> as rustc_std_workspace_core::iter::IntoIterator>::into_iter;0;0;0;0;0;0;4;0;1;5;1;0;0
+<table::HashTable<T, A> as rustc_std_workspace_core::clone::Clone>::clone;0;0;0;0;0;0;2;0;1;7;0;0;0
+<table::HashTable<T, A> as rustc_std_workspace_core::fmt::Debug>::fmt;0;0;0;0;0;0;3;0;1;9;2;0;0
+<table::Entry<'_, T, A> as rustc_std_workspace_core::fmt::Debug>::fmt;0;0;0;0;0;0;5;0;1;19;3;0;0
+table::Entry::<'a, T, A>::insert;0;0;0;0;0;0;5;0;1;17;1;0;0
+table::Entry::<'a, T, A>::or_insert;0;0;0;0;0;0;5;0;1;17;1;0;0
+table::Entry::<'a, T, A>::or_insert_with;0;0;0;0;0;0;5;0;1;17;1;0;0
+table::Entry::<'a, T, A>::and_modify;0;0;0;0;0;0;5;0;1;17;1;0;0
+<table::OccupiedEntry<'_, T, A> as rustc_std_workspace_core::fmt::Debug>::fmt;0;0;0;0;0;0;5;0;1;12;3;0;0
+table::OccupiedEntry::<'a, T, A>::remove;0;0;0;0;0;0;4;0;1;10;1;0;0
+table::OccupiedEntry::<'a, T, A>::get;0;0;0;0;0;0;4;0;1;10;1;0;0
+table::OccupiedEntry::<'a, T, A>::get_mut;0;0;0;0;0;0;4;0;1;10;2;0;0
+table::OccupiedEntry::<'a, T, A>::into_mut;0;0;0;0;0;0;4;0;1;10;1;0;0
+table::OccupiedEntry::<'a, T, A>::into_table;0;0;0;0;0;0;4;0;1;10;1;0;0
+<table::VacantEntry<'_, T, A> as rustc_std_workspace_core::fmt::Debug>::fmt;0;0;0;0;0;0;5;0;1;10;3;0;0
+table::VacantEntry::<'a, T, A>::insert;0;0;0;0;0;0;5;0;1;8;1;0;0
+table::VacantEntry::<'a, T, A>::into_table;0;0;0;0;0;0;4;0;1;8;1;0;0
+<table::AbsentEntry<'_, T, A> as rustc_std_workspace_core::fmt::Debug>::fmt;0;0;0;0;0;0;5;0;1;9;3;0;0
+table::AbsentEntry::<'a, T, A>::into_table;0;0;0;0;0;0;4;0;1;7;1;0;0
+<table::Iter<'a, T> as rustc_std_workspace_core::iter::Iterator>::next;0;0;0;0;0;0;2;0;2;6;1;0;0
+<table::Iter<'a, T> as rustc_std_workspace_core::iter::Iterator>::size_hint;0;0;0;0;0;0;2;0;2;6;0;0;0
+<table::Iter<'a, T> as rustc_std_workspace_core::iter::Iterator>::fold;0;0;0;0;0;0;4;0;2;6;0;0;0
+<table::Iter<'_, T> as rustc_std_workspace_core::iter::ExactSizeIterator>::len;0;0;0;0;0;0;2;0;2;6;0;0;0
+<table::Iter<'a, T> as rustc_std_workspace_core::clone::Clone>::clone;0;0;0;0;0;0;2;0;2;6;0;0;0
+<table::Iter<'_, T> as rustc_std_workspace_core::fmt::Debug>::fmt;0;0;0;0;0;0;3;0;2;8;2;0;0
+<table::IterMut<'a, T> as rustc_std_workspace_core::iter::Iterator>::next;0;0;0;0;0;0;2;0;2;6;2;0;0
+<table::IterMut<'a, T> as rustc_std_workspace_core::iter::Iterator>::size_hint;0;0;0;0;0;0;2;0;2;6;1;0;0
+<table::IterMut<'a, T> as rustc_std_workspace_core::iter::Iterator>::fold;0;0;0;0;0;0;4;0;2;6;1;0;0
+<table::IterMut<'_, T> as rustc_std_workspace_core::iter::ExactSizeIterator>::len;0;0;0;0;0;0;2;0;2;6;1;0;0
+<table::IterMut<'_, T> as rustc_std_workspace_core::fmt::Debug>::fmt;0;0;0;0;0;0;3;0;2;8;3;0;0
+<table::IterHash<'a, T> as rustc_std_workspace_core::iter::Iterator>::next;0;0;0;0;0;0;2;0;1;7;1;0;0
+<table::IterHash<'a, T> as rustc_std_workspace_core::iter::Iterator>::fold;0;0;0;0;0;0;4;0;1;7;0;0;0
+<table::IterHash<'a, T> as rustc_std_workspace_core::clone::Clone>::clone;0;0;0;0;0;0;2;0;1;7;0;0;0
+<table::IterHash<'_, T> as rustc_std_workspace_core::fmt::Debug>::fmt;0;0;0;0;0;0;3;0;1;9;2;0;0
+<table::IterHashMut<'a, T> as rustc_std_workspace_core::iter::Iterator>::next;0;0;0;0;0;0;2;0;1;7;2;0;0
+<table::IterHashMut<'a, T> as rustc_std_workspace_core::iter::Iterator>::fold;0;0;0;0;0;0;4;0;1;7;1;0;0
+<table::IterHashMut<'_, T> as rustc_std_workspace_core::fmt::Debug>::fmt;0;0;0;0;0;0;3;0;1;9;3;0;0
+<table::IntoIter<T, A> as rustc_std_workspace_core::iter::Iterator>::next;0;0;0;0;0;0;2;0;2;14;1;0;0
+<table::IntoIter<T, A> as rustc_std_workspace_core::iter::Iterator>::size_hint;0;0;0;0;0;0;2;0;2;14;0;0;0
+<table::IntoIter<T, A> as rustc_std_workspace_core::iter::Iterator>::fold;0;0;0;0;0;0;4;0;2;14;0;0;0
+<table::IntoIter<T, A> as rustc_std_workspace_core::iter::ExactSizeIterator>::len;0;0;0;0;0;0;2;0;2;14;0;0;0
+<table::IntoIter<T, A> as rustc_std_workspace_core::fmt::Debug>::fmt;0;0;0;0;0;0;3;0;2;16;2;0;0
+<table::Drain<'_, T, A> as rustc_std_workspace_core::iter::Iterator>::next;0;0;0;0;0;0;4;0;2;18;1;0;0
+<table::Drain<'_, T, A> as rustc_std_workspace_core::iter::Iterator>::size_hint;0;0;0;0;0;0;4;0;2;18;0;0;0
+<table::Drain<'_, T, A> as rustc_std_workspace_core::iter::Iterator>::fold;0;0;0;0;0;0;6;0;2;18;0;0;0
+<table::Drain<'_, T, A> as rustc_std_workspace_core::iter::ExactSizeIterator>::len;0;0;0;0;0;0;4;0;2;18;0;0;0
+<table::Drain<'_, T, A> as rustc_std_workspace_core::fmt::Debug>::fmt;0;0;0;0;0;0;5;0;2;20;2;0;0
+<table::ExtractIf<'_, T, F, A> as rustc_std_workspace_core::iter::Iterator>::next;0;0;0;0;0;0;6;0;2;15;2;0;0
+<table::ExtractIf<'_, T, F, A> as rustc_std_workspace_core::iter::Iterator>::size_hint;0;0;0;0;0;0;6;0;2;15;1;0;0
+<TryReserveError as rustc_std_workspace_core::fmt::Debug>::fmt;0;0;0;0;0;0;1;0;0;2;2;0;0
+map::Entry::Occupied;0;0;0;0;0;0;10;0;1;11;1;0;0
+map::Entry::Vacant;0;0;0;0;0;0;10;0;1;8;1;0;0
+map::EntryRef::Occupied;0;0;0;0;0;0;14;0;1;7;1;0;0
+map::EntryRef::Vacant;0;0;0;0;0;0;11;0;1;8;1;0;0
+raw_entry::RawEntryMut::Occupied;0;0;0;0;0;0;6;0;1;10;1;0;0
+raw_entry::RawEntryMut::Vacant;0;0;0;0;0;0;6;0;1;7;1;0;0
+rustc_entry::RustcEntry::Occupied;0;0;0;0;0;0;5;0;1;9;1;0;0
+rustc_entry::RustcEntry::Vacant;0;0;0;0;0;0;5;0;1;7;1;0;0
+set::Entry::Occupied;0;0;0;0;0;0;11;0;1;12;1;0;0
+set::Entry::Vacant;0;0;0;0;0;0;11;0;1;9;1;0;0
+table::Entry::Occupied;0;0;0;0;0;0;4;0;1;10;1;0;0
+table::Entry::Vacant;0;0;0;0;0;0;4;0;1;8;1;0;0

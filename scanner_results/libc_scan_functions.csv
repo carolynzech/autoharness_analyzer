@@ -1,0 +1,375 @@
+name;is_unsafe;has_unsafe_ops;has_unsupported_input;has_loop_or_iterator
+<unix::linux_like::linux::ptp_clock_caps as core::clone::Clone>::clone;false;false;true;false
+unix::linux_like::linux::IPTOS_TOS;true;false;false;false
+<unix::linux_like::linux::gnu::b64::x86_64::flock64 as core::clone::Clone>::clone;false;false;true;false
+unix::linux_like::WIFSIGNALED;false;false;false;false
+<unix::linux_like::linux::iw_scan_req as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::nlattr as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::ptp_extts_request as core::clone::Clone>::clone;false;false;true;false
+unix::linux_like::linux::major;false;false;false;false
+<unix::rusage as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::iw_encode_ext as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::uinput_ff_erase as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::ff_periodic_effect as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::posix_spawn_file_actions_t as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::gnu::glob64_t as core::clone::Clone>::clone;false;false;true;false
+unix::linux_like::linux::SCTP_PR_POLICY;true;false;false;false
+unix::linux_like::linux::ELF64_R_TYPE;true;false;false;false
+<unix::linux_like::linux::mq_attr as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::Elf32_Ehdr as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::gnu::fanotify_event_info_error as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::gnu::regex_t as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::ff_envelope as core::clone::Clone>::clone;false;false;true;false
+<unix::pollfd as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::tpacket_req3 as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::ptp_sys_offset_extended as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::gnu::b64::x86_64::siginfo_t as core::clone::Clone>::clone;false;false;true;false
+unix::linux_like::linux::gnu::<impl unix::linux_like::linux::gnu::b64::x86_64::siginfo_t>::si_status;true;true;true;false
+<unix::linux_like::linux::gnu::b64::x86_64::statvfs64 as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::dmabuf_token as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::tm as core::clone::Clone>::clone;false;false;true;false
+unix::linux_like::WSTOPSIG;false;false;false;false
+<unix::linux_like::linux::xsk_tx_metadata_completion as core::clone::Clone>::clone;false;false;false;false
+unix::linux_like::linux::SCTP_PR_RTX_ENABLED;false;false;false;false
+<unix::linux_like::linux::input_event as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::sock_txtime as core::clone::Clone>::clone;false;false;false;false
+unix::linux_like::KERNEL_VERSION;false;false;false;false
+<unix::linux_like::linux::tpacket_req as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::__c_anonymous_sockaddr_can_can_addr as core::clone::Clone>::clone;false;false;false;false
+<unix::linux_like::linux::file_clone_range as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::sctp_sndinfo as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::mount_attr as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::tpacket_stats_v3 as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::epoll_event as core::clone::Clone>::clone;false;false;false;false
+<unix::linux_like::linux::option as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::gnu::msghdr as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::gnu::b64::x86_64::sigaction as core::clone::Clone>::clone;false;false;true;false
+unix::linux_like::linux::gnu::<impl unix::linux_like::linux::gnu::b64::x86_64::siginfo_t>::si_value;true;true;true;false
+<unix::linux_like::linux::__c_anonymous__kernel_fsid_t as core::clone::Clone>::clone;false;false;false;false
+<unix::linux_like::linux::gnu::b64::x86_64::ptrace_rseq_configuration as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::epoll_params as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::fanotify_event_info_header as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::ptp_sys_offset_precise as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::Elf64_Sym as core::clone::Clone>::clone;false;false;true;false
+unix::linux_like::linux::CPU_SET;true;false;true;false
+unix::linux_like::linux::ELF32_R_TYPE;true;false;false;false
+<unix::linux_like::linux::canfd_frame as core::clone::Clone>::clone;false;false;true;false
+unix::linux_like::linux::gnu::<impl unix::linux_like::linux::gnu::b64::x86_64::siginfo_t>::si_addr;true;true;true;false
+<unix::linux_like::linux::sctp_prinfo as core::clone::Clone>::clone;false;false;false;false
+<unix::linux_like::linux::pthread_mutex_t as core::clone::Clone>::clone;false;false;false;false
+<unix::linux_like::linux::iw_mlme as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::af_alg_iv as core::clone::Clone>::clone;false;false;false;false
+<unix::linux_like::ip_mreq_source as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::pthread_rwlockattr_t as core::clone::Clone>::clone;false;false;false;false
+<unix::linux_like::linux::gnu::b64::x86_64::user_fpregs_struct as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::Dl_info as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::gnu::aiocb as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::ff_rumble_effect as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::ifconf as core::clone::Clone>::clone;false;false;false;false
+unix::linux_like::linux::_IOW;false;false;false;false
+<unix::linux_like::linux::pthread_barrierattr_t as core::clone::Clone>::clone;false;false;false;false
+<unix::linux_like::linux::xdp_umem_reg as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::tpacket_bd_header_u as core::clone::Clone>::clone;false;false;false;false
+<unix::tms as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::in_addr as core::clone::Clone>::clone;false;false;false;false
+<unix::linux_like::linux::iw_thrspy as core::clone::Clone>::clone;false;false;true;false
+unix::linux_like::linux::CPU_ISSET;true;false;false;false
+<unix::linux_like::linux::tpacket_req_u as core::clone::Clone>::clone;false;false;false;false
+unix::linux_like::linux::TPACKET_ALIGN;true;false;false;false
+unix::linux_like::linux::FUTEX_OP;false;false;false;false
+<unix::linux_like::linux::gnu::ptrace_syscall_info as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::gnu::b64::x86_64::ucontext_t as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::glob_t as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::fd_set as core::clone::Clone>::clone;false;false;false;false
+<unix::linux_like::linux::fanout_args as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::mmsghdr as core::clone::Clone>::clone;false;false;true;false
+unix::linux_like::FD_SET;true;true;true;false
+<unix::linux_like::linux::genlmsghdr as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::sigevent as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::dirent64 as core::clone::Clone>::clone;false;false;false;false
+unix::linux_like::linux::_IO;false;false;false;false
+<unix::linux_like::linux::arpd_request as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::posix_spawnattr_t as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::sctp_rcvinfo as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::__c_anonymous_elf64_rel as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::gnu::sifields_sigchld as core::clone::Clone>::clone;false;false;true;false
+unix::linux_like::linux::_IOWR;false;false;false;false
+<unix::linux_like::utsname as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::passwd as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::signalfd_siginfo as core::clone::Clone>::clone;false;false;true;false
+unix::linux_like::linux::ELF64_R_INFO;true;false;false;false
+<unix::linux_like::linux::in6_pktinfo as core::clone::Clone>::clone;false;false;false;false
+<unix::linux_like::linux::iw_missed as core::clone::Clone>::clone;false;false;false;false
+<unix::linux_like::linux::xsk_tx_metadata_request as core::clone::Clone>::clone;false;false;true;false
+unix::linux_like::CMSG_ALIGN;false;false;false;false
+<unix::linux_like::linux::ff_replay as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::ff_condition_effect as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::ifaddrs as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::uinput_abs_setup as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::seccomp_notif_addfd as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::ptp_extts_event as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::__c_anonymous_iwreq as core::clone::Clone>::clone;false;false;false;false
+<unix::linux_like::linux::gnu::rtentry as core::clone::Clone>::clone;false;false;true;false
+unix::linux_like::CMSG_DATA;true;true;true;false
+<unix::linux_like::linux::gnu::__c_anonymous_ptrace_syscall_info_exit as core::clone::Clone>::clone;false;false;false;false
+<unix::linux_like::sched_param as core::clone::Clone>::clone;false;false;false;false
+unix::linux_like::linux::SCTP_PR_PRIO_ENABLED;false;false;false;false
+<unix::linux_like::linux::in6_ifreq as core::clone::Clone>::clone;false;false;false;false
+<unix::linux_like::linux::gnu::__exit_status as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::spwd as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::input_absinfo as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::sockaddr_pkt as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::Elf64_Phdr as core::clone::Clone>::clone;false;false;true;false
+unix::linux_like::linux::SO_EE_OFFENDER;true;true;true;false
+<unix::timespec as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::gnu::fanotify_event_info_pidfd as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::lconv as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::tpacket3_hdr as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::gnu::Elf64_Chdr as core::clone::Clone>::clone;false;false;true;false
+unix::linux_like::CMSG_LEN;true;false;false;false
+unix::ntohs;false;false;false;false
+<unix::linux_like::linux::xdp_mmap_offsets_v1 as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::tls_crypto_info as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::gnu::b64::x86_64::_libc_fpstate as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::ip_mreqn as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::gnu::__c_anonymous_ptrace_syscall_info_seccomp as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::iw_pmkid_cand as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::fanotify_event_info_fid as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::rlimit64 as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::gnu::mallinfo as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::__c_anonymous_ifc_ifcu as core::clone::Clone>::clone;false;false;false;false
+unix::linux_like::linux::RT_ADDRCLASS;true;false;false;false
+unix::linux_like::linux::IPTOS_PREC;true;false;false;false
+<unix::linux_like::linux::canxl_frame as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::ff_constant_effect as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::sock_extended_err as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::if_nameindex as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::sockaddr_alg as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::sockaddr_un as core::clone::Clone>::clone;false;false;false;false
+<unix::linux_like::linux::iw_event as core::clone::Clone>::clone;false;false;true;false
+unix::linux_like::linux::makedev;false;false;false;false
+unix::linux_like::linux::gnu::<impl unix::linux_like::linux::gnu::b64::x86_64::siginfo_t>::sifields;true;true;true;false
+<unix::protoent as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::__c_anonymous_ifr_ifru as core::clone::Clone>::clone;false;false;false;false
+<unix::linux_like::addrinfo as core::clone::Clone>::clone;false;false;true;false
+unix::linux_like::SIGRTMIN;false;true;false;false
+<unix::linux_like::linux::uinput_ff_upload as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::gnu::b64::x86_64::stat as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::sockaddr_storage as core::clone::Clone>::clone;false;false;false;false
+<unix::linux_like::linux::msginfo as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::xdp_mmap_offsets as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::nlmsgerr as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::tls12_crypto_info_aes_gcm_128 as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::xsk_tx_metadata as core::clone::Clone>::clone;false;false;false;false
+<unix::linux_like::linux::pthread_condattr_t as core::clone::Clone>::clone;false;false;false;false
+<unix::linux_like::linux::can_frame as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::in_pktinfo as core::clone::Clone>::clone;false;false;true;false
+unix::linux_like::linux::SCTP_PR_SET_POLICY;true;false;true;false
+unix::linux_like::linux::BPF_RVAL;true;false;false;false
+unix::linux_like::linux::SCTP_PR_TTL_ENABLED;false;false;false;false
+<unix::linux_like::linux::gnu::b64::x86_64::not_x32::statvfs as core::clone::Clone>::clone;false;false;true;false
+unix::linux_like::linux::ELF32_R_SYM;true;false;false;false
+<unix::rlimit as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::tpacket_bd_ts as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::sched_attr as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::gnu::b64::x86_64::clone_args as core::clone::Clone>::clone;false;false;true;false
+unix::linux_like::WIFSTOPPED;false;false;false;false
+<unix::linux_like::linux::nlmsghdr as core::clone::Clone>::clone;false;false;true;false
+unix::linux_like::linux::BPF_JUMP;true;false;false;false
+unix::linux_like::WEXITSTATUS;false;false;false;false
+<unix::linux_like::linux::Elf32_Sym as core::clone::Clone>::clone;false;false;true;false
+unix::htonl;false;false;false;false
+<unix::linux_like::statx as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::__c_anonymous_elf32_rel as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::xdp_statistics_v1 as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::__c_anonymous_elf32_rela as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::sctp_sndrcvinfo as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::xdp_desc as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::Elf32_Phdr as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::uinput_user_dev as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::iw_range as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::__c_anonymous_ptp_perout_request_2 as core::clone::Clone>::clone;false;false;false;false
+unix::linux_like::linux::_IOR;false;false;false;false
+<unix::hostent as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::ip_mreq as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::sockaddr_xdp as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::input_id as core::clone::Clone>::clone;false;false;true;false
+unix::linux_like::linux::CPU_EQUAL;true;false;false;false
+unix::linux_like::linux::ELF64_R_SYM;true;false;false;false
+<unix::linux_like::linux::gnu::nl_mmap_hdr as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::sockaddr_vm as core::clone::Clone>::clone;false;false;true;false
+unix::linux_like::linux::gnu::<impl unix::linux_like::linux::gnu::b64::x86_64::siginfo_t>::si_utime;true;true;true;false
+<unix::linux_like::linux::gnu::b64::x86_64::shmid_ds as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::gnu::termios as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::ff_effect as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::gnu::b64::x86_64::stat64 as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::input_mask as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::iw_discarded as core::clone::Clone>::clone;false;false;true;false
+unix::linux_like::FD_ZERO;true;true;true;true
+unix::linux_like::SIGRTMAX;false;true;false;false
+<unix::linux_like::linux::gnu::b64::x86_64::statfs64 as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::gnu::cmsghdr as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::arch::generic::termios2 as core::clone::Clone>::clone;false;false;true;false
+<unix::winsize as core::clone::Clone>::clone;false;false;true;false
+<unix::itimerval as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::tls12_crypto_info_chacha20_poly1305 as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::iw_statistics as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::tls12_crypto_info_aes_gcm_256 as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::dirent as core::clone::Clone>::clone;false;false;false;false
+unix::linux_like::linux::minor;false;false;false;false
+unix::linux_like::WIFCONTINUED;false;false;false;false
+<unix::linux_like::linux::gnu::seminfo as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::gnu::ptrace_peeksiginfo_args as core::clone::Clone>::clone;false;false;false;false
+unix::linux_like::linux::ELF32_R_INFO;true;false;false;false
+<unix::linux_like::linux::gnu::sem_t as core::clone::Clone>::clone;false;false;false;false
+unix::linux_like::W_EXITCODE;false;false;false;false
+<unix::linux_like::linux::gnu::b64::x86_64::mcontext_t as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::gnu::mallinfo2 as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::gnu::b64::x86_64::pthread_attr_t as core::clone::Clone>::clone;false;false;false;false
+<unix::linux_like::linux::uinput_setup as core::clone::Clone>::clone;false;false;true;false
+<unix::iovec as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::gnu::b64::sysinfo as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::pthread_mutexattr_t as core::clone::Clone>::clone;false;false;false;false
+unix::linux_like::IPOPT_COPIED;false;false;false;false
+unix::linux_like::linux::CPU_CLR;true;false;true;false
+<unix::in6_addr as core::clone::Clone>::clone;false;false;false;false
+<unix::linux_like::statx_timestamp as core::clone::Clone>::clone;false;false;false;false
+<unix::linux_like::linux::regmatch_t as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::sctp_nxtinfo as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::gnu::b64::x86_64::user as core::clone::Clone>::clone;false;false;true;false
+<unix::group as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::ptp_clock_time as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::sockaddr_in as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::__c_anonymous_ptp_perout_request_1 as core::clone::Clone>::clone;false;false;false;false
+<unix::linux_like::linux::gnu::nl_pktinfo as core::clone::Clone>::clone;false;false;false;false
+<unix::linux_like::linux::pthread_barrier_t as core::clone::Clone>::clone;false;false;false;false
+unix::ntohl;false;false;false;false
+<unix::linux_like::linux::dqblk as core::clone::Clone>::clone;false;false;true;false
+unix::linux_like::linux::RT_LOCALADDR;true;false;false;false
+unix::linux_like::linux::SCTP_PR_INDEX;true;false;false;false
+<unix::linux_like::linux::ff_ramp_effect as core::clone::Clone>::clone;false;false;true;false
+unix::linux_like::linux::BPF_STMT;true;false;false;false
+<unix::linux_like::linux::gnu::Elf32_Chdr as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::gnu::b64::x86_64::statfs as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::sock_fprog as core::clone::Clone>::clone;false;false;true;false
+unix::linux_like::W_STOPCODE;false;false;false;false
+<unix::linux_like::linux::__c_anonymous_xsk_tx_metadata_union as core::clone::Clone>::clone;false;false;false;false
+unix::linux_like::WTERMSIG;false;false;false;false
+<unix::linux_like::linux::gnu::ntptimeval as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::iw_param as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::gnu::b64::x86_64::stack_t as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::dl_phdr_info as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::open_how as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::sockaddr_ll as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::j1939_filter as core::clone::Clone>::clone;false;false;true;false
+unix::linux_like::CMSG_FIRSTHDR;true;true;true;false
+<unix::linux_like::linux::ptp_perout_request as core::clone::Clone>::clone;false;false;true;false
+unix::htons;false;false;false;false
+<unix::linux_like::linux::inotify_event as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::seccomp_notif as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::gnu::utmpx as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::gnu::__timeval as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::arpreq as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::mntent as core::clone::Clone>::clone;false;false;true;false
+unix::linux_like::linux::CMSG_NXTHDR;true;true;true;false
+unix::linux_like::linux::CPU_COUNT_S;true;false;false;true
+unix::linux_like::WIFEXITED;false;false;false;false
+<unix::linux_like::linux::sctp_authinfo as core::clone::Clone>::clone;false;false;false;false
+<unix::linux_like::linux::gnu::tcp_info as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::packet_mreq as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::ff_trigger as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::fsid_t as core::clone::Clone>::clone;false;false;false;false
+<unix::linux_like::linux::sctp_initmsg as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::tpacket_auxdata as core::clone::Clone>::clone;false;false;true;false
+<unix::sigval as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::ucred as core::clone::Clone>::clone;false;false;true;false
+unix::linux_like::linux::RT_TOS;true;false;false;false
+<unix::linux_like::linux::gnu::nl_mmap_req as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::gnu::b64::msqid_ds as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::xdp_umem_reg_v1 as core::clone::Clone>::clone;false;false;true;false
+unix::linux_like::linux::BPF_MISCOP;true;false;false;false
+<unix::linux_like::linux::tpacket_versions as core::clone::Clone>::clone;false;false;false;false
+<unix::linux_like::linux::xdp_ring_offset as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::iw_priv_args as core::clone::Clone>::clone;false;false;true;false
+unix::linux_like::linux::gnu::<impl unix::linux_like::linux::gnu::b64::x86_64::siginfo_t>::si_stime;true;true;true;false
+<unix::linux_like::linux::pthread_rwlock_t as core::clone::Clone>::clone;false;false;false;false
+<unix::linux_like::linux::iw_pmksa as core::clone::Clone>::clone;false;false;false;false
+<unix::linux_like::linux::hwtstamp_config as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::ptp_pin_desc as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::sock_filter as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::iw_michaelmicfailure as core::clone::Clone>::clone;false;false;false;false
+<unix::linux_like::linux::tpacket_rollover_stats as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::sockaddr_can as core::clone::Clone>::clone;false;false;false;false
+<unix::linux_like::linux::gnu::b64::x86_64::_libc_fpxreg as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::sembuf as core::clone::Clone>::clone;false;false;true;false
+unix::linux_like::linux::NLA_ALIGN;true;false;false;false
+<unix::linux_like::linux::tpacket_block_desc as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::arphdr as core::clone::Clone>::clone;false;false;true;false
+unix::linux_like::WCOREDUMP;false;false;false;false
+unix::linux_like::linux::_IOC;false;false;false;false
+unix::linux_like::linux::CPU_COUNT;true;true;false;false
+<unix::linux_like::linux::xdp_statistics as core::clone::Clone>::clone;false;false;true;false
+unix::linux_like::FD_ISSET;true;true;true;false
+<unix::linux_like::linux::iw_point as core::clone::Clone>::clone;false;false;true;false
+unix::linux_like::linux::CPU_ALLOC_SIZE;true;true;false;false
+<unix::linux_like::linux::tpacket_hdr_v1 as core::clone::Clone>::clone;false;false;true;false
+<unix::linger as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::__c_anonymous_sockaddr_can_j1939 as core::clone::Clone>::clone;false;false;false;false
+<unix::linux_like::in6_rtmsg as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::iwreq_data as core::clone::Clone>::clone;false;false;false;false
+unix::linux_like::FD_CLR;true;true;true;false
+<unix::ipv6_mreq as core::clone::Clone>::clone;false;false;false;false
+unix::linux_like::linux::CPU_ZERO;true;false;true;true
+<unix::linux_like::linux::dmabuf_cmsg as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::gnu::__c_anonymous_ptrace_syscall_info_entry as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::xdp_ring_offset_v1 as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::__c_anonymous_sockaddr_can_tp as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::gnu::b64::x86_64::_libc_xmmreg as core::clone::Clone>::clone;false;false;false;false
+<unix::linux_like::sockaddr as core::clone::Clone>::clone;false;false;false;false
+<unix::linux_like::linux::__c_anonymous_ifru_map as core::clone::Clone>::clone;false;false;true;false
+unix::linux_like::linux::gnu::<impl unix::linux_like::linux::gnu::b64::x86_64::siginfo_t>::si_pid;true;true;true;false
+<unix::linux_like::linux::gnu::iocb as core::clone::Clone>::clone;false;false;true;false
+unix::linux_like::linux::gnu::<impl unix::linux_like::linux::gnu::b64::x86_64::siginfo_t>::si_uid;true;true;true;false
+unix::linux_like::IPOPT_NUMBER;false;false;false;false
+<unix::linux_like::linux::tpacket2_hdr as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::Elf64_Shdr as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::iw_freq as core::clone::Clone>::clone;false;false;true;false
+<unix::timeval as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::pthread_cond_t as core::clone::Clone>::clone;false;false;false;false
+<unix::linux_like::linux::gnu::b64::sigset_t as core::clone::Clone>::clone;false;false;false;false
+<unix::linux_like::linux::gnu::b64::x86_64::ipc_perm as core::clone::Clone>::clone;false;false;true;false
+<unix::utimbuf as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::gnu::__c_anonymous_ptrace_syscall_info_data as core::clone::Clone>::clone;false;false;false;false
+<unix::linux_like::linux::iw_quality as core::clone::Clone>::clone;false;false;true;false
+unix::linux_like::CMSG_SPACE;true;false;false;false
+<unix::linux_like::linux::fanotify_event_metadata as core::clone::Clone>::clone;false;false;true;false
+unix::linux_like::IPTOS_ECN;false;false;false;false
+<unix::linux_like::arpreq_old as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::seccomp_data as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::ptp_sys_offset as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::can_filter as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::fanotify_response as core::clone::Clone>::clone;false;false;false;false
+<unix::linux_like::linux::iwreq as core::clone::Clone>::clone;false;false;false;false
+<unix::linux_like::linux::input_keymap_entry as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::__c_anonymous_elf64_rela as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::gnu::b64::x86_64::user_regs_struct as core::clone::Clone>::clone;false;false;true;false
+<unix::servent as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::itimerspec as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::gnu::b64::x86_64::max_align_t as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::tpacket_hdr_variant1 as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::Elf32_Shdr as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::seccomp_notif_sizes as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::xdp_options as core::clone::Clone>::clone;false;false;false;false
+<unix::linux_like::linux::gnu::timex as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::seccomp_notif_resp as core::clone::Clone>::clone;false;false;false;false
+<unix::linux_like::linux::tpacket_stats as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::tpacket_hdr as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::ifreq as core::clone::Clone>::clone;false;false;false;false
+<unix::linux_like::sockaddr_in6 as core::clone::Clone>::clone;false;false;true;false
+unix::linux_like::QCMD;false;false;false;false
+unix::linux_like::IPOPT_CLASS;false;false;false;false
+<unix::linux_like::linux::cpu_set_t as core::clone::Clone>::clone;false;false;false;false
+<unix::linux_like::linux::Elf64_Ehdr as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::sockaddr_nl as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::gnu::b64::x86_64::flock as core::clone::Clone>::clone;false;false;true;false
+<unix::linux_like::linux::gnu::b64::semid_ds as core::clone::Clone>::clone;false;false;true;false

@@ -1,0 +1,135 @@
+fn_name;iterators;loops;nested_loops
+boxed::iter::<impl core::iter::Iterator for boxed::Box<I, A>>::nth;1;0;0
+<boxed::Box<I, A> as boxed::iter::BoxIter>::last;1;0;0
+<boxed::Box<I, A> as boxed::iter::BoxIter>::last;1;0;0
+boxed::iter::<impl core::iter::FromIterator<I> for boxed::Box<[I]>>::from_iter;1;0;0
+<bstr::ByteString as core::iter::FromIterator<char>>::from_iter;1;0;0
+<bstr::ByteString as core::iter::FromIterator<u8>>::from_iter;1;0;0
+<bstr::ByteString as core::iter::FromIterator<&'a str>>::from_iter;1;0;0
+<bstr::ByteString as core::iter::FromIterator<&'a [u8]>>::from_iter;0;1;0
+<bstr::ByteString as core::iter::FromIterator<&'a core::bstr::ByteStr>>::from_iter;0;1;0
+<bstr::ByteString as core::iter::FromIterator<bstr::ByteString>>::from_iter;0;1;0
+collections::binary_heap::BinaryHeap::<T, A>::into_sorted_vec;0;1;0
+collections::binary_heap::BinaryHeap::<T, A>::sift_up;0;1;0
+collections::binary_heap::BinaryHeap::<T, A>::sift_down_range;0;1;0
+collections::binary_heap::BinaryHeap::<T, A>::sift_down_to_bottom;0;1;0
+collections::binary_heap::BinaryHeap::<T, A>::rebuild_tail;0;1;0
+collections::binary_heap::BinaryHeap::<T, A>::rebuild;0;1;0
+<collections::binary_heap::Iter<'a, T> as core::iter::Iterator>::last;1;0;0
+<collections::binary_heap::DrainSorted<'a, T, A> as core::ops::Drop>::drop;0;1;0
+<<collections::binary_heap::DrainSorted<'a, T, A> as core::ops::Drop>::drop::DropGuard<'r, 'a, T, A> as core::ops::Drop>::drop;0;1;0
+<collections::binary_heap::BinaryHeap<T> as core::iter::FromIterator<T>>::from_iter;1;0;0
+collections::btree::append::<impl collections::btree::node::NodeRef<collections::btree::node::marker::Owned, K, V, collections::btree::node::marker::LeafOrInternal>>::bulk_push;0;5;0
+<collections::btree::dedup_sorted_iter::DedupSortedIter<K, V, I> as core::iter::Iterator>::next;0;1;0
+collections::btree::fix::<impl collections::btree::node::NodeRef<collections::btree::node::marker::Mut<'a>, K, V, collections::btree::node::marker::LeafOrInternal>>::fix_node_and_affected_ancestors;0;1;0
+collections::btree::fix::<impl collections::btree::node::NodeRef<collections::btree::node::marker::Owned, K, V, collections::btree::node::marker::LeafOrInternal>>::fix_top;0;1;0
+collections::btree::fix::<impl collections::btree::node::NodeRef<collections::btree::node::marker::Owned, K, V, collections::btree::node::marker::LeafOrInternal>>::fix_right_border_of_plentiful;0;2;0
+collections::btree::fix::<impl collections::btree::node::Handle<collections::btree::node::NodeRef<collections::btree::node::marker::Mut<'a>, K, V, collections::btree::node::marker::LeafOrInternal>, collections::btree::node::marker::KV>>::fix_left_border_of_left_edge;0;1;0
+collections::btree::fix::<impl collections::btree::node::Handle<collections::btree::node::NodeRef<collections::btree::node::marker::Mut<'a>, K, V, collections::btree::node::marker::LeafOrInternal>, collections::btree::node::marker::KV>>::fix_right_border_of_right_edge;0;1;0
+<collections::btree::map::BTreeMap<K, V, A> as core::clone::Clone>::clone::clone_subtree;0;2;0
+collections::btree::map::BTreeMap::<K, V, A>::retain;1;0;0
+<collections::btree::map::IntoIter<K, V, A> as core::ops::Drop>::drop;0;1;0
+<<collections::btree::map::IntoIter<K, V, A> as core::ops::Drop>::drop::DropGuard<'a, K, V, A> as core::ops::Drop>::drop;0;1;0
+collections::btree::map::ExtractIfInner::<'a, K, V>::next;0;1;0
+<collections::btree::map::BTreeMap<K, V> as core::iter::FromIterator<(K, V)>>::from_iter;1;0;0
+<collections::btree::map::BTreeMap<K, V, A> as core::iter::Extend<(K, V)>>::extend;1;0;0
+<collections::btree::map::BTreeMap<K, V, A> as core::hash::Hash>::hash;0;1;0
+<collections::btree::map::BTreeMap<K, V, A> as core::cmp::PartialEq>::eq;1;0;0
+collections::btree::navigate::<impl collections::btree::node::NodeRef<BorrowType, K, V, collections::btree::node::marker::LeafOrInternal>>::find_leaf_edges_spanning_range;0;1;0
+collections::btree::navigate::<impl collections::btree::node::Handle<collections::btree::node::NodeRef<BorrowType, K, V, collections::btree::node::marker::Leaf>, collections::btree::node::marker::Edge>>::next_kv;0;1;0
+collections::btree::navigate::<impl collections::btree::node::Handle<collections::btree::node::NodeRef<BorrowType, K, V, collections::btree::node::marker::Leaf>, collections::btree::node::marker::Edge>>::next_back_kv;0;1;0
+collections::btree::navigate::<impl collections::btree::node::Handle<collections::btree::node::NodeRef<BorrowType, K, V, collections::btree::node::marker::Internal>, collections::btree::node::marker::Edge>>::next_kv;0;1;0
+collections::btree::navigate::<impl collections::btree::node::Handle<collections::btree::node::NodeRef<collections::btree::node::marker::Dying, K, V, collections::btree::node::marker::Leaf>, collections::btree::node::marker::Edge>>::deallocating_next;0;1;0
+collections::btree::navigate::<impl collections::btree::node::Handle<collections::btree::node::NodeRef<collections::btree::node::marker::Dying, K, V, collections::btree::node::marker::Leaf>, collections::btree::node::marker::Edge>>::deallocating_next_back;0;1;0
+collections::btree::navigate::<impl collections::btree::node::Handle<collections::btree::node::NodeRef<collections::btree::node::marker::Dying, K, V, collections::btree::node::marker::Leaf>, collections::btree::node::marker::Edge>>::deallocating_end;0;1;0
+collections::btree::navigate::<impl collections::btree::node::NodeRef<BorrowType, K, V, collections::btree::node::marker::LeafOrInternal>>::first_leaf_edge;0;1;0
+collections::btree::navigate::<impl collections::btree::node::NodeRef<BorrowType, K, V, collections::btree::node::marker::LeafOrInternal>>::last_leaf_edge;0;1;0
+collections::btree::navigate::<impl collections::btree::node::NodeRef<collections::btree::node::marker::Immut<'a>, K, V, collections::btree::node::marker::LeafOrInternal>>::visit_nodes_in_order;0;2;0
+collections::btree::navigate::<impl collections::btree::node::NodeRef<BorrowType, K, V, collections::btree::node::marker::LeafOrInternal>>::lower_bound;0;1;0
+collections::btree::navigate::<impl collections::btree::node::NodeRef<BorrowType, K, V, collections::btree::node::marker::LeafOrInternal>>::upper_bound;0;1;0
+collections::btree::node::NodeRef::<collections::btree::node::marker::Mut<'a>, K, V, collections::btree::node::marker::Internal>::correct_childrens_parent_links;0;1;0
+collections::btree::node::Handle::<collections::btree::node::NodeRef<collections::btree::node::marker::Mut<'a>, K, V, collections::btree::node::marker::Leaf>, collections::btree::node::marker::Edge>::insert_recursing;0;1;0
+collections::btree::search::<impl collections::btree::node::NodeRef<BorrowType, K, V, collections::btree::node::marker::LeafOrInternal>>::search_tree;0;1;0
+collections::btree::search::<impl collections::btree::node::NodeRef<BorrowType, K, V, collections::btree::node::marker::LeafOrInternal>>::search_tree_for_bifurcation;0;1;0
+collections::btree::search::<impl collections::btree::node::NodeRef<BorrowType, K, V, Type>>::find_key_index;0;1;0
+collections::btree::set::BTreeSet::<T, A>::is_subset;0;3;0
+collections::btree::set::BTreeSet::<T, A>::retain;1;0;0
+<collections::btree::set::BTreeSet<T> as core::iter::FromIterator<T>>::from_iter;1;0;0
+<collections::btree::set::BTreeSet<T, A> as core::iter::Extend<T>>::extend;1;0;0
+<collections::btree::set::Difference<'a, T, A> as core::iter::Iterator>::next;0;3;0
+<collections::btree::set::SymmetricDifference<'a, T> as core::iter::Iterator>::next;0;1;0
+<collections::btree::set::Intersection<'a, T, A> as core::iter::Iterator>::next;0;3;0
+collections::btree::split::<impl collections::btree::node::NodeRef<collections::btree::node::marker::Owned, K, V, collections::btree::node::marker::LeafOrInternal>>::split_off;0;2;0
+collections::btree::split::<impl collections::btree::node::NodeRef<collections::btree::node::marker::Owned, K, V, collections::btree::node::marker::LeafOrInternal>>::new_pillar;0;1;0
+collections::linked_list::LinkedList::<T, A>::contains;1;0;0
+collections::linked_list::LinkedList::<T, A>::split_off;0;2;0
+collections::linked_list::LinkedList::<T, A>::remove;0;2;0
+collections::linked_list::LinkedList::<T, A>::retain_mut;0;2;0
+<collections::linked_list::LinkedList<T, A> as core::ops::Drop>::drop;0;1;0
+<<collections::linked_list::LinkedList<T, A> as core::ops::Drop>::drop::DropGuard<'a, T, A> as core::ops::Drop>::drop;0;1;0
+<collections::linked_list::ExtractIf<'_, T, F, A> as core::iter::Iterator>::next;0;1;0
+<collections::linked_list::LinkedList<<I as core::iter::IntoIterator>::Item, A> as collections::SpecExtend<I>>::spec_extend;1;0;0
+<collections::linked_list::LinkedList<T, A> as core::clone::Clone>::clone_from;0;1;0
+<collections::linked_list::LinkedList<T, A> as core::hash::Hash>::hash;0;1;0
+<collections::vec_deque::iter_mut::IterMut<'a, T> as core::iter::Iterator>::advance_by;2;0;0
+<collections::vec_deque::iter_mut::IterMut<'a, T> as core::iter::Iterator>::fold;2;0;0
+<collections::vec_deque::iter_mut::IterMut<'a, T> as core::iter::Iterator>::try_fold;2;0;0
+<collections::vec_deque::into_iter::IntoIter<T, A> as core::iter::Iterator>::try_fold;2;0;0
+<collections::vec_deque::into_iter::IntoIter<T, A> as core::iter::Iterator>::fold;1;0;0
+<collections::vec_deque::iter::Iter<'a, T> as core::iter::Iterator>::advance_by;2;0;0
+<collections::vec_deque::iter::Iter<'a, T> as core::iter::Iterator>::fold;2;0;0
+<collections::vec_deque::iter::Iter<'a, T> as core::iter::Iterator>::try_fold;2;0;0
+<collections::vec_deque::VecDeque<T, A> as collections::vec_deque::spec_extend::SpecExtend<T, I>>::spec_extend;0;2;0
+collections::vec_deque::VecDeque::<T, A>::write_iter;1;0;0
+collections::vec_deque::VecDeque::<T, A>::retain_mut;0;3;0
+<collections::vec_deque::VecDeque<T, A> as core::hash::Hash>::hash;1;0;0
+rc::Rc::<[T]>::from_iter_exact;0;1;0
+<I as rc::ToRcSlice<T>>::to_rc_slice;1;0;0
+slice::<impl [T]>::sort_by_cached_key;2;4;0
+<T as slice::<impl [T]>::to_vec_in::ConvertVec>::to_vec;0;1;0
+slice::<impl [T]>::repeat;0;1;0
+<[V] as slice::Concat<T>>::concat;0;1;0
+<[V] as slice::Join<&T>>::join;0;1;0
+<[V] as slice::Join<&[T]>>::join;0;1;0
+str::join_generic_copy;0;6;0
+str::<impl str>::replace;0;1;0
+str::<impl str>::replacen;0;1;0
+str::<impl str>::to_lowercase;0;4;0
+str::<impl str>::to_uppercase;0;3;0
+str::convert_while_ascii;0;4;0
+str::replace_ascii;1;0;0
+string::String::from_utf8_lossy;0;2;0
+string::String::from_utf16;0;1;0
+string::String::from_utf16_lossy;1;0;0
+string::String::from_utf16le;1;0;0
+string::String::from_utf16le_lossy;1;0;0
+string::String::from_utf16be;1;0;0
+string::String::from_utf16be_lossy;1;0;0
+string::String::remove_matches;1;2;0
+string::String::retain;0;3;0
+string::FromUtf8Error::into_utf8_lossy;0;2;0
+<string::String as core::iter::Extend<char>>::extend;1;0;0
+<string::String as core::iter::Extend<&'a str>>::extend;1;0;0
+<string::String as core::iter::Extend<boxed::Box<str, A>>>::extend;1;0;0
+<string::String as core::iter::Extend<string::String>>::extend;1;0;0
+<string::String as core::iter::Extend<borrow::Cow<'a, str>>>::extend;1;0;0
+string::IntoChars::into_string;1;0;0
+<string::IntoChars as core::iter::Iterator>::next;1;0;0
+<string::IntoChars as core::iter::Iterator>::count;1;0;0
+sync::Arc::<T, A>::downgrade;0;2;0
+sync::Arc::<[T]>::from_iter_exact;0;1;0
+<I as sync::ToArcSlice<T>>::to_arc_slice;1;0;0
+<vec::extract_if::ExtractIf<'_, T, F, A> as core::iter::Iterator>::next;0;2;0
+<vec::splice::Splice<'_, I, A> as core::ops::Drop>::drop;2;0;0
+vec::splice::<impl vec::drain::Drain<'_, T, A>>::fill;0;1;0
+<vec::into_iter::IntoIter<T, A> as core::iter::Iterator>::fold;0;2;0
+<vec::into_iter::IntoIter<T, A> as core::iter::Iterator>::try_fold;0;2;0
+"<[T; N] as vec::is_zero::IsZero>::is_zero";1;0;0
+<I as vec::in_place_collect::SpecInPlaceCollect<T, I>>::collect_in_place;1;0;0
+<I as vec::in_place_collect::SpecInPlaceCollect<T, I>>::collect_in_place;0;1;0
+vec::Vec::<T, A>::retain_mut::process_loop;0;3;0
+vec::Vec::<T, A>::dedup_by;0;3;0
+vec::Vec::<T, A>::extend_with;0;1;0
+<vec::Vec<T, A> as vec::ExtendFromWithinSpec>::spec_extend_from_within;1;0;0
+vec::Vec::<T, A>::extend_desugared;0;2;0
+vec::Vec::<T, A>::extend_trusted;1;0;0

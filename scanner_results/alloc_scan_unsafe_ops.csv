@@ -1,0 +1,715 @@
+fn_name;inline_assembly;unsafe_dereference;unsafe_call;unsafe_static_access;unsafe_union_access
+raw_vec::new_cap;0;0;1;0;0
+raw_vec::RawVec::<T, A>::into_box;0;0;2;0;0
+raw_vec::RawVec::<T, A>::from_raw_parts_in;0;0;2;0;0
+raw_vec::RawVec::<T, A>::from_nonnull_in;0;0;2;0;0
+<raw_vec::RawVec<T, A> as core::ops::Drop>::drop;0;0;1;0;0
+raw_vec::RawVecInner::<A>::with_capacity_in;0;0;1;0;0
+raw_vec::RawVecInner::<A>::try_allocate_in;0;0;1;0;0
+raw_vec::RawVecInner::<A>::from_raw_parts_in;0;0;1;0;0
+raw_vec::RawVecInner::<A>::current_memory;0;0;2;0;0
+raw_vec::RawVecInner::<A>::try_reserve;0;0;1;0;0
+raw_vec::RawVecInner::<A>::try_reserve_exact;0;0;1;0;0
+raw_vec::RawVecInner::<A>::set_ptr_and_cap;0;0;1;0;0
+raw_vec::RawVecInner::<A>::grow_amortized;0;0;1;0;0
+raw_vec::RawVecInner::<A>::grow_exact;0;0;1;0;0
+raw_vec::RawVecInner::<A>::shrink;0;0;1;0;0
+raw_vec::RawVecInner::<A>::shrink_unchecked;0;0;6;0;0
+raw_vec::RawVecInner::<A>::deallocate;0;0;1;0;0
+raw_vec::finish_grow;0;0;2;0;0
+alloc::alloc;0;1;2;1;0
+alloc::dealloc;0;0;1;0;0
+alloc::realloc;0;0;1;0;0
+alloc::alloc_zeroed;0;1;2;1;0
+alloc::Global::alloc_impl;0;0;2;0;0
+alloc::Global::grow_impl;0;0;6;0;0
+<alloc::Global as core::alloc::Allocator>::deallocate;0;0;1;0;0
+<alloc::Global as core::alloc::Allocator>::grow;0;0;1;0;0
+<alloc::Global as core::alloc::Allocator>::grow_zeroed;0;0;1;0;0
+<alloc::Global as core::alloc::Allocator>::shrink;0;0;5;0;0
+alloc::exchange_malloc;0;0;1;0;0
+alloc::handle_alloc_error::rt_error;0;0;1;0;0
+alloc::__alloc_error_handler::__rdl_oom;0;1;0;1;0
+<boxed::Box<[T]> as boxed::convert::BoxFromSlice<T>>::from_slice;0;0;3;0;0
+boxed::convert::<impl core::convert::From<&str> for boxed::Box<str>>::from;0;0;1;0;0
+boxed::convert::<impl core::convert::From<boxed::Box<str, A>> for boxed::Box<[u8], A>>::from;0;0;1;0;0
+boxed::convert::boxed_slice_as_array_unchecked;0;1;1;0;0
+"boxed::convert::<impl core::convert::TryFrom<boxed::Box<[T]>> for boxed::Box<[T; N]>>::try_from";0;1;1;0;0
+"boxed::convert::<impl core::convert::TryFrom<vec::Vec<T>> for boxed::Box<[T; N]>>::try_from";0;0;1;0;0
+boxed::convert::<impl boxed::Box<(dyn core::any::Any + 'static), A>>::downcast;0;1;1;0;0
+boxed::convert::<impl boxed::Box<(dyn core::any::Any + 'static), A>>::downcast_unchecked;0;1;1;0;0
+boxed::convert::<impl boxed::Box<(dyn core::any::Any + core::marker::Send + 'static), A>>::downcast;0;1;1;0;0
+boxed::convert::<impl boxed::Box<(dyn core::any::Any + core::marker::Send + 'static), A>>::downcast_unchecked;0;1;1;0;0
+boxed::convert::<impl boxed::Box<(dyn core::any::Any + core::marker::Send + core::marker::Sync + 'static), A>>::downcast;0;1;1;0;0
+boxed::convert::<impl boxed::Box<(dyn core::any::Any + core::marker::Send + core::marker::Sync + 'static), A>>::downcast_unchecked;0;1;1;0;0
+boxed::convert::<impl (dyn core::error::Error + 'static)>::downcast;0;1;1;0;0
+boxed::iter::<impl core::iter::Iterator for boxed::Box<I, A>>::next;0;1;0;0;0
+boxed::iter::<impl core::iter::Iterator for boxed::Box<I, A>>::size_hint;0;1;0;0;0
+boxed::iter::<impl core::iter::Iterator for boxed::Box<I, A>>::nth;0;1;0;0;0
+<boxed::Box<I, A> as boxed::iter::BoxIter>::last;0;1;0;0;0
+boxed::iter::<impl core::iter::DoubleEndedIterator for boxed::Box<I, A>>::next_back;0;1;0;0;0
+boxed::iter::<impl core::iter::DoubleEndedIterator for boxed::Box<I, A>>::nth_back;0;1;0;0;0
+boxed::iter::<impl core::iter::ExactSizeIterator for boxed::Box<I, A>>::len;0;1;0;0;0
+boxed::iter::<impl core::iter::ExactSizeIterator for boxed::Box<I, A>>::is_empty;0;1;0;0;0
+boxed::iter::<impl core::async_iter::AsyncIterator for boxed::Box<S>>::poll_next;0;1;0;0;0
+boxed::iter::<impl core::async_iter::AsyncIterator for boxed::Box<S>>::size_hint;0;1;0;0;0
+boxed::iter::<impl core::iter::IntoIterator for &'a boxed::Box<[I], A>>::into_iter;0;1;0;0;0
+boxed::iter::<impl core::iter::IntoIterator for &'a mut boxed::Box<[I], A>>::into_iter;0;1;0;0;0
+<boxed::thin::ThinBox<T> as core::ops::Deref>::deref;0;1;0;0;0
+<boxed::thin::ThinBox<T> as core::ops::DerefMut>::deref_mut;0;1;0;0;0
+<boxed::thin::ThinBox<T> as core::ops::Drop>::drop;0;0;1;0;0
+boxed::thin::ThinBox::<T>::meta;0;1;0;0;0
+boxed::thin::ThinBox::<T>::with_header;0;1;0;0;0
+boxed::thin::WithHeader::<H>::new;0;0;5;0;0
+boxed::thin::WithHeader::<H>::try_new;0;0;5;0;0
+boxed::thin::WithHeader::<H>::new_unsize_zst;0;0;1;0;0
+boxed::thin::WithHeader::<H>::drop;0;0;2;0;0
+<boxed::thin::WithHeader<H>::drop::DropGuard<H> as core::ops::Drop>::drop;0;0;3;0;0
+boxed::thin::WithHeader::<H>::header;0;0;1;0;0
+boxed::Box::<T>::new;0;1;1;0;0
+boxed::Box::<T, A>::new_in;0;1;1;0;0
+boxed::Box::<T, A>::try_new_in;0;1;1;0;0
+boxed::Box::<T, A>::try_new_uninit_in;0;0;1;0;0
+boxed::Box::<T, A>::try_new_zeroed_in;0;0;1;0;0
+boxed::Box::<T, A>::into_boxed_slice;0;0;1;0;0
+boxed::Box::<T, A>::into_inner;0;1;0;0;0
+boxed::Box::<[T]>::new_uninit_slice;0;0;1;0;0
+boxed::Box::<[T]>::new_zeroed_slice;0;0;1;0;0
+boxed::Box::<[T]>::try_new_uninit_slice;0;0;2;0;0
+boxed::Box::<[T]>::try_new_zeroed_slice;0;0;2;0;0
+boxed::Box::<[T]>::into_array;0;1;1;0;0
+boxed::Box::<[T], A>::new_uninit_slice_in;0;0;1;0;0
+boxed::Box::<[T], A>::new_zeroed_slice_in;0;0;1;0;0
+boxed::Box::<[T], A>::try_new_uninit_slice_in;0;0;2;0;0
+boxed::Box::<[T], A>::try_new_zeroed_slice_in;0;0;2;0;0
+boxed::Box::<core::mem::MaybeUninit<T>, A>::assume_init;0;0;1;0;0
+boxed::Box::<core::mem::MaybeUninit<T>, A>::write;0;1;1;0;0
+boxed::Box::<[core::mem::MaybeUninit<T>], A>::assume_init;0;0;1;0;0
+boxed::Box::<T>::from_raw;0;0;1;0;0
+boxed::Box::<T>::from_non_null;0;0;1;0;0
+boxed::Box::<T, A>::from_raw_in;0;0;1;0;0
+boxed::Box::<T, A>::from_non_null_in;0;0;1;0;0
+boxed::Box::<T, A>::into_raw;0;1;0;0;0
+boxed::Box::<T, A>::into_non_null;0;0;1;0;0
+boxed::Box::<T, A>::into_raw_with_allocator;0;1;1;0;0
+boxed::Box::<T, A>::into_non_null_with_allocator;0;0;1;0;0
+boxed::Box::<T, A>::into_unique;0;1;0;0;0
+boxed::Box::<T, A>::as_mut_ptr;0;1;0;0;0
+boxed::Box::<T, A>::leak;0;1;0;0;0
+boxed::Box::<T, A>::into_pin;0;0;1;0;0
+<boxed::Box<T, A> as core::ops::Drop>::drop;0;0;2;0;0
+<boxed::Box<T> as core::default::Default>::default;0;1;2;0;0
+<boxed::Box<str> as core::default::Default>::default;0;0;1;0;0
+<boxed::Box<T, A> as core::clone::Clone>::clone;0;2;2;0;0
+<boxed::Box<T, A> as core::clone::Clone>::clone_from;0;2;0;0;0
+<boxed::Box<[T], A> as core::clone::Clone>::clone;0;1;0;0;0
+<boxed::Box<[T], A> as core::clone::Clone>::clone_from;0;4;0;0;0
+<boxed::Box<str> as core::clone::Clone>::clone;0;1;1;0;0
+<boxed::Box<T, A> as core::cmp::PartialEq>::eq;0;2;0;0;0
+<boxed::Box<T, A> as core::cmp::PartialEq>::ne;0;2;0;0;0
+<boxed::Box<T, A> as core::cmp::PartialOrd>::partial_cmp;0;2;0;0;0
+<boxed::Box<T, A> as core::cmp::PartialOrd>::lt;0;2;0;0;0
+<boxed::Box<T, A> as core::cmp::PartialOrd>::le;0;2;0;0;0
+<boxed::Box<T, A> as core::cmp::PartialOrd>::ge;0;2;0;0;0
+<boxed::Box<T, A> as core::cmp::PartialOrd>::gt;0;2;0;0;0
+<boxed::Box<T, A> as core::cmp::Ord>::cmp;0;2;0;0;0
+<boxed::Box<T, A> as core::hash::Hash>::hash;0;1;0;0;0
+<boxed::Box<T, A> as core::hash::Hasher>::finish;0;1;0;0;0
+<boxed::Box<T, A> as core::hash::Hasher>::write;0;1;0;0;0
+<boxed::Box<T, A> as core::hash::Hasher>::write_u8;0;1;0;0;0
+<boxed::Box<T, A> as core::hash::Hasher>::write_u16;0;1;0;0;0
+<boxed::Box<T, A> as core::hash::Hasher>::write_u32;0;1;0;0;0
+<boxed::Box<T, A> as core::hash::Hasher>::write_u64;0;1;0;0;0
+<boxed::Box<T, A> as core::hash::Hasher>::write_u128;0;1;0;0;0
+<boxed::Box<T, A> as core::hash::Hasher>::write_usize;0;1;0;0;0
+<boxed::Box<T, A> as core::hash::Hasher>::write_i8;0;1;0;0;0
+<boxed::Box<T, A> as core::hash::Hasher>::write_i16;0;1;0;0;0
+<boxed::Box<T, A> as core::hash::Hasher>::write_i32;0;1;0;0;0
+<boxed::Box<T, A> as core::hash::Hasher>::write_i64;0;1;0;0;0
+<boxed::Box<T, A> as core::hash::Hasher>::write_i128;0;1;0;0;0
+<boxed::Box<T, A> as core::hash::Hasher>::write_isize;0;1;0;0;0
+<boxed::Box<T, A> as core::hash::Hasher>::write_length_prefix;0;1;0;0;0
+<boxed::Box<T, A> as core::hash::Hasher>::write_str;0;1;0;0;0
+<boxed::Box<T, A> as core::fmt::Display>::fmt;0;1;0;0;0
+<boxed::Box<T, A> as core::fmt::Debug>::fmt;0;1;0;0;0
+<boxed::Box<T, A> as core::fmt::Pointer>::fmt;0;1;0;0;0
+<boxed::Box<T, A> as core::ops::Deref>::deref;0;1;0;0;0
+<boxed::Box<T, A> as core::ops::DerefMut>::deref_mut;0;1;0;0;0
+<boxed::Box<F, A> as core::ops::FnOnce<Args>>::call_once;0;1;0;0;0
+<boxed::Box<F, A> as core::ops::FnMut<Args>>::call_mut;0;1;0;0;0
+<boxed::Box<F, A> as core::ops::Fn<Args>>::call;0;1;0;0;0
+<boxed::Box<F, A> as core::ops::AsyncFnOnce<Args>>::async_call_once;0;1;0;0;0
+<boxed::Box<F, A> as core::ops::AsyncFnMut<Args>>::async_call_mut;0;1;0;0;0
+<boxed::Box<F, A> as core::ops::AsyncFn<Args>>::async_call;0;1;0;0;0
+<boxed::Box<T, A> as core::borrow::Borrow<T>>::borrow;0;1;0;0;0
+<boxed::Box<T, A> as core::borrow::BorrowMut<T>>::borrow_mut;0;1;0;0;0
+<boxed::Box<T, A> as core::convert::AsRef<T>>::as_ref;0;1;0;0;0
+<boxed::Box<T, A> as core::convert::AsMut<T>>::as_mut;0;1;0;0;0
+<boxed::Box<G, A> as core::ops::Coroutine<R>>::resume;0;1;0;0;0
+<boxed::Box<F, A> as core::future::Future>::poll;0;1;0;0;0
+<boxed::Box<E> as core::error::Error>::description;0;1;0;0;0
+<boxed::Box<E> as core::error::Error>::cause;0;1;0;0;0
+<boxed::Box<E> as core::error::Error>::source;0;1;0;0;0
+<boxed::Box<E> as core::error::Error>::provide;0;1;0;0;0
+bstr::<impl core::clone::Clone for boxed::Box<core::bstr::ByteStr>>::clone;0;1;0;0;0
+bstr::<impl core::convert::From<boxed::Box<[u8]>> for boxed::Box<core::bstr::ByteStr>>::from;0;0;1;0;0
+bstr::<impl core::convert::From<boxed::Box<core::bstr::ByteStr>> for boxed::Box<[u8]>>::from;0;0;1;0;0
+bstr::<impl core::convert::From<rc::Rc<[u8]>> for rc::Rc<core::bstr::ByteStr>>::from;0;0;1;0;0
+bstr::<impl core::convert::From<rc::Rc<core::bstr::ByteStr>> for rc::Rc<[u8]>>::from;0;0;1;0;0
+bstr::<impl core::convert::From<sync::Arc<[u8]>> for sync::Arc<core::bstr::ByteStr>>::from;0;0;1;0;0
+bstr::<impl core::convert::From<sync::Arc<core::bstr::ByteStr>> for sync::Arc<[u8]>>::from;0;0;1;0;0
+<collections::binary_heap::PeekMut<'_, T, A> as core::ops::Drop>::drop;0;0;2;0;0
+<collections::binary_heap::PeekMut<'_, T, A> as core::ops::Deref>::deref;0;0;1;0;0
+<collections::binary_heap::PeekMut<'_, T, A> as core::ops::DerefMut>::deref_mut;0;0;3;0;0
+collections::binary_heap::PeekMut::<'a, T, A>::refresh;0;0;2;0;0
+collections::binary_heap::PeekMut::<'a, T, A>::pop;0;0;2;0;0
+collections::binary_heap::BinaryHeap::<T, A>::push;0;0;1;0;0
+collections::binary_heap::BinaryHeap::<T, A>::into_sorted_vec;0;0;3;0;0
+collections::binary_heap::BinaryHeap::<T, A>::sift_up;0;0;3;0;0
+collections::binary_heap::BinaryHeap::<T, A>::sift_down_range;0;0;7;0;0
+collections::binary_heap::BinaryHeap::<T, A>::sift_down;0;0;1;0;0
+collections::binary_heap::BinaryHeap::<T, A>::sift_down_to_bottom;0;0;6;0;0
+collections::binary_heap::BinaryHeap::<T, A>::rebuild_tail;0;0;1;0;0
+collections::binary_heap::BinaryHeap::<T, A>::rebuild;0;0;1;0;0
+collections::binary_heap::Hole::<'a, T>::new;0;0;2;0;0
+collections::binary_heap::Hole::<'a, T>::get;0;0;1;0;0
+collections::binary_heap::Hole::<'a, T>::move_to;0;0;3;0;0
+<collections::binary_heap::Hole<'_, T> as core::ops::Drop>::drop;0;0;2;0;0
+collections::btree::borrow::DormantMutRef::<'a, T>::new;0;1;0;0;0
+collections::btree::borrow::DormantMutRef::<'a, T>::awaken;0;1;0;0;0
+collections::btree::borrow::DormantMutRef::<'a, T>::reborrow;0;1;0;0;0
+collections::btree::borrow::DormantMutRef::<'a, T>::reborrow_shared;0;1;0;0;0
+collections::btree::map::entry::VacantEntry::<'a, K, V, A>::insert_entry;0;0;4;0;0
+collections::btree::map::entry::OccupiedEntry::<'a, K, V, A>::remove_kv;0;0;1;0;0
+<collections::btree::map::BTreeMap<K, V, A> as core::ops::Drop>::drop;0;0;1;0;0
+<collections::btree::map::BTreeMap<K, V, A> as core::clone::Clone>::clone::clone_subtree;0;0;1;0;0
+<collections::btree::map::Iter<'a, K, V> as core::iter::Iterator>::next;0;0;1;0;0
+<collections::btree::map::Iter<'a, K, V> as core::iter::DoubleEndedIterator>::next_back;0;0;1;0;0
+<collections::btree::map::IterMut<'a, K, V> as core::iter::Iterator>::next;0;0;1;0;0
+<collections::btree::map::IterMut<'a, K, V> as core::iter::DoubleEndedIterator>::next_back;0;0;1;0;0
+<collections::btree::map::BTreeMap<K, V, A> as core::iter::IntoIterator>::into_iter;0;0;2;0;0
+<collections::btree::map::IntoIter<K, V, A> as core::ops::Drop>::drop;0;0;1;0;0
+<<collections::btree::map::IntoIter<K, V, A> as core::ops::Drop>::drop::DropGuard<'a, K, V, A> as core::ops::Drop>::drop;0;0;1;0;0
+collections::btree::map::IntoIter::<K, V, A>::dying_next;0;0;1;0;0
+collections::btree::map::IntoIter::<K, V, A>::dying_next_back;0;0;1;0;0
+collections::btree::map::CursorMutKey::<'a, K, V, A>::next;0;2;1;0;0
+collections::btree::map::CursorMutKey::<'a, K, V, A>::prev;0;2;1;0;0
+collections::btree::map::CursorMutKey::<'a, K, V, A>::peek_next;0;0;1;0;0
+collections::btree::map::CursorMutKey::<'a, K, V, A>::peek_prev;0;0;1;0;0
+collections::btree::map::CursorMutKey::<'a, K, V, A>::as_cursor;0;0;1;0;0
+collections::btree::map::CursorMutKey::<'a, K, V, A>::insert_after_unchecked;0;0;2;0;0
+collections::btree::map::CursorMutKey::<'a, K, V, A>::insert_before_unchecked;0;0;2;0;0
+collections::btree::map::CursorMutKey::<'a, K, V, A>::insert_after;0;0;1;0;0
+collections::btree::map::CursorMutKey::<'a, K, V, A>::insert_before;0;0;1;0;0
+collections::btree::map::CursorMutKey::<'a, K, V, A>::remove_next;0;0;1;0;0
+collections::btree::map::CursorMutKey::<'a, K, V, A>::remove_prev;0;0;1;0;0
+collections::btree::map::CursorMut::<'a, K, V, A>::insert_after_unchecked;0;0;1;0;0
+collections::btree::map::CursorMut::<'a, K, V, A>::insert_before_unchecked;0;0;1;0;0
+collections::btree::mem::replace;0;0;2;0;0
+collections::btree::navigate::LazyLeafRange::<collections::btree::node::marker::Immut<'a>, K, V>::next_unchecked;0;0;1;0;0
+collections::btree::navigate::LazyLeafRange::<collections::btree::node::marker::Immut<'a>, K, V>::next_back_unchecked;0;0;1;0;0
+collections::btree::navigate::LazyLeafRange::<collections::btree::node::marker::ValMut<'a>, K, V>::next_unchecked;0;0;1;0;0
+collections::btree::navigate::LazyLeafRange::<collections::btree::node::marker::ValMut<'a>, K, V>::next_back_unchecked;0;0;1;0;0
+collections::btree::navigate::LazyLeafRange::<collections::btree::node::marker::Dying, K, V>::deallocating_next_unchecked;0;0;1;0;0
+collections::btree::navigate::LazyLeafRange::<collections::btree::node::marker::Dying, K, V>::deallocating_next_back_unchecked;0;0;1;0;0
+collections::btree::navigate::LazyLeafRange::<BorrowType, K, V>::init_front;0;0;2;0;0
+collections::btree::navigate::LazyLeafRange::<BorrowType, K, V>::init_back;0;0;2;0;0
+collections::btree::navigate::<impl collections::btree::node::NodeRef<BorrowType, K, V, collections::btree::node::marker::LeafOrInternal>>::find_leaf_edges_spanning_range;0;0;3;0;0
+collections::btree::navigate::<impl collections::btree::node::NodeRef<collections::btree::node::marker::Immut<'a>, K, V, collections::btree::node::marker::LeafOrInternal>>::range_search;0;0;1;0;0
+collections::btree::navigate::<impl collections::btree::node::NodeRef<collections::btree::node::marker::ValMut<'a>, K, V, collections::btree::node::marker::LeafOrInternal>>::range_search;0;0;1;0;0
+collections::btree::navigate::<impl collections::btree::node::NodeRef<collections::btree::node::marker::ValMut<'a>, K, V, collections::btree::node::marker::LeafOrInternal>>::full_range;0;0;1;0;0
+collections::btree::navigate::<impl collections::btree::node::NodeRef<collections::btree::node::marker::Dying, K, V, collections::btree::node::marker::LeafOrInternal>>::full_range;0;0;1;0;0
+collections::btree::navigate::<impl collections::btree::node::Handle<collections::btree::node::NodeRef<collections::btree::node::marker::Dying, K, V, collections::btree::node::marker::Leaf>, collections::btree::node::marker::Edge>>::deallocating_next;0;0;2;0;0
+collections::btree::navigate::<impl collections::btree::node::Handle<collections::btree::node::NodeRef<collections::btree::node::marker::Dying, K, V, collections::btree::node::marker::Leaf>, collections::btree::node::marker::Edge>>::deallocating_next_back;0;0;2;0;0
+collections::btree::navigate::<impl collections::btree::node::Handle<collections::btree::node::NodeRef<collections::btree::node::marker::Dying, K, V, collections::btree::node::marker::Leaf>, collections::btree::node::marker::Edge>>::deallocating_end;0;0;1;0;0
+collections::btree::node::LeafNode::<K, V>::init;0;2;2;0;0
+collections::btree::node::LeafNode::<K, V>::new;0;1;2;0;0
+collections::btree::node::InternalNode::<K, V>::new;0;2;2;0;0
+collections::btree::node::NodeRef::<collections::btree::node::marker::Owned, K, V, collections::btree::node::marker::Internal>::new_internal;0;1;2;0;0
+collections::btree::node::NodeRef::<collections::btree::node::marker::Mut<'a>, K, V, collections::btree::node::marker::Internal>::as_internal_mut;0;1;0;0;0
+collections::btree::node::NodeRef::<BorrowType, K, V, Type>::len;0;1;0;0;0
+collections::btree::node::NodeRef::<BorrowType, K, V, Type>::ascend;0;1;0;0;0
+collections::btree::node::NodeRef::<BorrowType, K, V, Type>::first_edge;0;0;1;0;0
+collections::btree::node::NodeRef::<BorrowType, K, V, Type>::last_edge;0;0;1;0;0
+collections::btree::node::NodeRef::<BorrowType, K, V, Type>::first_kv;0;0;1;0;0
+collections::btree::node::NodeRef::<BorrowType, K, V, Type>::last_kv;0;0;1;0;0
+collections::btree::node::NodeRef::<collections::btree::node::marker::Immut<'a>, K, V, Type>::into_leaf;0;1;0;0;0
+collections::btree::node::NodeRef::<collections::btree::node::marker::Immut<'a>, K, V, Type>::keys;0;0;2;0;0
+collections::btree::node::NodeRef::<collections::btree::node::marker::Dying, K, V, collections::btree::node::marker::LeafOrInternal>::deallocate_and_ascend;0;0;1;0;0
+collections::btree::node::NodeRef::<collections::btree::node::marker::Mut<'a>, K, V, Type>::as_leaf_mut;0;1;0;0;0
+collections::btree::node::NodeRef::<collections::btree::node::marker::Mut<'a>, K, V, Type>::into_leaf_mut;0;1;0;0;0
+collections::btree::node::NodeRef::<collections::btree::node::marker::Dying, K, V, Type>::as_leaf_dying;0;1;0;0;0
+collections::btree::node::NodeRef::<collections::btree::node::marker::Mut<'a>, K, V, Type>::key_area_mut;0;0;1;0;0
+collections::btree::node::NodeRef::<collections::btree::node::marker::Mut<'a>, K, V, Type>::val_area_mut;0;0;1;0;0
+collections::btree::node::NodeRef::<collections::btree::node::marker::Mut<'a>, K, V, collections::btree::node::marker::Internal>::edge_area_mut;0;0;1;0;0
+collections::btree::node::NodeRef::<collections::btree::node::marker::ValMut<'a>, K, V, Type>::into_key_val_mut_at;0;4;4;0;0
+collections::btree::node::NodeRef::<collections::btree::node::marker::Mut<'a>, K, V, collections::btree::node::marker::Internal>::correct_childrens_parent_links;0;0;2;0;0
+collections::btree::node::NodeRef::<collections::btree::node::marker::Mut<'a>, K, V, collections::btree::node::marker::Internal>::correct_all_childrens_parent_links;0;0;1;0;0
+collections::btree::node::NodeRef::<collections::btree::node::marker::Mut<'a>, K, V, collections::btree::node::marker::LeafOrInternal>::set_parent_link;0;2;0;0;1
+collections::btree::node::NodeRef::<collections::btree::node::marker::Owned, K, V, collections::btree::node::marker::LeafOrInternal>::pop_internal_level;0;1;3;0;0
+collections::btree::node::NodeRef::<collections::btree::node::marker::Mut<'a>, K, V, collections::btree::node::marker::Leaf>::push_with_handle;0;0;3;0;0
+collections::btree::node::NodeRef::<collections::btree::node::marker::Mut<'a>, K, V, collections::btree::node::marker::Leaf>::push;0;0;1;0;0
+collections::btree::node::NodeRef::<collections::btree::node::marker::Mut<'a>, K, V, collections::btree::node::marker::Internal>::push;0;0;5;0;0
+collections::btree::node::Handle::<collections::btree::node::NodeRef<BorrowType, K, V, NodeType>, collections::btree::node::marker::KV>::left_edge;0;0;1;0;0
+collections::btree::node::Handle::<collections::btree::node::NodeRef<BorrowType, K, V, NodeType>, collections::btree::node::marker::KV>::right_edge;0;0;1;0;0
+collections::btree::node::Handle::<collections::btree::node::NodeRef<collections::btree::node::marker::Mut<'a>, K, V, NodeType>, HandleType>::reborrow_mut;0;0;1;0;0
+collections::btree::node::Handle::<collections::btree::node::NodeRef<collections::btree::node::marker::DormantMut, K, V, NodeType>, HandleType>::awaken;0;0;1;0;0
+collections::btree::node::Handle::<collections::btree::node::NodeRef<BorrowType, K, V, NodeType>, collections::btree::node::marker::Edge>::left_kv;0;0;1;0;0
+collections::btree::node::Handle::<collections::btree::node::NodeRef<BorrowType, K, V, NodeType>, collections::btree::node::marker::Edge>::right_kv;0;0;1;0;0
+collections::btree::node::Handle::<collections::btree::node::NodeRef<collections::btree::node::marker::Mut<'a>, K, V, collections::btree::node::marker::Leaf>, collections::btree::node::marker::Edge>::insert_fit;0;0;5;0;0
+collections::btree::node::Handle::<collections::btree::node::NodeRef<collections::btree::node::marker::Mut<'a>, K, V, collections::btree::node::marker::Leaf>, collections::btree::node::marker::Edge>::insert;0;0;6;0;0
+collections::btree::node::Handle::<collections::btree::node::NodeRef<collections::btree::node::marker::Mut<'a>, K, V, collections::btree::node::marker::Internal>, collections::btree::node::marker::Edge>::correct_parent_link;0;0;1;0;0
+collections::btree::node::Handle::<collections::btree::node::NodeRef<collections::btree::node::marker::Mut<'a>, K, V, collections::btree::node::marker::Internal>, collections::btree::node::marker::Edge>::insert_fit;0;0;7;0;0
+collections::btree::node::Handle::<collections::btree::node::NodeRef<collections::btree::node::marker::Mut<'a>, K, V, collections::btree::node::marker::Internal>, collections::btree::node::marker::Edge>::insert;0;0;4;0;0
+collections::btree::node::Handle::<collections::btree::node::NodeRef<collections::btree::node::marker::Mut<'a>, K, V, collections::btree::node::marker::Leaf>, collections::btree::node::marker::Edge>::insert_recursing;0;0;3;0;0
+collections::btree::node::Handle::<collections::btree::node::NodeRef<BorrowType, K, V, collections::btree::node::marker::Internal>, collections::btree::node::marker::Edge>::descend;0;1;2;0;0
+collections::btree::node::Handle::<collections::btree::node::NodeRef<collections::btree::node::marker::Immut<'a>, K, V, NodeType>, collections::btree::node::marker::KV>::into_kv;0;0;4;0;0
+collections::btree::node::Handle::<collections::btree::node::NodeRef<collections::btree::node::marker::Mut<'a>, K, V, NodeType>, collections::btree::node::marker::KV>::key_mut;0;0;2;0;0
+collections::btree::node::Handle::<collections::btree::node::NodeRef<collections::btree::node::marker::Mut<'a>, K, V, NodeType>, collections::btree::node::marker::KV>::into_val_mut;0;0;2;0;0
+collections::btree::node::Handle::<collections::btree::node::NodeRef<collections::btree::node::marker::Mut<'a>, K, V, NodeType>, collections::btree::node::marker::KV>::into_kv_mut;0;0;4;0;0
+collections::btree::node::Handle::<collections::btree::node::NodeRef<collections::btree::node::marker::ValMut<'a>, K, V, NodeType>, collections::btree::node::marker::KV>::into_kv_valmut;0;0;1;0;0
+collections::btree::node::Handle::<collections::btree::node::NodeRef<collections::btree::node::marker::Mut<'a>, K, V, NodeType>, collections::btree::node::marker::KV>::kv_mut;0;0;4;0;0
+collections::btree::node::Handle::<collections::btree::node::NodeRef<collections::btree::node::marker::Dying, K, V, NodeType>, collections::btree::node::marker::KV>::into_key_val;0;0;4;0;0
+collections::btree::node::Handle::<collections::btree::node::NodeRef<collections::btree::node::marker::Dying, K, V, NodeType>, collections::btree::node::marker::KV>::drop_key_val;0;0;3;0;0
+<collections::btree::node::Handle<collections::btree::node::NodeRef<collections::btree::node::marker::Dying, K, V, NodeType>, collections::btree::node::marker::KV>::drop_key_val::Dropper<'_, T> as core::ops::Drop>::drop;0;0;1;0;0
+collections::btree::node::Handle::<collections::btree::node::NodeRef<collections::btree::node::marker::Mut<'a>, K, V, NodeType>, collections::btree::node::marker::KV>::split_leaf_data;0;0;6;0;0
+collections::btree::node::Handle::<collections::btree::node::NodeRef<collections::btree::node::marker::Mut<'a>, K, V, collections::btree::node::marker::Leaf>, collections::btree::node::marker::KV>::split;0;1;0;0;0
+collections::btree::node::Handle::<collections::btree::node::NodeRef<collections::btree::node::marker::Mut<'a>, K, V, collections::btree::node::marker::Leaf>, collections::btree::node::marker::KV>::remove;0;0;4;0;0
+collections::btree::node::Handle::<collections::btree::node::NodeRef<collections::btree::node::marker::Mut<'a>, K, V, collections::btree::node::marker::Internal>, collections::btree::node::marker::KV>::split;0;3;3;0;0
+collections::btree::node::Handle::<collections::btree::node::NodeRef<collections::btree::node::marker::Mut<'a>, K, V, collections::btree::node::marker::Internal>, collections::btree::node::marker::KV>::consider_for_balancing;0;0;2;0;0
+collections::btree::node::NodeRef::<collections::btree::node::marker::Mut<'a>, K, V, collections::btree::node::marker::LeafOrInternal>::choose_parent_kv;0;0;3;0;0
+collections::btree::node::BalancingContext::<'a, K, V>::do_merge;0;0;21;0;0
+collections::btree::node::BalancingContext::<'a, K, V>::merge_tracking_child_edge;0;0;1;0;0
+collections::btree::node::BalancingContext::<'a, K, V>::steal_left;0;0;1;0;0
+collections::btree::node::BalancingContext::<'a, K, V>::steal_right;0;0;1;0;0
+collections::btree::node::BalancingContext::<'a, K, V>::bulk_steal_left;0;0;21;0;0
+collections::btree::node::BalancingContext::<'a, K, V>::bulk_steal_right;0;0;22;0;0
+collections::btree::node::Handle::<collections::btree::node::NodeRef<BorrowType, K, V, collections::btree::node::marker::Leaf>, collections::btree::node::marker::Edge>::forget_node_type;0;0;1;0;0
+collections::btree::node::Handle::<collections::btree::node::NodeRef<BorrowType, K, V, collections::btree::node::marker::Internal>, collections::btree::node::marker::Edge>::forget_node_type;0;0;1;0;0
+collections::btree::node::Handle::<collections::btree::node::NodeRef<BorrowType, K, V, collections::btree::node::marker::Leaf>, collections::btree::node::marker::KV>::forget_node_type;0;0;1;0;0
+collections::btree::node::Handle::<collections::btree::node::NodeRef<collections::btree::node::marker::Mut<'a>, K, V, collections::btree::node::marker::LeafOrInternal>, Type>::cast_to_leaf_unchecked;0;0;1;0;0
+collections::btree::node::Handle::<collections::btree::node::NodeRef<collections::btree::node::marker::Mut<'a>, K, V, collections::btree::node::marker::LeafOrInternal>, collections::btree::node::marker::Edge>::move_suffix;0;0;9;0;0
+collections::btree::node::slice_insert;0;1;4;0;0
+collections::btree::node::slice_remove;0;1;5;0;0
+collections::btree::node::slice_shl;0;0;2;0;0
+collections::btree::node::slice_shr;0;0;2;0;0
+collections::btree::node::move_to_slice;0;0;1;0;0
+collections::btree::remove::<impl collections::btree::node::Handle<collections::btree::node::NodeRef<collections::btree::node::marker::Mut<'a>, K, V, collections::btree::node::marker::Leaf>, collections::btree::node::marker::KV>>::remove_leaf_kv;0;0;3;0;0
+collections::btree::remove::<impl collections::btree::node::Handle<collections::btree::node::NodeRef<collections::btree::node::marker::Mut<'a>, K, V, collections::btree::node::marker::Internal>, collections::btree::node::marker::KV>>::remove_internal_kv;0;0;2;0;0
+collections::btree::search::<impl collections::btree::node::NodeRef<BorrowType, K, V, collections::btree::node::marker::LeafOrInternal>>::search_tree_for_bifurcation;0;0;2;0;0
+collections::btree::search::<impl collections::btree::node::NodeRef<BorrowType, K, V, collections::btree::node::marker::LeafOrInternal>>::find_lower_bound_edge;0;0;1;0;0
+collections::btree::search::<impl collections::btree::node::NodeRef<BorrowType, K, V, collections::btree::node::marker::LeafOrInternal>>::find_upper_bound_edge;0;0;2;0;0
+collections::btree::search::<impl collections::btree::node::NodeRef<BorrowType, K, V, Type>>::search_node;0;0;3;0;0
+collections::btree::search::<impl collections::btree::node::NodeRef<BorrowType, K, V, Type>>::find_key_index;0;0;1;0;0
+collections::btree::search::<impl collections::btree::node::NodeRef<BorrowType, K, V, Type>>::find_lower_bound_index;0;0;2;0;0
+collections::btree::search::<impl collections::btree::node::NodeRef<BorrowType, K, V, Type>>::find_upper_bound_index;0;0;2;0;0
+collections::btree::set::CursorMut::<'a, T, A>::with_mutable_key;0;0;1;0;0
+collections::btree::set::CursorMut::<'a, T, A>::insert_after_unchecked;0;0;1;0;0
+collections::btree::set::CursorMut::<'a, T, A>::insert_before_unchecked;0;0;1;0;0
+collections::btree::set::CursorMutKey::<'a, T, A>::insert_after_unchecked;0;0;1;0;0
+collections::btree::set::CursorMutKey::<'a, T, A>::insert_before_unchecked;0;0;1;0;0
+collections::linked_list::Node::<T>::into_element;0;1;0;0;0
+collections::linked_list::LinkedList::<T, A>::push_front_node;0;3;0;0;0
+collections::linked_list::LinkedList::<T, A>::push_back_node;0;3;0;0;0
+collections::linked_list::LinkedList::<T, A>::unlink_node;0;2;1;0;0
+collections::linked_list::LinkedList::<T, A>::splice_nodes;0;0;4;0;0
+collections::linked_list::LinkedList::<T, A>::detach_all_nodes;0;0;1;0;0
+collections::linked_list::LinkedList::<T, A>::split_off_before_node;0;0;2;0;0
+collections::linked_list::LinkedList::<T, A>::split_off_after_node;0;0;2;0;0
+collections::linked_list::LinkedList::<T>::append;0;0;2;0;0
+collections::linked_list::LinkedList::<T, A>::push_front;0;0;1;0;0
+collections::linked_list::LinkedList::<T, A>::push_back;0;0;1;0;0
+collections::linked_list::LinkedList::<T, A>::split_off;0;0;1;0;0
+collections::linked_list::Cursor::<'a, T, A>::move_next;0;0;1;0;0
+collections::linked_list::Cursor::<'a, T, A>::move_prev;0;0;1;0;0
+collections::linked_list::Cursor::<'a, T, A>::peek_next;0;0;1;0;0
+collections::linked_list::Cursor::<'a, T, A>::peek_prev;0;0;1;0;0
+collections::linked_list::CursorMut::<'a, T, A>::move_next;0;0;1;0;0
+collections::linked_list::CursorMut::<'a, T, A>::move_prev;0;0;1;0;0
+collections::linked_list::CursorMut::<'a, T, A>::peek_next;0;0;1;0;0
+collections::linked_list::CursorMut::<'a, T, A>::peek_prev;0;0;1;0;0
+collections::linked_list::CursorMut::<'a, T>::splice_after;0;0;2;0;0
+collections::linked_list::CursorMut::<'a, T>::splice_before;0;0;2;0;0
+collections::linked_list::CursorMut::<'a, T, A>::insert_after;0;0;2;0;0
+collections::linked_list::CursorMut::<'a, T, A>::insert_before;0;0;2;0;0
+collections::linked_list::CursorMut::<'a, T, A>::remove_current;0;1;3;0;0
+collections::linked_list::CursorMut::<'a, T, A>::remove_current_as_list;0;0;4;0;0
+collections::linked_list::CursorMut::<'a, T, A>::split_after;0;0;1;0;0
+collections::linked_list::CursorMut::<'a, T, A>::split_before;0;0;1;0;0
+<collections::linked_list::ExtractIf<'_, T, F, A> as core::iter::Iterator>::next;0;1;4;0;0
+collections::vec_deque::drain::Drain::<'a, T, A>::as_slices;0;0;3;0;0
+<collections::vec_deque::drain::Drain<'_, T, A> as core::ops::Drop>::drop;0;0;3;0;0
+<<collections::vec_deque::drain::Drain<'_, T, A> as core::ops::Drop>::drop::DropGuard<'r, 'a, T, A> as core::ops::Drop>::drop;0;0;4;0;0
+<<collections::vec_deque::drain::Drain<'_, T, A> as core::ops::Drop>::drop::DropGuard<'r, 'a, T, A> as core::ops::Drop>::drop::join_head_and_tail_wrapping;0;0;1;0;0
+<collections::vec_deque::drain::Drain<'_, T, A> as core::iter::Iterator>::next;0;0;3;0;0
+<collections::vec_deque::drain::Drain<'_, T, A> as core::iter::DoubleEndedIterator>::next_back;0;0;3;0;0
+<collections::vec_deque::iter_mut::IterMut<'a, T> as core::iter::Iterator>::__iterator_get_unchecked;0;0;2;0;0
+<collections::vec_deque::into_iter::IntoIter<T, A> as core::iter::Iterator>::next_chunk;0;0;9;0;0
+<collections::vec_deque::iter::Iter<'a, T> as core::iter::Iterator>::__iterator_get_unchecked;0;0;2;0;0
+<collections::vec_deque::VecDeque<T, A> as collections::vec_deque::spec_extend::SpecExtend<T, I>>::spec_extend;0;0;2;0;0
+<collections::vec_deque::VecDeque<T, A> as collections::vec_deque::spec_extend::SpecExtend<T, I>>::spec_extend;0;0;1;0;0
+<collections::vec_deque::VecDeque<T, A> as collections::vec_deque::spec_extend::SpecExtend<T, vec::into_iter::IntoIter<T>>>::spec_extend;0;0;1;0;0
+<collections::vec_deque::VecDeque<T, A> as collections::vec_deque::spec_extend::SpecExtend<&'a T, core::slice::Iter<'a, T>>>::spec_extend;0;0;1;0;0
+<collections::vec_deque::VecDeque<T, A> as core::ops::Drop>::drop;0;0;1;0;0
+<<collections::vec_deque::VecDeque<T, A> as core::ops::Drop>::drop::Dropper<'a, T> as core::ops::Drop>::drop;0;0;1;0;0
+collections::vec_deque::VecDeque::<T, A>::push_unchecked;0;0;1;0;0
+collections::vec_deque::VecDeque::<T, A>::buffer_read;0;0;2;0;0
+collections::vec_deque::VecDeque::<T, A>::buffer_write;0;0;2;0;0
+collections::vec_deque::VecDeque::<T, A>::buffer_range;0;0;1;0;0
+collections::vec_deque::VecDeque::<T, A>::copy;0;0;3;0;0
+collections::vec_deque::VecDeque::<T, A>::copy_nonoverlapping;0;0;3;0;0
+collections::vec_deque::VecDeque::<T, A>::wrap_copy;0;0;15;0;0
+collections::vec_deque::VecDeque::<T, A>::copy_slice;0;0;5;0;0
+collections::vec_deque::VecDeque::<T, A>::write_iter_wrapping;0;0;3;0;0
+collections::vec_deque::VecDeque::<T, A>::handle_capacity_increase;0;0;2;0;0
+collections::vec_deque::VecDeque::<T, A>::from_contiguous_raw_parts_in;0;0;2;0;0
+collections::vec_deque::VecDeque::<T, A>::get;0;1;1;0;0
+collections::vec_deque::VecDeque::<T, A>::get_mut;0;1;1;0;0
+collections::vec_deque::VecDeque::<T, A>::swap;0;0;3;0;0
+collections::vec_deque::VecDeque::<T, A>::reserve_exact;0;0;1;0;0
+collections::vec_deque::VecDeque::<T, A>::reserve;0;0;1;0;0
+collections::vec_deque::VecDeque::<T, A>::try_reserve_exact;0;0;1;0;0
+collections::vec_deque::VecDeque::<T, A>::try_reserve;0;0;1;0;0
+collections::vec_deque::VecDeque::<T, A>::shrink_to;0;0;3;0;0
+<collections::vec_deque::VecDeque<T, A>::shrink_to::Guard<'_, T, A> as core::ops::Drop>::drop;0;0;1;0;0
+collections::vec_deque::VecDeque::<T, A>::abort_shrink;0;0;2;0;0
+collections::vec_deque::VecDeque::<T, A>::truncate;0;1;4;0;0
+<collections::vec_deque::VecDeque<T, A>::truncate::Dropper<'a, T> as core::ops::Drop>::drop;0;0;1;0;0
+collections::vec_deque::VecDeque::<T, A>::as_slices;0;2;2;0;0
+collections::vec_deque::VecDeque::<T, A>::as_mut_slices;0;2;2;0;0
+collections::vec_deque::VecDeque::<T, A>::range;0;2;2;0;0
+collections::vec_deque::VecDeque::<T, A>::range_mut;0;2;2;0;0
+collections::vec_deque::VecDeque::<T, A>::drain;0;0;1;0;0
+collections::vec_deque::VecDeque::<T, A>::pop_front;0;0;2;0;0
+collections::vec_deque::VecDeque::<T, A>::pop_back;0;0;2;0;0
+collections::vec_deque::VecDeque::<T, A>::push_front;0;0;1;0;0
+collections::vec_deque::VecDeque::<T, A>::push_back;0;0;1;0;0
+collections::vec_deque::VecDeque::<T, A>::insert;0;0;4;0;0
+collections::vec_deque::VecDeque::<T, A>::remove;0;0;3;0;0
+collections::vec_deque::VecDeque::<T, A>::split_off;0;0;6;0;0
+collections::vec_deque::VecDeque::<T, A>::append;0;0;2;0;0
+collections::vec_deque::VecDeque::<T, A>::grow;0;0;1;0;0
+collections::vec_deque::VecDeque::<T, A>::make_contiguous;0;2;12;0;0
+collections::vec_deque::VecDeque::<T, A>::rotate_left;0;0;2;0;0
+collections::vec_deque::VecDeque::<T, A>::rotate_right;0;0;2;0;0
+collections::vec_deque::VecDeque::<T, A>::rotate_left_inner;0;0;1;0;0
+collections::vec_deque::VecDeque::<T, A>::rotate_right_inner;0;0;1;0;0
+<collections::vec_deque::VecDeque<T, A> as core::iter::Extend<T>>::extend_one_unchecked;0;0;1;0;0
+<collections::vec_deque::VecDeque<T, A> as core::iter::Extend<&'a T>>::extend_one_unchecked;0;0;1;0;0
+<collections::vec_deque::VecDeque<T, A> as core::convert::From<vec::Vec<T, A>>>::from;0;0;1;0;0
+collections::vec_deque::<impl core::convert::From<collections::vec_deque::VecDeque<T, A>> for vec::Vec<T, A>>::from;0;0;4;0;0
+"<collections::vec_deque::VecDeque<T> as core::convert::From<[T; N]>>::from";0;0;1;0;0
+<T as ffi::c_str::CString::new::SpecNewImpl>::spec_new_impl;0;0;1;0;0
+ffi::c_str::CString::new::spec_new_impl_bytes;0;0;1;0;0
+ffi::c_str::CString::from_vec_unchecked;0;0;1;0;0
+ffi::c_str::CString::from_raw;0;0;3;0;0
+ffi::c_str::CString::as_bytes;0;2;1;0;0
+ffi::c_str::CString::as_bytes_with_nul;0;1;0;0;0
+ffi::c_str::CString::into_boxed_c_str;0;0;1;0;0
+ffi::c_str::CString::into_inner;0;0;1;0;0
+ffi::c_str::CString::from_vec_with_nul_unchecked;0;0;1;0;0
+ffi::c_str::CString::from_vec_with_nul;0;0;1;0;0
+<ffi::c_str::CString as core::ops::Drop>::drop;0;1;1;0;0
+<ffi::c_str::CString as core::ops::Deref>::deref;0;0;1;0;0
+ffi::c_str::<impl core::convert::From<&core::ffi::CStr> for boxed::Box<core::ffi::CStr>>::from;0;0;1;0;0
+<ffi::c_str::CString as core::convert::From<boxed::Box<core::ffi::CStr>>>::from;0;0;1;0;0
+<ffi::c_str::CString as core::convert::From<vec::Vec<core::num::NonZero<u8>>>>::from;0;0;2;0;0
+ffi::c_str::<impl core::clone::Clone for boxed::Box<core::ffi::CStr>>::clone;0;1;0;0;0
+ffi::c_str::<impl core::convert::From<ffi::c_str::CString> for sync::Arc<core::ffi::CStr>>::from;0;0;1;0;0
+ffi::c_str::<impl core::convert::From<&core::ffi::CStr> for sync::Arc<core::ffi::CStr>>::from;0;0;1;0;0
+ffi::c_str::<impl core::convert::From<ffi::c_str::CString> for rc::Rc<core::ffi::CStr>>::from;0;0;1;0;0
+ffi::c_str::<impl core::convert::From<&core::ffi::CStr> for rc::Rc<core::ffi::CStr>>::from;0;0;1;0;0
+ffi::c_str::<impl core::default::Default for rc::Rc<core::ffi::CStr>>::default;0;0;1;0;0
+ffi::c_str::<impl core::default::Default for boxed::Box<core::ffi::CStr>>::default;0;0;1;0;0
+rc::Rc::<T>::from_inner;0;0;1;0;0
+rc::Rc::<T>::from_ptr;0;0;2;0;0
+rc::Rc::<T, A>::inner;0;0;1;0;0
+rc::Rc::<T, A>::into_inner_with_allocator;0;0;1;0;0
+rc::Rc::<T, A>::from_ptr_in;0;0;2;0;0
+rc::Rc::<T, A>::drop_slow;0;1;1;0;0
+rc::Rc::<T>::new;0;0;1;0;0
+rc::Rc::<T>::new_uninit;0;0;2;0;0
+rc::Rc::<T>::new_zeroed;0;0;2;0;0
+rc::Rc::<T>::try_new;0;0;1;0;0
+rc::Rc::<T>::try_new_uninit;0;0;2;0;0
+rc::Rc::<T>::try_new_zeroed;0;0;2;0;0
+rc::Rc::<T>::pin;0;0;1;0;0
+rc::Rc::<T, A>::new_uninit_in;0;0;2;0;0
+rc::Rc::<T, A>::new_zeroed_in;0;0;2;0;0
+rc::Rc::<T, A>::new_cyclic_in;0;4;2;0;0
+rc::Rc::<T, A>::try_new_in;0;0;1;0;0
+rc::Rc::<T, A>::try_new_uninit_in;0;0;2;0;0
+rc::Rc::<T, A>::try_new_zeroed_in;0;0;2;0;0
+rc::Rc::<T, A>::pin_in;0;0;1;0;0
+rc::Rc::<T, A>::try_unwrap;0;0;2;0;0
+rc::Rc::<[T]>::new_uninit_slice;0;0;2;0;0
+rc::Rc::<[T]>::new_zeroed_slice;0;0;2;0;0
+rc::Rc::<[T]>::into_array;0;0;1;0;0
+rc::Rc::<[T], A>::new_uninit_slice_in;0;0;2;0;0
+rc::Rc::<[T], A>::new_zeroed_slice_in;0;0;2;0;0
+rc::Rc::<core::mem::MaybeUninit<T>, A>::assume_init;0;0;1;0;0
+rc::Rc::<[core::mem::MaybeUninit<T>], A>::assume_init;0;0;1;0;0
+rc::Rc::<T>::from_raw;0;0;1;0;0
+rc::Rc::<T>::increment_strong_count;0;0;1;0;0
+rc::Rc::<T>::decrement_strong_count;0;0;1;0;0
+rc::Rc::<T, A>::into_raw_with_allocator;0;0;1;0;0
+rc::Rc::<T, A>::as_ptr;0;1;0;0;0
+rc::Rc::<T, A>::from_raw_in;0;0;3;0;0
+rc::Rc::<T, A>::increment_strong_count_in;0;0;1;0;0
+rc::Rc::<T, A>::decrement_strong_count_in;0;0;1;0;0
+rc::Rc::<T, A>::get_mut;0;0;1;0;0
+rc::Rc::<T, A>::get_mut_unchecked;0;1;0;0;0
+rc::Rc::<T, A>::make_mut;0;0;6;0;0
+rc::Rc::<(dyn core::any::Any + 'static), A>::downcast;0;0;1;0;0
+rc::Rc::<(dyn core::any::Any + 'static), A>::downcast_unchecked;0;0;1;0;0
+rc::Rc::<T>::allocate_for_layout;0;0;1;0;0
+rc::Rc::<T>::try_allocate_for_layout;0;2;3;0;0
+rc::Rc::<T, A>::allocate_for_ptr_in;0;0;2;0;0
+rc::Rc::<T, A>::from_box_in;0;3;4;0;0
+rc::Rc::<[T]>::allocate_for_slice;0;0;1;0;0
+rc::Rc::<[T]>::copy_from_slice;0;1;3;0;0
+rc::Rc::<[T]>::from_iter_exact;0;1;6;0;0
+<rc::Rc<[T]>::from_iter_exact::Guard<T> as core::ops::Drop>::drop;0;0;3;0;0
+rc::Rc::<[T], A>::allocate_for_slice_in;0;0;1;0;0
+<rc::Rc<[T]> as rc::RcFromSlice<T>>::from_slice;0;0;1;0;0
+<rc::Rc<[T]> as rc::RcFromSlice<T>>::from_slice;0;0;1;0;0
+<rc::Rc<T, A> as core::ops::Drop>::drop;0;0;1;0;0
+<rc::Rc<T, A> as core::clone::Clone>::clone;0;0;1;0;0
+<rc::Rc<T> as core::default::Default>::default;0;0;1;0;0
+<rc::Rc<str> as core::default::Default>::default;0;0;1;0;0
+<rc::Rc<str> as core::convert::From<&str>>::from;0;0;1;0;0
+<rc::Rc<[T], A> as core::convert::From<vec::Vec<T, A>>>::from;0;1;4;0;0
+<rc::Rc<[u8]> as core::convert::From<rc::Rc<str>>>::from;0;0;1;0;0
+"<rc::Rc<[T; N], A> as core::convert::TryFrom<rc::Rc<[T], A>>>::try_from";0;0;1;0;0
+<I as rc::ToRcSlice<T>>::to_rc_slice;0;0;1;0;0
+rc::Weak::<T>::from_raw;0;0;1;0;0
+rc::Weak::<T, A>::as_ptr;0;1;0;0;0
+rc::Weak::<T, A>::into_raw_with_allocator;0;0;1;0;0
+rc::Weak::<T, A>::from_raw_in;0;0;3;0;0
+rc::Weak::<T, A>::upgrade;0;0;1;0;0
+rc::Weak::<T, A>::inner;0;2;0;0;0
+<rc::Weak<T, A> as core::ops::Drop>::drop;0;0;2;0;0
+rc::RcInnerPtr::inc_strong;0;0;1;0;0
+rc::RcInnerPtr::inc_weak;0;0;1;0;0
+rc::data_offset;0;0;1;0;0
+rc::UniqueRc::<T, A>::into_rc;0;0;3;0;0
+rc::UniqueRc::<T, A>::downgrade;0;0;1;0;0
+<rc::UniqueRc<T, A> as core::ops::Deref>::deref;0;0;1;0;0
+<rc::UniqueRc<T, A> as core::ops::DerefMut>::deref_mut;0;1;0;0;0
+<rc::UniqueRc<T, A> as core::ops::Drop>::drop;0;0;5;0;0
+rc::UniqueRcUninit::<T, A>::new;0;0;1;0;0
+rc::UniqueRcUninit::<T, A>::data_ptr;0;0;1;0;0
+rc::UniqueRcUninit::<T, A>::into_rc;0;0;1;0;0
+<rc::UniqueRcUninit<T, A> as core::ops::Drop>::drop;0;0;1;0;0
+<T as slice::<impl [T]>::to_vec_in::ConvertVec>::to_vec;0;0;1;0;0
+<<T as slice::<impl [T]>::to_vec_in::ConvertVec>::to_vec::DropGuard<'a, T, A> as core::ops::Drop>::drop;0;0;1;0;0
+<T as slice::<impl [T]>::to_vec_in::ConvertVec>::to_vec;0;0;2;0;0
+slice::<impl [T]>::into_vec;0;1;1;0;0
+slice::<impl [T]>::repeat;0;0;6;0;0
+str::<impl slice::Join<&str> for [S]>::join;0;0;1;0;0
+str::join_generic_copy;0;0;3;0;0
+str::<impl borrow::ToOwned for str>::to_owned;0;0;1;0;0
+str::<impl str>::replace;0;0;3;0;0
+str::<impl str>::replacen;0;0;2;0;0
+str::<impl str>::into_string;0;0;1;0;0
+str::<impl str>::repeat;0;0;1;0;0
+str::from_boxed_utf8_unchecked;0;0;1;0;0
+str::convert_while_ascii;0;0;10;0;0
+str::replace_ascii;0;0;1;0;0
+string::String::from_utf8_lossy_owned;0;0;1;0;0
+string::String::from_utf16le;0;0;1;0;0
+string::String::from_utf16le_lossy;0;0;1;0;0
+string::String::from_utf16be;0;0;1;0;0
+string::String::from_utf16be_lossy;0;0;1;0;0
+string::String::from_raw_parts;0;0;1;0;0
+string::String::as_str;0;0;1;0;0
+string::String::as_mut_str;0;0;1;0;0
+string::String::pop;0;0;1;0;0
+string::String::remove;0;0;4;0;0
+string::String::remove_matches;0;0;4;0;0
+string::String::retain;0;0;4;0;0
+<string::String::retain::SetLenOnDrop<'a> as core::ops::Drop>::drop;0;0;1;0;0
+string::String::insert;0;0;1;0;0
+string::String::insert_bytes;0;0;6;0;0
+string::String::insert_str;0;0;1;0;0
+string::String::split_off;0;0;1;0;0
+string::String::drain;0;0;1;0;0
+string::String::replace_range;0;0;1;0;0
+string::String::into_boxed_str;0;0;1;0;0
+string::String::leak;0;0;1;0;0
+string::FromUtf8Error::into_utf8_lossy;0;0;1;0;0
+string::IntoChars::as_str;0;0;1;0;0
+string::IntoChars::into_string;0;0;1;0;0
+<string::Drain<'_> as core::ops::Drop>::drop;0;1;1;0;0
+sync::Arc::<T>::from_inner;0;0;1;0;0
+sync::Arc::<T>::from_ptr;0;0;1;0;0
+sync::Arc::<T, A>::into_inner_with_allocator;0;0;1;0;0
+sync::Arc::<T, A>::from_ptr_in;0;0;2;0;0
+sync::Arc::<T>::new;0;0;1;0;0
+sync::Arc::<T>::new_uninit;0;0;2;0;0
+sync::Arc::<T>::new_zeroed;0;0;2;0;0
+sync::Arc::<T>::pin;0;0;1;0;0
+sync::Arc::<T>::try_pin;0;0;1;0;0
+sync::Arc::<T>::try_new;0;0;1;0;0
+sync::Arc::<T>::try_new_uninit;0;0;2;0;0
+sync::Arc::<T>::try_new_zeroed;0;0;2;0;0
+sync::Arc::<T, A>::new_in;0;0;1;0;0
+sync::Arc::<T, A>::new_uninit_in;0;0;2;0;0
+sync::Arc::<T, A>::new_zeroed_in;0;0;2;0;0
+sync::Arc::<T, A>::new_cyclic_in;0;3;2;0;0
+sync::Arc::<T, A>::pin_in;0;0;1;0;0
+sync::Arc::<T, A>::try_pin_in;0;0;1;0;0
+sync::Arc::<T, A>::try_new_in;0;0;1;0;0
+sync::Arc::<T, A>::try_new_uninit_in;0;0;2;0;0
+sync::Arc::<T, A>::try_new_zeroed_in;0;0;2;0;0
+sync::Arc::<T, A>::try_unwrap;0;0;3;0;0
+sync::Arc::<T, A>::into_inner;0;0;3;0;0
+sync::Arc::<[T]>::new_uninit_slice;0;0;2;0;0
+sync::Arc::<[T]>::new_zeroed_slice;0;0;2;0;0
+sync::Arc::<[T]>::into_array;0;0;1;0;0
+sync::Arc::<[T], A>::new_uninit_slice_in;0;0;2;0;0
+sync::Arc::<[T], A>::new_zeroed_slice_in;0;0;2;0;0
+sync::Arc::<core::mem::MaybeUninit<T>, A>::assume_init;0;0;1;0;0
+sync::Arc::<[core::mem::MaybeUninit<T>], A>::assume_init;0;0;1;0;0
+sync::Arc::<T>::from_raw;0;0;1;0;0
+sync::Arc::<T>::increment_strong_count;0;0;1;0;0
+sync::Arc::<T>::decrement_strong_count;0;0;1;0;0
+sync::Arc::<T, A>::into_raw_with_allocator;0;0;1;0;0
+sync::Arc::<T, A>::as_ptr;0;1;0;0;0
+sync::Arc::<T, A>::from_raw_in;0;0;3;0;0
+sync::Arc::<T, A>::increment_strong_count_in;0;0;1;0;0
+sync::Arc::<T, A>::decrement_strong_count_in;0;0;1;0;0
+sync::Arc::<T, A>::inner;0;0;1;0;0
+sync::Arc::<T, A>::drop_slow;0;1;1;0;0
+sync::Arc::<T>::allocate_for_layout;0;0;1;0;0
+sync::Arc::<T>::try_allocate_for_layout;0;0;1;0;0
+sync::Arc::<T>::initialize_arcinner;0;2;3;0;0
+sync::Arc::<T, A>::allocate_for_ptr_in;0;0;2;0;0
+sync::Arc::<T, A>::from_box_in;0;3;4;0;0
+sync::Arc::<[T]>::allocate_for_slice;0;0;1;0;0
+sync::Arc::<[T]>::copy_from_slice;0;1;3;0;0
+sync::Arc::<[T]>::from_iter_exact;0;1;6;0;0
+<sync::Arc<[T]>::from_iter_exact::Guard<T> as core::ops::Drop>::drop;0;0;3;0;0
+sync::Arc::<[T], A>::allocate_for_slice_in;0;0;1;0;0
+<sync::Arc<[T]> as sync::ArcFromSlice<T>>::from_slice;0;0;1;0;0
+<sync::Arc<[T]> as sync::ArcFromSlice<T>>::from_slice;0;0;1;0;0
+<sync::Arc<T, A> as core::clone::Clone>::clone;0;0;1;0;0
+sync::Arc::<T, A>::make_mut;0;0;6;0;0
+sync::Arc::<T, A>::get_mut;0;0;1;0;0
+sync::Arc::<T, A>::get_mut_unchecked;0;1;0;0;0
+<sync::Arc<T, A> as core::ops::Drop>::drop;0;0;1;0;0
+sync::Arc::<(dyn core::any::Any + core::marker::Send + core::marker::Sync + 'static), A>::downcast;0;0;1;0;0
+sync::Arc::<(dyn core::any::Any + core::marker::Send + core::marker::Sync + 'static), A>::downcast_unchecked;0;0;1;0;0
+sync::Weak::<T>::from_raw;0;0;1;0;0
+sync::Weak::<T, A>::as_ptr;0;1;0;0;0
+sync::Weak::<T, A>::into_raw_with_allocator;0;0;1;0;0
+sync::Weak::<T, A>::from_raw_in;0;0;3;0;0
+sync::Weak::<T, A>::upgrade;0;0;1;0;0
+sync::Weak::<T, A>::inner;0;2;0;0;0
+<sync::Weak<T, A> as core::ops::Drop>::drop;0;0;2;0;0
+<sync::Arc<T> as core::default::Default>::default;0;0;1;0;0
+<sync::Arc<str> as core::default::Default>::default;0;0;1;0;0
+<sync::Arc<core::ffi::CStr> as core::default::Default>::default;0;0;1;0;0
+<sync::Arc<[T]> as core::default::Default>::default;0;0;1;0;0
+<sync::Arc<str> as core::convert::From<&str>>::from;0;0;1;0;0
+<sync::Arc<[T], A> as core::convert::From<vec::Vec<T, A>>>::from;0;1;4;0;0
+<sync::Arc<[u8]> as core::convert::From<sync::Arc<str>>>::from;0;0;1;0;0
+"<sync::Arc<[T; N], A> as core::convert::TryFrom<sync::Arc<[T], A>>>::try_from";0;0;1;0;0
+<I as sync::ToArcSlice<T>>::to_arc_slice;0;0;1;0;0
+sync::data_offset;0;0;1;0;0
+sync::UniqueArcUninit::<T, A>::new;0;0;1;0;0
+sync::UniqueArcUninit::<T, A>::data_ptr;0;0;1;0;0
+sync::UniqueArcUninit::<T, A>::into_arc;0;0;1;0;0
+<sync::UniqueArcUninit<T, A> as core::ops::Drop>::drop;0;0;1;0;0
+task::<impl core::convert::From<sync::Arc<W>> for core::task::Waker>::from;0;0;1;0;0
+task::raw_waker::clone_waker;0;0;1;0;0
+task::raw_waker::wake;0;0;1;0;0
+task::raw_waker::wake_by_ref;0;0;1;0;0
+task::raw_waker::drop_waker;0;0;1;0;0
+task::<impl core::convert::From<rc::Rc<W>> for core::task::LocalWaker>::from;0;0;1;0;0
+task::local_raw_waker::clone_waker;0;0;1;0;0
+task::local_raw_waker::wake;0;0;1;0;0
+task::local_raw_waker::wake_by_ref;0;0;1;0;0
+task::local_raw_waker::drop_waker;0;0;1;0;0
+vec::extract_if::ExtractIf::<'a, T, F, A>::new;0;0;1;0;0
+<vec::extract_if::ExtractIf<'_, T, F, A> as core::iter::Iterator>::next;0;0;3;0;0
+<vec::extract_if::ExtractIf<'_, T, F, A> as core::ops::Drop>::drop;0;0;4;0;0
+<vec::splice::Splice<'_, I, A> as core::ops::Drop>::drop;0;0;6;0;0
+vec::splice::<impl vec::drain::Drain<'_, T, A>>::fill;0;0;4;0;0
+vec::splice::<impl vec::drain::Drain<'_, T, A>>::move_tail;0;0;4;0;0
+vec::drain::Drain::<'a, T, A>::allocator;0;0;1;0;0
+vec::drain::Drain::<'a, T, A>::keep_rest;0;0;7;0;0
+<vec::drain::Drain<'_, T, A> as core::ops::Drop>::drop;0;0;6;0;0
+<<vec::drain::Drain<'_, T, A> as core::ops::Drop>::drop::DropGuard<'r, 'a, T, A> as core::ops::Drop>::drop;0;0;5;0;0
+vec::into_iter::IntoIter::<T, A>::as_slice;0;0;1;0;0
+vec::into_iter::IntoIter::<T, A>::as_mut_slice;0;1;0;0;0
+vec::into_iter::IntoIter::<T, A>::forget_allocation_drop_remaining;0;0;1;0;0
+vec::into_iter::IntoIter::<T, A>::into_vecdeque;0;0;4;0;0
+<vec::into_iter::IntoIter<T, A> as core::iter::Iterator>::next;0;1;2;0;0
+<vec::into_iter::IntoIter<T, A> as core::iter::Iterator>::size_hint;0;1;1;0;0
+<vec::into_iter::IntoIter<T, A> as core::iter::Iterator>::advance_by;0;0;2;0;0
+<vec::into_iter::IntoIter<T, A> as core::iter::Iterator>::next_chunk;0;0;7;0;0
+<vec::into_iter::IntoIter<T, A> as core::iter::Iterator>::fold;0;1;3;0;0
+<vec::into_iter::IntoIter<T, A> as core::iter::Iterator>::try_fold;0;1;3;0;0
+<vec::into_iter::IntoIter<T, A> as core::iter::Iterator>::__iterator_get_unchecked;0;0;2;0;0
+<vec::into_iter::IntoIter<T, A> as core::iter::DoubleEndedIterator>::next_back;0;1;3;0;0
+<vec::into_iter::IntoIter<T, A> as core::iter::DoubleEndedIterator>::advance_back_by;0;0;2;0;0
+<vec::into_iter::IntoIter<T, A> as core::iter::ExactSizeIterator>::is_empty;0;1;0;0;0
+<vec::into_iter::IntoIter<T, A> as core::ops::Drop>::drop;0;0;1;0;0
+<<vec::into_iter::IntoIter<T, A> as core::ops::Drop>::drop::DropGuard<'_, T, A> as core::ops::Drop>::drop;0;0;2;0;0
+vec::in_place_collect::from_iter_in_place;0;0;11;0;0
+<I as vec::in_place_collect::SpecInPlaceCollect<T, I>>::collect_in_place;0;0;1;0;0
+<I as vec::in_place_collect::SpecInPlaceCollect<T, I>>::collect_in_place;0;0;4;0;0
+<i8 as vec::spec_from_elem::SpecFromElem>::from_elem;0;0;2;0;0
+<u8 as vec::spec_from_elem::SpecFromElem>::from_elem;0;0;2;0;0
+<() as vec::spec_from_elem::SpecFromElem>::from_elem;0;0;1;0;0
+vec::in_place_drop::InPlaceDrop::<T>::len;0;0;1;0;0
+<vec::in_place_drop::InPlaceDrop<T> as core::ops::Drop>::drop;0;0;2;0;0
+<vec::in_place_drop::InPlaceDstDataSrcBufDrop<Src, Dest> as core::ops::Drop>::drop;0;0;2;0;0
+<vec::Vec<T> as vec::spec_from_iter_nested::SpecFromIterNested<T, I>>::from_iter;0;0;2;0;0
+<vec::Vec<T> as vec::spec_from_iter::SpecFromIter<T, vec::into_iter::IntoIter<T>>>::from_iter;0;0;2;0;0
+<vec::Vec<T, A> as vec::spec_extend::SpecExtend<T, vec::into_iter::IntoIter<T>>>::spec_extend;0;0;1;0;0
+<vec::Vec<T, A> as vec::spec_extend::SpecExtend<&'a T, core::slice::Iter<'a, T>>>::spec_extend;0;0;1;0;0
+vec::Vec::<T>::from_raw_parts;0;0;1;0;0
+vec::Vec::<T>::from_parts;0;0;1;0;0
+vec::Vec::<T, A>::from_raw_parts_in;0;0;1;0;0
+vec::Vec::<T, A>::from_parts_in;0;0;1;0;0
+vec::Vec::<T, A>::into_parts;0;0;1;0;0
+vec::Vec::<T, A>::into_raw_parts_with_alloc;0;0;1;0;0
+vec::Vec::<T, A>::into_parts_with_alloc;0;0;1;0;0
+vec::Vec::<T, A>::into_boxed_slice;0;0;3;0;0
+vec::Vec::<T, A>::truncate;0;0;2;0;0
+vec::Vec::<T, A>::as_slice;0;0;1;0;0
+vec::Vec::<T, A>::as_mut_slice;0;0;1;0;0
+vec::Vec::<T, A>::as_non_null;0;0;1;0;0
+vec::Vec::<T, A>::swap_remove;0;0;6;0;0
+vec::Vec::<T, A>::insert;0;0;5;0;0
+vec::Vec::<T, A>::remove;0;0;5;0;0
+vec::Vec::<T, A>::retain_mut;0;0;1;0;0
+<vec::Vec<T, A>::retain_mut::BackshiftOnDrop<'_, T, A> as core::ops::Drop>::drop;0;0;4;0;0
+vec::Vec::<T, A>::retain_mut::process_loop;0;1;4;0;0
+vec::Vec::<T, A>::dedup_by;0;4;10;0;0
+<vec::Vec<T, A>::dedup_by::FillGapOnDrop<'a, T, A> as core::ops::Drop>::drop;0;0;4;0;0
+vec::Vec::<T, A>::push;0;0;2;0;0
+vec::Vec::<T, A>::push_within_capacity;0;0;2;0;0
+vec::Vec::<T, A>::pop;0;0;3;0;0
+vec::Vec::<T, A>::append;0;0;2;0;0
+vec::Vec::<T, A>::append_elements;0;1;2;0;0
+vec::Vec::<T, A>::drain;0;0;3;0;0
+vec::Vec::<T, A>::clear;0;0;1;0;0
+vec::Vec::<T, A>::split_off;0;0;4;0;0
+vec::Vec::<T, A>::leak;0;0;1;0;0
+vec::Vec::<T, A>::spare_capacity_mut;0;0;2;0;0
+vec::Vec::<T, A>::split_at_spare_mut;0;0;1;0;0
+vec::Vec::<T, A>::split_at_spare_mut_with_len;0;0;3;0;0
+vec::Vec::<T, A>::extend_from_within;0;0;1;0;0
+"vec::Vec::<[T; N], A>::into_flattened";0;0;3;0;0
+vec::Vec::<T, A>::extend_with;0;0;4;0;0
+<vec::Vec<T, A> as vec::ExtendFromWithinSpec>::spec_extend_from_within;0;0;2;0;0
+<vec::Vec<T, A> as vec::ExtendFromWithinSpec>::spec_extend_from_within;0;0;2;0;0
+<vec::Vec<T, A> as core::iter::IntoIterator>::into_iter;0;0;2;0;0
+<vec::Vec<T, A> as core::iter::Extend<T>>::extend_one_unchecked;0;0;3;0;0
+vec::Vec::<T, A>::extend_desugared;0;0;3;0;0
+<vec::Vec<T, A> as core::iter::Extend<&'a T>>::extend_one_unchecked;0;0;3;0;0
+<vec::Vec<T, A> as core::ops::Drop>::drop;0;0;1;0;0
+"vec::<impl core::convert::TryFrom<vec::Vec<T, A>> for [T; N]>::try_from";0;0;2;0;0

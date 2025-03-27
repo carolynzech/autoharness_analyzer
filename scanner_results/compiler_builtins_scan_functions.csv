@@ -1,0 +1,1997 @@
+name;is_unsafe;has_unsafe_ops;has_unsupported_input;has_loop_or_iterator
+<usize as math::libm::support::int_traits::Int>::checked_sub;false;false;false;false
+int::big::<impl int::traits::HInt for u128>::widen_hi;false;false;false;false
+math::libm::erf::erfc;false;false;true;false
+<u64 as int::traits::Int>::logical_shr;false;false;false;false
+<u16 as math::libm::support::int_traits::Int>::rotate_left;false;false;false;false
+<u32 as math::libm::support::int_traits::CastInto<i16>>::cast_lossy;false;false;false;false
+int::trailing_zeros::__ctzsi2::__ctzsi2;false;false;false;false
+float::sub::__subsf3;false;false;true;false
+math::libm::expo2::expo2;false;false;true;false
+<i32 as int::traits::Int>::is_zero;false;false;false;false
+<u32 as math::libm::support::int_traits::Int>::overflowing_sub;false;false;false;false
+math::libm::generic::fminimum::fminimum;false;false;false;false
+<u64 as int::traits::CastInto<i64>>::cast;false;false;false;false
+math::libm::powf::powf;false;false;true;false
+<u8 as math::libm::support::int_traits::Int>::wrapping_shr;false;false;false;false
+int::addsub::Addo::addo;false;false;false;false
+<f64 as float::traits::Float>::frac;false;false;true;false
+float::cmp::__getf2::__getf2;false;false;true;false
+<u8 as math::libm::support::int_traits::Int>::overflowing_sub;false;false;false;false
+<u32 as math::libm::support::int_traits::HInt>::widen_hi;false;false;false;false
+<usize as math::libm::support::int_traits::CastInto<i8>>::cast;false;false;false;false
+float::traits::Float::abs;false;false;false;false
+<u128 as math::libm::support::int_traits::Int>::unsigned;false;false;false;false
+<f32 as float::traits::Float>::imp_frac;false;false;true;false
+math::full_availability::fabsf::fabsf;false;false;true;false
+float::conv::__fixsfsi;false;false;true;false
+<i64 as int::traits::Int>::abs_diff;false;false;false;false
+math::libm::generic::sqrt::wmulh;false;false;false;false
+int::mul::__multi3::__multi3;false;false;false;false
+math::full_availability::fmaximumf;false;false;true;false
+float::conv::__fixdfti::__fixdfti;false;false;true;false
+math::full_availability::fmaxf128;false;false;true;false
+<u64 as int::traits::Int>::from_bool;false;false;false;false
+math::full_availability::rintf16::rintf16;false;false;true;false
+<i128 as int::traits::Int>::wrapping_sub;false;false;false;false
+int::addsub::UAddSub::usub;false;false;false;false
+<u16 as math::libm::support::int_traits::CastInto<i64>>::cast_lossy;false;false;false;false
+<u8 as math::libm::support::int_traits::Int>::wrapping_neg;false;false;false;false
+<i64 as int::traits::Int>::overflowing_add;false;false;false;false
+<u64 as int::traits::Int>::rotate_left;false;false;false;false
+<isize as math::libm::support::int_traits::CastInto<u64>>::cast_lossy;false;false;false;false
+<i32 as int::traits::CastInto<i8>>::cast;false;false;false;false
+<u16 as math::libm::support::int_traits::Int>::wrapping_shl;false;false;false;false
+int::big::<impl int::traits::HInt for u128>::widen_mul;false;false;false;false
+<u16 as int::traits::CastInto<i128>>::cast;false;false;false;false
+int::trailing_zeros::__ctzsi2;false;false;false;false
+math::full_availability::fmin::fmin;false;false;true;false
+int::specialized_div_rem::u64_by_u64_div_rem;false;false;false;false
+int::specialized_div_rem::u128_div_rem;false;true;false;false
+<math::libm::support::big::i256 as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+<i128 as math::libm::support::int_traits::CastInto<f128>>::cast;false;false;false;false
+<u16 as math::libm::support::int_traits::Int>::wrapping_sub;false;false;false;false
+int::mul::UMulo::mulo;false;false;false;false
+<int::big::i256 as rustc_std_workspace_core::ops::Shl<u32>>::shl;false;false;false;false
+<usize as int::traits::Int>::wrapping_mul;false;false;false;false
+float::cmp::__letf2::__letf2;false;false;true;false
+<u8 as int::traits::CastInto<i64>>::cast;false;false;false;false
+<usize as math::libm::support::int_traits::Int>::wrapping_shr;false;false;false;false
+<i64 as math::libm::support::int_traits::CastInto<u16>>::cast_lossy;false;false;false;false
+int::addsub::AddSub::sub;false;false;false;false
+math::libm::fminimum_fmaximum_num::fmaximum_numf128;false;false;true;false
+<f16 as float::traits::Float>::normalize;false;false;true;false
+<i16 as int::traits::Int>::logical_shr;false;false;false;false
+math::libm::roundeven::roundevenf16;false;false;true;false
+<usize as math::libm::support::int_traits::CastInto<i128>>::cast_lossy;false;false;false;false
+math::full_availability::fdimf128;false;false;true;false
+int::bswap::__bswapdi2::__bswapdi2;false;false;false;false
+math::full_availability::cbrt;false;false;true;false
+<isize as math::libm::support::int_traits::Int>::unsigned;false;false;false;false
+<isize as int::traits::Int>::abs_diff;false;false;false;false
+<i128 as math::libm::support::int_traits::CastInto<u128>>::cast;false;false;false;false
+<i16 as math::libm::support::int_traits::CastInto<u16>>::cast;false;false;false;false
+<i32 as int::traits::Int>::wrapping_sub;false;false;false;false
+math::libm::cbrt::cbrt_round;false;false;true;true
+<i16 as int::traits::CastInto<u8>>::cast;false;false;false;false
+math::libm::j1f::j1f;false;false;true;false
+<i64 as math::libm::support::int_traits::CastInto<i64>>::cast_lossy;false;false;false;false
+<u128 as math::libm::support::int_traits::CastInto<i32>>::cast_lossy;false;false;false;false
+float::pow::__powisf2::__powisf2;false;false;true;false
+<u8 as int::traits::Int>::ilog2;false;false;false;false
+<u16 as int::traits::Int>::rotate_left;false;false;false;false
+<i64 as int::traits::HInt>::zero_widen;false;false;false;false
+<i16 as math::libm::support::int_traits::DInt>::hi;false;false;false;false
+math::full_availability::copysign;false;false;true;false
+<i32 as math::libm::support::int_traits::CastInto<i128>>::cast_lossy;false;false;false;false
+<i8 as math::libm::support::int_traits::CastInto<i64>>::cast_lossy;false;false;false;false
+math::libm::cos::cos;false;false;true;false
+<i16 as math::libm::support::int_traits::Int>::checked_sub;false;false;false;false
+int::addsub::__rust_i128_subo::__rust_i128_subo;false;false;true;false
+math::libm::support::float_traits::Float::biteq;false;false;false;false
+<i8 as math::libm::support::int_traits::CastInto<i64>>::cast;false;false;false;false
+<int::big::i256 as rustc_std_workspace_core::cmp::PartialOrd>::partial_cmp;false;false;false;false
+<math::libm::support::env::Round as rustc_std_workspace_core::cmp::PartialEq>::eq;false;false;false;false
+math::full_availability::fmod::fmod;false;false;true;false
+math::libm::j0f::y0f;false;false;true;false
+<u8 as math::libm::support::int_traits::Int>::signed;false;false;false;false
+<i64 as math::libm::support::int_traits::Int>::wrapping_mul;false;false;false;false
+<u128 as math::libm::support::int_traits::CastInto<i8>>::cast_lossy;false;false;false;false
+math::libm::sin::sin;false;true;true;false
+math::libm::ceilf128::ceilf128;false;false;true;false
+<i32 as int::traits::CastInto<isize>>::cast;false;false;false;false
+<u16 as math::libm::support::int_traits::Int>::from_unsigned;false;false;false;false
+<i128 as math::libm::support::int_traits::CastInto<i16>>::cast_lossy;false;false;false;false
+math::full_availability::round::round;false;false;true;false
+<u64 as math::libm::support::int_traits::CastInto<i64>>::cast_lossy;false;false;false;false
+<u16 as math::libm::support::int_traits::CastInto<u128>>::cast_lossy;false;false;false;false
+<f64 as math::libm::support::float_traits::HFloat>::widen;false;false;true;false
+math::libm::roundf::roundf;false;false;true;false
+int::mul::__muloti4::__muloti4;false;false;true;false
+float::conv::__fixunstfdi::__fixunstfdi;false;false;true;false
+math::libm::roundf128::roundf128;false;false;true;false
+<u8 as math::libm::support::int_traits::Int>::wrapping_mul;false;false;false;false
+math::libm::atanhf::atanhf;false;true;true;false
+float::extend::__extenddftf2;false;false;true;false
+<i128 as math::libm::support::int_traits::Int>::wrapping_mul;false;false;false;false
+<i32 as int::traits::CastInto<u8>>::cast;false;false;false;false
+<i8 as math::libm::support::int_traits::Int>::leading_zeros;false;false;false;false
+<i8 as int::traits::Int>::wrapping_add;false;false;false;false
+<u16 as math::libm::support::int_traits::HInt>::widen_hi;false;false;false;false
+<i8 as math::libm::support::int_traits::CastInto<u64>>::cast_lossy;false;false;false;false
+<u16 as math::libm::support::int_traits::CastInto<i64>>::cast;false;false;false;false
+int::big::<impl int::traits::HInt for i128>::widen;false;false;false;false
+<i32 as math::libm::support::int_traits::CastInto<u16>>::cast;false;false;false;false
+<math::libm::support::big::u256 as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+math::libm::fmin_fmax::fmaxf16;false;false;true;false
+float::conv::__floatunsisf;false;false;false;false
+<i128 as math::libm::support::int_traits::Int>::wrapping_shl;false;false;false;false
+math::libm::k_tan::zero_low_word;false;false;true;false
+float::conv::__fixsfdi::__fixsfdi;false;false;true;false
+<isize as int::traits::Int>::wrapping_sub;false;false;false;false
+<u16 as math::libm::support::int_traits::HInt>::zero_widen_mul;false;false;false;false
+<u64 as math::libm::support::int_traits::CastInto<u128>>::cast_lossy;false;false;false;false
+math::libm::j1f::qonef;false;false;true;false
+<i16 as math::libm::support::int_traits::CastInto<i64>>::cast;false;false;false;false
+<isize as math::libm::support::int_traits::CastInto<i16>>::cast;false;false;false;false
+int::sdiv::__divdi3;false;false;false;false
+<u128 as math::libm::support::int_traits::CastInto<u16>>::cast;false;false;false;false
+<i64 as math::libm::support::int_traits::Int>::wrapping_neg;false;false;false;false
+int::mul::__rust_u128_mulo;false;false;true;false
+int::shift::__ashrti3;false;false;false;false
+<u128 as math::libm::support::int_traits::CastInto<i32>>::cast;false;false;false;false
+int::addsub::__rust_i128_subo;false;false;true;false
+int::addsub::__rust_i128_sub::__rust_i128_sub;false;false;false;false
+<u16 as int::traits::CastInto<u32>>::cast;false;false;false;false
+<u64 as int::traits::Int>::wrapping_add;false;false;false;false
+<i32 as math::libm::support::int_traits::CastInto<u32>>::cast_lossy;false;false;false;false
+int::bswap::__bswapti2::__bswapti2;false;false;false;false
+<isize as int::traits::Int>::logical_shr;false;false;false;false
+<i8 as math::libm::support::int_traits::Int>::abs;false;false;false;false
+<i16 as math::libm::support::int_traits::Int>::wrapping_sub;false;false;false;false
+int::big::<impl int::traits::HInt for u128>::widen;false;false;false;false
+<u16 as int::traits::Int>::unsigned;false;false;false;false
+<u128 as math::libm::support::int_traits::Int>::rotate_left;false;false;false;false
+math::libm::remainder::remainder;false;false;true;false
+float::pow::__powidf2;false;false;true;false
+int::specialized_div_rem::u64_normalization_shift;false;false;false;false
+math::libm::atanh::atanh;false;true;true;false
+int::leading_zeros::__clzdi2;false;false;false;false
+<u64 as math::libm::support::int_traits::CastInto<i128>>::cast_lossy;false;false;false;false
+math::libm::support::big::<impl math::libm::support::int_traits::HInt for u128>::widen_mul;false;false;false;false
+<isize as math::libm::support::int_traits::Int>::wrapping_add;false;false;false;false
+<i32 as math::libm::support::int_traits::Int>::unsigned;false;false;false;false
+math::full_availability::fminf16;false;false;true;false
+<u16 as int::traits::HInt>::widen_hi;false;false;false;false
+<u32 as int::traits::HInt>::zero_widen_mul;false;false;false;false
+<isize as int::traits::Int>::wrapping_add;false;false;false;false
+<i32 as math::libm::support::int_traits::CastInto<i128>>::cast;false;false;false;false
+math::libm::fminimum_fmaximum_num::fmaximum_numf16;false;false;true;false
+<u16 as math::libm::support::int_traits::CastInto<u8>>::cast_lossy;false;false;false;false
+<u16 as math::libm::support::int_traits::CastInto<usize>>::cast;false;false;false;false
+<i8 as math::libm::support::int_traits::Int>::wrapping_mul;false;false;false;false
+math::full_availability::fmodf16;false;false;true;false
+<u64 as int::traits::CastInto<usize>>::cast;false;false;false;false
+int::leading_zeros::__clzsi2;false;false;false;false
+math::libm::arch::i686::sqrt;false;true;true;false
+<u8 as int::traits::CastInto<u32>>::cast;false;false;false;false
+<i16 as math::libm::support::int_traits::Int>::is_zero;false;false;false;false
+math::libm::support::big::<impl math::libm::support::int_traits::HInt for u128>::widen;false;false;false;false
+math::full_availability::floor;false;false;true;false
+float::cmp::__eqtf2::__eqtf2;false;false;true;false
+<u128 as math::libm::support::int_traits::CastInto<u8>>::cast;false;false;false;false
+<i8 as math::libm::support::int_traits::CastInto<f16>>::cast;false;false;false;false
+math::full_availability::rint::rint;false;false;true;false
+<f32 as float::traits::Float>::eq_repr;false;false;true;false
+<i64 as math::libm::support::int_traits::HInt>::widen;false;false;false;false
+<isize as math::libm::support::int_traits::Int>::wrapping_mul;false;false;false;false
+<u16 as int::traits::Int>::is_zero;false;false;false;false
+math::libm::generic::ceil::ceil;false;false;false;false
+math::full_availability::fminf128;false;false;true;false
+float::extend::__gnu_h2f_ieee::__gnu_h2f_ieee;false;false;true;false
+<f64 as math::libm::support::float_traits::Float>::is_sign_negative;false;false;true;false
+<f64 as math::libm::support::float_traits::Float>::copysign;false;false;true;false
+<int::big::u256 as rustc_std_workspace_core::cmp::PartialEq>::eq;false;false;false;false
+<i16 as math::libm::support::int_traits::Int>::wrapping_neg;false;false;false;false
+math::libm::acoshf::acoshf;false;false;true;false
+math::full_availability::floorf128::floorf128;false;false;true;false
+<i8 as int::traits::Int>::abs_diff;false;false;false;false
+<u32 as math::libm::support::int_traits::Int>::signed;false;false;false;false
+<i8 as int::traits::Int>::wrapping_shl;false;false;false;false
+<i32 as int::traits::CastInto<usize>>::cast;false;false;false;false
+<i64 as math::libm::support::int_traits::CastInto<f32>>::cast;false;false;false;false
+<int::big::i256 as rustc_std_workspace_core::ops::BitOr>::bitor;false;false;false;false
+<u32 as math::libm::support::int_traits::CastInto<i8>>::cast;false;false;false;false
+float::mul::__muldf3::__muldf3;false;false;true;false
+<i32 as int::traits::HInt>::widen_mul;false;false;false;false
+float::conv::__floatsisf;false;false;false;false
+<i32 as int::traits::CastInto<i64>>::cast;false;false;false;false
+float::conv::__floatdisf::__floatdisf;false;false;false;false
+<u8 as int::traits::CastInto<u16>>::cast;false;false;false;false
+<u8 as math::libm::support::int_traits::HInt>::zero_widen_mul;false;false;false;false
+<i16 as int::traits::Int>::leading_zeros;false;false;false;false
+math::libm::sincosf::sincosf;false;true;true;false
+<u16 as int::traits::Int>::logical_shr;false;false;false;false
+<u8 as int::traits::CastInto<isize>>::cast;false;false;false;false
+<i8 as int::traits::CastInto<i32>>::cast;false;false;false;false
+<i16 as math::libm::support::int_traits::CastInto<isize>>::cast_lossy;false;false;false;false
+<i128 as math::libm::support::int_traits::CastInto<i32>>::cast;false;false;false;false
+math::full_availability::fabsf16;false;false;true;false
+<f32 as float::traits::Float>::is_sign_negative;false;false;true;false
+<i8 as math::libm::support::int_traits::CastInto<i16>>::cast;false;false;false;false
+float::conv::__fixtfdi::__fixtfdi;false;false;true;false
+math::libm::j1f::ponef;false;false;true;false
+math::libm::copysignf128::copysignf128;false;false;true;false
+math::libm::fmod::fmod;false;false;true;false
+float::mul::__mulsf3;false;false;true;false
+math::libm::support::big::<impl math::libm::support::int_traits::HInt for u128>::widen_hi;false;false;false;false
+float::conv::__fixtfsi::__fixtfsi;false;false;true;false
+float::conv::__floatsidf;false;false;false;false
+<isize as math::libm::support::int_traits::CastInto<i8>>::cast;false;false;false;false
+<i128 as int::traits::CastInto<i64>>::cast;false;false;false;false
+<i16 as int::traits::CastInto<usize>>::cast;false;false;false;false
+<u128 as math::libm::support::int_traits::CastInto<i8>>::cast;false;false;false;false
+int::mul::__mulosi4;false;false;true;false
+<u32 as math::libm::support::int_traits::Int>::wrapping_sub;false;false;false;false
+<i128 as math::libm::support::int_traits::CastInto<f128>>::cast_lossy;false;false;false;false
+float::pow::pow;false;false;false;true
+math::full_availability::cbrtf::cbrtf;false;false;true;false
+float::conv::__fixunsdfti;false;false;true;false
+<usize as math::libm::support::int_traits::CastInto<usize>>::cast_lossy;false;false;false;false
+<usize as int::traits::Int>::is_zero;false;false;false;false
+<isize as int::traits::CastInto<i32>>::cast;false;false;false;false
+<f16 as float::traits::Float>::eq_repr::is_nan;false;false;true;false
+<isize as int::traits::CastInto<usize>>::cast;false;false;false;false
+<math::libm::support::env::Round as rustc_std_workspace_core::clone::Clone>::clone;false;false;false;false
+math::libm::log10f::log10f;false;false;true;false
+int::leading_zeros::__clzti2::__clzti2;false;false;false;false
+<i32 as int::traits::Int>::abs_diff;false;false;false;false
+<f32 as math::libm::support::float_traits::Float>::is_infinite;false;false;true;false
+math::libm::fminimum_fmaximum::fminimum;false;false;true;false
+math::libm::fminimum_fmaximum_num::fminimum_num;false;false;true;false
+math::libm::support::float_traits::f64_from_bits;false;false;false;false
+<i32 as math::libm::support::int_traits::HInt>::widen_mul;false;false;false;false
+<u16 as int::traits::Int>::unsigned_abs;false;false;false;false
+<isize as math::libm::support::int_traits::CastInto<i16>>::cast_lossy;false;false;false;false
+<u8 as math::libm::support::int_traits::Int>::wrapping_add;false;false;false;false
+math::full_availability::fmodf128::fmodf128;false;false;true;false
+<u64 as math::libm::support::int_traits::CastInto<i16>>::cast_lossy;false;false;false;false
+<u16 as int::traits::DInt>::lo;false;false;false;false
+float::cmp::__gtsf2::__gtsf2;false;false;true;false
+<f16 as math::libm::support::float_traits::Float>::copysign;false;false;true;false
+float::sub::__subsf3::__subsf3;false;false;true;false
+<u8 as math::libm::support::int_traits::CastInto<i8>>::cast_lossy;false;false;false;false
+<i32 as math::libm::support::int_traits::Int>::checked_add;false;false;false;false
+float::conv::__floatuntisf::__floatuntisf;false;false;false;false
+int::big::<impl int::traits::HInt for u128>::zero_widen_mul;false;false;false;false
+<isize as math::libm::support::int_traits::CastInto<u8>>::cast_lossy;false;false;false;false
+float::cmp::__lesf2::__lesf2;false;false;true;false
+math::libm::support::env::Status::set_underflow;false;false;true;false
+<i64 as int::traits::Int>::wrapping_mul;false;false;false;false
+math::libm::fabs::fabs;false;false;true;false
+<float::cmp::Result as rustc_std_workspace_core::clone::Clone>::clone;false;false;false;false
+float::conv::__fixdfdi::__fixdfdi;false;false;true;false
+<i64 as math::libm::support::int_traits::Int>::leading_zeros;false;false;false;false
+float::conv::__floatundidf::__floatundidf;false;false;false;false
+<isize as int::traits::Int>::wrapping_neg;false;false;false;false
+<i16 as math::libm::support::int_traits::HInt>::zero_widen;false;false;false;false
+math::libm::scalbn::scalbn;false;false;true;false
+<u16 as math::libm::support::int_traits::HInt>::widen_mul;false;false;false;false
+<i128 as math::libm::support::int_traits::CastInto<isize>>::cast;false;false;false;false
+<i8 as math::libm::support::int_traits::CastInto<u32>>::cast;false;false;false;false
+<u64 as int::traits::Int>::unsigned;false;false;false;false
+float::cmp::Result::to_le_abi;false;false;false;false
+<i32 as int::traits::CastInto<u64>>::cast;false;false;false;false
+<i64 as math::libm::support::int_traits::HInt>::widen_mul;false;false;false;false
+<u32 as math::libm::support::int_traits::DInt>::lo;false;false;false;false
+math::libm::fmodf128::fmodf128;false;false;true;false
+math::full_availability::fabsf16::fabsf16;false;false;true;false
+float::cmp::__unordsf2::__unordsf2;false;false;true;false
+<i8 as int::traits::CastInto<usize>>::cast;false;false;false;false
+<i128 as math::libm::support::int_traits::Int>::leading_zeros;false;false;false;false
+<u16 as math::libm::support::int_traits::DInt>::hi;false;false;false;false
+<u64 as math::libm::support::int_traits::CastInto<u16>>::cast_lossy;false;false;false;false
+mem::__llvm_memset_element_unordered_atomic_2;true;false;true;false
+<u8 as math::libm::support::int_traits::CastInto<i32>>::cast_lossy;false;false;false;false
+<i128 as int::traits::Int>::wrapping_mul;false;false;false;false
+math::libm::support::hex_float::hex_digit;false;false;false;false
+<usize as math::libm::support::int_traits::CastInto<i8>>::cast_lossy;false;false;false;false
+<i128 as int::traits::CastInto<i16>>::cast;false;false;false;false
+math::full_availability::fmaxf16::fmaxf16;false;false;true;false
+float::cmp::__letf2;false;false;true;false
+<i32 as math::libm::support::int_traits::CastInto<isize>>::cast;false;false;false;false
+<i128 as math::libm::support::int_traits::DInt>::hi;false;false;false;false
+int::big::<impl int::traits::HInt for u128>::zero_widen;false;false;false;false
+<u128 as math::libm::support::int_traits::CastInto<u32>>::cast_lossy;false;false;false;false
+math::libm::modff::modff;false;false;true;false
+<u128 as math::libm::support::int_traits::Int>::overflowing_add;false;false;false;false
+math::libm::j0f::common;false;false;true;false
+<i16 as math::libm::support::int_traits::Int>::overflowing_sub;false;false;false;false
+float::conv::__fixunsdfdi::__fixunsdfdi;false;false;true;false
+<i8 as int::traits::Int>::is_zero;false;false;false;false
+<u128 as math::libm::support::int_traits::CastInto<u64>>::cast;false;false;false;false
+<isize as math::libm::support::int_traits::CastInto<u128>>::cast;false;false;false;false
+math::libm::j0::j0;false;false;true;false
+int::sdiv::__modsi3;false;false;false;false
+<usize as math::libm::support::int_traits::CastInto<isize>>::cast;false;false;false;false
+math::libm::erff::erff;false;false;true;false
+math::full_availability::fdimf128::fdimf128;false;false;true;false
+<i64 as int::traits::Int>::is_zero;false;false;false;false
+<usize as math::libm::support::int_traits::CastInto<u128>>::cast;false;false;false;false
+<i64 as math::libm::support::int_traits::Int>::overflowing_add;false;false;false;false
+<f32 as math::libm::support::float_traits::Float>::copysign;false;false;true;false
+<i32 as math::libm::support::int_traits::Int>::from_bool;false;false;false;false
+<isize as math::libm::support::int_traits::Int>::abs_diff;false;false;false;false
+<i128 as math::libm::support::int_traits::Int>::abs_diff;false;false;false;false
+mem::memcmp;true;true;true;false
+<i128 as int::traits::Int>::leading_zeros;false;false;false;false
+math::full_availability::trunc::trunc;false;false;true;false
+<i128 as int::traits::Int>::rotate_left;false;false;false;false
+float::extend::extend;false;false;false;false
+int::udiv::__udivmoddi4;false;false;true;false
+<u8 as math::libm::support::int_traits::CastInto<u8>>::cast_lossy;false;false;false;false
+math::libm::tanh::tanh;false;true;true;false
+<i128 as int::traits::CastInto<i128>>::cast;false;false;false;false
+math::full_availability::fmodf::fmodf;false;false;true;false
+<f64 as float::traits::Float>::imp_frac;false;false;true;false
+<i16 as math::libm::support::int_traits::CastInto<i8>>::cast_lossy;false;false;false;false
+int::mul::i32_overflowing_mul;false;false;false;false
+<u32 as int::traits::Int>::wrapping_shr;false;false;false;false
+<isize as int::traits::CastInto<isize>>::cast;false;false;false;false
+int::traits::make_fuzz_lengths;false;false;false;true
+float::mul::__multf3::__multf3;false;false;true;false
+float::conv::__floattitf::__floattitf;false;false;false;false
+<i64 as math::libm::support::int_traits::Int>::rotate_left;false;false;false;false
+<i8 as math::libm::support::int_traits::CastInto<usize>>::cast;false;false;false;false
+math::libm::cosh::cosh;false;true;true;false
+<i16 as int::traits::HInt>::zero_widen_mul;false;false;false;false
+<i64 as int::traits::CastInto<i8>>::cast;false;false;false;false
+<f128 as math::libm::support::float_traits::Float>::normalize;false;false;true;false
+<u64 as math::libm::support::int_traits::HInt>::widen_mul;false;false;false;false
+<i16 as math::libm::support::int_traits::CastInto<i32>>::cast_lossy;false;false;false;false
+<i64 as int::traits::DInt>::lo;false;false;false;false
+<i16 as math::libm::support::int_traits::CastInto<u64>>::cast;false;false;false;false
+math::full_availability::roundf16;false;false;true;false
+math::full_availability::floorf128;false;false;true;false
+math::full_availability::truncf128::truncf128;false;false;true;false
+<i128 as math::libm::support::int_traits::Int>::wrapping_sub;false;false;false;false
+<i128 as math::libm::support::int_traits::CastInto<i8>>::cast_lossy;false;false;false;false
+<int::big::i256 as int::traits::DInt>::hi;false;false;false;false
+math::full_availability::roundevenf::roundevenf;false;false;true;false
+int::leading_zeros::__clzti2;false;false;false;false
+mem::__llvm_memmove_element_unordered_atomic_8::__llvm_memmove_element_unordered_atomic_8;true;true;true;false
+math::libm::modf::modf;false;false;true;false
+<i32 as int::traits::Int>::wrapping_mul;false;false;false;false
+math::full_availability::fmaxf16;false;false;true;false
+<i64 as int::traits::HInt>::widen_mul;false;false;false;false
+<u32 as int::traits::Int>::wrapping_shl;false;false;false;false
+math::full_availability::fminimumf128;false;false;true;false
+<math::libm::support::big::u256 as rustc_std_workspace_core::ops::BitOr>::bitor;false;false;true;false
+<isize as int::traits::Int>::wrapping_mul;false;false;false;false
+float::pow::__powitf2::__powitf2;false;false;true;false
+<i16 as math::libm::support::int_traits::CastInto<u128>>::cast_lossy;false;false;false;false
+<i32 as math::libm::support::int_traits::CastInto<u16>>::cast_lossy;false;false;false;false
+math::full_availability::sqrtf128::sqrtf128;false;false;true;false
+<i8 as math::libm::support::int_traits::Int>::rotate_left;false;false;false;false
+<math::libm::support::big::i256 as rustc_std_workspace_core::ops::Shl<u32>>::shl;false;false;true;false
+float::conv::int_to_float::u64_to_f128_bits;false;false;false;false
+<i32 as math::libm::support::int_traits::Int>::is_zero;false;false;false;false
+<u32 as int::traits::Int>::from_unsigned;false;false;false;false
+math::full_availability::copysignf::copysignf;false;false;true;false
+<usize as math::libm::support::int_traits::CastInto<u64>>::cast_lossy;false;false;false;false
+math::libm::support::float_traits::Float::frac;false;false;false;false
+<u64 as math::libm::support::int_traits::CastInto<u128>>::cast;false;false;false;false
+mem::__llvm_memmove_element_unordered_atomic_2::__llvm_memmove_element_unordered_atomic_2;true;true;true;false
+float::trunc::trunc;false;false;false;false
+<i16 as math::libm::support::int_traits::CastInto<usize>>::cast_lossy;false;false;false;false
+<u8 as math::libm::support::int_traits::CastInto<i16>>::cast;false;false;false;false
+mem::strlen;true;true;true;false
+<u16 as math::libm::support::int_traits::Int>::wrapping_mul;false;false;false;false
+<i16 as math::libm::support::int_traits::Int>::wrapping_shl;false;false;false;false
+<u64 as math::libm::support::int_traits::Int>::signed;false;false;false;false
+<u16 as int::traits::HInt>::widen;false;false;false;false
+int::addsub::__rust_u128_addo::__rust_u128_addo;false;false;true;false
+<i16 as math::libm::support::int_traits::CastInto<i128>>::cast;false;false;false;false
+math::libm::support::big::<impl math::libm::support::int_traits::HInt for i128>::zero_widen_mul;false;false;false;false
+<u64 as math::libm::support::int_traits::Int>::abs_diff;false;false;false;false
+<i32 as int::traits::DInt>::hi;false;false;false;false
+<i16 as int::traits::HInt>::zero_widen;false;false;false;false
+<f32 as math::libm::support::float_traits::Float>::is_nan;false;false;true;false
+<i64 as math::libm::support::int_traits::CastInto<u64>>::cast_lossy;false;false;false;false
+<i128 as math::libm::support::int_traits::CastInto<u32>>::cast_lossy;false;false;false;false
+math::libm::fminimum_fmaximum_num::fmaximum_numf;false;false;true;false
+<i32 as int::traits::Int>::wrapping_shr;false;false;false;false
+math::libm::hypot::hypot;false;false;true;false
+float::conv::__fixunstfsi::__fixunstfsi;false;false;true;false
+int::mul::i64_overflowing_mul;false;false;false;false
+<u64 as math::libm::support::int_traits::CastInto<u64>>::cast_lossy;false;false;false;false
+<u32 as int::traits::CastInto<u128>>::cast;false;false;false;false
+math::libm::ldexpf128::ldexpf128;false;false;true;false
+math::libm::support::float_traits::f32_from_bits;false;false;false;false
+float::extend::__extendsfdf2;false;false;true;false
+float::conv::__fixsfdi;false;false;true;false
+<u32 as math::libm::support::int_traits::CastInto<i32>>::cast;false;false;false;false
+math::libm::support::float_traits::Float::is_subnormal;false;false;false;false
+math::libm::support::hex_float::hf128;false;false;false;false
+<u32 as int::traits::CastInto<u16>>::cast;false;false;false;false
+<u128 as math::libm::support::int_traits::CastInto<u32>>::cast;false;false;false;false
+float::cmp::__nedf2::__nedf2;false;false;true;false
+<i16 as int::traits::Int>::overflowing_add;false;false;false;false
+int::big::<impl int::traits::HInt for i128>::widen_hi;false;false;false;false
+<u8 as math::libm::support::int_traits::CastInto<u64>>::cast_lossy;false;false;false;false
+<u32 as math::libm::support::int_traits::CastInto<i64>>::cast;false;false;false;false
+math::libm::k_sinf::k_sinf;false;false;true;false
+<u8 as int::traits::Int>::logical_shr;false;false;false;false
+<u32 as int::traits::DInt>::hi;false;false;false;false
+math::full_availability::fdim;false;false;true;false
+int::leading_zeros::__clzsi2::__clzsi2;false;false;false;false
+<i32 as math::libm::support::int_traits::CastInto<i32>>::cast;false;false;false;false
+float::div::div;false;false;false;true
+<i128 as math::libm::support::int_traits::Int>::checked_sub;false;false;false;false
+<u16 as math::libm::support::int_traits::CastInto<i128>>::cast;false;false;false;false
+int::shift::__ashrdi3::__ashrdi3;false;false;false;false
+float::conv::__floatunditf::__floatunditf;false;false;false;false
+math::libm::asin::comp_r;false;false;true;false
+<u8 as int::traits::Int>::wrapping_neg;false;false;false;false
+<i64 as int::traits::CastInto<u8>>::cast;false;false;false;false
+<i16 as math::libm::support::int_traits::CastInto<i32>>::cast;false;false;false;false
+float::mul::mul;false;false;false;false
+<i8 as int::traits::HInt>::zero_widen;false;false;false;false
+float::cmp::__gesf2;false;false;true;false
+math::libm::fma::Norm::<F>::from_float;false;false;false;false
+math::full_availability::roundevenf16;false;false;true;false
+math::libm::floorf::floorf;false;false;true;false
+<i32 as math::libm::support::int_traits::DInt>::hi;false;false;false;false
+<i64 as math::libm::support::int_traits::Int>::ilog2;false;false;false;false
+<i128 as math::libm::support::int_traits::CastInto<i64>>::cast_lossy;false;false;false;false
+float::cmp::__getf2;false;false;true;false
+<u128 as int::traits::Int>::wrapping_shr;false;false;false;false
+<usize as math::libm::support::int_traits::Int>::signed;false;false;false;false
+<i128 as math::libm::support::int_traits::Int>::wrapping_neg;false;false;false;false
+<isize as math::libm::support::int_traits::Int>::from_unsigned;false;false;false;false
+<u128 as math::libm::support::int_traits::DInt>::hi;false;false;false;false
+<int::big::i256 as int::traits::DInt>::lo;false;false;false;false
+<i16 as int::traits::CastInto<i64>>::cast;false;false;false;false
+<i32 as math::libm::support::int_traits::CastInto<f16>>::cast;false;false;false;false
+<i64 as int::traits::CastInto<u128>>::cast;false;false;false;false
+math::libm::log1p::log1p;false;true;true;false
+int::mul::__rust_i128_mulo::__rust_i128_mulo;false;false;true;false
+<i8 as math::libm::support::int_traits::HInt>::widen;false;false;false;false
+int::sdiv::__modsi3::__modsi3;false;false;false;false
+int::trailing_zeros::__ctzdi2;false;false;false;false
+int::shift::__ashldi3;false;false;false;false
+<u64 as int::traits::Int>::wrapping_mul;false;false;false;false
+<isize as math::libm::support::int_traits::CastInto<u64>>::cast;false;false;false;false
+float::sub::__subdf3;false;false;true;false
+int::specialized_div_rem::u64_div_rem;false;false;false;true
+<u64 as math::libm::support::int_traits::Int>::wrapping_neg;false;false;false;false
+<u32 as math::libm::support::int_traits::HInt>::zero_widen_mul;false;false;false;false
+<isize as int::traits::CastInto<u8>>::cast;false;false;false;false
+<u32 as math::libm::support::int_traits::CastInto<usize>>::cast;false;false;false;false
+<u8 as math::libm::support::int_traits::HInt>::widen_hi;false;false;false;false
+math::libm::j0f::pzerof;false;false;true;false
+float::cmp::__ledf2::__ledf2;false;false;true;false
+math::libm::support::float_traits::Float::ex;false;false;false;false
+math::full_availability::fmodf128;false;false;true;false
+int::shift::__ashlti3::__ashlti3;false;false;false;false
+float::extend::__extendhfdf2::__extendhfdf2;false;false;true;false
+math::full_availability::floorf16::floorf16;false;false;true;false
+<isize as int::traits::Int>::wrapping_shl;false;false;false;false
+<u16 as int::traits::HInt>::zero_widen_mul;false;false;false;false
+<math::libm::fma::Norm<F> as rustc_std_workspace_core::clone::Clone>::clone;false;false;true;false
+<u32 as math::libm::support::int_traits::CastInto<i128>>::cast_lossy;false;false;false;false
+<u8 as math::libm::support::int_traits::CastInto<u128>>::cast_lossy;false;false;false;false
+int::mul::__muldi3::__muldi3;false;false;false;false
+<u16 as math::libm::support::int_traits::CastInto<isize>>::cast_lossy;false;false;false;false
+int::specialized_div_rem::u32_div_rem;false;false;false;true
+int::sdiv::__divmodsi4;false;false;true;false
+<i128 as int::traits::CastInto<u64>>::cast;false;false;false;false
+<int::big::i256 as rustc_std_workspace_core::cmp::PartialEq>::eq;false;false;false;false
+<u32 as math::libm::support::int_traits::CastInto<i128>>::cast;false;false;false;false
+float::cmp::__gtdf2;false;false;true;false
+<i128 as int::traits::Int>::ilog2;false;false;false;false
+<i64 as math::libm::support::int_traits::CastInto<i16>>::cast_lossy;false;false;false;false
+int::addsub::__rust_u128_add;false;false;false;false
+<i64 as math::libm::support::int_traits::CastInto<u16>>::cast;false;false;false;false
+float::conv::__fixsfti::__fixsfti;false;false;true;false
+<f128 as float::traits::Float>::imp_frac;false;false;true;false
+math::libm::fmodf16::fmodf16;false;false;true;false
+float::cmp::__unordsf2;false;false;true;false
+<u8 as math::libm::support::int_traits::CastInto<usize>>::cast;false;false;false;false
+<i64 as int::traits::CastInto<i128>>::cast;false;false;false;false
+<u128 as int::traits::CastInto<isize>>::cast;false;false;false;false
+mem::__llvm_memcpy_element_unordered_atomic_1::__llvm_memcpy_element_unordered_atomic_1;true;true;true;false
+<u16 as math::libm::support::int_traits::Int>::abs;false;false;false;false
+<isize as int::traits::Int>::overflowing_add;false;false;false;false
+<T as math::libm::support::int_traits::CastFrom<U>>::cast_from_lossy;false;false;false;false
+math::full_availability::fabs;false;false;true;false
+math::libm::truncf16::truncf16;false;false;true;false
+float::conv::__floattitf;false;false;false;false
+<u32 as int::traits::CastInto<usize>>::cast;false;false;false;false
+<isize as int::traits::Int>::rotate_left;false;false;false;false
+<f128 as float::traits::Float>::is_subnormal;false;false;true;false
+<usize as math::libm::support::int_traits::CastInto<i32>>::cast_lossy;false;false;false;false
+math::libm::copysign::copysign;false;false;true;false
+<u32 as int::traits::CastInto<i64>>::cast;false;false;false;false
+math::libm::fma::fmaf128;false;false;true;false
+math::full_availability::floorf;false;false;true;false
+math::libm::sinhf::sinhf;false;false;true;false
+<u8 as math::libm::support::int_traits::Int>::unsigned;false;false;false;false
+<math::libm::support::hex_float::Hexf<T> as rustc_std_workspace_core::fmt::Display>::fmt;false;false;true;false
+math::libm::fma::fma;false;false;true;false
+<u64 as int::traits::CastInto<i128>>::cast;false;false;false;false
+<i64 as math::libm::support::int_traits::CastInto<i8>>::cast_lossy;false;false;false;false
+float::conv::__floatundidf;false;false;false;false
+math::libm::atan2f::atan2f;false;false;true;false
+<isize as math::libm::support::int_traits::Int>::checked_add;false;false;false;false
+<isize as int::traits::CastInto<u64>>::cast;false;false;false;false
+math::libm::atan2::atan2;false;false;true;false
+<i16 as math::libm::support::int_traits::CastInto<i16>>::cast_lossy;false;false;false;false
+<i16 as math::libm::support::int_traits::Int>::signed;false;false;false;false
+int::leading_zeros::__clzdi2::__clzdi2;false;false;false;false
+int::sdiv::__divdi3::__divdi3;false;false;false;false
+int::sdiv::__divsi3::__divsi3;false;false;false;false
+<i128 as math::libm::support::int_traits::Int>::overflowing_add;false;false;false;false
+<usize as math::libm::support::int_traits::Int>::wrapping_neg;false;false;false;false
+<u16 as int::traits::HInt>::zero_widen;false;false;false;false
+<i8 as int::traits::CastInto<i128>>::cast;false;false;false;false
+<usize as int::traits::Int>::abs_diff;false;false;false;false
+math::full_availability::fma::fma;false;false;true;false
+<f128 as float::traits::Float>::eq_repr::is_nan;false;false;true;false
+<i128 as math::libm::support::int_traits::Int>::ilog2;false;false;false;false
+int::udiv::__umodsi3;false;false;false;false
+math::libm::j1::j1;false;false;true;false
+math::libm::acos::acos;false;false;true;false
+float::conv::__floatdisf;false;false;false;false
+math::libm::copysignf::copysignf;false;false;true;false
+<i8 as int::traits::Int>::wrapping_neg;false;false;false;false
+<i128 as math::libm::support::int_traits::Int>::is_zero;false;false;false;false
+<f16 as math::libm::support::float_traits::Float>::is_nan;false;false;true;false
+<u128 as math::libm::support::int_traits::CastInto<i16>>::cast;false;false;false;false
+math::libm::generic::trunc::trunc;false;false;false;false
+<u8 as int::traits::Int>::wrapping_mul;false;false;false;false
+<f64 as float::traits::Float>::is_subnormal;false;false;true;false
+<i128 as math::libm::support::int_traits::CastInto<f64>>::cast;false;false;false;false
+<usize as int::traits::CastInto<u32>>::cast;false;false;false;false
+<isize as math::libm::support::int_traits::CastInto<i64>>::cast_lossy;false;false;false;false
+<i64 as math::libm::support::int_traits::CastInto<f16>>::cast_lossy;false;false;false;false
+<usize as int::traits::Int>::wrapping_neg;false;false;false;false
+float::conv::__fixdfsi;false;false;true;false
+<u128 as int::traits::DInt>::hi;false;false;false;false
+math::libm::get_low_word;false;false;true;false
+float::conv::__fixunsdfsi;false;false;true;false
+<u32 as math::libm::support::int_traits::CastInto<u8>>::cast_lossy;false;false;false;false
+float::pow::__powidf2::__powidf2;false;false;true;false
+<f16 as float::traits::Float>::from_parts;false;false;true;false
+<i8 as int::traits::Int>::leading_zeros;false;false;false;false
+<u64 as math::libm::support::int_traits::DInt>::hi;false;false;false;false
+<i16 as math::libm::support::int_traits::CastInto<i128>>::cast_lossy;false;false;false;false
+math::libm::exp2f::exp2f;false;true;true;false
+math::full_availability::truncf128;false;false;true;false
+<u64 as int::traits::DInt>::lo;false;false;false;false
+<i16 as math::libm::support::int_traits::HInt>::widen_mul;false;false;false;false
+math::full_availability::cbrtf;false;false;true;false
+int::shift::__ashlsi3;false;false;false;false
+<usize as int::traits::Int>::wrapping_sub;false;false;false;false
+<u128 as int::traits::Int>::rotate_left;false;false;false;false
+<u16 as math::libm::support::int_traits::Int>::wrapping_neg;false;false;false;false
+<u32 as int::traits::HInt>::widen_mul;false;false;false;false
+<u64 as math::libm::support::int_traits::HInt>::widen_hi;false;false;false;false
+float::div::next_guess;false;false;false;false
+math::libm::floor::floor;false;false;true;false
+<u16 as math::libm::support::int_traits::CastInto<u16>>::cast;false;false;false;false
+float::conv::int_to_float::signed;false;false;false;false
+float::cmp::__unordtf2::__unordtf2;false;false;true;false
+<usize as math::libm::support::int_traits::CastInto<i16>>::cast_lossy;false;false;false;false
+<f32 as float::traits::Float>::to_bits_signed;false;false;true;false
+<u16 as math::libm::support::int_traits::CastInto<usize>>::cast_lossy;false;false;false;false
+<i8 as math::libm::support::int_traits::CastInto<u16>>::cast;false;false;false;false
+float::div::__divsf3;false;false;true;false
+math::libm::fminimum_fmaximum::fminimumf16;false;false;true;false
+<u64 as int::traits::HInt>::widen_mul;false;false;false;false
+<i64 as int::traits::Int>::ilog2;false;false;false;false
+<u16 as math::libm::support::int_traits::CastInto<i32>>::cast_lossy;false;false;false;false
+<isize as int::traits::Int>::is_zero;false;false;false;false
+int::udiv::__udivmodti4;false;false;true;false
+<u128 as int::traits::CastInto<usize>>::cast;false;false;false;false
+<i32 as int::traits::CastInto<u32>>::cast;false;false;false;false
+<i16 as math::libm::support::int_traits::CastInto<u8>>::cast;false;false;false;false
+math::libm::truncf::truncf;false;false;true;false
+<u128 as math::libm::support::int_traits::CastInto<usize>>::cast_lossy;false;false;false;false
+<i32 as math::libm::support::int_traits::CastInto<f16>>::cast_lossy;false;false;false;false
+<i32 as math::libm::support::int_traits::CastInto<f64>>::cast;false;false;false;false
+math::full_availability::rintf;false;false;true;false
+<f64 as float::traits::Float>::to_bits_signed;false;false;true;false
+<math::libm::support::env::Round as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+math::full_availability::fmaximumf16;false;false;true;false
+float::conv::__floatdidf::__floatdidf;false;false;false;false
+<i32 as math::libm::support::int_traits::Int>::wrapping_add;false;false;false;false
+math::libm::erff::erfc1;false;false;true;false
+<i16 as int::traits::CastInto<isize>>::cast;false;false;false;false
+float::conv::__fixunssfti::__fixunssfti;false;false;true;false
+<u16 as int::traits::Int>::wrapping_add;false;false;false;false
+<usize as int::traits::CastInto<u16>>::cast;false;false;false;false
+math::full_availability::fmax::fmax;false;false;true;false
+float::cmp::__eqdf2;false;false;true;false
+<u64 as int::traits::CastInto<u16>>::cast;false;false;false;false
+int::specialized_div_rem::u32_normalization_shift;false;false;false;false
+int::sdiv::__divmoddi4::__divmoddi4;false;false;true;false
+int::addsub::__rust_u128_sub;false;false;false;false
+<usize as int::traits::Int>::logical_shr;false;false;false;false
+<i8 as math::libm::support::int_traits::Int>::logical_shr;false;false;false;false
+<i128 as math::libm::support::int_traits::CastInto<usize>>::cast;false;false;false;false
+math::full_availability::fdim::fdim;false;false;true;false
+mem::__llvm_memcpy_element_unordered_atomic_4::__llvm_memcpy_element_unordered_atomic_4;true;true;true;false
+<f128 as math::libm::support::float_traits::Float>::to_bits;false;false;true;false
+int::bswap::__bswapdi2;false;false;false;false
+<u8 as math::libm::support::int_traits::Int>::wrapping_shl;false;false;false;false
+<u8 as int::traits::HInt>::zero_widen_mul;false;false;false;false
+<u32 as math::libm::support::int_traits::CastInto<i32>>::cast_lossy;false;false;false;false
+<u128 as int::traits::CastInto<i128>>::cast;false;false;false;false
+math::full_availability::floorf16;false;false;true;false
+int::addsub::__rust_u128_subo::__rust_u128_subo;false;false;true;false
+<u32 as math::libm::support::int_traits::CastInto<u16>>::cast;false;false;false;false
+<i32 as math::libm::support::int_traits::Int>::abs;false;false;false;false
+<u16 as math::libm::support::int_traits::Int>::logical_shr;false;false;false;false
+<i64 as math::libm::support::int_traits::CastInto<isize>>::cast_lossy;false;false;false;false
+<i32 as math::libm::support::int_traits::Int>::leading_zeros;false;false;false;false
+<isize as math::libm::support::int_traits::CastInto<i8>>::cast_lossy;false;false;false;false
+<u128 as int::traits::CastInto<u8>>::cast;false;false;false;false
+<f16 as float::traits::Float>::to_bits_signed;false;false;true;false
+<f32 as math::libm::support::float_traits::DFloat>::narrow;false;false;true;false
+<i8 as int::traits::Int>::from_unsigned;false;false;false;false
+math::libm::support::env::Status::underflow;false;false;false;false
+<u32 as math::libm::support::int_traits::Int>::wrapping_neg;false;false;false;false
+<u8 as math::libm::support::int_traits::Int>::overflowing_add;false;false;false;false
+<f16 as float::traits::Float>::is_subnormal;false;false;true;false
+<u64 as math::libm::support::int_traits::CastInto<isize>>::cast_lossy;false;false;false;false
+math::libm::sinh::sinh;false;false;true;false
+int::trailing_zeros::__ctzti2::__ctzti2;false;false;false;false
+<u32 as math::libm::support::int_traits::Int>::logical_shr;false;false;false;false
+float::extend::__extendhftf2;false;false;true;false
+<i16 as math::libm::support::int_traits::Int>::from_unsigned;false;false;false;false
+<u32 as math::libm::support::int_traits::CastInto<u64>>::cast;false;false;false;false
+math::full_availability::copysignf16;false;false;true;false
+<f64 as float::traits::Float>::from_bits;false;false;true;false
+<f128 as math::libm::support::float_traits::Float>::is_sign_negative;false;false;true;false
+int::big::<impl int::traits::HInt for i128>::zero_widen;false;false;false;false
+int::udiv::__udivmoddi4::__udivmoddi4;false;false;true;false
+int::trailing_zeros::__ctzdi2::__ctzdi2;false;false;false;false
+<u32 as int::traits::Int>::overflowing_add;false;false;false;false
+<i16 as math::libm::support::int_traits::CastInto<u8>>::cast_lossy;false;false;false;false
+<u64 as math::libm::support::int_traits::Int>::from_bool;false;false;false;false
+<i32 as math::libm::support::int_traits::Int>::checked_sub;false;false;false;false
+<i64 as math::libm::support::int_traits::Int>::abs_diff;false;false;false;false
+<u128 as math::libm::support::int_traits::Int>::ilog2;false;false;false;false
+<u64 as int::traits::CastInto<isize>>::cast;false;false;false;false
+<u128 as int::traits::Int>::wrapping_shl;false;false;false;false
+<usize as math::libm::support::int_traits::Int>::wrapping_sub;false;false;false;false
+<u16 as math::libm::support::int_traits::Int>::signed;false;false;false;false
+<int::big::u256 as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+<i32 as int::traits::Int>::from_unsigned;false;false;false;false
+int::udiv::__udivti3::__udivti3;false;false;false;false
+<u16 as math::libm::support::int_traits::CastInto<u32>>::cast_lossy;false;false;false;false
+<i32 as math::libm::support::int_traits::CastInto<i8>>::cast_lossy;false;false;false;false
+math::full_availability::sqrt::sqrt;false;false;true;false
+math::full_availability::ceilf128;false;false;true;false
+math::full_availability::sqrtf;false;false;true;false
+<u64 as int::traits::DInt>::hi;false;false;false;false
+math::libm::logf::logf;false;false;true;false
+float::conv::__floattisf;false;false;false;false
+<i32 as math::libm::support::int_traits::CastInto<u8>>::cast;false;false;false;false
+int::leading_zeros::implementation::leading_zeros_riscv;false;false;false;false
+math::full_availability::fmaf128::fmaf128;false;false;true;false
+<i16 as int::traits::CastInto<i32>>::cast;false;false;false;false
+float::add::add;false;false;false;false
+float::conv::int_to_float::u32_to_f128_bits;false;false;false;false
+<u8 as int::traits::Int>::wrapping_shl;false;false;false;false
+<i64 as int::traits::Int>::leading_zeros;false;false;false;false
+math::libm::arch::i686::sqrtf;false;true;true;false
+math::libm::fmin_fmax::fminf128;false;false;true;false
+<i64 as math::libm::support::int_traits::CastInto<f64>>::cast_lossy;false;false;false;false
+<i64 as math::libm::support::int_traits::CastInto<i64>>::cast;false;false;false;false
+int::specialized_div_rem::u128_by_u64_div_rem;true;true;false;false
+<f16 as math::libm::support::float_traits::HFloat>::widen;false;false;true;false
+<i8 as math::libm::support::int_traits::Int>::overflowing_add;false;false;false;false
+math::libm::support::float_traits::Float::eq_repr;false;false;false;false
+math::libm::k_tanf::k_tanf;false;false;true;false
+<isize as math::libm::support::int_traits::CastInto<usize>>::cast;false;false;false;false
+math::libm::remquo::remquo;false;false;true;true
+float::conv::__floatuntitf;false;false;false;false
+<f64 as float::traits::Float>::from_parts;false;false;true;false
+<u16 as int::traits::DInt>::hi;false;false;false;false
+<i64 as math::libm::support::int_traits::CastInto<i128>>::cast_lossy;false;false;false;false
+<i8 as int::traits::CastInto<i8>>::cast;false;false;false;false
+<i8 as int::traits::HInt>::widen_hi;false;false;false;false
+<math::libm::support::big::i256 as rustc_std_workspace_core::cmp::PartialOrd>::partial_cmp;false;false;true;false
+<i16 as math::libm::support::int_traits::HInt>::zero_widen_mul;false;false;false;false
+<u32 as int::traits::Int>::abs_diff;false;false;false;false
+math::full_availability::fmaxf128::fmaxf128;false;false;true;false
+<i128 as math::libm::support::int_traits::CastInto<u64>>::cast;false;false;false;false
+math::libm::lgammaf_r::sin_pi;false;false;true;false
+<f16 as float::traits::Float>::to_bits;false;false;true;false
+math::libm::support::env::Status::set_inexact;false;false;true;false
+<u32 as math::libm::support::int_traits::Int>::abs;false;false;false;false
+<i64 as math::libm::support::int_traits::CastInto<u32>>::cast;false;false;false;false
+<u64 as int::traits::HInt>::widen_hi;false;false;false;false
+<u8 as math::libm::support::int_traits::Int>::is_zero;false;false;false;false
+float::conv::__fixunssfdi::__fixunssfdi;false;false;true;false
+float::cmp::__ltsf2;false;false;true;false
+math::libm::acosf::acosf;false;false;true;false
+<i16 as math::libm::support::int_traits::Int>::ilog2;false;false;false;false
+<u8 as math::libm::support::int_traits::CastInto<i16>>::cast_lossy;false;false;false;false
+<f32 as math::libm::support::float_traits::Float>::normalize;false;false;true;false
+<f128 as math::libm::support::float_traits::Float>::is_infinite;false;false;true;false
+<u128 as math::libm::support::int_traits::Int>::is_zero;false;false;false;false
+<i8 as math::libm::support::int_traits::CastInto<u64>>::cast;false;false;false;false
+<i64 as math::libm::support::int_traits::CastInto<f64>>::cast;false;false;false;false
+<i64 as math::libm::support::int_traits::CastInto<f32>>::cast_lossy;false;false;false;false
+<u128 as int::traits::Int>::unsigned;false;false;false;false
+math::libm::support::hex_float::hf32;false;false;false;false
+math::libm::support::env::Status;false;false;false;false
+math::libm::fma_wide::fmaf;false;false;true;false
+mem::__llvm_memset_element_unordered_atomic_4::__llvm_memset_element_unordered_atomic_4;true;true;true;false
+<u16 as int::traits::CastInto<usize>>::cast;false;false;false;false
+float::div::__divtf3;false;false;true;false
+<math::libm::support::hex_float::Hexf<F> as rustc_std_workspace_core::fmt::LowerHex>::fmt;false;false;true;false
+int::udiv::__umoddi3::__umoddi3;false;false;false;false
+math::libm::tanhf::tanhf;false;true;true;false
+<u8 as int::traits::CastInto<i8>>::cast;false;false;false;false
+mem::memcpy_element_unordered_atomic;false;true;true;true
+mem::impls::copy_forward;true;true;true;false
+<i8 as math::libm::support::int_traits::Int>::unsigned;false;false;false;false
+float::mul::__multf3;false;false;true;false
+<T as int::traits::CastFrom<U>>::cast_from;false;false;false;false
+<u16 as int::traits::CastInto<i32>>::cast;false;false;false;false
+<i32 as math::libm::support::int_traits::HInt>::zero_widen_mul;false;false;false;false
+<u128 as math::libm::support::int_traits::CastInto<u128>>::cast_lossy;false;false;false;false
+mem::__llvm_memmove_element_unordered_atomic_1;true;false;true;false
+<u32 as int::traits::Int>::wrapping_sub;false;false;false;false
+<isize as int::traits::CastInto<u128>>::cast;false;false;false;false
+<u64 as int::traits::CastInto<u128>>::cast;false;false;false;false
+<u8 as math::libm::support::int_traits::Int>::from_bool;false;false;false;false
+<u32 as math::libm::support::int_traits::Int>::leading_zeros;false;false;false;false
+math::libm::scalbnf128::scalbnf128;false;false;true;false
+<i64 as math::libm::support::int_traits::CastInto<f16>>::cast;false;false;false;false
+<u8 as int::traits::Int>::is_zero;false;false;false;false
+<u16 as math::libm::support::int_traits::Int>::is_zero;false;false;false;false
+<u64 as math::libm::support::int_traits::Int>::wrapping_shr;false;false;false;false
+<math::libm::support::big::u256 as rustc_std_workspace_core::ops::Not>::not;false;false;true;false
+int::big::<impl int::traits::HInt for i128>::widen_mul;false;false;false;false
+<u128 as math::libm::support::int_traits::Int>::signed;false;false;false;false
+<i16 as int::traits::Int>::wrapping_mul;false;false;false;false
+<u32 as int::traits::Int>::ilog2;false;false;false;false
+<u64 as math::libm::support::int_traits::CastInto<i16>>::cast;false;false;false;false
+float::extend::__extendhftf2::__extendhftf2;false;false;true;false
+<i16 as int::traits::Int>::ilog2;false;false;false;false
+math::libm::generic::fmod::fmod;false;false;false;true
+<i32 as math::libm::support::int_traits::CastInto<u32>>::cast;false;false;false;false
+<usize as int::traits::CastInto<i64>>::cast;false;false;false;false
+<math::libm::support::hex_float::Hexf<i32> as rustc_std_workspace_core::fmt::LowerHex>::fmt;false;false;true;false
+<i16 as math::libm::support::int_traits::CastInto<isize>>::cast;false;false;false;false
+<isize as math::libm::support::int_traits::CastInto<u32>>::cast_lossy;false;false;false;false
+<u8 as int::traits::Int>::from_bool;false;false;false;false
+float::conv::__floatsidf::__floatsidf;false;false;false;false
+<isize as math::libm::support::int_traits::CastInto<usize>>::cast_lossy;false;false;false;false
+math::full_availability::fmaf128;false;false;true;false
+float::conv::__fixtfsi;false;false;true;false
+<i64 as int::traits::CastInto<u64>>::cast;false;false;false;false
+<isize as math::libm::support::int_traits::Int>::abs;false;false;false;false
+<u16 as int::traits::Int>::wrapping_shr;false;false;false;false
+<i128 as math::libm::support::int_traits::DInt>::lo;false;false;false;false
+int::addsub::__rust_i128_sub;false;false;false;false
+<i16 as int::traits::Int>::wrapping_neg;false;false;false;false
+<i8 as math::libm::support::int_traits::CastInto<usize>>::cast_lossy;false;false;false;false
+<i16 as math::libm::support::int_traits::CastInto<u128>>::cast;false;false;false;false
+<i128 as int::traits::Int>::wrapping_neg;false;false;false;false
+<i8 as int::traits::HInt>::widen_mul;false;false;false;false
+<i8 as int::traits::CastInto<isize>>::cast;false;false;false;false
+math::libm::support::big::<impl math::libm::support::int_traits::HInt for i128>::zero_widen;false;false;false;false
+<f32 as math::libm::support::float_traits::HFloat>::widen;false;false;true;false
+<u8 as math::libm::support::int_traits::Int>::abs;false;false;false;false
+math::libm::fminimum_fmaximum::fmaximum;false;false;true;false
+math::libm::ilogbf::ilogbf;false;true;true;true
+float::extend::__extendhfsf2;false;false;true;false
+<u32 as int::traits::CastInto<u64>>::cast;false;false;false;false
+<i8 as int::traits::CastInto<u128>>::cast;false;false;false;false
+int::udiv::__udivdi3::__udivdi3;false;false;false;false
+<isize as math::libm::support::int_traits::Int>::is_zero;false;false;false;false
+float::conv::float_to_unsigned_int;false;false;false;false
+math::full_availability::fminimumf;false;false;true;false
+<math::libm::support::big::i256 as math::libm::support::int_traits::DInt>::lo;false;false;true;false
+<usize as int::traits::Int>::from_bool;false;false;false;false
+<u16 as int::traits::Int>::wrapping_mul;false;false;false;false
+float::sub::__subtf3::__subtf3;false;false;true;false
+<i16 as math::libm::support::int_traits::CastInto<u32>>::cast_lossy;false;false;false;false
+<u8 as math::libm::support::int_traits::Int>::wrapping_sub;false;false;false;false
+math::libm::jnf::jnf;false;false;true;true
+float::conv::__fixtfdi;false;false;true;false
+<u128 as math::libm::support::int_traits::Int>::wrapping_shl;false;false;false;false
+math::libm::tgamma::tgamma;false;true;true;false
+math::full_availability::fminf16::fminf16;false;false;true;false
+<i64 as math::libm::support::int_traits::Int>::from_bool;false;false;false;false
+int::sdiv::__moddi3::__moddi3;false;false;false;false
+float::conv::__fixunstfdi;false;false;true;false
+int::addsub::UAddSub::uadd_one;false;false;false;false
+<i64 as math::libm::support::int_traits::Int>::from_unsigned;false;false;false;false
+<u64 as math::libm::support::int_traits::CastInto<u64>>::cast;false;false;false;false
+math::libm::support::hex_float::u128_ilog2;false;false;false;false
+<i32 as math::libm::support::int_traits::Int>::wrapping_neg;false;false;false;false
+float::div::__divdf3::__divdf3;false;false;true;false
+math::libm::rem_pio2::rem_pio2;false;false;true;true
+<u32 as math::libm::support::int_traits::CastInto<i16>>::cast;false;false;false;false
+<usize as math::libm::support::int_traits::Int>::overflowing_sub;false;false;false;false
+<i32 as int::traits::CastInto<i16>>::cast;false;false;false;false
+<i64 as int::traits::HInt>::zero_widen_mul;false;false;false;false
+math::libm::cbrtf::cbrtf;false;false;true;false
+<T as math::libm::support::int_traits::CastFrom<U>>::cast_from;false;false;false;false
+<i16 as math::libm::support::int_traits::Int>::unsigned;false;false;false;false
+math::libm::fminimum_fmaximum_num::fmaximum_num;false;false;true;false
+math::libm::erf::erf;false;false;true;false
+float::conv::__fixunsdfti::__fixunsdfti;false;false;true;false
+<i32 as math::libm::support::int_traits::CastInto<f32>>::cast_lossy;false;false;false;false
+<u32 as int::traits::Int>::wrapping_mul;false;false;false;false
+<u16 as math::libm::support::int_traits::CastInto<u64>>::cast_lossy;false;false;false;false
+<u16 as math::libm::support::int_traits::DInt>::lo;false;false;false;false
+math::libm::k_tan::k_tan;false;false;true;false
+<u128 as int::traits::CastInto<u128>>::cast;false;false;false;false
+int::udiv::__udivmodti4::__udivmodti4;false;false;true;false
+<f64 as float::traits::Float>::exp;false;false;true;false
+float::conv::int_to_float::u128_to_f128_bits;false;false;false;false
+<i64 as math::libm::support::int_traits::Int>::wrapping_shr;false;false;false;false
+math::full_availability::truncf16::truncf16;false;false;true;false
+math::libm::truncf128::truncf128;false;false;true;false
+float::conv::int_to_float::shift_f_lt_i;false;false;false;false
+float::cmp::__ledf2;false;false;true;false
+<usize as int::traits::Int>::wrapping_add;false;false;false;false
+float::conv::__floatsisf::__floatsisf;false;false;false;false
+<i8 as int::traits::CastInto<i64>>::cast;false;false;false;false
+<f16 as math::libm::support::float_traits::Float>::abs;false;false;true;false
+<u8 as math::libm::support::int_traits::Int>::logical_shr;false;false;false;false
+<u32 as math::libm::support::int_traits::CastInto<i8>>::cast_lossy;false;false;false;false
+<u8 as int::traits::Int>::unsigned_abs;false;false;false;false
+<i128 as math::libm::support::int_traits::CastInto<f64>>::cast_lossy;false;false;false;false
+int::shift::__lshrsi3;false;false;false;false
+<i16 as int::traits::CastInto<u32>>::cast;false;false;false;false
+<u32 as math::libm::support::int_traits::Int>::wrapping_shr;false;false;false;false
+<i32 as int::traits::HInt>::zero_widen_mul;false;false;false;false
+<i128 as math::libm::support::int_traits::CastInto<u32>>::cast;false;false;false;false
+<u16 as math::libm::support::int_traits::CastInto<u16>>::cast_lossy;false;false;false;false
+float::cmp::__eqdf2::__eqdf2;false;false;true;false
+<i64 as int::traits::CastInto<u16>>::cast;false;false;false;false
+<i128 as int::traits::CastInto<isize>>::cast;false;false;false;false
+<i16 as math::libm::support::int_traits::Int>::abs;false;false;false;false
+mem::__llvm_memset_element_unordered_atomic_2::__llvm_memset_element_unordered_atomic_2;true;true;true;false
+int::udiv::__umodsi3::__umodsi3;false;false;false;false
+math::full_availability::fminimum;false;false;true;false
+<f16 as float::traits::Float>::exp;false;false;true;false
+<usize as math::libm::support::int_traits::CastInto<u32>>::cast;false;false;false;false
+math::libm::fdimf128::fdimf128;false;false;true;false
+<i128 as math::libm::support::int_traits::CastInto<i128>>::cast_lossy;false;false;false;false
+math::libm::with_set_high_word;false;false;true;false
+<u8 as int::traits::HInt>::widen_mul;false;false;false;false
+<u16 as int::traits::Int>::overflowing_add;false;false;false;false
+<u16 as math::libm::support::int_traits::HInt>::widen;false;false;false;false
+math::libm::rint::rintf16;false;false;true;false
+<u64 as int::traits::CastInto<u8>>::cast;false;false;false;false
+mem::memset;true;true;true;false
+<u8 as int::traits::CastInto<i128>>::cast;false;false;false;false
+<usize as math::libm::support::int_traits::Int>::unsigned;false;false;false;false
+math::libm::nextafter::nextafter;false;true;true;false
+float::sub::__subtf3;false;false;true;false
+float::conv::int_to_float::u64_to_f64_bits;false;false;false;false
+float::trunc::__truncdfhf2::__truncdfhf2;false;false;true;false
+mem::__llvm_memmove_element_unordered_atomic_8;true;false;true;false
+mem::__llvm_memmove_element_unordered_atomic_4;true;false;true;false
+<i64 as math::libm::support::int_traits::Int>::abs;false;false;false;false
+mem::__llvm_memcpy_element_unordered_atomic_2::__llvm_memcpy_element_unordered_atomic_2;true;true;true;false
+math::libm::tgamma::sinpi;false;false;true;false
+<u64 as math::libm::support::int_traits::HInt>::zero_widen_mul;false;false;false;false
+math::full_availability::sqrtf128;false;false;true;false
+math::libm::erff::erfc2;false;false;true;false
+<u64 as math::libm::support::int_traits::Int>::ilog2;false;false;false;false
+<i64 as int::traits::Int>::unsigned_abs;false;false;false;false
+<i8 as int::traits::Int>::logical_shr;false;false;false;false
+float::cmp::Result::to_ge_abi;false;false;false;false
+<i16 as int::traits::Int>::is_zero;false;false;false;false
+<u8 as int::traits::Int>::wrapping_add;false;false;false;false
+math::libm::support::env::Status::set_flag;false;false;true;false
+math::libm::fabsf16::fabsf16;false;false;true;false
+float::conv::__fixunssfsi;false;false;true;false
+mem::memmove;true;true;true;false
+<u16 as int::traits::Int>::ilog2;false;false;false;false
+math::libm::roundf16::roundf16;false;false;true;false
+<usize as int::traits::Int>::wrapping_shr;false;false;false;false
+<i8 as int::traits::CastInto<u64>>::cast;false;false;false;false
+<math::libm::support::env::Status as rustc_std_workspace_core::clone::Clone>::clone;false;false;false;false
+math::libm::roundeven::roundeven;false;false;true;false
+math::libm::j1::common;false;false;true;false
+<i128 as math::libm::support::int_traits::Int>::from_bool;false;false;false;false
+float::trunc::__trunctfhf2::__trunctfhf2;false;false;true;false
+float::conv::__fixsfti;false;false;true;false
+<i32 as int::traits::Int>::unsigned_abs;false;false;false;false
+math::libm::generic::fminimum_num::fminimum_num;false;false;false;false
+math::full_availability::fmaximumf::fmaximumf;false;false;true;false
+<i8 as int::traits::Int>::unsigned_abs;false;false;false;false
+<math::libm::support::big::u256 as math::libm::support::int_traits::DInt>::hi;false;false;true;false
+math::full_availability::roundf128::roundf128;false;false;true;false
+<u8 as int::traits::CastInto<i16>>::cast;false;false;false;false
+math::libm::fdim::fdim;false;false;true;false
+<isize as math::libm::support::int_traits::Int>::rotate_left;false;false;false;false
+<i32 as int::traits::Int>::wrapping_shl;false;false;false;false
+math::libm::fminimum_fmaximum::fmaximumf;false;false;true;false
+<f16 as float::traits::Float>::imp_frac;false;false;true;false
+<u64 as int::traits::CastInto<u32>>::cast;false;false;false;false
+int::udiv::__umodti3;false;false;false;false
+math::full_availability::ceil::ceil;false;false;true;false
+<i16 as math::libm::support::int_traits::CastInto<f64>>::cast_lossy;false;false;false;false
+float::cmp::__eqsf2;false;false;true;false
+<i8 as math::libm::support::int_traits::HInt>::widen_mul;false;false;false;false
+float::add::__adddf3;false;false;true;false
+<u8 as int::traits::Int>::unsigned;false;false;false;false
+<f64 as math::libm::support::float_traits::Float>::from_bits;false;false;true;false
+<u8 as math::libm::support::int_traits::CastInto<u64>>::cast;false;false;false;false
+float::add::__addtf3::__addtf3;false;false;true;false
+<u64 as int::traits::Int>::overflowing_add;false;false;false;false
+mem::memmove_element_unordered_atomic;false;true;true;true
+int::sdiv::__divsi3;false;false;false;false
+<u64 as int::traits::Int>::abs_diff;false;false;false;false
+<u64 as math::libm::support::int_traits::Int>::rotate_left;false;false;false;false
+int::shift::__lshrsi3::__lshrsi3;false;false;false;false
+<i64 as math::libm::support::int_traits::CastInto<u64>>::cast;false;false;false;false
+math::libm::generic::sqrt::Exp::Shifted;false;false;false;false
+float::conv::int_to_float::u32_to_f64_bits;false;false;false;false
+<u16 as math::libm::support::int_traits::CastInto<i8>>::cast;false;false;false;false
+<u32 as int::traits::Int>::is_zero;false;false;false;false
+<u64 as math::libm::support::int_traits::Int>::abs;false;false;false;false
+int::traits::DInt::lo_hi;false;false;false;false
+int::udiv::__udivsi3::__udivsi3;false;false;false;false
+<isize as math::libm::support::int_traits::Int>::overflowing_sub;false;false;false;false
+math::libm::j0f::j0f;false;false;true;false
+float::add::__addsf3::__addsf3;false;false;true;false
+int::specialized_div_rem::delegate::u128_divide_sparc;false;false;true;true
+<u16 as math::libm::support::int_traits::CastInto<u64>>::cast;false;false;false;false
+<i8 as math::libm::support::int_traits::Int>::ilog2;false;false;false;false
+<usize as math::libm::support::int_traits::Int>::ilog2;false;false;false;false
+<u32 as math::libm::support::int_traits::CastInto<u64>>::cast_lossy;false;false;false;false
+<f128 as float::traits::Float>::exp;false;false;true;false
+math::libm::support::big::<impl math::libm::support::int_traits::HInt for i128>::widen_mul;false;false;false;false
+<u8 as math::libm::support::int_traits::HInt>::zero_widen;false;false;false;false
+int::mul::__multi3;false;false;false;false
+<i32 as math::libm::support::int_traits::Int>::wrapping_mul;false;false;false;false
+<i128 as math::libm::support::int_traits::Int>::overflowing_sub;false;false;false;false
+<f32 as float::traits::Float>::normalize;false;false;true;false
+<u8 as int::traits::HInt>::widen;false;false;false;false
+math::libm::support::int_traits::DInt::from_lo_hi;false;false;false;false
+<u64 as math::libm::support::int_traits::CastInto<usize>>::cast_lossy;false;false;false;false
+math::libm::fma::Norm::<F>::is_zero_nan_inf;false;false;true;false
+<u32 as math::libm::support::int_traits::DInt>::hi;false;false;false;false
+<i64 as math::libm::support::int_traits::HInt>::widen_hi;false;false;false;false
+math::libm::exp2::exp2;false;true;true;false
+<u8 as math::libm::support::int_traits::CastInto<isize>>::cast;false;false;false;false
+<i8 as math::libm::support::int_traits::CastInto<i128>>::cast_lossy;false;false;false;false
+<isize as int::traits::CastInto<i128>>::cast;false;false;false;false
+<i32 as int::traits::HInt>::zero_widen;false;false;false;false
+int::udiv::__udivti3;false;false;false;false
+<i16 as math::libm::support::int_traits::CastInto<f64>>::cast;false;false;false;false
+<i128 as math::libm::support::int_traits::CastInto<i32>>::cast_lossy;false;false;false;false
+math::full_availability::fdimf16;false;false;true;false
+float::conv::__floatunsitf;false;false;false;false
+<usize as math::libm::support::int_traits::CastInto<u32>>::cast_lossy;false;false;false;false
+<f128 as float::traits::Float>::is_sign_negative;false;false;true;false
+<u8 as int::traits::HInt>::zero_widen;false;false;false;false
+<i16 as math::libm::support::int_traits::Int>::logical_shr;false;false;false;false
+int::udiv::__umoddi3;false;false;false;false
+math::full_availability::fdimf16::fdimf16;false;false;true;false
+math::libm::log::log;false;false;true;false
+math::full_availability::roundeven;false;false;true;false
+<i128 as int::traits::Int>::wrapping_add;false;false;false;false
+float::trunc::__truncdfhf2;false;false;true;false
+<i64 as math::libm::support::int_traits::Int>::wrapping_sub;false;false;false;false
+<u128 as math::libm::support::int_traits::Int>::checked_add;false;false;false;false
+float::cmp::cmp;false;false;false;false
+<i16 as int::traits::CastInto<u64>>::cast;false;false;false;false
+<u8 as math::libm::support::int_traits::CastInto<i64>>::cast;false;false;false;false
+math::full_availability::fdimf::fdimf;false;false;true;false
+<i16 as math::libm::support::int_traits::CastInto<f32>>::cast_lossy;false;false;false;false
+<isize as math::libm::support::int_traits::CastInto<i64>>::cast;false;false;false;false
+math::libm::cbrt::cbrt;false;false;true;false
+math::libm::round::round;false;false;true;false
+<usize as int::traits::CastInto<i16>>::cast;false;false;false;false
+float::conv::float_to_signed_int;false;false;false;false
+<u128 as math::libm::support::int_traits::Int>::logical_shr;false;false;false;false
+float::cmp::__netf2;false;false;true;false
+<u64 as int::traits::CastInto<i16>>::cast;false;false;false;false
+math::libm::rem_pio2_large::rem_pio2_large;false;false;true;true
+<u128 as math::libm::support::int_traits::Int>::wrapping_add;false;false;false;false
+math::full_availability::fabs::fabs;false;false;true;false
+<u64 as math::libm::support::int_traits::Int>::wrapping_mul;false;false;false;false
+math::libm::fmin_fmax::fmaxf128;false;false;true;false
+math::libm::exp10::exp10;false;false;true;false
+<i64 as int::traits::HInt>::widen;false;false;false;false
+<usize as int::traits::Int>::unsigned;false;false;false;false
+math::libm::remquof::remquof;false;false;true;true
+int::traits::DInt::from_lo_hi;false;false;false;false
+math::libm::support::hex_float::dec_digit;false;false;false;false
+<i128 as math::libm::support::int_traits::CastInto<u128>>::cast_lossy;false;false;false;false
+<i16 as int::traits::HInt>::widen;false;false;false;false
+math::libm::j1f::y1f;false;false;true;false
+<i32 as int::traits::Int>::wrapping_add;false;false;false;false
+<u8 as math::libm::support::int_traits::CastInto<u128>>::cast;false;false;false;false
+<i128 as int::traits::Int>::overflowing_add;false;false;false;false
+<u16 as math::libm::support::int_traits::CastInto<isize>>::cast;false;false;false;false
+int::addsub::UAddSub::uadd;false;false;false;false
+<isize as math::libm::support::int_traits::CastInto<u16>>::cast_lossy;false;false;false;false
+<f16 as float::traits::Float>::eq_repr;false;false;true;false
+<f128 as math::libm::support::float_traits::Float>::is_nan;false;false;true;false
+<i64 as math::libm::support::int_traits::HInt>::zero_widen;false;false;false;false
+math::libm::tanf::tanf;false;true;true;false
+<f128 as float::traits::Float>::eq_repr;false;false;true;false
+<int::big::i256 as rustc_std_workspace_core::ops::Not>::not;false;false;false;false
+math::libm::j0::qzero;false;false;true;false
+<f64 as math::libm::support::float_traits::Float>::is_nan;false;false;true;false
+<math::libm::support::big::i256 as rustc_std_workspace_core::clone::Clone>::clone;false;false;true;false
+<i8 as math::libm::support::int_traits::Int>::checked_sub;false;false;false;false
+float::conv::__fixdfdi;false;false;true;false
+math::libm::generic::ceil::ceil_status;false;false;false;false
+int::addsub::__rust_u128_add::__rust_u128_add;false;false;false;false
+math::libm::generic::floor::floor;false;false;false;false
+math::full_availability::fminimum::fminimum;false;false;true;false
+<i64 as int::traits::CastInto<i64>>::cast;false;false;false;false
+<int::big::u256 as rustc_std_workspace_core::ops::BitOr>::bitor;false;false;false;false
+float::conv::int_to_float::m_adj;false;false;false;false
+<u16 as math::libm::support::int_traits::Int>::checked_add;false;false;false;false
+<u128 as math::libm::support::int_traits::CastInto<i128>>::cast_lossy;false;false;false;false
+<i32 as int::traits::HInt>::widen;false;false;false;false
+math::libm::generic::floor::floor_status;false;false;false;false
+<u64 as math::libm::support::int_traits::CastInto<i32>>::cast_lossy;false;false;false;false
+<i32 as math::libm::support::int_traits::CastInto<i8>>::cast;false;false;false;false
+<i16 as int::traits::Int>::abs_diff;false;false;false;false
+mem::__llvm_memmove_element_unordered_atomic_1::__llvm_memmove_element_unordered_atomic_1;true;true;true;false
+mem::impls::set_bytes;true;true;true;false
+<u128 as int::traits::Int>::from_unsigned;false;false;false;false
+<usize as int::traits::CastInto<isize>>::cast;false;false;false;false
+<f16 as math::libm::support::float_traits::Float>::is_sign_negative;false;false;true;false
+<i32 as math::libm::support::int_traits::Int>::ilog2;false;false;false;false
+<i8 as math::libm::support::int_traits::CastInto<u8>>::cast_lossy;false;false;false;false
+<i64 as math::libm::support::int_traits::DInt>::hi;false;false;false;false
+<f32 as math::libm::support::float_traits::Float>::is_sign_negative;false;false;true;false
+<f16 as math::libm::support::float_traits::Float>::to_bits;false;false;true;false
+int::shift::__ashlsi3::__ashlsi3;false;false;false;false
+<u64 as int::traits::HInt>::zero_widen;false;false;false;false
+<u64 as math::libm::support::int_traits::CastInto<u32>>::cast_lossy;false;false;false;false
+<i8 as math::libm::support::int_traits::Int>::signed;false;false;false;false
+<u64 as int::traits::HInt>::zero_widen_mul;false;false;false;false
+<u8 as math::libm::support::int_traits::CastInto<u16>>::cast;false;false;false;false
+<u128 as int::traits::Int>::abs_diff;false;false;false;false
+math::full_availability::rintf128::rintf128;false;false;true;false
+<i32 as int::traits::Int>::overflowing_add;false;false;false;false
+<u128 as math::libm::support::int_traits::CastInto<u8>>::cast_lossy;false;false;false;false
+<usize as math::libm::support::int_traits::Int>::overflowing_add;false;false;false;false
+math::libm::frexp::frexp;false;false;true;false
+int::mul::__mulosi4::__mulosi4;false;false;true;false
+<u32 as math::libm::support::int_traits::CastInto<i64>>::cast_lossy;false;false;false;false
+<usize as int::traits::CastInto<u128>>::cast;false;false;false;false
+<u8 as math::libm::support::int_traits::CastInto<u16>>::cast_lossy;false;false;false;false
+math::libm::remainderf::remainderf;false;false;true;false
+int::sdiv::__divmodti4;false;false;true;false
+math::libm::support::hex_float::Hexf;false;false;false;false
+float::conv::__fixunstfti;false;false;true;false
+<f128 as float::traits::Float>::from_parts;false;false;true;false
+<u128 as int::traits::Int>::wrapping_add;false;false;false;false
+math::libm::fdimf16::fdimf16;false;false;true;false
+<u32 as math::libm::support::int_traits::CastInto<u8>>::cast;false;false;false;false
+math::full_availability::copysign::copysign;false;false;true;false
+<u128 as int::traits::DInt>::lo;false;false;false;false
+math::full_availability::ceilf16;false;false;true;false
+<i64 as math::libm::support::int_traits::CastInto<u32>>::cast_lossy;false;false;false;false
+float::conv::__floatunsidf;false;false;false;false
+<i16 as int::traits::Int>::from_bool;false;false;false;false
+int::sdiv::__moddi3;false;false;false;false
+<f32 as float::traits::Float>::is_subnormal;false;false;true;false
+math::libm::asinh::asinh;false;true;true;false
+<i64 as int::traits::Int>::wrapping_sub;false;false;false;false
+math::libm::ldexp::ldexp;false;false;true;false
+<u8 as int::traits::CastInto<u64>>::cast;false;false;false;false
+float::mul::__mulsf3::__mulsf3;false;false;true;false
+mem::__llvm_memcpy_element_unordered_atomic_8::__llvm_memcpy_element_unordered_atomic_8;true;true;true;false
+float::extend::__extendhfdf2;false;false;true;false
+<i16 as math::libm::support::int_traits::Int>::from_bool;false;false;false;false
+<f64 as math::libm::support::float_traits::Float>::fma;false;true;true;false
+<int::big::u256 as int::traits::DInt>::hi;false;false;false;false
+<usize as math::libm::support::int_traits::Int>::rotate_left;false;false;false;false
+int::shift::__lshrdi3;false;false;false;false
+math::libm::support::float_traits::Float::exp_unbiased;false;false;false;false
+<i128 as int::traits::DInt>::lo;false;false;false;false
+<f128 as math::libm::support::float_traits::Float>::abs;false;false;true;false
+<u32 as math::libm::support::int_traits::CastInto<u32>>::cast_lossy;false;false;false;false
+<usize as math::libm::support::int_traits::Int>::leading_zeros;false;false;false;false
+<u64 as int::traits::Int>::wrapping_sub;false;false;false;false
+<i32 as math::libm::support::int_traits::CastInto<f64>>::cast_lossy;false;false;false;false
+<math::libm::support::hex_float::Hexf<T> as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+<isize as math::libm::support::int_traits::Int>::wrapping_shr;false;false;false;false
+<f128 as math::libm::support::float_traits::Float>::fma;false;true;true;false
+float::conv::__floattisf::__floattisf;false;false;false;false
+<u32 as math::libm::support::int_traits::CastInto<isize>>::cast_lossy;false;false;false;false
+<usize as math::libm::support::int_traits::Int>::from_bool;false;false;false;false
+float::cmp::__gesf2::__gesf2;false;false;true;false
+math::libm::support::hex_float::fmt_any_hex;false;false;true;false
+<u64 as math::libm::support::int_traits::CastInto<u32>>::cast;false;false;false;false
+math::full_availability::fmodf16::fmodf16;false;false;true;false
+<f32 as float::traits::Float>::from_parts;false;false;true;false
+float::trunc::__gnu_f2h_ieee;false;false;true;false
+<i8 as math::libm::support::int_traits::HInt>::zero_widen_mul;false;false;false;false
+<isize as int::traits::Int>::unsigned_abs;false;false;false;false
+math::libm::sinf::sinf;false;true;true;false
+mem::impls::rep_param;false;false;true;false
+<f64 as math::libm::support::float_traits::DFloat>::narrow;false;false;true;false
+float::cmp::__ltdf2;false;false;true;false
+float::cmp::__lttf2;false;false;true;false
+float::conv::int_to_float::u128_to_f32_bits;false;false;false;false
+<i128 as int::traits::Int>::from_unsigned;false;false;false;false
+<usize as int::traits::CastInto<i8>>::cast;false;false;false;false
+<u8 as math::libm::support::int_traits::HInt>::widen_mul;false;false;false;false
+math::libm::lgamma::lgamma;false;false;true;false
+<u16 as math::libm::support::int_traits::Int>::leading_zeros;false;false;false;false
+<u32 as math::libm::support::int_traits::CastInto<u128>>::cast;false;false;false;false
+math::full_availability::truncf::truncf;false;false;true;false
+<f16 as float::traits::Float>::from_bits;false;false;true;false
+<u32 as int::traits::DInt>::lo;false;false;false;false
+<i32 as math::libm::support::int_traits::CastInto<i16>>::cast;false;false;false;false
+<i32 as int::traits::CastInto<i128>>::cast;false;false;false;false
+<i32 as math::libm::support::int_traits::HInt>::widen;false;false;false;false
+<u32 as int::traits::Int>::unsigned_abs;false;false;false;false
+<u32 as int::traits::HInt>::zero_widen;false;false;false;false
+math::full_availability::floor::floor;false;false;true;false
+<i16 as int::traits::CastInto<i8>>::cast;false;false;false;false
+math::libm::fminimum_fmaximum::fmaximumf16;false;false;true;false
+math::libm::roundeven::roundevenf;false;false;true;false
+<u32 as math::libm::support::int_traits::Int>::wrapping_mul;false;false;false;false
+<u128 as math::libm::support::int_traits::Int>::wrapping_neg;false;false;false;false
+<usize as int::traits::Int>::wrapping_shl;false;false;false;false
+<i64 as math::libm::support::int_traits::CastInto<f128>>::cast_lossy;false;false;false;false
+math::libm::frexpf::frexpf;false;false;true;false
+math::libm::sqrtf128::sqrtf128;false;false;true;false
+<int::big::u256 as int::traits::DInt>::lo;false;false;false;false
+<i32 as math::libm::support::int_traits::CastInto<f128>>::cast_lossy;false;false;false;false
+<u16 as math::libm::support::int_traits::CastInto<i8>>::cast_lossy;false;false;false;false
+<isize as math::libm::support::int_traits::Int>::signed;false;false;false;false
+<u128 as math::libm::support::int_traits::Int>::abs;false;false;false;false
+<u128 as math::libm::support::int_traits::CastInto<i128>>::cast;false;false;false;false
+<usize as math::libm::support::int_traits::CastInto<u8>>::cast_lossy;false;false;false;false
+math::libm::tgamma::s;false;false;true;true
+math::libm::generic::sqrt::Exp::NoShift;false;false;false;false
+math::full_availability::roundf128;false;false;true;false
+<u64 as math::libm::support::int_traits::Int>::is_zero;false;false;false;false
+<f32 as float::traits::Float>::eq_repr::is_nan;false;false;true;false
+float::cmp::__netf2::__netf2;false;false;true;false
+<i64 as math::libm::support::int_traits::Int>::wrapping_shl;false;false;false;false
+<i32 as math::libm::support::int_traits::HInt>::zero_widen;false;false;false;false
+math::libm::generic::fmin::fmin;false;false;false;false
+<u64 as math::libm::support::int_traits::Int>::wrapping_shl;false;false;false;false
+<u64 as math::libm::support::int_traits::Int>::leading_zeros;false;false;false;false
+<i64 as int::traits::Int>::rotate_left;false;false;false;false
+<u128 as math::libm::support::int_traits::CastInto<i16>>::cast_lossy;false;false;false;false
+<f128 as math::libm::support::float_traits::DFloat>::narrow;false;false;true;false
+<u16 as math::libm::support::int_traits::Int>::overflowing_sub;false;false;false;false
+<u128 as math::libm::support::int_traits::Int>::abs_diff;false;false;false;false
+math::full_availability::rintf128;false;false;true;false
+int::bswap::__bswapsi2::__bswapsi2;false;false;false;false
+<math::libm::support::big::u256 as math::libm::support::int_traits::DInt>::lo;false;false;true;false
+math::libm::rint::rintf128;false;false;true;false
+math::full_availability::trunc;false;false;true;false
+<isize as int::traits::Int>::unsigned;false;false;false;false
+<isize as int::traits::Int>::from_unsigned;false;false;false;false
+math::libm::support::float_traits::Float::to_bits_signed;false;false;false;false
+math::libm::jn::jn;false;false;true;true
+<u32 as math::libm::support::int_traits::Int>::wrapping_shl;false;false;false;false
+<u32 as math::libm::support::int_traits::Int>::from_bool;false;false;false;false
+int::shift::__ashrsi3;false;false;false;false
+int::trailing_zeros::__ctzti2;false;false;false;false
+<i16 as math::libm::support::int_traits::CastInto<f16>>::cast;false;false;false;false
+math::libm::lgamma_r::lgamma_r;false;false;true;false
+<u16 as math::libm::support::int_traits::CastInto<u32>>::cast;false;false;false;false
+<u32 as int::traits::CastInto<u8>>::cast;false;false;false;false
+math::libm::rint::rint;false;false;true;false
+<u8 as int::traits::HInt>::widen_hi;false;false;false;false
+math::libm::coshf::coshf;false;true;true;false
+<i32 as math::libm::support::int_traits::CastInto<usize>>::cast_lossy;false;false;false;false
+<i16 as math::libm::support::int_traits::CastInto<u16>>::cast_lossy;false;false;false;false
+<i32 as math::libm::support::int_traits::Int>::wrapping_sub;false;false;false;false
+<f32 as float::traits::Float>::exp;false;false;true;false
+math::full_availability::floorf::floorf;false;false;true;false
+math::libm::fmodf::fmodf;false;false;true;false
+<i32 as math::libm::support::int_traits::CastInto<f32>>::cast;false;false;false;false
+<u16 as math::libm::support::int_traits::HInt>::zero_widen;false;false;false;false
+math::libm::ldexpf::ldexpf;false;false;true;false
+math::full_availability::roundevenf128;false;false;true;false
+<u16 as math::libm::support::int_traits::Int>::unsigned;false;false;false;false
+<f64 as math::libm::support::float_traits::Float>::is_infinite;false;false;true;false
+<i64 as math::libm::support::int_traits::Int>::signed;false;false;false;false
+<i16 as int::traits::HInt>::widen_hi;false;false;false;false
+<u128 as math::libm::support::int_traits::Int>::overflowing_sub;false;false;false;false
+mem::__llvm_memset_element_unordered_atomic_8::__llvm_memset_element_unordered_atomic_8;true;true;true;false
+<usize as int::traits::CastInto<u64>>::cast;false;false;false;false
+math::libm::support::big::u256::signed;false;false;true;false
+<i128 as math::libm::support::int_traits::Int>::rotate_left;false;false;false;false
+<isize as math::libm::support::int_traits::CastInto<i128>>::cast_lossy;false;false;false;false
+math::full_availability::fabsf128::fabsf128;false;false;true;false
+<i8 as math::libm::support::int_traits::HInt>::widen_hi;false;false;false;false
+<u64 as math::libm::support::int_traits::CastInto<usize>>::cast;false;false;false;false
+<u8 as math::libm::support::int_traits::HInt>::widen;false;false;false;false
+<i8 as math::libm::support::int_traits::CastInto<u8>>::cast;false;false;false;false
+float::div::reciprocal_precision;false;false;false;false
+<isize as int::traits::Int>::ilog2;false;false;false;false
+<i64 as int::traits::CastInto<i16>>::cast;false;false;false;false
+<i8 as math::libm::support::int_traits::CastInto<f64>>::cast;false;false;false;false
+math::libm::generic::sqrt::sqrt_round;false;false;false;false
+<u16 as math::libm::support::int_traits::Int>::checked_sub;false;false;false;false
+<usize as math::libm::support::int_traits::Int>::abs;false;false;false;false
+mem::impls::copy_backward;true;true;true;false
+float::conv::__floattidf::__floattidf;false;false;false;false
+math::libm::floorf16::floorf16;false;false;true;false
+int::udiv::__udivsi3;false;false;false;false
+<i8 as math::libm::support::int_traits::Int>::from_unsigned;false;false;false;false
+<f32 as float::traits::Float>::to_bits;false;false;true;false
+math::libm::asin::asin;false;false;true;false
+<u128 as math::libm::support::int_traits::DInt>::lo;false;false;false;false
+<i8 as math::libm::support::int_traits::HInt>::zero_widen;false;false;false;false
+math::libm::j1::y1;false;false;true;false
+math::full_availability::fmaximumf128::fmaximumf128;false;false;true;false
+math::full_availability::roundevenf;false;false;true;false
+<i128 as math::libm::support::int_traits::CastInto<usize>>::cast_lossy;false;false;false;false
+<u16 as int::traits::CastInto<i8>>::cast;false;false;false;false
+<i64 as math::libm::support::int_traits::CastInto<usize>>::cast;false;false;false;false
+<f128 as float::traits::Float>::frac;false;false;true;false
+float::conv::int_to_float::repr;false;false;false;false
+<usize as math::libm::support::int_traits::CastInto<usize>>::cast;false;false;false;false
+<isize as math::libm::support::int_traits::CastInto<u16>>::cast;false;false;false;false
+math::libm::generic::sqrt::goldschmidt;false;false;false;true
+math::full_availability::fminimumf::fminimumf;false;false;true;false
+<i64 as math::libm::support::int_traits::Int>::checked_sub;false;false;false;false
+math::libm::scalbnf::scalbnf;false;false;true;false
+<i16 as math::libm::support::int_traits::CastInto<u64>>::cast_lossy;false;false;false;false
+mem::__llvm_memset_element_unordered_atomic_1;true;false;true;false
+float::conv::__fixtfti;false;false;true;false
+float::conv::__floatuntitf::__floatuntitf;false;false;false;false
+int::sdiv::__divti3::__divti3;false;false;false;false
+<i32 as int::traits::CastInto<i32>>::cast;false;false;false;false
+mem::__llvm_memset_element_unordered_atomic_8;true;false;true;false
+<f32 as math::libm::support::float_traits::Float>::abs;false;false;true;false
+<u64 as math::libm::support::int_traits::Int>::unsigned;false;false;false;false
+<isize as math::libm::support::int_traits::CastInto<i32>>::cast;false;false;false;false
+<i8 as math::libm::support::int_traits::Int>::overflowing_sub;false;false;false;false
+<f32 as float::traits::Float>::frac;false;false;true;false
+<u64 as math::libm::support::int_traits::DInt>::lo;false;false;false;false
+<i32 as int::traits::Int>::from_bool;false;false;false;false
+<u128 as math::libm::support::int_traits::CastInto<u64>>::cast_lossy;false;false;false;false
+<u16 as int::traits::Int>::abs_diff;false;false;false;false
+<u8 as math::libm::support::int_traits::CastInto<i64>>::cast_lossy;false;false;false;false
+math::libm::asinf::asinf;false;false;true;false
+<i16 as math::libm::support::int_traits::Int>::abs_diff;false;false;false;false
+<math::libm::support::big::u256 as rustc_std_workspace_core::ops::Shr<u32>>::shr;false;false;true;false
+float::conv::__fixunsdfdi;false;false;true;false
+<math::libm::support::big::u256 as rustc_std_workspace_core::clone::Clone>::clone;false;false;true;false
+math::full_availability::rintf16;false;false;true;false
+<i8 as math::libm::support::int_traits::Int>::wrapping_neg;false;false;false;false
+math::full_availability::fminf128::fminf128;false;false;true;false
+int::addsub::__rust_i128_add;false;false;false;false
+<u128 as int::traits::CastInto<i64>>::cast;false;false;false;false
+<u8 as math::libm::support::int_traits::Int>::ilog2;false;false;false;false
+math::full_availability::fdimf;false;false;true;false
+int::bswap::__bswapti2;false;false;false;false
+<i32 as math::libm::support::int_traits::CastInto<i16>>::cast_lossy;false;false;false;false
+math::libm::expm1::expm1;false;true;true;false
+<f128 as math::libm::support::float_traits::Float>::from_bits;false;false;true;false
+<i128 as math::libm::support::int_traits::CastInto<f32>>::cast_lossy;false;false;false;false
+math::full_availability::roundf;false;false;true;false
+mem::memcpy;true;true;true;false
+<usize as math::libm::support::int_traits::CastInto<i64>>::cast_lossy;false;false;false;false
+<i16 as int::traits::Int>::wrapping_shl;false;false;false;false
+int::udiv::__udivmodsi4::__udivmodsi4;false;false;true;false
+math::libm::fma::Norm::<F>::is_zero;false;false;true;false
+math::libm::fminimum_fmaximum_num::fminimum_numf128;false;false;true;false
+<f16 as float::traits::Float>::is_sign_negative;false;false;true;false
+<u64 as math::libm::support::int_traits::HInt>::widen;false;false;false;false
+math::full_availability::copysignf16::copysignf16;false;false;true;false
+math::libm::fmin_fmax::fminf16;false;false;true;false
+math::libm::asinhf::asinhf;false;true;true;false
+<i8 as math::libm::support::int_traits::Int>::wrapping_sub;false;false;false;false
+<u16 as int::traits::CastInto<u16>>::cast;false;false;false;false
+math::full_availability::ceilf128::ceilf128;false;false;true;false
+<i16 as math::libm::support::int_traits::CastInto<i16>>::cast;false;false;false;false
+<u128 as int::traits::Int>::is_zero;false;false;false;false
+<int::big::u256 as rustc_std_workspace_core::cmp::PartialOrd>::partial_cmp;false;false;false;false
+<i128 as math::libm::support::int_traits::Int>::from_unsigned;false;false;false;false
+<i16 as int::traits::Int>::unsigned_abs;false;false;false;false
+math::libm::k_cos::k_cos;false;false;true;false
+<int::big::i256 as rustc_std_workspace_core::clone::Clone>::clone;false;false;false;false
+<i128 as int::traits::CastInto<u8>>::cast;false;false;false;false
+math::libm::support::hex_float::parse_any;false;false;false;false
+<u32 as int::traits::CastInto<isize>>::cast;false;false;false;false
+<i64 as int::traits::CastInto<usize>>::cast;false;false;false;false
+<u32 as math::libm::support::int_traits::Int>::abs_diff;false;false;false;false
+float::extend::__extendsfdf2::__extendsfdf2;false;false;true;false
+<i16 as int::traits::CastInto<u128>>::cast;false;false;false;false
+<u32 as int::traits::CastInto<i16>>::cast;false;false;false;false
+float::pow::__powitf2;false;false;true;false
+int::shift::Lshr::lshr;false;false;false;false
+<u32 as math::libm::support::int_traits::Int>::is_zero;false;false;false;false
+<u64 as math::libm::support::int_traits::Int>::logical_shr;false;false;false;false
+float::trunc::__gnu_f2h_ieee::__gnu_f2h_ieee;false;false;true;false
+<u32 as math::libm::support::int_traits::Int>::from_unsigned;false;false;false;false
+<u16 as math::libm::support::int_traits::CastInto<i128>>::cast_lossy;false;false;false;false
+<i128 as int::traits::Int>::abs_diff;false;false;false;false
+<i16 as math::libm::support::int_traits::Int>::overflowing_add;false;false;false;false
+<i64 as int::traits::Int>::wrapping_neg;false;false;false;false
+math::full_availability::fmin;false;false;true;false
+<i64 as math::libm::support::int_traits::Int>::logical_shr;false;false;false;false
+<i8 as math::libm::support::int_traits::Int>::checked_add;false;false;false;false
+<i32 as math::libm::support::int_traits::Int>::from_unsigned;false;false;false;false
+<i32 as int::traits::HInt>::widen_hi;false;false;false;false
+mem::impls::compare_bytes;true;false;true;false
+<u8 as int::traits::Int>::leading_zeros;false;false;false;false
+float::conv::__floatundisf::__floatundisf;false;false;false;false
+<u16 as int::traits::Int>::wrapping_shl;false;false;false;false
+<u128 as math::libm::support::int_traits::CastInto<i64>>::cast;false;false;false;false
+int::sdiv::__divmodti4::__divmodti4;false;false;true;false
+<i32 as math::libm::support::int_traits::CastInto<u8>>::cast_lossy;false;false;false;false
+math::full_availability::copysignf128;false;false;true;false
+<u16 as int::traits::Int>::wrapping_sub;false;false;false;false
+<u128 as math::libm::support::int_traits::Int>::wrapping_mul;false;false;false;false
+float::conv::__floatsitf;false;false;false;false
+<usize as math::libm::support::int_traits::CastInto<isize>>::cast_lossy;false;false;false;false
+<i32 as math::libm::support::int_traits::CastInto<u64>>::cast_lossy;false;false;false;false
+math::full_availability::fminimumf16;false;false;true;false
+<i32 as math::libm::support::int_traits::CastInto<f128>>::cast;false;false;false;false
+float::cmp::__gttf2::__gttf2;false;false;true;false
+float::cmp::unord;false;false;false;false
+<u128 as math::libm::support::int_traits::Int>::from_bool;false;false;false;false
+float::conv::__floatuntidf::__floatuntidf;false;false;false;false
+math::libm::support::hex_float::hf64;false;false;false;false
+<int::big::u256 as rustc_std_workspace_core::ops::Shl<u32>>::shl;false;false;false;false
+<i8 as math::libm::support::int_traits::CastInto<f128>>::cast;false;false;false;false
+<u32 as math::libm::support::int_traits::CastInto<u16>>::cast_lossy;false;false;false;false
+<math::libm::support::big::u256 as rustc_std_workspace_core::cmp::PartialOrd>::partial_cmp;false;false;true;false
+<f128 as float::traits::Float>::to_bits_signed;false;false;true;false
+float::conv::__floattidf;false;false;false;false
+float::sub::__subdf3::__subdf3;false;false;true;false
+math::libm::generic::trunc::trunc_status;false;false;false;false
+math::libm::copysignf16::copysignf16;false;false;true;false
+<u32 as math::libm::support::int_traits::CastInto<isize>>::cast;false;false;false;false
+<math::libm::support::hex_float::Hexf<(F, i32)> as rustc_std_workspace_core::fmt::LowerHex>::fmt;false;false;true;false
+math::libm::fma_wide::fma_wide_round;false;false;false;false
+<u64 as int::traits::Int>::ilog2;false;false;false;false
+<i64 as math::libm::support::int_traits::Int>::wrapping_add;false;false;false;false
+<u128 as int::traits::Int>::ilog2;false;false;false;false
+<i64 as math::libm::support::int_traits::CastInto<usize>>::cast_lossy;false;false;false;false
+<i128 as math::libm::support::int_traits::CastInto<i8>>::cast;false;false;false;false
+<isize as math::libm::support::int_traits::CastInto<isize>>::cast_lossy;false;false;false;false
+<u32 as int::traits::Int>::unsigned;false;false;false;false
+<i8 as math::libm::support::int_traits::CastInto<isize>>::cast_lossy;false;false;false;false
+<u32 as int::traits::Int>::logical_shr;false;false;false;false
+math::libm::erff::erfcf;false;false;true;false
+math::libm::fabsf::fabsf;false;false;true;false
+math::full_availability::fmaximumf16::fmaximumf16;false;false;true;false
+<i16 as math::libm::support::int_traits::CastInto<f128>>::cast_lossy;false;false;false;false
+float::cmp::__unorddf2;false;false;true;false
+float::conv::__fixunsdfsi::__fixunsdfsi;false;false;true;false
+math::libm::ilogb::ilogb;false;true;true;true
+math::full_availability::fmaximum::fmaximum;false;false;true;false
+<usize as int::traits::Int>::ilog2;false;false;false;false
+<isize as int::traits::Int>::from_bool;false;false;false;false
+<i32 as int::traits::Int>::unsigned;false;false;false;false
+<i64 as math::libm::support::int_traits::Int>::overflowing_sub;false;false;false;false
+<u8 as int::traits::CastInto<usize>>::cast;false;false;false;false
+float::conv::__floatdidf;false;false;false;false
+<i8 as int::traits::CastInto<u8>>::cast;false;false;false;false
+math::full_availability::copysignf128::copysignf128;false;false;true;false
+<u8 as math::libm::support::int_traits::Int>::checked_sub;false;false;false;false
+<isize as math::libm::support::int_traits::Int>::wrapping_shl;false;false;false;false
+<u64 as math::libm::support::int_traits::Int>::overflowing_add;false;false;false;false
+math::libm::log10::log10;false;false;true;false
+<u64 as math::libm::support::int_traits::CastInto<i32>>::cast;false;false;false;false
+math::full_availability::truncf;false;false;true;false
+<u32 as math::libm::support::int_traits::CastInto<u128>>::cast_lossy;false;false;false;false
+<u64 as int::traits::Int>::wrapping_neg;false;false;false;false
+<i16 as math::libm::support::int_traits::CastInto<f128>>::cast;false;false;false;false
+float::conv::__floatunsitf::__floatunsitf;false;false;false;false
+float::trunc::__truncsfhf2;false;false;true;false
+math::libm::sincos::sincos;false;true;true;false
+math::libm::ldexpf16::ldexpf16;false;false;true;false
+float::conv::int_to_float::u64_to_f32_bits;false;false;false;false
+math::libm::rint::rintf;false;false;true;false
+math::full_availability::fmaf;false;false;true;false
+math::libm::atan::atan;false;true;true;false
+<u64 as int::traits::Int>::is_zero;false;false;false;false
+<i8 as math::libm::support::int_traits::Int>::wrapping_add;false;false;false;false
+<u128 as math::libm::support::int_traits::Int>::from_unsigned;false;false;false;false
+float::cmp::__nesf2::__nesf2;false;false;true;false
+float::trunc::__trunctfdf2;false;false;true;false
+<usize as math::libm::support::int_traits::Int>::abs_diff;false;false;false;false
+<i128 as math::libm::support::int_traits::CastInto<u16>>::cast_lossy;false;false;false;false
+math::libm::fminimum_fmaximum_num::fminimum_numf16;false;false;true;false
+<i128 as math::libm::support::int_traits::CastInto<i128>>::cast;false;false;false;false
+mem::impls::c_string_length;true;true;true;true
+<u16 as int::traits::Int>::from_bool;false;false;false;false
+math::libm::support::big::<impl math::libm::support::int_traits::HInt for u128>::zero_widen_mul;false;false;false;false
+float::conv::__floatuntisf;false;false;false;false
+<i32 as math::libm::support::int_traits::CastInto<i32>>::cast_lossy;false;false;false;false
+<f64 as float::traits::Float>::to_bits;false;false;true;false
+float::cmp::__ltdf2::__ltdf2;false;false;true;false
+<i64 as math::libm::support::int_traits::CastInto<i8>>::cast;false;false;false;false
+<f128 as float::traits::Float>::from_bits;false;false;true;false
+<i128 as int::traits::Int>::unsigned_abs;false;false;false;false
+<i8 as math::libm::support::int_traits::CastInto<isize>>::cast;false;false;false;false
+<u128 as math::libm::support::int_traits::CastInto<i64>>::cast_lossy;false;false;false;false
+<i8 as math::libm::support::int_traits::Int>::wrapping_shr;false;false;false;false
+<i8 as int::traits::CastInto<u16>>::cast;false;false;false;false
+<u128 as math::libm::support::int_traits::Int>::checked_sub;false;false;false;false
+float::conv::int_to_float::shift_f_gt_i;false;false;false;false
+math::libm::expm1f::expm1f;false;true;true;false
+<i32 as math::libm::support::int_traits::Int>::wrapping_shl;false;false;false;false
+float::add::__addtf3;false;false;true;false
+<isize as math::libm::support::int_traits::Int>::ilog2;false;false;false;false
+<i128 as int::traits::Int>::wrapping_shl;false;false;false;false
+<u64 as math::libm::support::int_traits::Int>::wrapping_add;false;false;false;false
+<u16 as int::traits::CastInto<u8>>::cast;false;false;false;false
+<i128 as math::libm::support::int_traits::CastInto<f16>>::cast;false;false;false;false
+<i16 as int::traits::HInt>::widen_mul;false;false;false;false
+<u128 as math::libm::support::int_traits::CastInto<u16>>::cast_lossy;false;false;false;false
+<u128 as int::traits::Int>::wrapping_sub;false;false;false;false
+float::div::get_iterations;false;false;false;false
+math::libm::trunc::trunc;false;false;true;false
+int::shift::__ashrti3::__ashrti3;false;false;false;false
+float::conv::__fixtfti::__fixtfti;false;false;true;false
+<u128 as int::traits::Int>::unsigned_abs;false;false;false;false
+<i64 as int::traits::CastInto<u32>>::cast;false;false;false;false
+<i64 as math::libm::support::int_traits::CastInto<i32>>::cast;false;false;false;false
+float::conv::__fixdfsi::__fixdfsi;false;false;true;false
+<u8 as math::libm::support::int_traits::CastInto<u32>>::cast;false;false;false;false
+float::cmp::__gtdf2::__gtdf2;false;false;true;false
+<u16 as math::libm::support::int_traits::CastInto<u128>>::cast;false;false;false;false
+<i16 as int::traits::DInt>::lo;false;false;false;false
+<u16 as math::libm::support::int_traits::CastInto<i16>>::cast;false;false;false;false
+int::addsub::Subo::subo;false;false;false;false
+<isize as int::traits::Int>::leading_zeros;false;false;false;false
+<u64 as int::traits::Int>::leading_zeros;false;false;false;false
+<usize as math::libm::support::int_traits::CastInto<i32>>::cast;false;false;false;false
+<i8 as math::libm::support::int_traits::Int>::is_zero;false;false;false;false
+math::libm::exp10f::exp10f;false;false;true;false
+<i16 as math::libm::support::int_traits::CastInto<f16>>::cast_lossy;false;false;false;false
+math::full_availability::fmaxf::fmaxf;false;false;true;false
+<i8 as math::libm::support::int_traits::CastInto<f16>>::cast_lossy;false;false;false;false
+<u64 as int::traits::Int>::wrapping_shl;false;false;false;false
+<i32 as math::libm::support::int_traits::CastInto<isize>>::cast_lossy;false;false;false;false
+int::bswap::__bswapsi2;false;false;false;false
+<i16 as int::traits::Int>::wrapping_add;false;false;false;false
+<i64 as int::traits::Int>::from_unsigned;false;false;false;false
+<i16 as int::traits::CastInto<i16>>::cast;false;false;false;false
+float::conv::__floatunsidf::__floatunsidf;false;false;false;false
+<i8 as int::traits::Int>::wrapping_mul;false;false;false;false
+math::full_availability::ceilf::ceilf;false;false;true;false
+<u32 as math::libm::support::int_traits::Int>::wrapping_add;false;false;false;false
+math::libm::fabsf128::fabsf128;false;false;true;false
+int::udiv::__udivmodsi4;false;false;true;false
+<i32 as int::traits::DInt>::lo;false;false;false;false
+int::mul::i128_overflowing_mul;false;false;false;false
+<u16 as math::libm::support::int_traits::Int>::from_bool;false;false;false;false
+math::full_availability::copysignf;false;false;true;false
+int::trailing_zeros::implementation::trailing_zeros;false;false;false;false
+int::sdiv::__modti3::__modti3;false;false;false;false
+<i16 as int::traits::CastInto<u16>>::cast;false;false;false;false
+math::full_availability::roundevenf16::roundevenf16;false;false;true;false
+math::libm::fminimum_fmaximum::fminimumf;false;false;true;false
+<i128 as math::libm::support::int_traits::Int>::abs;false;false;false;false
+<u8 as math::libm::support::int_traits::Int>::leading_zeros;false;false;false;false
+<math::libm::support::big::u256 as rustc_std_workspace_core::ops::Shl<u32>>::shl;false;false;true;false
+<u32 as int::traits::Int>::from_bool;false;false;false;false
+math::libm::fminimum_fmaximum_num::fminimum_numf;false;false;true;false
+math::libm::j0::y0;false;false;true;false
+math::libm::jn::yn;false;false;true;true
+math::full_availability::fabsf128;false;false;true;false
+float::trunc::__truncdfsf2::__truncdfsf2;false;false;true;false
+math::full_availability::ceilf16::ceilf16;false;false;true;false
+math::libm::acosf::r;false;false;true;false
+math::full_availability::fma;false;false;true;false
+float::conv::int_to_float::u32_to_f32_bits;false;false;false;false
+<usize as math::libm::support::int_traits::Int>::wrapping_shl;false;false;false;false
+math::libm::erf::erfc1;false;false;true;false
+<int::big::u256 as rustc_std_workspace_core::ops::Not>::not;false;false;false;false
+<u64 as math::libm::support::int_traits::Int>::checked_add;false;false;false;false
+<math::libm::support::big::i256 as rustc_std_workspace_core::cmp::PartialEq>::eq;false;false;true;false
+<isize as math::libm::support::int_traits::Int>::logical_shr;false;false;false;false
+<i64 as math::libm::support::int_traits::CastInto<i32>>::cast_lossy;false;false;false;false
+math::libm::pow::pow;false;false;true;false
+<i8 as int::traits::Int>::wrapping_sub;false;false;false;false
+int::sdiv::__modti3;false;false;false;false
+<u16 as math::libm::support::int_traits::Int>::wrapping_add;false;false;false;false
+math::libm::generic::fmaximum::fmaximum;false;false;false;false
+float::conv::__fixunssfti;false;false;true;false
+<i128 as int::traits::CastInto<i8>>::cast;false;false;false;false
+math::libm::generic::fmax::fmax;false;false;false;false
+<u8 as math::libm::support::int_traits::CastInto<u32>>::cast_lossy;false;false;false;false
+float::cmp::__lttf2::__lttf2;false;false;true;false
+int::mul::__mulodi4;false;false;true;false
+math::libm::support::big::<impl math::libm::support::int_traits::HInt for i128>::widen_hi;false;false;false;false
+<i64 as int::traits::Int>::unsigned;false;false;false;false
+<u128 as int::traits::CastInto<i8>>::cast;false;false;false;false
+<u16 as int::traits::HInt>::widen_mul;false;false;false;false
+<math::libm::support::env::Status as rustc_std_workspace_core::cmp::PartialEq>::eq;false;false;false;false
+<usize as math::libm::support::int_traits::Int>::wrapping_add;false;false;false;false
+<u8 as int::traits::Int>::from_unsigned;false;false;false;false
+<isize as math::libm::support::int_traits::Int>::wrapping_sub;false;false;false;false
+<u32 as math::libm::support::int_traits::Int>::checked_sub;false;false;false;false
+<f32 as math::libm::support::float_traits::Float>::fma;false;true;true;false
+<isize as math::libm::support::int_traits::CastInto<isize>>::cast;false;false;false;false
+<i16 as int::traits::Int>::wrapping_sub;false;false;false;false
+<i32 as math::libm::support::int_traits::CastInto<u64>>::cast;false;false;false;false
+float::conv::__floatundisf;false;false;false;false
+<i128 as math::libm::support::int_traits::Int>::signed;false;false;false;false
+<u32 as int::traits::Int>::wrapping_neg;false;false;false;false
+math::libm::k_sin::k_sin;false;false;true;false
+math::libm::support::hex_float::parse_hex;false;false;false;true
+math::libm::j0::common;false;false;true;false
+<u32 as int::traits::Int>::wrapping_add;false;false;false;false
+<u128 as math::libm::support::int_traits::CastInto<isize>>::cast;false;false;false;false
+<u64 as int::traits::CastInto<i8>>::cast;false;false;false;false
+<i128 as math::libm::support::int_traits::CastInto<i16>>::cast;false;false;false;false
+math::libm::k_cosf::k_cosf;false;false;true;false
+<i32 as int::traits::Int>::ilog2;false;false;false;false
+math::libm::fmin_fmax::fmin;false;false;true;false
+math::libm::support::env::Status::inexact;false;false;false;false
+<i64 as math::libm::support::int_traits::CastInto<u8>>::cast_lossy;false;false;false;false
+<u8 as math::libm::support::int_traits::CastInto<u8>>::cast;false;false;false;false
+<i16 as int::traits::Int>::unsigned;false;false;false;false
+math::libm::jnf::ynf;false;false;true;true
+mem::bcmp;true;true;true;false
+int::shift::__lshrdi3::__lshrdi3;false;false;false;false
+<i128 as math::libm::support::int_traits::CastInto<u8>>::cast_lossy;false;false;false;false
+math::full_availability::truncf16;false;false;true;false
+<i8 as int::traits::Int>::rotate_left;false;false;false;false
+math::libm::tan::tan;false;true;true;false
+float::extend::__gnu_h2f_ieee;false;false;true;false
+<u16 as int::traits::Int>::from_unsigned;false;false;false;false
+math::libm::generic::scalbn::scalbn;false;false;false;false
+int::shift::__ashrsi3::__ashrsi3;false;false;false;false
+<u64 as int::traits::Int>::unsigned_abs;false;false;false;false
+<f64 as math::libm::support::float_traits::Float>::to_bits;false;false;true;false
+<u64 as int::traits::Int>::from_unsigned;false;false;false;false
+<i16 as math::libm::support::int_traits::Int>::wrapping_shr;false;false;false;false
+<usize as math::libm::support::int_traits::CastInto<i128>>::cast;false;false;false;false
+math::full_availability::fminimumf128::fminimumf128;false;false;true;false
+math::libm::log1pf::log1pf;false;true;true;false
+math::full_availability::fminimumf16::fminimumf16;false;false;true;false
+<u128 as int::traits::Int>::logical_shr;false;false;false;false
+math::full_availability::round;false;false;true;false
+mem::__llvm_memcpy_element_unordered_atomic_2;true;false;true;false
+<u16 as int::traits::CastInto<i64>>::cast;false;false;false;false
+<u64 as math::libm::support::int_traits::CastInto<u8>>::cast_lossy;false;false;false;false
+<u128 as int::traits::Int>::leading_zeros;false;false;false;false
+<i128 as int::traits::CastInto<u128>>::cast;false;false;false;false
+<isize as math::libm::support::int_traits::CastInto<u128>>::cast_lossy;false;false;false;false
+math::full_availability::ceilf;false;false;true;false
+math::libm::j0f::qzerof;false;false;true;false
+<u64 as math::libm::support::int_traits::Int>::overflowing_sub;false;false;false;false
+<usize as math::libm::support::int_traits::CastInto<u8>>::cast;false;false;false;false
+math::libm::cosf::cosf;false;true;true;false
+math::libm::j0::pzero;false;false;true;false
+float::div::__divsf3::__divsf3;false;false;true;false
+math::full_availability::fmax;false;false;true;false
+<usize as math::libm::support::int_traits::CastInto<i16>>::cast;false;false;false;false
+float::div::__divdf3;false;false;true;false
+<u8 as math::libm::support::int_traits::Int>::abs_diff;false;false;false;false
+math::libm::ceil::ceil;false;false;true;false
+math::libm::get_high_word;false;false;true;false
+int::shift::Ashr::ashr;false;false;false;false
+<usize as int::traits::CastInto<i128>>::cast;false;false;false;false
+<isize as math::libm::support::int_traits::CastInto<u8>>::cast;false;false;false;false
+<u16 as math::libm::support::int_traits::Int>::abs_diff;false;false;false;false
+math::libm::lgammaf::lgammaf;false;false;true;false
+mem::__llvm_memmove_element_unordered_atomic_4::__llvm_memmove_element_unordered_atomic_4;true;true;true;false
+<f64 as float::traits::Float>::normalize;false;false;true;false
+<i16 as int::traits::CastInto<i128>>::cast;false;false;false;false
+<usize as math::libm::support::int_traits::Int>::from_unsigned;false;false;false;false
+<i16 as math::libm::support::int_traits::Int>::wrapping_mul;false;false;false;false
+math::full_availability::sqrtf16;false;false;true;false
+math::full_availability::rintf::rintf;false;false;true;false
+<i16 as math::libm::support::int_traits::Int>::leading_zeros;false;false;false;false
+<isize as math::libm::support::int_traits::CastInto<i128>>::cast;false;false;false;false
+<i16 as int::traits::Int>::from_unsigned;false;false;false;false
+<u16 as int::traits::CastInto<u64>>::cast;false;false;false;false
+int::shift::__lshrti3;false;false;false;false
+math::libm::fmin_fmax::fminf;false;false;true;false
+math::libm::fminimum_fmaximum::fminimumf128;false;false;true;false
+<int::big::u256 as rustc_std_workspace_core::clone::Clone>::clone;false;false;false;false
+<u8 as int::traits::Int>::wrapping_sub;false;false;false;false
+mem::__llvm_memset_element_unordered_atomic_4;true;false;true;false
+<isize as math::libm::support::int_traits::CastInto<u32>>::cast;false;false;false;false
+float::trunc::__truncdfsf2;false;false;true;false
+<i128 as int::traits::CastInto<u32>>::cast;false;false;false;false
+math::libm::log2f::log2f;false;false;true;false
+<i8 as math::libm::support::int_traits::Int>::abs_diff;false;false;false;false
+<i128 as int::traits::CastInto<i32>>::cast;false;false;false;false
+<u64 as int::traits::CastInto<u64>>::cast;false;false;false;false
+<f16 as math::libm::support::float_traits::Float>::fma;false;true;true;false
+<u64 as math::libm::support::int_traits::CastInto<i64>>::cast;false;false;false;false
+<u128 as int::traits::Int>::overflowing_add;false;false;false;false
+<usize as int::traits::Int>::overflowing_add;false;false;false;false
+<u128 as math::libm::support::int_traits::Int>::wrapping_sub;false;false;false;false
+<i128 as int::traits::DInt>::hi;false;false;false;false
+math::libm::fminimum_fmaximum::fmaximumf128;false;false;true;false
+<usize as math::libm::support::int_traits::CastInto<i64>>::cast;false;false;false;false
+math::libm::fmin_fmax::fmaxf;false;false;true;false
+<u8 as int::traits::Int>::wrapping_shr;false;false;false;false
+math::libm::combine_words;false;false;false;false
+<u32 as math::libm::support::int_traits::CastInto<usize>>::cast_lossy;false;false;false;false
+<u32 as math::libm::support::int_traits::Int>::overflowing_add;false;false;false;false
+<i16 as math::libm::support::int_traits::CastInto<i8>>::cast;false;false;false;false
+<u128 as int::traits::Int>::wrapping_neg;false;false;false;false
+<i16 as math::libm::support::int_traits::CastInto<u32>>::cast;false;false;false;false
+math::libm::atanf::atanf;false;true;true;false
+math::full_availability::fmaximum;false;false;true;false
+math::full_availability::fmodf;false;false;true;false
+math::libm::fdimf::fdimf;false;false;true;false
+<isize as int::traits::CastInto<u16>>::cast;false;false;false;false
+float::trunc::__trunctfhf2;false;false;true;false
+math::libm::roundeven::roundevenf128;false;false;true;false
+<u128 as math::libm::support::int_traits::Int>::wrapping_shr;false;false;false;false
+<i128 as math::libm::support::int_traits::Int>::checked_add;false;false;false;false
+int::shift::__ashrdi3;false;false;false;false
+<i16 as int::traits::Int>::wrapping_shr;false;false;false;false
+<i32 as int::traits::Int>::leading_zeros;false;false;false;false
+<u8 as int::traits::Int>::overflowing_add;false;false;false;false
+<u8 as math::libm::support::int_traits::Int>::rotate_left;false;false;false;false
+<i64 as math::libm::support::int_traits::DInt>::lo;false;false;false;false
+math::libm::floorf128::floorf128;false;false;true;false
+<u32 as math::libm::support::int_traits::Int>::checked_add;false;false;false;false
+<f128 as float::traits::Float>::normalize;false;false;true;false
+<u32 as math::libm::support::int_traits::HInt>::widen;false;false;false;false
+<math::libm::support::big::u256 as rustc_std_workspace_core::cmp::PartialEq>::eq;false;false;true;false
+<f64 as math::libm::support::float_traits::Float>::abs;false;false;true;false
+<u8 as int::traits::CastInto<i32>>::cast;false;false;false;false
+math::libm::j1f::common;false;false;true;false
+<i128 as int::traits::CastInto<u16>>::cast;false;false;false;false
+int::specialized_div_rem::zero_div_fn;false;false;false;false
+<u8 as math::libm::support::int_traits::CastInto<isize>>::cast_lossy;false;false;false;false
+<i128 as math::libm::support::int_traits::CastInto<u16>>::cast;false;false;false;false
+<u16 as math::libm::support::int_traits::Int>::ilog2;false;false;false;false
+<u8 as math::libm::support::int_traits::CastInto<i32>>::cast;false;false;false;false
+<u32 as int::traits::HInt>::widen_hi;false;false;false;false
+<i16 as math::libm::support::int_traits::CastInto<usize>>::cast;false;false;false;false
+math::libm::log2::log2;false;false;true;false
+math::libm::nextafterf::nextafterf;false;true;true;false
+<isize as int::traits::Int>::wrapping_shr;false;false;false;false
+math::libm::generic::fabs::fabs;false;false;false;false
+<u64 as math::libm::support::int_traits::CastInto<u16>>::cast;false;false;false;false
+int::addsub::__rust_u128_addo;false;false;true;false
+int::sdiv::__divmoddi4;false;false;true;false
+float::extend::__extendhfsf2::__extendhfsf2;false;false;true;false
+math::libm::support::big::<impl math::libm::support::int_traits::HInt for i128>::widen;false;false;false;false
+float::pow::__powisf2;false;false;true;false
+<i64 as math::libm::support::int_traits::Int>::unsigned;false;false;false;false
+<u32 as int::traits::CastInto<i32>>::cast;false;false;false;false
+<u128 as math::libm::support::int_traits::CastInto<u128>>::cast;false;false;false;false
+math::full_availability::fmaxf;false;false;true;false
+<f16 as float::traits::Float>::frac;false;false;true;false
+<i64 as int::traits::DInt>::hi;false;false;false;false
+<i128 as math::libm::support::int_traits::Int>::wrapping_add;false;false;false;false
+<usize as math::libm::support::int_traits::CastInto<u128>>::cast_lossy;false;false;false;false
+<u128 as int::traits::Int>::wrapping_mul;false;false;false;false
+<i8 as math::libm::support::int_traits::CastInto<f128>>::cast_lossy;false;false;false;false
+int::udiv::__udivdi3;false;false;false;false
+math::libm::rem_pio2::rem_pio2::medium;false;false;true;false
+float::conv::__fixsfsi::__fixsfsi;false;false;true;false
+int::leading_zeros::implementation::leading_zeros_default;false;false;false;false
+mem::__llvm_memmove_element_unordered_atomic_2;true;false;true;false
+<u32 as int::traits::HInt>::widen;false;false;false;false
+<u128 as int::traits::CastInto<u64>>::cast;false;false;false;false
+math::libm::support::hex_float::hf16;false;false;false;false
+math::libm::asinf::r;false;false;true;false
+<isize as math::libm::support::int_traits::Int>::checked_sub;false;false;false;false
+float::trunc::__trunctfsf2;false;false;true;false
+<i128 as math::libm::support::int_traits::CastInto<f32>>::cast;false;false;false;false
+math::libm::generic::fdim::fdim;false;false;false;false
+<i64 as math::libm::support::int_traits::HInt>::zero_widen_mul;false;false;false;false
+math::libm::acosh::acosh;false;false;true;false
+math::libm::scalbnf16::scalbnf16;false;false;true;false
+<u32 as math::libm::support::int_traits::Int>::rotate_left;false;false;false;false
+<i64 as math::libm::support::int_traits::Int>::is_zero;false;false;false;false
+<u16 as int::traits::CastInto<u128>>::cast;false;false;false;false
+math::full_availability::fmaximumf128;false;false;true;false
+math::libm::with_set_low_word;false;false;true;false
+<u128 as math::libm::support::int_traits::CastInto<usize>>::cast;false;false;false;false
+<i32 as int::traits::Int>::logical_shr;false;false;false;false
+float::cmp::__unordtf2;false;false;true;false
+<f128 as math::libm::support::float_traits::Float>::copysign;false;false;true;false
+<i64 as math::libm::support::int_traits::CastInto<i128>>::cast;false;false;false;false
+math::libm::sqrtf16::sqrtf16;false;false;true;false
+<i32 as int::traits::CastInto<u16>>::cast;false;false;false;false
+<usize as int::traits::Int>::unsigned_abs;false;false;false;false
+<i128 as int::traits::CastInto<usize>>::cast;false;false;false;false
+<i128 as int::traits::Int>::unsigned;false;false;false;false
+<i16 as math::libm::support::int_traits::DInt>::lo;false;false;false;false
+math::libm::ceilf16::ceilf16;false;false;true;false
+<isize as int::traits::CastInto<i8>>::cast;false;false;false;false
+math::libm::support::env::FpResult::<T>::ok;false;false;false;false
+<u64 as math::libm::support::int_traits::CastInto<i128>>::cast;false;false;false;false
+math::libm::j1::qone;false;false;true;false
+<int::big::u256 as rustc_std_workspace_core::ops::Shr<u32>>::shr;false;false;false;true
+<i64 as int::traits::Int>::wrapping_add;false;false;false;false
+<u16 as int::traits::CastInto<i16>>::cast;false;false;false;false
+<i64 as math::libm::support::int_traits::CastInto<f128>>::cast;false;false;false;false
+float::div::c_hw;false;false;false;false
+<i64 as math::libm::support::int_traits::CastInto<u128>>::cast;false;false;false;false
+float::conv::__fixdfti;false;false;true;false
+float::mul::__muldf3;false;false;true;false
+<usize as math::libm::support::int_traits::CastInto<u16>>::cast;false;false;false;false
+<usize as int::traits::CastInto<u8>>::cast;false;false;false;false
+float::conv::__fixunstfsi;false;false;true;false
+float::cmp::__gtsf2;false;false;true;false
+float::conv::__floatditf::__floatditf;false;false;false;false
+float::cmp::__nesf2;false;false;true;false
+<i64 as math::libm::support::int_traits::CastInto<u128>>::cast_lossy;false;false;false;false
+<usize as int::traits::CastInto<i32>>::cast;false;false;false;false
+math::libm::j1::pone;false;false;true;false
+math::libm::lgamma_r::sin_pi;false;false;true;false
+<u16 as math::libm::support::int_traits::CastInto<u8>>::cast;false;false;false;false
+math::full_availability::sqrt;false;false;true;false
+int::mul::__muldi3;false;false;false;false
+<i32 as math::libm::support::int_traits::CastInto<usize>>::cast;false;false;false;false
+<isize as math::libm::support::int_traits::Int>::leading_zeros;false;false;false;false
+<i8 as math::libm::support::int_traits::Int>::from_bool;false;false;false;false
+<i128 as math::libm::support::int_traits::Int>::wrapping_shr;false;false;false;false
+<i64 as int::traits::Int>::wrapping_shl;false;false;false;false
+<isize as int::traits::CastInto<i16>>::cast;false;false;false;false
+<u64 as math::libm::support::int_traits::Int>::from_unsigned;false;false;false;false
+math::libm::support::cold_path;false;false;false;false
+int::mul::Mul::mul;false;false;false;false
+math::full_availability::fabsf;false;false;true;false
+<u32 as int::traits::CastInto<u32>>::cast;false;false;false;false
+math::libm::hypot::sq;false;false;true;false
+float::cmp::__gedf2::__gedf2;false;false;true;false
+<i16 as math::libm::support::int_traits::Int>::checked_add;false;false;false;false
+math::full_availability::roundevenf128::roundevenf128;false;false;true;false
+<i128 as math::libm::support::int_traits::CastInto<f16>>::cast_lossy;false;false;false;false
+<i8 as math::libm::support::int_traits::CastInto<i32>>::cast;false;false;false;false
+<i64 as int::traits::HInt>::widen_hi;false;false;false;false
+<u64 as math::libm::support::int_traits::HInt>::zero_widen;false;false;false;false
+<i8 as math::libm::support::int_traits::CastInto<i16>>::cast_lossy;false;false;false;false
+<usize as math::libm::support::int_traits::CastInto<u16>>::cast_lossy;false;false;false;false
+float::cmp::__gedf2;false;false;true;false
+<usize as int::traits::Int>::leading_zeros;false;false;false;false
+int::big::i256::unsigned;false;false;false;false
+<i8 as int::traits::CastInto<u32>>::cast;false;false;false;false
+<u32 as int::traits::CastInto<i128>>::cast;false;false;false;false
+<usize as math::libm::support::int_traits::CastInto<u64>>::cast;false;false;false;false
+<u128 as math::libm::support::int_traits::Int>::leading_zeros;false;false;false;false
+math::libm::generic::sqrt::sqrt;false;false;false;false
+math::full_availability::cbrt::cbrt;false;false;true;false
+<u32 as math::libm::support::int_traits::HInt>::zero_widen;false;false;false;false
+float::trunc::__truncsfhf2::__truncsfhf2;false;false;true;false
+<f64 as float::traits::Float>::eq_repr;false;false;true;false
+int::shift::Ashl::ashl;false;false;false;false
+<i16 as int::traits::DInt>::hi;false;false;false;false
+<i32 as math::libm::support::int_traits::Int>::wrapping_shr;false;false;false;false
+int::sdiv::__divti3;false;false;false;false
+<i16 as math::libm::support::int_traits::HInt>::widen_hi;false;false;false;false
+math::libm::k_expo2::k_expo2;false;false;true;false
+<i32 as math::libm::support::int_traits::Int>::overflowing_add;false;false;false;false
+<i16 as int::traits::Int>::rotate_left;false;false;false;false
+math::full_availability::sqrtf16::sqrtf16;false;false;true;false
+<f64 as float::traits::Float>::eq_repr::is_nan;false;false;true;false
+<f128 as float::traits::Float>::to_bits;false;false;true;false
+float::conv::__fixunssfsi::__fixunssfsi;false;false;true;false
+<usize as int::traits::Int>::rotate_left;false;false;false;false
+<usize as int::traits::CastInto<usize>>::cast;false;false;false;false
+<u16 as math::libm::support::int_traits::Int>::overflowing_add;false;false;false;false
+<i64 as math::libm::support::int_traits::CastInto<u8>>::cast;false;false;false;false
+int::addsub::__rust_i128_addo;false;false;true;false
+<u128 as int::traits::Int>::from_bool;false;false;false;false
+<isize as int::traits::CastInto<u32>>::cast;false;false;false;false
+<math::libm::support::big::i256 as rustc_std_workspace_core::ops::Not>::not;false;false;true;false
+float::cmp::__gttf2;false;false;true;false
+<math::libm::support::big::u256 as rustc_std_workspace_core::ops::Add>::add;false;false;true;false
+math::libm::roundeven::roundeven_impl;false;false;false;false
+<i8 as int::traits::HInt>::zero_widen_mul;false;false;false;false
+float::conv::__floatsitf::__floatsitf;false;false;false;false
+int::specialized_div_rem::u32_by_u32_div_rem;false;false;false;false
+<u8 as math::libm::support::int_traits::CastInto<i8>>::cast;false;false;false;false
+<i8 as math::libm::support::int_traits::CastInto<u32>>::cast_lossy;false;false;false;false
+<isize as math::libm::support::int_traits::CastInto<i32>>::cast_lossy;false;false;false;false
+<math::libm::support::big::i256 as rustc_std_workspace_core::ops::BitOr>::bitor;false;false;true;false
+<u64 as math::libm::support::int_traits::Int>::checked_sub;false;false;false;false
+math::libm::generic::rint::rint_round;false;false;false;false
+<u128 as math::libm::support::int_traits::CastInto<isize>>::cast_lossy;false;false;false;false
+math::full_availability::ceil;false;false;true;false
+float::add::__adddf3::__adddf3;false;false;true;false
+int::mul::__rust_i128_mulo;false;false;true;false
+<u8 as int::traits::Int>::abs_diff;false;false;false;false
+<u32 as math::libm::support::int_traits::CastInto<u32>>::cast;false;false;false;false
+<i8 as math::libm::support::int_traits::CastInto<i8>>::cast;false;false;false;false
+<i8 as int::traits::Int>::unsigned;false;false;false;false
+float::conv::__floatditf;false;false;false;false
+math::libm::support::float_traits::Float::is_sign_positive;false;false;false;false
+math::libm::fma_wide::fmaf16;false;false;true;false
+<i8 as math::libm::support::int_traits::CastInto<f32>>::cast_lossy;false;false;false;false
+mem::__llvm_memcpy_element_unordered_atomic_8;true;false;true;false
+math::full_availability::fmod;false;false;true;false
+mem::impls::compare_bytes::cmp;true;true;true;true
+float::cmp::__eqtf2;false;false;true;false
+<i32 as math::libm::support::int_traits::HInt>::widen_hi;false;false;false;false
+<u128 as int::traits::CastInto<i32>>::cast;false;false;false;false
+<u16 as int::traits::CastInto<isize>>::cast;false;false;false;false
+<i8 as math::libm::support::int_traits::CastInto<u128>>::cast_lossy;false;false;false;false
+float::add::__addsf3;false;false;true;false
+<usize as math::libm::support::int_traits::Int>::logical_shr;false;false;false;false
+<u16 as int::traits::Int>::wrapping_neg;false;false;false;false
+<isize as math::libm::support::int_traits::Int>::wrapping_neg;false;false;false;false
+<i8 as int::traits::Int>::wrapping_shr;false;false;false;false
+float::div::__divtf3::__divtf3;false;false;true;false
+<i128 as int::traits::Int>::is_zero;false;false;false;false
+<isize as int::traits::CastInto<i64>>::cast;false;false;false;false
+int::big::u256;false;false;false;false
+math::libm::support::float_traits::Float::signum;false;false;false;false
+<i32 as math::libm::support::int_traits::CastInto<i64>>::cast_lossy;false;false;false;false
+<i64 as int::traits::CastInto<i32>>::cast;false;false;false;false
+math::full_availability::fmaf::fmaf;false;false;true;false
+math::libm::erf::erfc2;false;false;true;false
+<i16 as math::libm::support::int_traits::HInt>::widen;false;false;false;false
+<usize as math::libm::support::int_traits::Int>::wrapping_mul;false;false;false;false
+float::trunc::__trunctfsf2::__trunctfsf2;false;false;true;false
+<i128 as math::libm::support::int_traits::Int>::logical_shr;false;false;false;false
+<i128 as int::traits::Int>::logical_shr;false;false;false;false
+int::big::u256::signed;false;false;false;false
+<u32 as math::libm::support::int_traits::Int>::unsigned;false;false;false;false
+<usize as int::traits::Int>::from_unsigned;false;false;false;false
+<i32 as math::libm::support::int_traits::Int>::signed;false;false;false;false
+math::full_availability::roundf::roundf;false;false;true;false
+math::full_availability::fminf;false;false;true;false
+<isize as math::libm::support::int_traits::Int>::from_bool;false;false;false;false
+<u64 as math::libm::support::int_traits::CastInto<i8>>::cast;false;false;false;false
+float::trunc::__trunctfdf2::__trunctfdf2;false;false;true;false
+<math::libm::fma::Norm<F> as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+<i16 as math::libm::support::int_traits::CastInto<f32>>::cast;false;false;false;false
+float::conv::__floatunsisf::__floatunsisf;false;false;false;false
+<i64 as int::traits::CastInto<isize>>::cast;false;false;false;false
+math::libm::generic::fmaximum_num::fmaximum_num;false;false;false;false
+float::cmp::__lesf2;false;false;true;false
+<u16 as math::libm::support::int_traits::CastInto<i32>>::cast;false;false;false;false
+<u64 as math::libm::support::int_traits::CastInto<i8>>::cast_lossy;false;false;false;false
+math::full_availability::roundf16::roundf16;false;false;true;false
+<u8 as math::libm::support::int_traits::CastInto<i128>>::cast_lossy;false;false;false;false
+int::udiv::__umodti3::__umodti3;false;false;false;false
+<i8 as math::libm::support::int_traits::CastInto<u16>>::cast_lossy;false;false;false;false
+math::full_availability::rint;false;false;true;false
+mem::__llvm_memcpy_element_unordered_atomic_4;true;false;true;false
+<u16 as int::traits::Int>::leading_zeros;false;false;false;false
+<i8 as math::libm::support::int_traits::CastInto<i32>>::cast_lossy;false;false;false;false
+int::shift::__ashlti3;false;false;false;false
+int::addsub::__rust_u128_subo;false;false;true;false
+<i8 as int::traits::Int>::overflowing_add;false;false;false;false
+<u64 as math::libm::support::int_traits::Int>::wrapping_sub;false;false;false;false
+<i32 as math::libm::support::int_traits::Int>::rotate_left;false;false;false;false
+<int::big::i256 as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+<usize as math::libm::support::int_traits::Int>::is_zero;false;false;false;false
+math::libm::exp::exp;false;true;true;false
+float::cmp::__nedf2;false;false;true;false
+float::conv::__floatuntidf;false;false;false;false
+float::extend::__extendsftf2::__extendsftf2;false;false;true;false
+math::libm::support::int_traits::DInt::lo_hi;false;false;false;false
+<i8 as int::traits::CastInto<i16>>::cast;false;false;false;false
+<i32 as math::libm::support::int_traits::CastInto<i64>>::cast;false;false;false;false
+<u8 as math::libm::support::int_traits::Int>::from_unsigned;false;false;false;false
+<i64 as math::libm::support::int_traits::CastInto<i16>>::cast;false;false;false;false
+math::libm::rem_pio2f::rem_pio2f;false;false;true;false
+<i32 as int::traits::Int>::rotate_left;false;false;false;false
+<u32 as math::libm::support::int_traits::Int>::ilog2;false;false;false;false
+<i64 as math::libm::support::int_traits::Int>::checked_add;false;false;false;false
+<i32 as math::libm::support::int_traits::CastInto<u128>>::cast_lossy;false;false;false;false
+math::libm::k_expo2f::k_expo2f;false;false;true;false
+<i64 as math::libm::support::int_traits::CastInto<isize>>::cast;false;false;false;false
+math::libm::sqrt::sqrt;false;false;true;false
+float::conv::int_to_float::exp;false;false;false;false
+int::addsub::__rust_i128_addo::__rust_i128_addo;false;false;true;false
+int::shift::__ashldi3::__ashldi3;false;false;false;false
+<u8 as int::traits::CastInto<u128>>::cast;false;false;false;false
+<u64 as int::traits::Int>::wrapping_shr;false;false;false;false
+<i128 as int::traits::Int>::from_bool;false;false;false;false
+<f32 as math::libm::support::float_traits::Float>::to_bits;false;false;true;false
+math::libm::support::float_traits::Float::from_parts;false;false;false;false
+<i8 as math::libm::support::int_traits::CastInto<f32>>::cast;false;false;false;false
+math::libm::sqrtf::sqrtf;false;false;true;false
+<i32 as int::traits::CastInto<u128>>::cast;false;false;false;false
+<i32 as math::libm::support::int_traits::Int>::abs_diff;false;false;false;false
+math::full_availability::fminf::fminf;false;false;true;false
+<u64 as math::libm::support::int_traits::CastInto<u8>>::cast;false;false;false;false
+<i64 as int::traits::Int>::wrapping_shr;false;false;false;false
+<f16 as math::libm::support::float_traits::Float>::normalize;false;false;true;false
+<i16 as math::libm::support::int_traits::Int>::rotate_left;false;false;false;false
+<i128 as int::traits::Int>::wrapping_shr;false;false;false;false
+int::addsub::AddSub::add;false;false;false;false
+<u128 as int::traits::CastInto<u32>>::cast;false;false;false;false
+int::sdiv::__divmodsi4::__divmodsi4;false;false;true;false
+<u8 as int::traits::CastInto<u8>>::cast;false;false;false;false
+<i128 as math::libm::support::int_traits::CastInto<u64>>::cast_lossy;false;false;false;false
+<i16 as math::libm::support::int_traits::CastInto<i64>>::cast_lossy;false;false;false;false
+math::libm::fmin_fmax::fmax;false;false;true;false
+int::mul::__muloti4;false;false;true;false
+math::libm::fma::fma_round;false;false;false;false
+math::full_availability::roundeven::roundeven;false;false;true;false
+<u32 as math::libm::support::int_traits::HInt>::widen_mul;false;false;false;false
+<u8 as math::libm::support::int_traits::CastInto<i128>>::cast;false;false;false;false
+<u32 as int::traits::Int>::leading_zeros;false;false;false;false
+<i8 as int::traits::Int>::from_bool;false;false;false;false
+mem::memset_element_unordered_atomic;false;true;true;true
+float::conv::int_to_float::u128_to_f64_bits;false;false;false;false
+int::shift::__lshrti3::__lshrti3;false;false;false;false
+<i64 as int::traits::Int>::logical_shr;false;false;false;false
+math::libm::hypotf::hypotf;false;false;true;false
+<i64 as int::traits::Int>::from_bool;false;false;false;false
+math::libm::lgammaf_r::lgammaf_r;false;false;true;false
+<i16 as math::libm::support::int_traits::Int>::wrapping_add;false;false;false;false
+<i32 as math::libm::support::int_traits::DInt>::lo;false;false;false;false
+<u64 as math::libm::support::int_traits::CastInto<isize>>::cast;false;false;false;false
+float::cmp::__ltsf2::__ltsf2;false;false;true;false
+<f32 as float::traits::Float>::from_bits;false;false;true;false
+<i128 as math::libm::support::int_traits::CastInto<u8>>::cast;false;false;false;false
+float::extend::__extendsftf2;false;false;true;false
+<u8 as int::traits::Int>::rotate_left;false;false;false;false
+math::libm::support::env::FpResult::<T>::new;false;false;false;false
+float::conv::__fixunssfdi;false;false;true;false
+<f16 as math::libm::support::float_traits::Float>::is_infinite;false;false;true;false
+<i128 as math::libm::support::int_traits::Int>::unsigned;false;false;false;false
+math::libm::expf::expf;false;true;true;false
+int::addsub::__rust_i128_add::__rust_i128_add;false;false;false;false
+int::big::<impl int::traits::HInt for i128>::zero_widen_mul;false;false;false;false
+<f32 as math::libm::support::float_traits::Float>::from_bits;false;false;true;false
+math::libm::generic::round::round;false;false;false;false
+float::cmp::__eqsf2::__eqsf2;false;false;true;false
+<i128 as math::libm::support::int_traits::CastInto<i64>>::cast;false;false;false;false
+<math::libm::support::env::Status as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+float::conv::float_to_int_inner;false;false;false;false
+<u8 as math::libm::support::int_traits::CastInto<usize>>::cast_lossy;false;false;false;false
+<i8 as math::libm::support::int_traits::CastInto<u128>>::cast;false;false;false;false
+float::conv::__fixunstfti::__fixunstfti;false;false;true;false
+<i8 as math::libm::support::int_traits::CastInto<i8>>::cast_lossy;false;false;false;false
+float::conv::__floatunditf;false;false;false;false
+int::mul::__rust_u128_mulo::__rust_u128_mulo;false;false;true;false
+<i32 as int::traits::Int>::wrapping_neg;false;false;false;false
+<u32 as int::traits::CastInto<i8>>::cast;false;false;false;false
+int::big::i256;false;false;false;false
+<u128 as int::traits::CastInto<u16>>::cast;false;false;false;false
+mem::__llvm_memcpy_element_unordered_atomic_1;true;false;true;false
+mem::__llvm_memset_element_unordered_atomic_1::__llvm_memset_element_unordered_atomic_1;true;true;true;false
+<i32 as math::libm::support::int_traits::Int>::logical_shr;false;false;false;false
+math::libm::acos::r;false;false;true;false
+math::libm::support::big::<impl math::libm::support::int_traits::HInt for u128>::zero_widen;false;false;false;false
+math::libm::generic::copysign::copysign;false;false;false;false
+<u32 as int::traits::Int>::rotate_left;false;false;false;false
+math::libm::tgammaf::tgammaf;false;false;true;false
+<f64 as float::traits::Float>::is_sign_negative;false;false;true;false
+int::mul::__mulodi4::__mulodi4;false;false;true;false
+<i8 as int::traits::Int>::ilog2;false;false;false;false
+<f64 as math::libm::support::float_traits::Float>::normalize;false;false;true;false
+<u16 as math::libm::support::int_traits::CastInto<i16>>::cast_lossy;false;false;false;false
+<i8 as math::libm::support::int_traits::CastInto<f64>>::cast_lossy;false;false;false;false
+<math::libm::support::big::i256 as math::libm::support::int_traits::DInt>::hi;false;false;true;false
+<i128 as math::libm::support::int_traits::CastInto<isize>>::cast_lossy;false;false;false;false
+<u128 as int::traits::CastInto<i16>>::cast;false;false;false;false
+<i32 as math::libm::support::int_traits::CastInto<u128>>::cast;false;false;false;false
+<u64 as int::traits::CastInto<i32>>::cast;false;false;false;false
+<math::libm::support::hex_float::Hexf<(F, F)> as rustc_std_workspace_core::fmt::LowerHex>::fmt;false;false;true;false
+math::full_availability::sqrtf::sqrtf;false;false;true;false
+<isize as math::libm::support::int_traits::Int>::overflowing_add;false;false;false;false
+float::cmp::__unorddf2::__unorddf2;false;false;true;false
+<i8 as int::traits::HInt>::widen;false;false;false;false
+<u8 as math::libm::support::int_traits::Int>::checked_add;false;false;false;false
+<i8 as math::libm::support::int_traits::Int>::wrapping_shl;false;false;false;false
+float::extend::__extenddftf2::__extenddftf2;false;false;true;false
+<u16 as math::libm::support::int_traits::Int>::wrapping_shr;false;false;false;false
+<u64 as int::traits::HInt>::widen;false;false;false;false
+int::addsub::__rust_u128_sub::__rust_u128_sub;false;false;false;false
+<usize as math::libm::support::int_traits::Int>::checked_add;false;false;false;false
+math::libm::ceilf::ceilf;false;false;true;false
+<i32 as math::libm::support::int_traits::Int>::overflowing_sub;false;false;false;false
+<i8 as math::libm::support::int_traits::CastInto<i128>>::cast;false;false;false;false
+<f16 as math::libm::support::float_traits::Float>::from_bits;false;false;true;false

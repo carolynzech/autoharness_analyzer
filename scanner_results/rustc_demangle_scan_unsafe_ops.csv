@@ -1,0 +1,2 @@
+fn_name;inline_assembly;unsafe_dereference;unsafe_call;unsafe_static_access;unsafe_union_access
+<Demangle<'a> as rustc_std_workspace_core::fmt::Display>::fmt;0;0;1;0;0

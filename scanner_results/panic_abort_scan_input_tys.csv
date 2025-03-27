@@ -1,0 +1,3 @@
+fn_name;boxes;closures;coroutines;floats;fn_defs;fn_ptrs;generics;interior_muts;raw_ptrs;recursive_types;mut_refs;simd;unions
+__rust_panic_cleanup;0;0;0;0;0;0;0;0;1;0;0;0;0
+__rust_start_panic;0;0;0;0;0;0;0;0;0;0;1;0;0

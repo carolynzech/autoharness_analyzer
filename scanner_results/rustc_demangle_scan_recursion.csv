@@ -1,0 +1,7 @@
+v0::Printer::<'a, 'b, 's>::print_path;recursive
+<v0::Demangle<'s> as rustc_std_workspace_core::fmt::Display>::fmt;
+v0::Printer::<'a, 'b, 's>::print_const;recursive
+v0::Printer::<'a, 'b, 's>::print_path_maybe_open_generics;
+v0::Printer::<'a, 'b, 's>::print_dyn_trait;
+v0::Printer::<'a, 'b, 's>::print_generic_arg;
+v0::Printer::<'a, 'b, 's>::print_type;recursive

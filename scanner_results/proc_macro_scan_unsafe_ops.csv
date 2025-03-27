@@ -1,0 +1,19 @@
+fn_name;inline_assembly;unsafe_dereference;unsafe_call;unsafe_static_access;unsafe_union_access
+bridge::arena::Arena::grow;0;2;0;0;0
+bridge::arena::Arena::alloc_raw_without_grow;0;0;1;0;0
+bridge::arena::Arena::alloc_str;0;0;1;0;0
+<bridge::buffer::Buffer as std::ops::Deref>::deref;0;0;1;0;0
+<bridge::buffer::Buffer as std::ops::DerefMut>::deref_mut;0;0;1;0;0
+bridge::buffer::Buffer::extend_from_array;0;0;2;0;0
+bridge::buffer::Buffer::extend_from_slice;0;0;2;0;0
+bridge::buffer::Buffer::push;0;1;1;0;0
+<bridge::buffer::Buffer as std::convert::From<std::vec::Vec<u8>>>::from::to_vec;0;0;1;0;0
+bridge::client::state::with;0;0;1;0;0
+<bridge::closure::Closure<'a, A, R> as std::convert::From<&'a mut F>>::from::call;0;1;0;0;0
+bridge::closure::Closure::<'a, A, R>::call;0;0;1;0;0
+<bridge::rpc::PanicMessage as std::convert::From<std::boxed::Box<(dyn std::any::Any + std::marker::Send + 'static)>>>::from;0;2;0;0;0
+bridge::selfless_reify::_reify_to_extern_c_fn_unary::wrapper;0;0;1;0;0
+bridge::selfless_reify::reify_to_extern_c_fn_hrt_bridge::wrapper;0;0;1;0;0
+bridge::symbol::Interner::intern;0;1;0;0;0
+<Span as diagnostic::MultiSpan>::into_spans;0;1;1;0;0
+<std::boxed::Box<T> as to_tokens::ToTokens>::to_tokens;0;1;0;0;0

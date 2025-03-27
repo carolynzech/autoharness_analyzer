@@ -1,0 +1,3 @@
+fn_name;inline_assembly;unsafe_dereference;unsafe_call;unsafe_static_access;unsafe_union_access
+__rust_start_panic;0;0;1;0;0
+__rust_start_panic::abort;0;0;1;0;0

@@ -1,0 +1,55 @@
+<str::iter::RSplitN<'a, P> as iter::traits::iterator::Iterator>::next;
+mem::maybe_uninit::MaybeUninit::<T>::assume_init_drop;
+<array::Guard<'_, T> as ops::drop::Drop>::drop;
+slice::sort::select::median_of_medians;recursive
+slice::sort::unstable::quicksort::quicksort;recursive
+<clone::uninit::InitializingSlice<'a, T> as ops::drop::Drop>::drop;
+slice::<impl [T]>::select_nth_unstable;
+<iter::adapters::map_windows::MapWindows<I, F, N> as iter::traits::iterator::Iterator>::next;
+slice::<impl [T]>::select_nth_unstable_by_key;
+iter::adapters::map_windows::MapWindowsInner::<I, N>::next_window;
+<mem::maybe_uninit::Guard<'a, T> as ops::drop::Drop>::drop;
+<array::iter::IntoIter<T, N> as iter::traits::double_ended::DoubleEndedIterator>::advance_back_by;
+ptr::non_null::NonNull::<T>::drop_in_place;
+str::iter::SplitNInternal::<'a, P>::next_back;
+slice::<impl [f32]>::sort_floats;
+slice::<impl [T]>::select_nth_unstable_by;
+slice::<impl [T]>::sort_unstable_by_key;
+<str::iter::RSplit<'a, P> as iter::traits::iterator::Iterator>::next;
+slice::sort::unstable::sort;
+slice::sort::stable::quicksort::quicksort;recursive
+slice::sort::select::partition_at_index_loop;
+<iter::adapters::map_windows::Buffer<T, N> as ops::drop::Drop>::drop;
+<str::iter::SplitInclusive<'a, P> as iter::traits::double_ended::DoubleEndedIterator>::next_back;
+ptr::drop_in_place;recursive
+slice::sort::shared::pivot::choose_pivot;
+<[mem::maybe_uninit::MaybeUninit<T>]>::assume_init_drop;
+slice::sort::stable::drift::stable_quicksort;recursive
+slice::sort::stable::sort;
+slice::sort::stable::driftsort_main;
+slice::sort::select::partition_at_index;
+slice::sort::stable::drift::sort;recursive
+str::iter::SplitInternal::<'a, P>::next_back;recursive
+<<iter::adapters::filter_map::FilterMap<I, F> as iter::traits::iterator::Iterator>::next_chunk::Guard<'_, T> as ops::drop::Drop>::drop;
+<array::drain::Drain<'_, T> as ops::drop::Drop>::drop;
+ptr::mut_ptr::<impl *mut T>::drop_in_place;
+iter::adapters::map_windows::Buffer::<T, N>::push;
+slice::<impl [T]>::align_to_offsets::gcd;recursive
+<str::iter::RSplitTerminator<'a, P> as iter::traits::iterator::Iterator>::next;
+slice::sort::shared::pivot::median3_rec;recursive
+<str::iter::SplitTerminator<'a, P> as iter::traits::double_ended::DoubleEndedIterator>::next_back;
+slice::<impl [T]>::sort_unstable;
+str::iter::SplitInternal::<'a, P>::next_back_inclusive;recursive
+<str::iter::Split<'a, P> as iter::traits::double_ended::DoubleEndedIterator>::next_back;
+intrinsics::drop_in_place;
+slice::sort::unstable::ipnsort;
+slice::sort::stable::drift::create_run;
+slice::sort::stable::drift::logical_merge;
+future::async_drop::async_drop_in_place_raw;recursive
+slice::sort::select::median_of_ninthers;recursive
+mem::manually_drop::ManuallyDrop::<T>::drop;
+<array::iter::IntoIter<T, N> as ops::drop::Drop>::drop;
+slice::<impl [T]>::sort_unstable_by;
+future::async_drop::async_drop_in_place;
+<array::iter::IntoIter<T, N> as iter::traits::iterator::Iterator>::advance_by;
+slice::<impl [f64]>::sort_floats;

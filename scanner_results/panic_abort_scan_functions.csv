@@ -1,0 +1,4 @@
+name;is_unsafe;has_unsafe_ops;has_unsupported_input;has_loop_or_iterator
+__rust_start_panic::abort;true;true;false;false
+__rust_panic_cleanup;true;false;true;false
+__rust_start_panic;true;true;true;false

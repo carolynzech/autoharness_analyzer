@@ -1,0 +1,5 @@
+fn_name;boxes;closures;coroutines;floats;fn_defs;fn_ptrs;generics;interior_muts;raw_ptrs;recursive_types;mut_refs;simd;unions
+<configure::Target as std::fmt::Debug>::fmt;0;0;0;0;0;0;4;0;1;20;2;0;0
+configure::Target::has_feature;0;0;0;0;0;0;3;0;1;18;0;0;0
+configure::configure_f16_f128;0;0;0;0;0;0;3;0;1;18;0;0;0
+configure_libm;0;0;0;0;0;0;3;0;1;18;0;0;0

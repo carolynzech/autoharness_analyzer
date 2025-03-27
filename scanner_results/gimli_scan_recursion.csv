@@ -1,0 +1,3 @@
+read::aranges::ArangeEntryIter::<R>::next_raw;
+read::aranges::ArangeEntry::parse;recursive
+read::aranges::ArangeEntryIter::<R>::next;

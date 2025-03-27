@@ -1,0 +1,215 @@
+fn_name;inline_assembly;unsafe_dereference;unsafe_call;unsafe_static_access;unsafe_union_access
+arch::all::memchr::One::find;0;0;1;0;0
+arch::all::memchr::One::rfind;0;0;1;0;0
+arch::all::memchr::One::count;0;0;2;0;0
+arch::all::memchr::One::find_raw;0;0;13;0;0
+arch::all::memchr::One::rfind_raw;0;0;14;0;0
+arch::all::memchr::One::count_raw;0;0;2;0;0
+<arch::all::memchr::OneIter<'a, 'h> as rustc_std_workspace_core::iter::Iterator>::next;0;0;1;0;0
+<arch::all::memchr::OneIter<'a, 'h> as rustc_std_workspace_core::iter::DoubleEndedIterator>::next_back;0;0;1;0;0
+arch::all::memchr::Two::find;0;0;1;0;0
+arch::all::memchr::Two::rfind;0;0;1;0;0
+arch::all::memchr::Two::find_raw;0;0;10;0;0
+arch::all::memchr::Two::rfind_raw;0;0;11;0;0
+<arch::all::memchr::TwoIter<'a, 'h> as rustc_std_workspace_core::iter::Iterator>::next;0;0;1;0;0
+<arch::all::memchr::TwoIter<'a, 'h> as rustc_std_workspace_core::iter::DoubleEndedIterator>::next_back;0;0;1;0;0
+arch::all::memchr::Three::find;0;0;1;0;0
+arch::all::memchr::Three::rfind;0;0;1;0;0
+arch::all::memchr::Three::find_raw;0;0;10;0;0
+arch::all::memchr::Three::rfind_raw;0;0;11;0;0
+<arch::all::memchr::ThreeIter<'a, 'h> as rustc_std_workspace_core::iter::Iterator>::next;0;0;1;0;0
+<arch::all::memchr::ThreeIter<'a, 'h> as rustc_std_workspace_core::iter::DoubleEndedIterator>::next_back;0;0;1;0;0
+arch::all::rabinkarp::Finder::find;0;0;4;0;0
+arch::all::rabinkarp::Finder::find_raw;0;0;10;0;0
+arch::all::rabinkarp::FinderRev::rfind;0;0;4;0;0
+arch::all::rabinkarp::FinderRev::rfind_raw;0;0;10;0;0
+arch::all::rabinkarp::Hash::forward;0;0;2;0;0
+arch::all::rabinkarp::Hash::reverse;0;0;2;0;0
+arch::all::rabinkarp::is_equal_raw;0;0;1;0;0
+arch::all::is_equal;0;0;1;0;0
+arch::all::is_equal_raw;0;0;10;0;0
+arch::generic::memchr::One::<V>::new;0;0;1;0;0
+arch::generic::memchr::One::<V>::find_raw;0;0;41;0;0
+arch::generic::memchr::One::<V>::rfind_raw;0;0;38;0;0
+arch::generic::memchr::One::<V>::count_raw;0;0;28;0;0
+arch::generic::memchr::One::<V>::search_chunk;0;0;4;0;0
+arch::generic::memchr::Two::<V>::new;0;0;2;0;0
+arch::generic::memchr::Two::<V>::find_raw;0;0;33;0;0
+arch::generic::memchr::Two::<V>::rfind_raw;0;0;30;0;0
+arch::generic::memchr::Two::<V>::search_chunk;0;0;8;0;0
+arch::generic::memchr::Three::<V>::new;0;0;3;0;0
+arch::generic::memchr::Three::<V>::find_raw;0;0;39;0;0
+arch::generic::memchr::Three::<V>::rfind_raw;0;0;36;0;0
+arch::generic::memchr::Three::<V>::search_chunk;0;0;11;0;0
+arch::generic::memchr::Iter::<'h>::next;0;0;2;0;0
+arch::generic::memchr::Iter::<'h>::next_back;0;0;1;0;0
+arch::generic::memchr::search_slice_with_raw;0;0;2;0;0
+arch::generic::memchr::fwd_byte_by_byte;0;1;1;0;0
+arch::generic::memchr::rev_byte_by_byte;0;1;1;0;0
+arch::generic::memchr::count_byte_by_byte;0;1;1;0;0
+arch::generic::packedpair::Finder::<V>::new;0;0;2;0;0
+arch::generic::packedpair::Finder::<V>::find;0;0;9;0;0
+arch::generic::packedpair::Finder::<V>::find_prefilter;0;0;7;0;0
+arch::generic::packedpair::Finder::<V>::find_in_chunk;0;0;11;0;0
+arch::generic::packedpair::Finder::<V>::find_prefilter_in_chunk;0;0;8;0;0
+arch::generic::packedpair::matched;0;0;1;0;0
+arch::x86_64::avx2::memchr::One::new;0;0;1;0;0
+arch::x86_64::avx2::memchr::One::new_unchecked;0;0;2;0;0
+arch::x86_64::avx2::memchr::One::find;0;0;1;0;0
+arch::x86_64::avx2::memchr::One::rfind;0;0;1;0;0
+arch::x86_64::avx2::memchr::One::count;0;0;2;0;0
+arch::x86_64::avx2::memchr::One::find_raw;0;0;4;0;0
+arch::x86_64::avx2::memchr::One::rfind_raw;0;0;4;0;0
+arch::x86_64::avx2::memchr::One::count_raw;0;0;4;0;0
+arch::x86_64::avx2::memchr::One::find_raw_sse2;0;0;1;0;0
+arch::x86_64::avx2::memchr::One::rfind_raw_sse2;0;0;1;0;0
+arch::x86_64::avx2::memchr::One::count_raw_sse2;0;0;1;0;0
+arch::x86_64::avx2::memchr::One::find_raw_avx2;0;0;1;0;0
+arch::x86_64::avx2::memchr::One::rfind_raw_avx2;0;0;1;0;0
+arch::x86_64::avx2::memchr::One::count_raw_avx2;0;0;1;0;0
+<arch::x86_64::avx2::memchr::OneIter<'a, 'h> as rustc_std_workspace_core::iter::Iterator>::next;0;0;1;0;0
+<arch::x86_64::avx2::memchr::OneIter<'a, 'h> as rustc_std_workspace_core::iter::DoubleEndedIterator>::next_back;0;0;1;0;0
+arch::x86_64::avx2::memchr::Two::new;0;0;1;0;0
+arch::x86_64::avx2::memchr::Two::new_unchecked;0;0;2;0;0
+arch::x86_64::avx2::memchr::Two::find;0;0;1;0;0
+arch::x86_64::avx2::memchr::Two::rfind;0;0;1;0;0
+arch::x86_64::avx2::memchr::Two::find_raw;0;0;4;0;0
+arch::x86_64::avx2::memchr::Two::rfind_raw;0;0;4;0;0
+arch::x86_64::avx2::memchr::Two::find_raw_sse2;0;0;1;0;0
+arch::x86_64::avx2::memchr::Two::rfind_raw_sse2;0;0;1;0;0
+arch::x86_64::avx2::memchr::Two::find_raw_avx2;0;0;1;0;0
+arch::x86_64::avx2::memchr::Two::rfind_raw_avx2;0;0;1;0;0
+<arch::x86_64::avx2::memchr::TwoIter<'a, 'h> as rustc_std_workspace_core::iter::Iterator>::next;0;0;1;0;0
+<arch::x86_64::avx2::memchr::TwoIter<'a, 'h> as rustc_std_workspace_core::iter::DoubleEndedIterator>::next_back;0;0;1;0;0
+arch::x86_64::avx2::memchr::Three::new;0;0;1;0;0
+arch::x86_64::avx2::memchr::Three::new_unchecked;0;0;2;0;0
+arch::x86_64::avx2::memchr::Three::find;0;0;1;0;0
+arch::x86_64::avx2::memchr::Three::rfind;0;0;1;0;0
+arch::x86_64::avx2::memchr::Three::find_raw;0;0;4;0;0
+arch::x86_64::avx2::memchr::Three::rfind_raw;0;0;4;0;0
+arch::x86_64::avx2::memchr::Three::find_raw_sse2;0;0;1;0;0
+arch::x86_64::avx2::memchr::Three::rfind_raw_sse2;0;0;1;0;0
+arch::x86_64::avx2::memchr::Three::find_raw_avx2;0;0;1;0;0
+arch::x86_64::avx2::memchr::Three::rfind_raw_avx2;0;0;1;0;0
+<arch::x86_64::avx2::memchr::ThreeIter<'a, 'h> as rustc_std_workspace_core::iter::Iterator>::next;0;0;1;0;0
+<arch::x86_64::avx2::memchr::ThreeIter<'a, 'h> as rustc_std_workspace_core::iter::DoubleEndedIterator>::next_back;0;0;1;0;0
+arch::x86_64::avx2::packedpair::Finder::with_pair;0;0;1;0;0
+arch::x86_64::avx2::packedpair::Finder::with_pair_impl;0;0;2;0;0
+arch::x86_64::avx2::packedpair::Finder::find;0;0;1;0;0
+arch::x86_64::avx2::packedpair::Finder::find_prefilter;0;0;1;0;0
+arch::x86_64::avx2::packedpair::Finder::find_impl;0;0;2;0;0
+arch::x86_64::avx2::packedpair::Finder::find_prefilter_impl;0;0;2;0;0
+arch::x86_64::sse2::memchr::One::new;0;0;1;0;0
+arch::x86_64::sse2::memchr::One::new_unchecked;0;0;1;0;0
+arch::x86_64::sse2::memchr::One::find;0;0;1;0;0
+arch::x86_64::sse2::memchr::One::rfind;0;0;1;0;0
+arch::x86_64::sse2::memchr::One::count;0;0;2;0;0
+arch::x86_64::sse2::memchr::One::find_raw;0;0;3;0;0
+arch::x86_64::sse2::memchr::One::rfind_raw;0;0;3;0;0
+arch::x86_64::sse2::memchr::One::count_raw;0;0;3;0;0
+arch::x86_64::sse2::memchr::One::find_raw_impl;0;0;1;0;0
+arch::x86_64::sse2::memchr::One::rfind_raw_impl;0;0;1;0;0
+arch::x86_64::sse2::memchr::One::count_raw_impl;0;0;1;0;0
+<arch::x86_64::sse2::memchr::OneIter<'a, 'h> as rustc_std_workspace_core::iter::Iterator>::next;0;0;1;0;0
+<arch::x86_64::sse2::memchr::OneIter<'a, 'h> as rustc_std_workspace_core::iter::DoubleEndedIterator>::next_back;0;0;1;0;0
+arch::x86_64::sse2::memchr::Two::new;0;0;1;0;0
+arch::x86_64::sse2::memchr::Two::new_unchecked;0;0;1;0;0
+arch::x86_64::sse2::memchr::Two::find;0;0;1;0;0
+arch::x86_64::sse2::memchr::Two::rfind;0;0;1;0;0
+arch::x86_64::sse2::memchr::Two::find_raw;0;0;3;0;0
+arch::x86_64::sse2::memchr::Two::rfind_raw;0;0;3;0;0
+arch::x86_64::sse2::memchr::Two::find_raw_impl;0;0;1;0;0
+arch::x86_64::sse2::memchr::Two::rfind_raw_impl;0;0;1;0;0
+<arch::x86_64::sse2::memchr::TwoIter<'a, 'h> as rustc_std_workspace_core::iter::Iterator>::next;0;0;1;0;0
+<arch::x86_64::sse2::memchr::TwoIter<'a, 'h> as rustc_std_workspace_core::iter::DoubleEndedIterator>::next_back;0;0;1;0;0
+arch::x86_64::sse2::memchr::Three::new;0;0;1;0;0
+arch::x86_64::sse2::memchr::Three::new_unchecked;0;0;1;0;0
+arch::x86_64::sse2::memchr::Three::find;0;0;1;0;0
+arch::x86_64::sse2::memchr::Three::rfind;0;0;1;0;0
+arch::x86_64::sse2::memchr::Three::find_raw;0;0;3;0;0
+arch::x86_64::sse2::memchr::Three::rfind_raw;0;0;3;0;0
+arch::x86_64::sse2::memchr::Three::find_raw_impl;0;0;1;0;0
+arch::x86_64::sse2::memchr::Three::rfind_raw_impl;0;0;1;0;0
+<arch::x86_64::sse2::memchr::ThreeIter<'a, 'h> as rustc_std_workspace_core::iter::Iterator>::next;0;0;1;0;0
+<arch::x86_64::sse2::memchr::ThreeIter<'a, 'h> as rustc_std_workspace_core::iter::DoubleEndedIterator>::next_back;0;0;1;0;0
+arch::x86_64::sse2::packedpair::Finder::with_pair;0;0;1;0;0
+arch::x86_64::sse2::packedpair::Finder::with_pair_impl;0;0;1;0;0
+arch::x86_64::sse2::packedpair::Finder::find;0;0;1;0;0
+arch::x86_64::sse2::packedpair::Finder::find_prefilter;0;0;1;0;0
+arch::x86_64::sse2::packedpair::Finder::find_impl;0;0;1;0;0
+arch::x86_64::sse2::packedpair::Finder::find_prefilter_impl;0;0;1;0;0
+arch::x86_64::memchr::memchr_raw;0;0;1;0;0
+arch::x86_64::memchr::memchr_raw::find_avx2;0;0;2;0;0
+arch::x86_64::memchr::memchr_raw::find_sse2;0;0;2;0;0
+arch::x86_64::memchr::memchr_raw::find_fallback;0;0;1;0;0
+arch::x86_64::memchr::memchr_raw::detect;0;0;1;0;0
+arch::x86_64::memchr::memrchr_raw;0;0;1;0;0
+arch::x86_64::memchr::memrchr_raw::find_avx2;0;0;2;0;0
+arch::x86_64::memchr::memrchr_raw::find_sse2;0;0;2;0;0
+arch::x86_64::memchr::memrchr_raw::find_fallback;0;0;1;0;0
+arch::x86_64::memchr::memrchr_raw::detect;0;0;1;0;0
+arch::x86_64::memchr::memchr2_raw;0;0;1;0;0
+arch::x86_64::memchr::memchr2_raw::find_avx2;0;0;2;0;0
+arch::x86_64::memchr::memchr2_raw::find_sse2;0;0;2;0;0
+arch::x86_64::memchr::memchr2_raw::find_fallback;0;0;1;0;0
+arch::x86_64::memchr::memchr2_raw::detect;0;0;1;0;0
+arch::x86_64::memchr::memrchr2_raw;0;0;1;0;0
+arch::x86_64::memchr::memrchr2_raw::find_avx2;0;0;2;0;0
+arch::x86_64::memchr::memrchr2_raw::find_sse2;0;0;2;0;0
+arch::x86_64::memchr::memrchr2_raw::find_fallback;0;0;1;0;0
+arch::x86_64::memchr::memrchr2_raw::detect;0;0;1;0;0
+arch::x86_64::memchr::memchr3_raw;0;0;1;0;0
+arch::x86_64::memchr::memchr3_raw::find_avx2;0;0;2;0;0
+arch::x86_64::memchr::memchr3_raw::find_sse2;0;0;2;0;0
+arch::x86_64::memchr::memchr3_raw::find_fallback;0;0;1;0;0
+arch::x86_64::memchr::memchr3_raw::detect;0;0;1;0;0
+arch::x86_64::memchr::memrchr3_raw;0;0;1;0;0
+arch::x86_64::memchr::memrchr3_raw::find_avx2;0;0;2;0;0
+arch::x86_64::memchr::memrchr3_raw::find_sse2;0;0;2;0;0
+arch::x86_64::memchr::memrchr3_raw::find_fallback;0;0;1;0;0
+arch::x86_64::memchr::memrchr3_raw::detect;0;0;1;0;0
+arch::x86_64::memchr::count_raw;0;0;1;0;0
+arch::x86_64::memchr::count_raw::find_avx2;0;0;2;0;0
+arch::x86_64::memchr::count_raw::find_sse2;0;0;2;0;0
+arch::x86_64::memchr::count_raw::find_fallback;0;0;1;0;0
+arch::x86_64::memchr::count_raw::detect;0;0;1;0;0
+<*const T as ext::Pointer>::distance;0;0;2;0;0
+<*mut T as ext::Pointer>::distance;0;0;1;0;0
+memchr::memchr;0;0;1;0;0
+memchr::memrchr;0;0;1;0;0
+memchr::memchr2;0;0;1;0;0
+memchr::memrchr2;0;0;1;0;0
+memchr::memchr3;0;0;1;0;0
+memchr::memrchr3;0;0;1;0;0
+<memchr::Memchr<'h> as rustc_std_workspace_core::iter::Iterator>::next;0;0;1;0;0
+<memchr::Memchr<'h> as rustc_std_workspace_core::iter::DoubleEndedIterator>::next_back;0;0;1;0;0
+<memchr::Memchr2<'h> as rustc_std_workspace_core::iter::Iterator>::next;0;0;1;0;0
+<memchr::Memchr2<'h> as rustc_std_workspace_core::iter::DoubleEndedIterator>::next_back;0;0;1;0;0
+<memchr::Memchr3<'h> as rustc_std_workspace_core::iter::Iterator>::next;0;0;1;0;0
+<memchr::Memchr3<'h> as rustc_std_workspace_core::iter::DoubleEndedIterator>::next_back;0;0;1;0;0
+<memmem::searcher::Searcher as rustc_std_workspace_core::clone::Clone>::clone;0;0;0;0;1
+memmem::searcher::Searcher::find;0;0;1;0;0
+memmem::searcher::searcher_kind_one_byte;0;0;0;0;1
+memmem::searcher::searcher_kind_two_way;0;0;0;0;1
+memmem::searcher::searcher_kind_two_way_with_prefilter;0;0;0;0;2
+memmem::searcher::searcher_kind_sse2;0;0;0;0;1
+memmem::searcher::searcher_kind_avx2;0;0;0;0;1
+memmem::searcher::Prefilter::find;0;0;1;0;0
+memmem::searcher::prefilter_kind_fallback;0;0;0;0;1
+memmem::searcher::prefilter_kind_sse2;0;0;0;0;1
+memmem::searcher::prefilter_kind_avx2;0;0;0;0;1
+vector::Vector::movemask_will_have_non_zero;0;0;1;0;0
+vector::x86sse2::<impl vector::Vector for rustc_std_workspace_core::arch::x86_64::__m128i>::splat;0;0;1;0;0
+vector::x86sse2::<impl vector::Vector for rustc_std_workspace_core::arch::x86_64::__m128i>::load_aligned;0;0;1;0;0
+vector::x86sse2::<impl vector::Vector for rustc_std_workspace_core::arch::x86_64::__m128i>::load_unaligned;0;0;1;0;0
+vector::x86sse2::<impl vector::Vector for rustc_std_workspace_core::arch::x86_64::__m128i>::movemask;0;0;1;0;0
+vector::x86sse2::<impl vector::Vector for rustc_std_workspace_core::arch::x86_64::__m128i>::cmpeq;0;0;1;0;0
+vector::x86sse2::<impl vector::Vector for rustc_std_workspace_core::arch::x86_64::__m128i>::and;0;0;1;0;0
+vector::x86sse2::<impl vector::Vector for rustc_std_workspace_core::arch::x86_64::__m128i>::or;0;0;1;0;0
+vector::x86avx2::<impl vector::Vector for rustc_std_workspace_core::arch::x86_64::__m256i>::splat;0;0;1;0;0
+vector::x86avx2::<impl vector::Vector for rustc_std_workspace_core::arch::x86_64::__m256i>::load_aligned;0;0;1;0;0
+vector::x86avx2::<impl vector::Vector for rustc_std_workspace_core::arch::x86_64::__m256i>::load_unaligned;0;0;1;0;0
+vector::x86avx2::<impl vector::Vector for rustc_std_workspace_core::arch::x86_64::__m256i>::movemask;0;0;1;0;0
+vector::x86avx2::<impl vector::Vector for rustc_std_workspace_core::arch::x86_64::__m256i>::cmpeq;0;0;1;0;0
+vector::x86avx2::<impl vector::Vector for rustc_std_workspace_core::arch::x86_64::__m256i>::and;0;0;1;0;0
+vector::x86avx2::<impl vector::Vector for rustc_std_workspace_core::arch::x86_64::__m256i>::or;0;0;1;0;0

@@ -1,0 +1,188 @@
+fn_name;iterators;loops;nested_loops
+thread::scoped::scope;0;1;0
+<thread::spawnhook::SpawnHooks as core::ops::Drop>::drop;0;1;0
+thread::spawnhook::run_spawn_hooks;1;0;0
+thread::spawnhook::ChildSpawnHooks::run;0;1;0
+thread::ThreadId::new;0;1;0
+<backtrace::Backtrace as core::fmt::Debug>::fmt;0;2;0
+<backtrace::Backtrace as core::fmt::Display>::fmt;0;3;0
+<collections::hash::map::HashMap<K, V, S> as core::cmp::PartialEq>::eq;1;0;0
+<collections::hash::map::Iter<'a, K, V> as core::iter::Iterator>::fold;1;0;0
+<collections::hash::map::IterMut<'a, K, V> as core::iter::Iterator>::fold;1;0;0
+<collections::hash::map::IntoIter<K, V> as core::iter::Iterator>::fold;1;0;0
+<collections::hash::map::Keys<'a, K, V> as core::iter::Iterator>::fold;1;0;0
+<collections::hash::map::Values<'a, K, V> as core::iter::Iterator>::fold;1;0;0
+<collections::hash::map::ValuesMut<'a, K, V> as core::iter::Iterator>::fold;1;0;0
+<collections::hash::map::IntoKeys<K, V> as core::iter::Iterator>::fold;1;0;0
+<collections::hash::map::IntoValues<K, V> as core::iter::Iterator>::fold;1;0;0
+<collections::hash::map::Drain<'a, K, V> as core::iter::Iterator>::fold;1;0;0
+collections::hash::set::HashSet::<T, S>::is_disjoint;2;0;0
+collections::hash::set::HashSet::<T, S>::is_subset;1;0;0
+<collections::hash::set::HashSet<T, S> as core::cmp::PartialEq>::eq;1;0;0
+<&collections::hash::set::HashSet<T, S> as core::ops::BitOr<&collections::hash::set::HashSet<T, S>>>::bitor;1;0;0
+<&collections::hash::set::HashSet<T, S> as core::ops::BitAnd<&collections::hash::set::HashSet<T, S>>>::bitand;1;0;0
+<&collections::hash::set::HashSet<T, S> as core::ops::BitXor<&collections::hash::set::HashSet<T, S>>>::bitxor;1;0;0
+<&collections::hash::set::HashSet<T, S> as core::ops::Sub<&collections::hash::set::HashSet<T, S>>>::sub;1;0;0
+<collections::hash::set::Iter<'a, K> as core::iter::Iterator>::fold;1;0;0
+<collections::hash::set::IntoIter<K> as core::iter::Iterator>::fold;1;0;0
+<collections::hash::set::Drain<'a, K> as core::iter::Iterator>::fold;1;0;0
+<collections::hash::set::Intersection<'a, T, S> as core::iter::Iterator>::next;0;1;0
+<collections::hash::set::Intersection<'a, T, S> as core::iter::Iterator>::fold;1;0;0
+<collections::hash::set::Difference<'a, T, S> as core::iter::Iterator>::next;0;1;0
+<collections::hash::set::Difference<'a, T, S> as core::iter::Iterator>::fold;1;0;0
+<collections::hash::set::SymmetricDifference<'a, T, S> as core::iter::Iterator>::fold;1;0;0
+<collections::hash::set::Union<'a, T, S> as core::iter::Iterator>::count;1;0;0
+<collections::hash::set::Union<'a, T, S> as core::iter::Iterator>::fold;1;0;0
+error::Report::<E>::fmt_singleline;0;1;0
+error::Report::<E>::fmt_multiline;0;2;0
+<error::Indented<'_, T> as core::fmt::Write>::write_str;0;2;0
+ffi::os_str::<impl alloc_crate::slice::Join<&ffi::os_str::OsStr> for [S]>::join;1;0;0
+<ffi::os_str::OsString as core::iter::Extend<ffi::os_str::OsString>>::extend;0;1;0
+<ffi::os_str::OsString as core::iter::Extend<&'a ffi::os_str::OsStr>>::extend;0;1;0
+<ffi::os_str::OsString as core::iter::Extend<alloc_crate::borrow::Cow<'a, ffi::os_str::OsStr>>>::extend;0;1;0
+<ffi::os_str::OsString as core::iter::FromIterator<&'a ffi::os_str::OsStr>>::from_iter;0;1;0
+io::buffered::bufreader::BufReader::<R>::peek;0;2;0
+io::buffered::bufwriter::BufWriter::<W>::flush_buf;0;6;0
+<io::buffered::bufwriter::BufWriter<W> as io::Write>::write_vectored;2;4;0
+<io::buffered::linewritershim::LineWriterShim<'a, W> as io::Write>::write_vectored;2;1;0
+<io::buffered::bufreader::BufReader<I> as io::copy::BufferedReaderSpec>::copy_to;0;2;0
+<io::buffered::bufwriter::BufWriter<I> as io::copy::BufferedWriterSpec>::copy_from;0;7;0
+io::copy::stack_buffer_copy;0;2;0
+<io::cursor::Cursor<T> as io::Read>::read_vectored;0;1;0
+io::cursor::slice_write_vectored;0;1;0
+io::cursor::slice_write_all_vectored;0;1;0
+io::cursor::vec_write_all_vectored;1;1;0
+io::impls::<impl io::Read for &[u8]>::read_vectored;0;1;0
+io::impls::<impl io::Write for &mut [u8]>::write_vectored;0;1;0
+io::impls::<impl io::Write for &mut [u8]>::write_all_vectored;0;1;0
+io::impls::<impl io::Write for alloc_crate::vec::Vec<u8, A>>::write_vectored;0;1;0
+io::impls::<impl io::Write for alloc_crate::collections::VecDeque<u8, A>>::write_vectored;0;1;0
+io::impls::<impl io::Write for core::io::BorrowedCursor<'a>>::write_vectored;0;1;0
+io::impls::<impl io::Write for core::io::BorrowedCursor<'a>>::write_all_vectored;0;1;0
+<io::util::Repeat as io::Read>::read_vectored;0;1;0
+io::default_read_to_end;0;241;0
+io::default_read_to_end::small_probe_read;0;1;0
+io::default_read_vectored;1;0;0
+io::default_write_vectored;1;0;0
+io::default_read_exact;0;6;0
+io::default_read_buf_exact;0;2;0
+io::IoSliceMut::<'a>::advance_slices;0;1;0
+io::IoSlice::<'a>::advance_slices;0;1;0
+io::Write::write_all;0;6;0
+io::Write::write_all_vectored;0;6;0
+io::read_until;0;3;0
+io::skip_until;0;3;0
+<io::Chain<T, U> as io::Read>::read_vectored;1;0;0
+io::inlined_slow_read_byte;0;1;0
+net::socket_addr::resolve_socket_addr;1;0;0
+net::each_addr;0;1;0
+os::unix::fs::FileExt::read_exact_at;0;6;0
+os::unix::fs::FileExt::write_all_at;0;6;0
+os::unix::net::ancillary::add_to_ancillary_data;0;1;0
+path::iter_after;0;1;0
+path::split_file_at_dot;1;0;0
+path::Components::<'a>::parse_next_component;1;0;0
+path::Components::<'a>::parse_next_component_back;1;0;0
+path::Components::<'a>::trim_left;0;1;0
+path::Components::<'a>::trim_right;0;1;0
+<path::Components<'a> as core::iter::Iterator>::next;0;6;0
+<path::Components<'a> as core::iter::DoubleEndedIterator>::next_back;0;5;0
+path::compare_components;2;0;0
+path::PathBuf::_push;1;18;0
+path::PathBuf::_set_extension;0;2;0
+<path::PathBuf as core::iter::Extend<P>>::extend;1;0;0
+<path::Path as core::hash::Hash>::hash;0;30;0
+process::Command::args;0;1;0
+process::Command::envs;0;1;0
+sync::mpmc::array::Channel::<T>::with_capacity;1;0;0
+sync::mpmc::array::Channel::<T>::start_send;0;4;0
+sync::mpmc::array::Channel::<T>::start_recv;0;4;0
+sync::mpmc::array::Channel::<T>::send;0;2;0
+sync::mpmc::array::Channel::<T>::recv;0;2;0
+sync::mpmc::array::Channel::<T>::len;0;1;0
+sync::mpmc::array::Channel::<T>::discard_all_messages;0;3;0
+sync::mpmc::context::Context::wait_until;0;2;0
+sync::mpmc::list::Slot::<T>::wait_write;0;1;0
+sync::mpmc::list::Block::<T>::wait_next;0;1;0
+sync::mpmc::list::Block::<T>::destroy;0;2;0
+sync::mpmc::list::Channel::<T>::start_send;0;10;0
+sync::mpmc::list::Channel::<T>::start_recv;0;7;0
+sync::mpmc::list::Channel::<T>::recv;0;2;0
+sync::mpmc::list::Channel::<T>::len;0;1;0
+sync::mpmc::list::Channel::<T>::discard_all_messages;0;4;0
+<sync::mpmc::list::Channel<T> as core::ops::Drop>::drop;0;2;0
+sync::mpmc::utils::Backoff::spin_light;0;1;0
+sync::mpmc::utils::Backoff::spin_heavy;0;1;0
+sync::mpmc::waker::Waker::unregister;1;0;0
+sync::mpmc::waker::Waker::try_select;1;0;0
+sync::mpmc::waker::Waker::notify;0;2;0
+sync::mpmc::waker::Waker::disconnect;0;2;0
+sync::mpmc::zero::Packet::<T>::wait_ready;0;1;0
+sync::poison::condvar::Condvar::wait_while;0;1;0
+sync::poison::condvar::Condvar::wait_timeout_while;0;1;0
+sys::pal::unix::args::args;0;1;0
+sys::pal::unix::futex::futex_wait;0;1;0
+sys::pal::unix::kernel_copy::copy_regular_files;0;3;0
+sys::pal::unix::kernel_copy::sendfile_splice;0;2;0
+sys::pal::unix::os::getcwd;0;1;0
+sys::pal::unix::os::join_paths;0;2;0
+sys::pal::unix::os::env;0;2;0
+sys::pal::unix::pipe::read2;0;4;0
+sys::pal::unix::process::process_common::construct_envp;0;3;0
+<sys::pal::unix::process::process_common::Command as core::fmt::Debug>::fmt;0;6;0
+sys::pal::unix::process::process_inner::<impl sys::pal::unix::process::process_common::Command>::spawn;0;1;0
+sys::pal::unix::process::process_inner::<impl sys::pal::unix::process::process_common::Command>::do_exec;0;1;0
+sys::pal::unix::stack_overflow::imp::init;0;3;0
+sys::pal::unix::thread::Thread::sleep;0;4;0
+sys::pal::unix::thread::truncate_cstr;0;1;0
+sys::pal::unix::thread::cgroups::quota;1;0;0
+sys::pal::unix::thread::cgroups::quota_v2;0;5;0
+sys::pal::unix::thread::cgroups::quota_v1;0;7;0
+sys::pal::unix::thread::cgroups::find_mountpoint;2;3;0
+sys::pal::unix::init::sanitize_standard_fds;0;6;0
+sys::pal::unix::cvt_r;0;1;0
+sys::personality::dwarf::eh::find_eh_action;0;1;0
+sys::personality::dwarf::DwarfReader::read_uleb128;0;1;0
+sys::personality::dwarf::DwarfReader::read_sleb128;0;1;0
+sys::exit_guard::unique_thread_exit;0;1;0
+sys::fs::common::remove_dir_all_recursive;0;10;0
+<sys::fs::unix::ReadDir as core::iter::Iterator>::next;0;2;0
+sys::fs::unix::remove_dir_impl::remove_dir_all_recursive;0;12;0
+sys::net::connection::socket::unix::Socket::connect;0;1;0
+sys::net::connection::socket::unix::Socket::connect_timeout;0;4;0
+<sys::net::connection::socket::LookupHost as core::iter::Iterator>::next;0;1;0
+<sys::os_str::bytes::Slice as core::fmt::Display>::fmt;0;1;0
+sys::os_str::bytes::Slice::check_public_boundary::slow_path;0;1;0
+sys::random::linux::getrandom;0;10;0
+sys::sync::mutex::futex::Mutex::lock_contended;0;2;0
+sys::sync::mutex::futex::Mutex::spin;0;1;0
+sys::sync::once::futex::Once::wait;0;6;0
+sys::sync::once::futex::Once::call;0;7;0
+sys::sync::rwlock::futex::RwLock::read_contended;0;9;0
+sys::sync::rwlock::futex::RwLock::write_contended;0;8;0
+sys::sync::rwlock::futex::RwLock::spin_until;0;1;0
+sys::sync::thread_parking::futex::Parker::park;0;1;0
+sys::thread_local::destructors::list::run;0;1;0
+sys_common::process::CommandEnv::capture;0;3;0
+sys_common::wstr::WStrUnits::<'_>::advance_while;0;1;0
+sys_common::wtf8::Wtf8Buf::from_wide;0;2;0
+sys_common::wtf8::Wtf8Buf::into_string_lossy;0;1;0
+<sys_common::wtf8::Wtf8Buf as core::iter::Extend<sys_common::wtf8::CodePoint>>::extend;1;0;0
+<sys_common::wtf8::Wtf8 as core::fmt::Debug>::fmt;0;1;0
+<sys_common::wtf8::Wtf8 as core::fmt::Debug>::fmt::write_str_escaped;0;1;0
+<sys_common::wtf8::Wtf8 as core::fmt::Display>::fmt;0;1;0
+sys_common::wtf8::Wtf8::to_string_lossy;0;1;0
+sys_common::wtf8::Wtf8::next_surrogate;0;7;0
+backtrace_rs::symbolize::format_symbol_name;0;1;0
+backtrace_rs::symbolize::gimli::lru::Lru::<T, N>::push_front;0;1;0
+backtrace_rs::symbolize::gimli::lru::Lru::<T, N>::move_to_front;0;1;0
+backtrace_rs::symbolize::gimli::Context::<'data>::find_frames;0;1;0
+backtrace_rs::symbolize::gimli::elf::Object::<'a>::parse;1;0;0
+backtrace_rs::symbolize::gimli::elf::Object::<'a>::build_id;0;6;0
+backtrace_rs::symbolize::gimli::elf::Object::<'a>::gnu_debuglink_path;1;0;0
+backtrace_rs::symbolize::gimli::elf::Object::<'a>::gnu_debugaltlink_path;1;0;0
+backtrace_rs::symbolize::gimli::elf::locate_build_id;0;1;0
+backtrace_rs::symbolize::gimli::libs_dl_iterate_phdr::infer_current_exe;1;0;0
+backtrace_rs::symbolize::gimli::libs_dl_iterate_phdr::callback;1;0;0
+backtrace_rs::symbolize::gimli::parse_running_mmaps::parse_maps;0;1;0
+backtrace_rs::symbolize::gimli::Cache::mapping_for_lib;1;0;0

@@ -1,0 +1,5 @@
+function::Function::<R>::parse;
+function::name_entry;recursive
+function::Function::<R>::parse_children;recursive
+function::InlinedFunction::<R>::parse;recursive
+function::name_attr;recursive

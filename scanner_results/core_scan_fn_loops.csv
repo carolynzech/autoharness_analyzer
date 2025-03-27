@@ -1,0 +1,748 @@
+fn_name;iterators;loops;nested_loops
+num::bignum::Big32x40::from_u64;0;1;0
+num::bignum::Big32x40::is_zero;1;0;0
+num::bignum::Big32x40::bit_length;1;0;0
+num::bignum::Big32x40::add;0;1;0
+num::bignum::Big32x40::add_small;0;1;0
+num::bignum::Big32x40::sub;0;1;0
+num::bignum::Big32x40::mul_small;0;1;0
+num::bignum::Big32x40::mul_pow2;1;3;0
+num::bignum::Big32x40::mul_pow5;0;2;0
+num::bignum::Big32x40::mul_digits::mul_inner;0;6;0
+num::bignum::Big32x40::div_rem_small;0;1;0
+num::bignum::Big32x40::div_rem;2;5;0
+<num::bignum::Big32x40 as fmt::Debug>::fmt;0;1;0
+num::bignum::tests::Big8x3::from_u64;0;1;0
+num::bignum::tests::Big8x3::is_zero;1;0;0
+num::bignum::tests::Big8x3::bit_length;1;0;0
+num::bignum::tests::Big8x3::add;0;1;0
+num::bignum::tests::Big8x3::add_small;0;1;0
+num::bignum::tests::Big8x3::sub;0;1;0
+num::bignum::tests::Big8x3::mul_small;0;1;0
+num::bignum::tests::Big8x3::mul_pow2;1;3;0
+num::bignum::tests::Big8x3::mul_pow5;0;2;0
+num::bignum::tests::Big8x3::mul_digits::mul_inner;0;6;0
+num::bignum::tests::Big8x3::div_rem_small;0;1;0
+num::bignum::tests::Big8x3::div_rem;2;5;0
+<num::bignum::tests::Big8x3 as fmt::Debug>::fmt;0;1;0
+<[u8] as num::dec2flt::common::ByteSlice>::parse_digits;0;1;0
+num::dec2flt::decimal_seq::DecimalSeq::trim;0;1;0
+num::dec2flt::decimal_seq::DecimalSeq::round;0;2;0
+num::dec2flt::decimal_seq::DecimalSeq::left_shift;0;6;0
+num::dec2flt::decimal_seq::DecimalSeq::right_shift;0;6;0
+num::dec2flt::decimal_seq::parse_decimal_seq;0;6;0
+num::dec2flt::decimal_seq::number_of_digits_decimal_left_shift;0;1;0
+num::dec2flt::slow::parse_long_mantissa;0;7;0
+num::dec2flt::parse::try_parse_digits;0;1;0
+num::dec2flt::parse::try_parse_19digits;0;1;0
+num::dec2flt::parse::parse_partial_number;0;2;0
+num::flt2dec::strategy::dragon::div_2pow10;0;1;0
+num::flt2dec::strategy::dragon::format_shortest;0;1;0
+num::flt2dec::strategy::dragon::format_exact;0;17;0
+num::flt2dec::strategy::grisu::format_shortest_opt;0;2;0
+num::flt2dec::strategy::grisu::format_shortest_opt::round_and_weed;0;2;0
+num::flt2dec::strategy::grisu::format_exact_opt;0;2;0
+num::flt2dec::round_up;1;2;0
+num::fmt::Part::<'a>::write;0;2;0
+num::fmt::Formatted::<'a>::len;0;1;0
+num::fmt::Formatted::<'a>::write;0;1;0
+num::<impl i8>::checked_pow;0;2;0
+num::<impl i8>::strict_pow;0;2;0
+num::<impl i8>::wrapping_pow;0;4;0
+num::<impl i8>::overflowing_pow;0;2;0
+num::<impl i8>::pow;0;4;0
+num::<impl i16>::checked_pow;0;2;0
+num::<impl i16>::strict_pow;0;2;0
+num::<impl i16>::wrapping_pow;0;4;0
+num::<impl i16>::overflowing_pow;0;2;0
+num::<impl i16>::pow;0;4;0
+num::<impl i32>::checked_pow;0;2;0
+num::<impl i32>::strict_pow;0;2;0
+num::<impl i32>::wrapping_pow;0;4;0
+num::<impl i32>::overflowing_pow;0;2;0
+num::<impl i32>::pow;0;4;0
+num::<impl i64>::checked_pow;0;2;0
+num::<impl i64>::strict_pow;0;2;0
+num::<impl i64>::wrapping_pow;0;4;0
+num::<impl i64>::overflowing_pow;0;2;0
+num::<impl i64>::pow;0;4;0
+num::<impl i128>::checked_pow;0;2;0
+num::<impl i128>::strict_pow;0;2;0
+num::<impl i128>::wrapping_pow;0;4;0
+num::<impl i128>::overflowing_pow;0;2;0
+num::<impl i128>::pow;0;4;0
+num::<impl isize>::checked_pow;0;2;0
+num::<impl isize>::strict_pow;0;2;0
+num::<impl isize>::wrapping_pow;0;4;0
+num::<impl isize>::overflowing_pow;0;2;0
+num::<impl isize>::pow;0;4;0
+num::<impl u8>::checked_ilog;0;1;0
+num::<impl u8>::checked_pow;0;2;0
+num::<impl u8>::strict_pow;0;2;0
+num::<impl u8>::wrapping_pow;0;4;0
+num::<impl u8>::overflowing_pow;0;2;0
+num::<impl u8>::pow;0;4;0
+num::<impl u16>::checked_ilog;0;1;0
+num::<impl u16>::checked_pow;0;2;0
+num::<impl u16>::strict_pow;0;2;0
+num::<impl u16>::wrapping_pow;0;4;0
+num::<impl u16>::overflowing_pow;0;2;0
+num::<impl u16>::pow;0;4;0
+num::<impl u32>::checked_ilog;0;1;0
+num::<impl u32>::checked_pow;0;2;0
+num::<impl u32>::strict_pow;0;2;0
+num::<impl u32>::wrapping_pow;0;4;0
+num::<impl u32>::overflowing_pow;0;2;0
+num::<impl u32>::pow;0;4;0
+num::<impl u64>::checked_ilog;0;1;0
+num::<impl u64>::checked_pow;0;2;0
+num::<impl u64>::strict_pow;0;2;0
+num::<impl u64>::wrapping_pow;0;4;0
+num::<impl u64>::overflowing_pow;0;2;0
+num::<impl u64>::pow;0;4;0
+num::<impl u128>::checked_ilog;0;1;0
+num::<impl u128>::checked_pow;0;2;0
+num::<impl u128>::strict_pow;0;2;0
+num::<impl u128>::wrapping_pow;0;4;0
+num::<impl u128>::overflowing_pow;0;2;0
+num::<impl u128>::pow;0;4;0
+num::<impl usize>::checked_ilog;0;1;0
+num::<impl usize>::checked_pow;0;2;0
+num::<impl usize>::strict_pow;0;2;0
+num::<impl usize>::wrapping_pow;0;4;0
+num::<impl usize>::overflowing_pow;0;2;0
+num::<impl usize>::pow;0;4;0
+num::<impl usize>::repeat_u16;0;1;0
+num::<impl isize>::from_ascii_radix;0;4;0
+num::<impl i8>::from_ascii_radix;0;4;0
+num::<impl i16>::from_ascii_radix;0;4;0
+num::<impl i32>::from_ascii_radix;0;4;0
+num::<impl i64>::from_ascii_radix;0;4;0
+num::<impl i128>::from_ascii_radix;0;4;0
+num::<impl usize>::from_ascii_radix;0;4;0
+num::<impl u8>::from_ascii_radix;0;4;0
+num::<impl u16>::from_ascii_radix;0;4;0
+num::<impl u32>::from_ascii_radix;0;4;0
+num::<impl u64>::from_ascii_radix;0;4;0
+num::<impl u128>::from_ascii_radix;0;4;0
+mem::maybe_uninit::MaybeUninit::<T>::fill_with;0;1;0
+mem::maybe_uninit::MaybeUninit::<T>::fill_from;0;1;0
+<[mem::maybe_uninit::MaybeUninit<T>]>::write_clone_of_slice;0;1;0
+<[mem::maybe_uninit::MaybeUninit<T>] as mem::maybe_uninit::SpecFill<T>>::spec_fill;0;1;0
+ptr::swap_nonoverlapping_simple_untyped;0;1;0
+ptr::align_offset::mod_inv;0;1;0
+<T as clone::uninit::CopySpec>::clone_slice;0;1;0
+<array::iter::IntoIter<T, N> as iter::traits::iterator::Iterator>::fold;1;0;0
+<array::iter::IntoIter<T, N> as clone::Clone>::clone;0;1;0
+"array::<impl [T; N]>::each_ref";0;1;0
+"array::<impl [T; N]>::each_mut";0;1;0
+array::try_from_fn_erased;0;1;0
+array::iter_next_chunk_erased;0;1;0
+<bstr::ByteStr as fmt::Debug>::fmt;0;5;0
+<bstr::ByteStr as fmt::Display>::fmt;0;2;0
+<bstr::ByteStr as fmt::Display>::fmt::fmt_nopad;0;2;0
+<char::ToLowercase as iter::traits::iterator::Iterator>::fold;1;0;0
+<char::ToLowercase as iter::traits::iterator::Iterator>::count;1;0;0
+<char::ToLowercase as iter::traits::iterator::Iterator>::last;1;0;0
+<char::ToLowercase as iter::traits::iterator::Iterator>::advance_by;1;0;0
+<char::ToUppercase as iter::traits::iterator::Iterator>::fold;1;0;0
+<char::ToUppercase as iter::traits::iterator::Iterator>::count;1;0;0
+<char::ToUppercase as iter::traits::iterator::Iterator>::last;1;0;0
+<char::ToUppercase as iter::traits::iterator::Iterator>::advance_by;1;0;0
+<char::CaseMappingIter as iter::traits::iterator::Iterator>::fold;1;0;0
+<char::CaseMappingIter as iter::traits::iterator::Iterator>::count;1;0;0
+<char::CaseMappingIter as iter::traits::iterator::Iterator>::last;1;0;0
+<char::CaseMappingIter as iter::traits::iterator::Iterator>::advance_by;1;0;0
+<char::CaseMappingIter as fmt::Display>::fmt;0;1;0
+ffi::c_str::CStr::from_bytes_with_nul_unchecked::compiletime;0;1;0
+ffi::c_str::strlen::compiletime;0;1;0
+iter::adapters::array_chunks::ArrayChunks::<I, N>::into_remainder;0;1;0
+<iter::adapters::array_chunks::ArrayChunks<I, N> as iter::traits::iterator::Iterator>::next;1;0;0
+<iter::adapters::array_chunks::ArrayChunks<I, N> as iter::traits::iterator::Iterator>::count;1;0;0
+<iter::adapters::array_chunks::ArrayChunks<I, N> as iter::traits::iterator::Iterator>::try_fold;0;1;0
+<iter::adapters::array_chunks::ArrayChunks<I, N> as iter::traits::double_ended::DoubleEndedIterator>::try_rfold;0;2;0
+<iter::adapters::array_chunks::ArrayChunks<I, N> as iter::adapters::array_chunks::SpecFold>::fold;1;0;0
+<iter::adapters::array_chunks::ArrayChunks<I, N> as iter::adapters::array_chunks::SpecFold>::fold;0;1;0
+<iter::adapters::by_ref_sized::ByRefSized<'_, I> as iter::traits::iterator::Iterator>::advance_by;1;0;0
+<iter::adapters::by_ref_sized::ByRefSized<'_, I> as iter::traits::iterator::Iterator>::nth;1;0;0
+<iter::adapters::by_ref_sized::ByRefSized<'_, I> as iter::traits::iterator::Iterator>::fold;1;0;0
+<iter::adapters::by_ref_sized::ByRefSized<'_, I> as iter::traits::iterator::Iterator>::try_fold;1;0;0
+<iter::adapters::chain::Chain<A, B> as iter::traits::iterator::Iterator>::count;2;0;0
+<iter::adapters::chain::Chain<A, B> as iter::traits::iterator::Iterator>::try_fold;2;0;0
+<iter::adapters::chain::Chain<A, B> as iter::traits::iterator::Iterator>::fold;2;0;0
+<iter::adapters::chain::Chain<A, B> as iter::traits::iterator::Iterator>::advance_by;2;0;0
+<iter::adapters::chain::Chain<A, B> as iter::traits::iterator::Iterator>::nth;2;0;0
+<iter::adapters::cloned::Cloned<I> as iter::traits::iterator::Iterator>::try_fold;1;0;0
+<iter::adapters::cloned::Cloned<I> as iter::traits::iterator::Iterator>::fold;1;0;0
+<iter::adapters::copied::Copied<I> as iter::traits::iterator::Iterator>::try_fold;1;0;0
+<iter::adapters::copied::Copied<I> as iter::traits::iterator::Iterator>::fold;1;0;0
+<iter::adapters::copied::Copied<I> as iter::traits::iterator::Iterator>::nth;1;0;0
+<iter::adapters::copied::Copied<I> as iter::traits::iterator::Iterator>::last;1;0;0
+<iter::adapters::copied::Copied<I> as iter::traits::iterator::Iterator>::count;1;0;0
+<iter::adapters::copied::Copied<I> as iter::traits::iterator::Iterator>::advance_by;1;0;0
+<slice::iter::Iter<'a, T> as iter::adapters::copied::SpecNextChunk<'a, N, T>>::spec_next_chunk;4;0;0
+<iter::adapters::cycle::Cycle<I> as iter::traits::iterator::Iterator>::try_fold;3;1;0
+<iter::adapters::cycle::Cycle<I> as iter::traits::iterator::Iterator>::advance_by;2;1;0
+<iter::adapters::enumerate::Enumerate<I> as iter::traits::iterator::Iterator>::nth;1;0;0
+<iter::adapters::enumerate::Enumerate<I> as iter::traits::iterator::Iterator>::count;1;0;0
+<iter::adapters::enumerate::Enumerate<I> as iter::traits::iterator::Iterator>::try_fold;1;0;0
+<iter::adapters::enumerate::Enumerate<I> as iter::traits::iterator::Iterator>::fold;1;0;0
+<iter::adapters::enumerate::Enumerate<I> as iter::traits::iterator::Iterator>::advance_by;1;0;0
+iter::adapters::filter::Filter::<I, P>::next_chunk_dropless;1;0;0
+<iter::adapters::filter::Filter<I, P> as iter::traits::iterator::Iterator>::next;1;0;0
+<iter::adapters::filter::Filter<I, P> as iter::traits::iterator::Iterator>::try_fold;1;0;0
+<iter::adapters::filter::Filter<I, P> as iter::traits::iterator::Iterator>::fold;1;0;0
+<iter::adapters::filter_map::FilterMap<I, F> as iter::traits::iterator::Iterator>::next;1;0;0
+<iter::adapters::filter_map::FilterMap<I, F> as iter::traits::iterator::Iterator>::next_chunk;1;0;0
+<iter::adapters::filter_map::FilterMap<I, F> as iter::traits::iterator::Iterator>::try_fold;1;0;0
+<iter::adapters::filter_map::FilterMap<I, F> as iter::traits::iterator::Iterator>::fold;1;0;0
+<iter::adapters::flatten::FlatMap<I, U, F> as iter::traits::iterator::Iterator>::try_fold;1;0;0
+<iter::adapters::flatten::FlatMap<I, U, F> as iter::traits::iterator::Iterator>::fold;1;0;0
+<iter::adapters::flatten::FlatMap<I, U, F> as iter::traits::iterator::Iterator>::advance_by;1;0;0
+<iter::adapters::flatten::FlatMap<I, U, F> as iter::traits::iterator::Iterator>::count;1;0;0
+<iter::adapters::flatten::FlatMap<I, U, F> as iter::traits::iterator::Iterator>::last;1;0;0
+<iter::adapters::flatten::Flatten<I> as iter::traits::iterator::Iterator>::try_fold;1;0;0
+<iter::adapters::flatten::Flatten<I> as iter::traits::iterator::Iterator>::fold;1;0;0
+<iter::adapters::flatten::Flatten<I> as iter::traits::iterator::Iterator>::advance_by;1;0;0
+<iter::adapters::flatten::Flatten<I> as iter::traits::iterator::Iterator>::count;1;0;0
+<iter::adapters::flatten::Flatten<I> as iter::traits::iterator::Iterator>::last;1;0;0
+iter::adapters::flatten::FlattenCompat::<I, U>::iter_fold;1;0;0
+iter::adapters::flatten::FlattenCompat::<I, U>::iter_try_fold;1;0;0
+<iter::adapters::flatten::FlattenCompat<I, U> as iter::traits::iterator::Iterator>::next;0;1;0
+<iter::adapters::flatten::FlattenCompat<I, U> as iter::traits::iterator::Iterator>::advance_by::advance;1;0;0
+<iter::adapters::flatten::FlattenCompat<I, U> as iter::traits::iterator::Iterator>::count::count;1;0;0
+<iter::adapters::flatten::FlattenCompat<I, U> as iter::traits::iterator::Iterator>::last::last;1;0;0
+<iter::adapters::flatten::FlattenCompat<I, U> as iter::traits::double_ended::DoubleEndedIterator>::next_back;0;1;0
+<iter::adapters::flatten::FlattenCompat<I, U> as iter::traits::iterator::Iterator>::next;0;1;0
+<iter::adapters::flatten::FlattenCompat<I, U> as iter::traits::iterator::Iterator>::try_fold;1;0;0
+<iter::adapters::flatten::FlattenCompat<I, U> as iter::traits::iterator::Iterator>::fold;1;0;0
+<iter::adapters::flatten::FlattenCompat<I, U> as iter::traits::iterator::Iterator>::advance_by;2;0;0
+<iter::adapters::flatten::FlattenCompat<I, U> as iter::traits::iterator::Iterator>::count;1;0;0
+<iter::adapters::flatten::FlattenCompat<I, U> as iter::traits::iterator::Iterator>::last;1;0;0
+<iter::adapters::flatten::FlattenCompat<I, U> as iter::traits::double_ended::DoubleEndedIterator>::next_back;0;1;0
+<iter::adapters::fuse::Fuse<I> as iter::traits::iterator::Iterator>::last;1;0;0
+<iter::adapters::fuse::Fuse<I> as iter::traits::iterator::Iterator>::count;1;0;0
+<iter::adapters::fuse::Fuse<I> as iter::traits::iterator::Iterator>::fold;1;0;0
+<iter::adapters::fuse::Fuse<I> as iter::adapters::fuse::FuseImpl<I>>::try_fold;1;0;0
+<iter::adapters::fuse::Fuse<I> as iter::adapters::fuse::FuseImpl<I>>::nth;1;0;0
+<iter::adapters::fuse::Fuse<I> as iter::adapters::fuse::FuseImpl<I>>::try_fold;1;0;0
+<iter::adapters::fuse::Fuse<I> as iter::adapters::fuse::FuseImpl<I>>::find;1;0;0
+<iter::adapters::inspect::Inspect<I, F> as iter::traits::iterator::Iterator>::try_fold;1;0;0
+<iter::adapters::inspect::Inspect<I, F> as iter::traits::iterator::Iterator>::fold;1;0;0
+iter::adapters::intersperse::intersperse_fold;1;0;0
+<iter::adapters::map::Map<I, F> as iter::traits::iterator::Iterator>::try_fold;1;0;0
+<iter::adapters::map::Map<I, F> as iter::traits::iterator::Iterator>::fold;1;0;0
+<iter::adapters::map_while::MapWhile<I, P> as iter::traits::iterator::Iterator>::try_fold;1;0;0
+<iter::adapters::map_while::MapWhile<I, P> as iter::traits::iterator::Iterator>::fold;1;0;0
+<iter::adapters::peekable::Peekable<I> as iter::traits::iterator::Iterator>::count;2;0;0
+<iter::adapters::peekable::Peekable<I> as iter::traits::iterator::Iterator>::nth;2;0;0
+<iter::adapters::peekable::Peekable<I> as iter::traits::iterator::Iterator>::last;1;0;0
+<iter::adapters::peekable::Peekable<I> as iter::traits::iterator::Iterator>::try_fold;1;0;0
+<iter::adapters::peekable::Peekable<I> as iter::traits::iterator::Iterator>::fold;1;0;0
+<iter::adapters::rev::Rev<I> as iter::traits::double_ended::DoubleEndedIterator>::advance_back_by;1;0;0
+<iter::adapters::rev::Rev<I> as iter::traits::double_ended::DoubleEndedIterator>::nth_back;1;0;0
+<iter::adapters::rev::Rev<I> as iter::traits::double_ended::DoubleEndedIterator>::try_rfold;1;0;0
+<iter::adapters::rev::Rev<I> as iter::traits::double_ended::DoubleEndedIterator>::rfold;1;0;0
+<iter::adapters::rev::Rev<I> as iter::traits::double_ended::DoubleEndedIterator>::rfind;1;0;0
+<iter::adapters::scan::Scan<I, St, F> as iter::traits::iterator::Iterator>::try_fold;1;0;0
+<iter::adapters::scan::Scan<I, St, F> as iter::traits::iterator::Iterator>::fold;1;0;0
+<iter::adapters::skip::Skip<I> as iter::traits::iterator::Iterator>::next;1;0;0
+<iter::adapters::skip::Skip<I> as iter::traits::iterator::Iterator>::nth;3;0;0
+<iter::adapters::skip::Skip<I> as iter::traits::iterator::Iterator>::count;2;0;0
+<iter::adapters::skip::Skip<I> as iter::traits::iterator::Iterator>::last;2;0;0
+<iter::adapters::skip::Skip<I> as iter::traits::iterator::Iterator>::try_fold;2;0;0
+<iter::adapters::skip::Skip<I> as iter::traits::iterator::Iterator>::fold;2;0;0
+<iter::adapters::skip::Skip<I> as iter::traits::iterator::Iterator>::advance_by;2;0;0
+<iter::adapters::skip::Skip<I> as iter::traits::iterator::Iterator>::__iterator_get_unchecked;0;1;0
+<iter::adapters::skip_while::SkipWhile<I, P> as iter::traits::iterator::Iterator>::next;1;0;0
+<iter::adapters::skip_while::SkipWhile<I, P> as iter::traits::iterator::Iterator>::try_fold;1;0;0
+<iter::adapters::skip_while::SkipWhile<I, P> as iter::traits::iterator::Iterator>::fold;1;0;0
+<iter::adapters::step_by::StepBy<I> as iter::adapters::step_by::StepByImpl<I>>::spec_next;1;0;0
+<iter::adapters::step_by::StepBy<I> as iter::adapters::step_by::StepByImpl<I>>::spec_nth;3;2;0
+<iter::adapters::step_by::StepBy<I> as iter::adapters::step_by::StepByImpl<I>>::spec_try_fold;1;0;0
+<iter::adapters::step_by::StepBy<I> as iter::adapters::step_by::StepByImpl<I>>::spec_fold;1;0;0
+<iter::adapters::step_by::StepBy<I> as iter::adapters::step_by::StepByBackImpl<I>>::spec_try_rfold;1;0;0
+<iter::adapters::step_by::StepBy<I> as iter::adapters::step_by::StepByBackImpl<I>>::spec_rfold;1;0;0
+<iter::adapters::step_by::StepBy<ops::range::Range<u8>> as iter::adapters::step_by::StepByImpl<ops::range::Range<u8>>>::spec_nth;1;0;0
+<iter::adapters::step_by::StepBy<ops::range::Range<u8>> as iter::adapters::step_by::StepByImpl<ops::range::Range<u8>>>::spec_try_fold;0;1;0
+<iter::adapters::step_by::StepBy<ops::range::Range<u8>> as iter::adapters::step_by::StepByImpl<ops::range::Range<u8>>>::spec_fold;0;1;0
+<iter::adapters::step_by::StepBy<ops::range::Range<u16>> as iter::adapters::step_by::StepByImpl<ops::range::Range<u16>>>::spec_nth;1;0;0
+<iter::adapters::step_by::StepBy<ops::range::Range<u16>> as iter::adapters::step_by::StepByImpl<ops::range::Range<u16>>>::spec_try_fold;0;1;0
+<iter::adapters::step_by::StepBy<ops::range::Range<u16>> as iter::adapters::step_by::StepByImpl<ops::range::Range<u16>>>::spec_fold;0;1;0
+<iter::adapters::step_by::StepBy<ops::range::Range<u32>> as iter::adapters::step_by::StepByImpl<ops::range::Range<u32>>>::spec_nth;1;0;0
+<iter::adapters::step_by::StepBy<ops::range::Range<u32>> as iter::adapters::step_by::StepByImpl<ops::range::Range<u32>>>::spec_try_fold;0;1;0
+<iter::adapters::step_by::StepBy<ops::range::Range<u32>> as iter::adapters::step_by::StepByImpl<ops::range::Range<u32>>>::spec_fold;0;1;0
+<iter::adapters::step_by::StepBy<ops::range::Range<u64>> as iter::adapters::step_by::StepByImpl<ops::range::Range<u64>>>::spec_nth;1;0;0
+<iter::adapters::step_by::StepBy<ops::range::Range<u64>> as iter::adapters::step_by::StepByImpl<ops::range::Range<u64>>>::spec_try_fold;0;1;0
+<iter::adapters::step_by::StepBy<ops::range::Range<u64>> as iter::adapters::step_by::StepByImpl<ops::range::Range<u64>>>::spec_fold;0;1;0
+<iter::adapters::step_by::StepBy<ops::range::Range<usize>> as iter::adapters::step_by::StepByImpl<ops::range::Range<usize>>>::spec_nth;1;0;0
+<iter::adapters::step_by::StepBy<ops::range::Range<usize>> as iter::adapters::step_by::StepByImpl<ops::range::Range<usize>>>::spec_try_fold;0;1;0
+<iter::adapters::step_by::StepBy<ops::range::Range<usize>> as iter::adapters::step_by::StepByImpl<ops::range::Range<usize>>>::spec_fold;0;1;0
+<iter::adapters::step_by::StepBy<ops::range::Range<u8>> as iter::adapters::step_by::StepByBackImpl<ops::range::Range<u8>>>::spec_try_rfold;0;1;0
+<iter::adapters::step_by::StepBy<ops::range::Range<u8>> as iter::adapters::step_by::StepByBackImpl<ops::range::Range<u8>>>::spec_rfold;0;1;0
+<iter::adapters::step_by::StepBy<ops::range::Range<u16>> as iter::adapters::step_by::StepByBackImpl<ops::range::Range<u16>>>::spec_try_rfold;0;1;0
+<iter::adapters::step_by::StepBy<ops::range::Range<u16>> as iter::adapters::step_by::StepByBackImpl<ops::range::Range<u16>>>::spec_rfold;0;1;0
+<iter::adapters::step_by::StepBy<ops::range::Range<u32>> as iter::adapters::step_by::StepByBackImpl<ops::range::Range<u32>>>::spec_try_rfold;0;1;0
+<iter::adapters::step_by::StepBy<ops::range::Range<u32>> as iter::adapters::step_by::StepByBackImpl<ops::range::Range<u32>>>::spec_rfold;0;1;0
+<iter::adapters::step_by::StepBy<ops::range::Range<usize>> as iter::adapters::step_by::StepByBackImpl<ops::range::Range<usize>>>::spec_try_rfold;0;1;0
+<iter::adapters::step_by::StepBy<ops::range::Range<usize>> as iter::adapters::step_by::StepByBackImpl<ops::range::Range<usize>>>::spec_rfold;0;1;0
+<iter::adapters::take::Take<I> as iter::traits::iterator::Iterator>::nth;2;0;0
+<iter::adapters::take::Take<I> as iter::traits::iterator::Iterator>::try_fold;1;0;0
+<iter::adapters::take::Take<I> as iter::traits::iterator::Iterator>::advance_by;1;0;0
+<iter::adapters::take::Take<I> as iter::adapters::take::SpecTake>::spec_fold;1;0;0
+<iter::adapters::take::Take<I> as iter::adapters::take::SpecTake>::spec_for_each;1;0;0
+<iter::adapters::take::Take<I> as iter::adapters::take::SpecTake>::spec_fold;0;1;0
+<iter::adapters::take::Take<I> as iter::adapters::take::SpecTake>::spec_for_each;0;1;0
+<iter::adapters::take::Take<iter::sources::repeat::Repeat<T>> as iter::traits::double_ended::DoubleEndedIterator>::nth_back;1;0;0
+<iter::adapters::take::Take<iter::sources::repeat::Repeat<T>> as iter::traits::double_ended::DoubleEndedIterator>::try_rfold;1;0;0
+<iter::adapters::take::Take<iter::sources::repeat::Repeat<T>> as iter::traits::double_ended::DoubleEndedIterator>::rfold;1;0;0
+<iter::adapters::take::Take<iter::sources::repeat::Repeat<T>> as iter::traits::double_ended::DoubleEndedIterator>::advance_back_by;1;0;0
+<iter::adapters::take_while::TakeWhile<I, P> as iter::traits::iterator::Iterator>::try_fold;1;0;0
+<iter::adapters::take_while::TakeWhile<I, P> as iter::traits::iterator::Iterator>::fold;1;0;0
+iter::adapters::zip::Zip::<A, B>::super_nth;0;1;0
+<iter::adapters::zip::Zip<A, B> as iter::adapters::zip::ZipImpl<A, B>>::next_back;0;2;0
+<iter::adapters::zip::Zip<A, B> as iter::adapters::zip::ZipImpl<A, B>>::next_back;0;2;0
+<iter::adapters::zip::Zip<A, B> as iter::adapters::zip::ZipImpl<A, B>>::fold;0;1;0
+<iter::adapters::zip::Zip<A, B> as iter::adapters::zip::ZipImpl<A, B>>::nth;0;4;0
+<iter::adapters::zip::Zip<A, B> as iter::adapters::zip::ZipImpl<A, B>>::next_back;0;2;0
+<iter::adapters::zip::Zip<A, B> as iter::adapters::zip::SpecFold>::spec_fold;0;1;0
+<iter::adapters::zip::Zip<A, B> as iter::adapters::zip::SpecFold>::spec_fold;0;3;0
+<iter::adapters::GenericShunt<'_, I, R> as iter::traits::iterator::Iterator>::next;1;0;0
+<iter::adapters::GenericShunt<'_, I, R> as iter::traits::iterator::Iterator>::try_fold;1;0;0
+<iter::adapters::GenericShunt<'_, I, R> as iter::traits::iterator::Iterator>::fold;1;0;0
+<ops::range::RangeInclusive<A> as iter::range::RangeInclusiveIteratorImpl>::spec_try_fold;0;1;0
+<ops::range::RangeInclusive<A> as iter::range::RangeInclusiveIteratorImpl>::spec_try_rfold;0;1;0
+<ops::range::RangeInclusive<T> as iter::range::RangeInclusiveIteratorImpl>::spec_try_fold;0;1;0
+<ops::range::RangeInclusive<T> as iter::range::RangeInclusiveIteratorImpl>::spec_try_rfold;0;1;0
+iter::range::<impl iter::traits::iterator::Iterator for ops::range::RangeInclusive<A>>::fold;1;0;0
+<iter::sources::repeat_n::RepeatN<A> as iter::traits::double_ended::DoubleEndedIterator>::advance_back_by;1;0;0
+<iter::sources::repeat_n::RepeatN<A> as iter::traits::double_ended::DoubleEndedIterator>::nth_back;1;0;0
+<iter::sources::repeat_with::RepeatWith<F> as iter::traits::iterator::Iterator>::try_fold;0;1;0
+<i8 as iter::traits::accum::Sum>::sum;1;0;0
+<i8 as iter::traits::accum::Product>::product;1;0;0
+<i8 as iter::traits::accum::Sum<&'a i8>>::sum;1;0;0
+<i8 as iter::traits::accum::Product<&'a i8>>::product;1;0;0
+<i16 as iter::traits::accum::Sum>::sum;1;0;0
+<i16 as iter::traits::accum::Product>::product;1;0;0
+<i16 as iter::traits::accum::Sum<&'a i16>>::sum;1;0;0
+<i16 as iter::traits::accum::Product<&'a i16>>::product;1;0;0
+<i32 as iter::traits::accum::Sum>::sum;1;0;0
+<i32 as iter::traits::accum::Product>::product;1;0;0
+<i32 as iter::traits::accum::Sum<&'a i32>>::sum;1;0;0
+<i32 as iter::traits::accum::Product<&'a i32>>::product;1;0;0
+<i64 as iter::traits::accum::Sum>::sum;1;0;0
+<i64 as iter::traits::accum::Product>::product;1;0;0
+<i64 as iter::traits::accum::Sum<&'a i64>>::sum;1;0;0
+<i64 as iter::traits::accum::Product<&'a i64>>::product;1;0;0
+<i128 as iter::traits::accum::Sum>::sum;1;0;0
+<i128 as iter::traits::accum::Product>::product;1;0;0
+<i128 as iter::traits::accum::Sum<&'a i128>>::sum;1;0;0
+<i128 as iter::traits::accum::Product<&'a i128>>::product;1;0;0
+<isize as iter::traits::accum::Sum>::sum;1;0;0
+<isize as iter::traits::accum::Product>::product;1;0;0
+<isize as iter::traits::accum::Sum<&'a isize>>::sum;1;0;0
+<isize as iter::traits::accum::Product<&'a isize>>::product;1;0;0
+<u8 as iter::traits::accum::Sum>::sum;1;0;0
+<u8 as iter::traits::accum::Product>::product;1;0;0
+<u8 as iter::traits::accum::Sum<&'a u8>>::sum;1;0;0
+<u8 as iter::traits::accum::Product<&'a u8>>::product;1;0;0
+<u16 as iter::traits::accum::Sum>::sum;1;0;0
+<u16 as iter::traits::accum::Product>::product;1;0;0
+<u16 as iter::traits::accum::Sum<&'a u16>>::sum;1;0;0
+<u16 as iter::traits::accum::Product<&'a u16>>::product;1;0;0
+<u32 as iter::traits::accum::Sum>::sum;1;0;0
+<u32 as iter::traits::accum::Product>::product;1;0;0
+<u32 as iter::traits::accum::Sum<&'a u32>>::sum;1;0;0
+<u32 as iter::traits::accum::Product<&'a u32>>::product;1;0;0
+<u64 as iter::traits::accum::Sum>::sum;1;0;0
+<u64 as iter::traits::accum::Product>::product;1;0;0
+<u64 as iter::traits::accum::Sum<&'a u64>>::sum;1;0;0
+<u64 as iter::traits::accum::Product<&'a u64>>::product;1;0;0
+<u128 as iter::traits::accum::Sum>::sum;1;0;0
+<u128 as iter::traits::accum::Product>::product;1;0;0
+<u128 as iter::traits::accum::Sum<&'a u128>>::sum;1;0;0
+<u128 as iter::traits::accum::Product<&'a u128>>::product;1;0;0
+<usize as iter::traits::accum::Sum>::sum;1;0;0
+<usize as iter::traits::accum::Product>::product;1;0;0
+<usize as iter::traits::accum::Sum<&'a usize>>::sum;1;0;0
+<usize as iter::traits::accum::Product<&'a usize>>::product;1;0;0
+<num::wrapping::Wrapping<i8> as iter::traits::accum::Sum>::sum;1;0;0
+<num::wrapping::Wrapping<i8> as iter::traits::accum::Product>::product;1;0;0
+<num::wrapping::Wrapping<i8> as iter::traits::accum::Sum<&'a num::wrapping::Wrapping<i8>>>::sum;1;0;0
+<num::wrapping::Wrapping<i8> as iter::traits::accum::Product<&'a num::wrapping::Wrapping<i8>>>::product;1;0;0
+<num::wrapping::Wrapping<i16> as iter::traits::accum::Sum>::sum;1;0;0
+<num::wrapping::Wrapping<i16> as iter::traits::accum::Product>::product;1;0;0
+<num::wrapping::Wrapping<i16> as iter::traits::accum::Sum<&'a num::wrapping::Wrapping<i16>>>::sum;1;0;0
+<num::wrapping::Wrapping<i16> as iter::traits::accum::Product<&'a num::wrapping::Wrapping<i16>>>::product;1;0;0
+<num::wrapping::Wrapping<i32> as iter::traits::accum::Sum>::sum;1;0;0
+<num::wrapping::Wrapping<i32> as iter::traits::accum::Product>::product;1;0;0
+<num::wrapping::Wrapping<i32> as iter::traits::accum::Sum<&'a num::wrapping::Wrapping<i32>>>::sum;1;0;0
+<num::wrapping::Wrapping<i32> as iter::traits::accum::Product<&'a num::wrapping::Wrapping<i32>>>::product;1;0;0
+<num::wrapping::Wrapping<i64> as iter::traits::accum::Sum>::sum;1;0;0
+<num::wrapping::Wrapping<i64> as iter::traits::accum::Product>::product;1;0;0
+<num::wrapping::Wrapping<i64> as iter::traits::accum::Sum<&'a num::wrapping::Wrapping<i64>>>::sum;1;0;0
+<num::wrapping::Wrapping<i64> as iter::traits::accum::Product<&'a num::wrapping::Wrapping<i64>>>::product;1;0;0
+<num::wrapping::Wrapping<i128> as iter::traits::accum::Sum>::sum;1;0;0
+<num::wrapping::Wrapping<i128> as iter::traits::accum::Product>::product;1;0;0
+<num::wrapping::Wrapping<i128> as iter::traits::accum::Sum<&'a num::wrapping::Wrapping<i128>>>::sum;1;0;0
+<num::wrapping::Wrapping<i128> as iter::traits::accum::Product<&'a num::wrapping::Wrapping<i128>>>::product;1;0;0
+<num::wrapping::Wrapping<isize> as iter::traits::accum::Sum>::sum;1;0;0
+<num::wrapping::Wrapping<isize> as iter::traits::accum::Product>::product;1;0;0
+<num::wrapping::Wrapping<isize> as iter::traits::accum::Sum<&'a num::wrapping::Wrapping<isize>>>::sum;1;0;0
+<num::wrapping::Wrapping<isize> as iter::traits::accum::Product<&'a num::wrapping::Wrapping<isize>>>::product;1;0;0
+<num::wrapping::Wrapping<u8> as iter::traits::accum::Sum>::sum;1;0;0
+<num::wrapping::Wrapping<u8> as iter::traits::accum::Product>::product;1;0;0
+<num::wrapping::Wrapping<u8> as iter::traits::accum::Sum<&'a num::wrapping::Wrapping<u8>>>::sum;1;0;0
+<num::wrapping::Wrapping<u8> as iter::traits::accum::Product<&'a num::wrapping::Wrapping<u8>>>::product;1;0;0
+<num::wrapping::Wrapping<u16> as iter::traits::accum::Sum>::sum;1;0;0
+<num::wrapping::Wrapping<u16> as iter::traits::accum::Product>::product;1;0;0
+<num::wrapping::Wrapping<u16> as iter::traits::accum::Sum<&'a num::wrapping::Wrapping<u16>>>::sum;1;0;0
+<num::wrapping::Wrapping<u16> as iter::traits::accum::Product<&'a num::wrapping::Wrapping<u16>>>::product;1;0;0
+<num::wrapping::Wrapping<u32> as iter::traits::accum::Sum>::sum;1;0;0
+<num::wrapping::Wrapping<u32> as iter::traits::accum::Product>::product;1;0;0
+<num::wrapping::Wrapping<u32> as iter::traits::accum::Sum<&'a num::wrapping::Wrapping<u32>>>::sum;1;0;0
+<num::wrapping::Wrapping<u32> as iter::traits::accum::Product<&'a num::wrapping::Wrapping<u32>>>::product;1;0;0
+<num::wrapping::Wrapping<u64> as iter::traits::accum::Sum>::sum;1;0;0
+<num::wrapping::Wrapping<u64> as iter::traits::accum::Product>::product;1;0;0
+<num::wrapping::Wrapping<u64> as iter::traits::accum::Sum<&'a num::wrapping::Wrapping<u64>>>::sum;1;0;0
+<num::wrapping::Wrapping<u64> as iter::traits::accum::Product<&'a num::wrapping::Wrapping<u64>>>::product;1;0;0
+<num::wrapping::Wrapping<u128> as iter::traits::accum::Sum>::sum;1;0;0
+<num::wrapping::Wrapping<u128> as iter::traits::accum::Product>::product;1;0;0
+<num::wrapping::Wrapping<u128> as iter::traits::accum::Sum<&'a num::wrapping::Wrapping<u128>>>::sum;1;0;0
+<num::wrapping::Wrapping<u128> as iter::traits::accum::Product<&'a num::wrapping::Wrapping<u128>>>::product;1;0;0
+<num::wrapping::Wrapping<usize> as iter::traits::accum::Sum>::sum;1;0;0
+<num::wrapping::Wrapping<usize> as iter::traits::accum::Product>::product;1;0;0
+<num::wrapping::Wrapping<usize> as iter::traits::accum::Sum<&'a num::wrapping::Wrapping<usize>>>::sum;1;0;0
+<num::wrapping::Wrapping<usize> as iter::traits::accum::Product<&'a num::wrapping::Wrapping<usize>>>::product;1;0;0
+<f32 as iter::traits::accum::Sum>::sum;1;0;0
+<f32 as iter::traits::accum::Product>::product;1;0;0
+<f32 as iter::traits::accum::Sum<&'a f32>>::sum;1;0;0
+<f32 as iter::traits::accum::Product<&'a f32>>::product;1;0;0
+<f64 as iter::traits::accum::Sum>::sum;1;0;0
+<f64 as iter::traits::accum::Product>::product;1;0;0
+<f64 as iter::traits::accum::Sum<&'a f64>>::sum;1;0;0
+<f64 as iter::traits::accum::Product<&'a f64>>::product;1;0;0
+<() as iter::traits::collect::Extend<()>>::extend;1;0;0
+iter::traits::collect::default_extend_tuple_a;1;0;0
+<Iter as iter::traits::collect::TraitA<EA>>::extend;1;0;0
+iter::traits::collect::default_extend_tuple_b;1;0;0
+<Iter as iter::traits::collect::TraitB<EB, EA>>::extend;1;0;0
+iter::traits::collect::default_extend_tuple_c;1;0;0
+<Iter as iter::traits::collect::TraitC<EC, EB, EA>>::extend;1;0;0
+iter::traits::collect::default_extend_tuple_d;1;0;0
+<Iter as iter::traits::collect::TraitD<ED, EC, EB, EA>>::extend;1;0;0
+iter::traits::collect::default_extend_tuple_e;1;0;0
+<Iter as iter::traits::collect::TraitE<EE, ED, EC, EB, EA>>::extend;1;0;0
+iter::traits::collect::default_extend_tuple_f;1;0;0
+<Iter as iter::traits::collect::TraitF<EF, EE, ED, EC, EB, EA>>::extend;1;0;0
+iter::traits::collect::default_extend_tuple_g;1;0;0
+<Iter as iter::traits::collect::TraitG<EG, EF, EE, ED, EC, EB, EA>>::extend;1;0;0
+iter::traits::collect::default_extend_tuple_h;1;0;0
+<Iter as iter::traits::collect::TraitH<EH, EG, EF, EE, ED, EC, EB, EA>>::extend;1;0;0
+iter::traits::collect::default_extend_tuple_i;1;0;0
+<Iter as iter::traits::collect::TraitI<EI, EH, EG, EF, EE, ED, EC, EB, EA>>::extend;1;0;0
+iter::traits::collect::default_extend_tuple_j;1;0;0
+<Iter as iter::traits::collect::TraitJ<EJ, EI, EH, EG, EF, EE, ED, EC, EB, EA>>::extend;1;0;0
+iter::traits::collect::default_extend_tuple_k;1;0;0
+<Iter as iter::traits::collect::TraitK<EK, EJ, EI, EH, EG, EF, EE, ED, EC, EB, EA>>::extend;1;0;0
+iter::traits::collect::default_extend_tuple_l;1;0;0
+<Iter as iter::traits::collect::TraitL<EL, EK, EJ, EI, EH, EG, EF, EE, ED, EC, EB, EA>>::extend;1;0;0
+iter::traits::double_ended::DoubleEndedIterator::advance_back_by;0;1;0
+iter::traits::double_ended::DoubleEndedIterator::try_rfold;0;1;0
+iter::traits::double_ended::DoubleEndedIterator::rfold;0;1;0
+<&mut I as iter::traits::double_ended::DoubleEndedIteratorRefSpec>::spec_rfold;0;1;0
+<&mut I as iter::traits::double_ended::DoubleEndedIteratorRefSpec>::spec_try_rfold;0;1;0
+iter::traits::iterator::Iterator::count;1;0;0
+iter::traits::iterator::Iterator::last;1;0;0
+iter::traits::iterator::Iterator::advance_by;0;1;0
+iter::traits::iterator::Iterator::nth;1;0;0
+iter::traits::iterator::Iterator::for_each;1;0;0
+iter::traits::iterator::Iterator::partition;1;0;0
+iter::traits::iterator::Iterator::partition_in_place;1;1;0
+iter::traits::iterator::Iterator::is_partitioned;2;0;0
+iter::traits::iterator::Iterator::try_fold;0;1;0
+iter::traits::iterator::Iterator::try_for_each;1;0;0
+iter::traits::iterator::Iterator::fold;0;1;0
+iter::traits::iterator::Iterator::reduce;1;0;0
+iter::traits::iterator::Iterator::try_reduce;1;0;0
+iter::traits::iterator::Iterator::all;1;0;0
+iter::traits::iterator::Iterator::any;1;0;0
+iter::traits::iterator::Iterator::find;1;0;0
+iter::traits::iterator::Iterator::find_map;1;0;0
+iter::traits::iterator::Iterator::try_find;1;0;0
+iter::traits::iterator::Iterator::position;1;0;0
+iter::traits::iterator::Iterator::max_by;1;0;0
+iter::traits::iterator::Iterator::min_by;1;0;0
+iter::traits::iterator::Iterator::is_sorted_by;1;0;0
+iter::traits::iterator::iter_compare;1;0;0
+<&mut I as iter::traits::iterator::Iterator>::advance_by;1;0;0
+<&mut I as iter::traits::iterator::Iterator>::nth;1;0;0
+<&mut I as iter::traits::iterator::IteratorRefSpec>::spec_fold;0;1;0
+<&mut I as iter::traits::iterator::IteratorRefSpec>::spec_try_fold;0;1;0
+<&mut I as iter::traits::iterator::IteratorRefSpec>::spec_try_fold;1;0;0
+<net::ip_addr::Ipv6Addr as fmt::Display>::fmt;0;5;0
+<net::ip_addr::Ipv6Addr as fmt::Display>::fmt::fmt_subslice;0;1;0
+<net::ip_addr::Ipv4Addr as ops::bit::Not>::not;0;1;0
+<net::ip_addr::Ipv6Addr as ops::bit::Not>::not;0;1;0
+<net::ip_addr::Ipv4Addr as ops::bit::BitAndAssign>::bitand_assign;0;1;0
+<net::ip_addr::Ipv4Addr as ops::bit::BitOrAssign>::bitor_assign;0;1;0
+<net::ip_addr::Ipv6Addr as ops::bit::BitAndAssign>::bitand_assign;0;1;0
+<net::ip_addr::Ipv6Addr as ops::bit::BitOrAssign>::bitor_assign;0;1;0
+net::parser::Parser::<'a>::read_ipv6_addr::read_groups;0;2;0
+<range::iter::IterRange<A> as iter::traits::iterator::Iterator>::count;1;0;0
+<range::iter::IterRange<A> as iter::traits::iterator::Iterator>::nth;1;0;0
+<range::iter::IterRange<A> as iter::traits::iterator::Iterator>::last;1;0;0
+<range::iter::IterRange<A> as iter::traits::iterator::Iterator>::advance_by;1;0;0
+<range::iter::IterRangeInclusive<A> as iter::traits::iterator::Iterator>::count;1;0;0
+<range::iter::IterRangeInclusive<A> as iter::traits::iterator::Iterator>::nth;1;0;0
+<range::iter::IterRangeInclusive<A> as iter::traits::iterator::Iterator>::last;1;0;0
+<range::iter::IterRangeInclusive<A> as iter::traits::iterator::Iterator>::advance_by;1;0;0
+<range::iter::IterRangeFrom<A> as iter::traits::iterator::Iterator>::nth;1;0;0
+sync::atomic::AtomicBool::fetch_update;0;1;0
+sync::atomic::AtomicBool::update;0;1;0
+sync::atomic::AtomicPtr::<T>::fetch_update;0;1;0
+sync::atomic::AtomicPtr::<T>::update;0;1;0
+sync::atomic::AtomicI8::fetch_update;0;1;0
+sync::atomic::AtomicI8::update;0;1;0
+sync::atomic::AtomicU8::fetch_update;0;1;0
+sync::atomic::AtomicU8::update;0;1;0
+sync::atomic::AtomicI16::fetch_update;0;1;0
+sync::atomic::AtomicI16::update;0;1;0
+sync::atomic::AtomicU16::fetch_update;0;1;0
+sync::atomic::AtomicU16::update;0;1;0
+sync::atomic::AtomicI32::fetch_update;0;1;0
+sync::atomic::AtomicI32::update;0;1;0
+sync::atomic::AtomicU32::fetch_update;0;1;0
+sync::atomic::AtomicU32::update;0;1;0
+sync::atomic::AtomicI64::fetch_update;0;1;0
+sync::atomic::AtomicI64::update;0;1;0
+sync::atomic::AtomicU64::fetch_update;0;1;0
+sync::atomic::AtomicU64::update;0;1;0
+sync::atomic::AtomicIsize::fetch_update;0;1;0
+sync::atomic::AtomicIsize::update;0;1;0
+sync::atomic::AtomicUsize::fetch_update;0;1;0
+sync::atomic::AtomicUsize::update;0;1;0
+<fmt::builders::PadAdapter<'_, '_> as fmt::Write>::write_str;0;2;0
+fmt::builders::DebugSet::<'a, 'b>::entries;0;1;0
+fmt::builders::DebugList::<'a, 'b>::entries;0;1;0
+fmt::builders::DebugMap::<'a, 'b>::entries;0;1;0
+fmt::num::GenericRadix::fmt_int;0;2;0
+fmt::num::imp::<impl u8>::_fmt;0;1;0
+fmt::num::imp::<impl u16>::_fmt;0;1;0
+fmt::num::imp::<impl u32>::_fmt;0;1;0
+fmt::num::imp::<impl u64>::_fmt;0;1;0
+fmt::num::imp::<impl usize>::_fmt;0;1;0
+fmt::num::imp::exp_u64;0;4;0
+fmt::num::exp_u128;0;4;0
+fmt::write;0;4;0
+fmt::PostPadding::write;0;1;0
+fmt::Formatter::<'a>::pad_integral;1;0;0
+fmt::Formatter::<'a>::pad;2;0;0
+fmt::Formatter::<'a>::padding;0;1;0
+fmt::Formatter::<'a>::write_formatted_parts;0;6;0
+fmt::Formatter::<'a>::debug_struct_fields_finish;0;1;0
+fmt::Formatter::<'a>::debug_tuple_fields_finish;0;1;0
+<str as fmt::Debug>::fmt;1;3;0
+<hash::sip::Hasher<S> as hash::Hasher>::write;0;1;0
+hash::Hash::hash_slice;0;1;0
+slice::memchr::memchr_naive;0;1;0
+slice::memchr::memchr_aligned::runtime;0;1;0
+slice::memchr::memrchr;2;1;0
+slice::sort::stable::merge::MergeState::<T>::merge_up;0;2;0
+slice::sort::stable::merge::MergeState::<T>::merge_down;0;2;0
+slice::sort::stable::drift::sort;0;5;0
+slice::sort::stable::quicksort::quicksort;0;8;0
+slice::sort::stable::quicksort::stable_partition;0;5;0
+slice::sort::unstable::heapsort::heapsort;0;2;0
+slice::sort::unstable::heapsort::sift_down;0;2;0
+slice::sort::unstable::quicksort::quicksort;0;3;0
+slice::sort::unstable::quicksort::partition_hoare_branchy_cyclic;0;18;0
+slice::sort::unstable::quicksort::partition_lomuto_branchless_cyclic;0;4;0
+slice::sort::select::partition_at_index_loop;0;5;0
+slice::sort::select::min_index;1;0;0
+slice::sort::select::max_index;1;0;0
+slice::sort::select::median_of_medians;0;2;0
+slice::sort::select::median_of_ninthers;0;1;0
+slice::sort::shared::smallsort::small_sort_general_with_scratch;0;3;0
+slice::sort::shared::smallsort::small_sort_network;0;3;0
+slice::sort::shared::smallsort::insert_tail;0;1;0
+slice::sort::shared::smallsort::insertion_sort_shift_left;0;1;0
+slice::sort::shared::smallsort::bidirectional_merge;0;1;0
+slice::sort::shared::find_existing_run;0;2;0
+slice::ascii::<impl [u8]>::eq_ignore_ascii_case;0;1;0
+slice::ascii::<impl [u8]>::make_ascii_uppercase;0;1;0
+slice::ascii::<impl [u8]>::make_ascii_lowercase;0;1;0
+slice::ascii::<impl [u8]>::trim_ascii_start;0;1;0
+slice::ascii::<impl [u8]>::trim_ascii_end;0;1;0
+<slice::ascii::EscapeAscii<'a> as iter::traits::iterator::Iterator>::try_fold;1;0;0
+<slice::ascii::EscapeAscii<'a> as iter::traits::iterator::Iterator>::fold;1;0;0
+<slice::ascii::EscapeAscii<'a> as fmt::Display>::fmt;1;4;0
+slice::ascii::is_ascii_simple;0;1;0
+slice::ascii::is_ascii;0;3;0
+<[A] as slice::cmp::SlicePartialEq<B>>::equal;0;1;0
+<A as slice::cmp::SlicePartialOrd>::partial_compare;0;1;0
+<A as slice::cmp::SliceOrd>::compare;0;1;0
+<T as slice::cmp::SliceContains>::slice_contains;1;0;0
+<u16 as slice::cmp::SliceContains>::slice_contains;2;1;0
+<u32 as slice::cmp::SliceContains>::slice_contains;2;1;0
+<u64 as slice::cmp::SliceContains>::slice_contains;2;1;0
+<i16 as slice::cmp::SliceContains>::slice_contains;2;1;0
+<i32 as slice::cmp::SliceContains>::slice_contains;2;1;0
+<i64 as slice::cmp::SliceContains>::slice_contains;2;1;0
+<f32 as slice::cmp::SliceContains>::slice_contains;2;1;0
+<f64 as slice::cmp::SliceContains>::slice_contains;2;1;0
+<usize as slice::cmp::SliceContains>::slice_contains;2;1;0
+<isize as slice::cmp::SliceContains>::slice_contains;2;1;0
+<char as slice::cmp::SliceContains>::slice_contains;2;1;0
+<slice::iter::Iter<'a, T> as iter::traits::iterator::Iterator>::fold;0;1;0
+<slice::iter::Iter<'a, T> as iter::traits::iterator::Iterator>::for_each;0;1;0
+<slice::iter::Iter<'a, T> as iter::traits::iterator::Iterator>::all;0;1;0
+<slice::iter::Iter<'a, T> as iter::traits::iterator::Iterator>::any;0;1;0
+<slice::iter::Iter<'a, T> as iter::traits::iterator::Iterator>::find;0;1;0
+<slice::iter::Iter<'a, T> as iter::traits::iterator::Iterator>::find_map;0;1;0
+<slice::iter::Iter<'a, T> as iter::traits::iterator::Iterator>::position;0;1;0
+<slice::iter::Iter<'a, T> as iter::traits::iterator::Iterator>::rposition;0;1;0
+<slice::iter::IterMut<'a, T> as iter::traits::iterator::Iterator>::fold;0;1;0
+<slice::iter::IterMut<'a, T> as iter::traits::iterator::Iterator>::for_each;0;1;0
+<slice::iter::IterMut<'a, T> as iter::traits::iterator::Iterator>::all;0;1;0
+<slice::iter::IterMut<'a, T> as iter::traits::iterator::Iterator>::any;0;1;0
+<slice::iter::IterMut<'a, T> as iter::traits::iterator::Iterator>::find;0;1;0
+<slice::iter::IterMut<'a, T> as iter::traits::iterator::Iterator>::find_map;0;1;0
+<slice::iter::IterMut<'a, T> as iter::traits::iterator::Iterator>::position;0;1;0
+<slice::iter::IterMut<'a, T> as iter::traits::iterator::Iterator>::rposition;0;1;0
+<slice::iter::Split<'a, T, P> as iter::traits::iterator::Iterator>::next;1;0;0
+<slice::iter::Split<'a, T, P> as iter::traits::double_ended::DoubleEndedIterator>::next_back;1;0;0
+<slice::iter::SplitInclusive<'a, T, P> as iter::traits::iterator::Iterator>::next;1;0;0
+<slice::iter::SplitInclusive<'a, T, P> as iter::traits::double_ended::DoubleEndedIterator>::next_back;1;0;0
+<slice::iter::SplitMut<'a, T, P> as iter::traits::iterator::Iterator>::next;1;0;0
+<slice::iter::SplitMut<'a, T, P> as iter::traits::double_ended::DoubleEndedIterator>::next_back;1;0;0
+<slice::iter::SplitInclusiveMut<'a, T, P> as iter::traits::iterator::Iterator>::next;1;0;0
+<slice::iter::SplitInclusiveMut<'a, T, P> as iter::traits::double_ended::DoubleEndedIterator>::next_back;1;0;0
+<slice::iter::ArrayWindows<'a, T, N> as iter::traits::iterator::Iterator>::last;1;0;0
+<slice::iter::ArrayChunks<'a, T, N> as iter::traits::iterator::Iterator>::count;1;0;0
+<slice::iter::ArrayChunks<'a, T, N> as iter::traits::iterator::Iterator>::nth;1;0;0
+<slice::iter::ArrayChunks<'a, T, N> as iter::traits::iterator::Iterator>::last;1;0;0
+<slice::iter::ArrayChunksMut<'a, T, N> as iter::traits::iterator::Iterator>::count;1;0;0
+<slice::iter::ArrayChunksMut<'a, T, N> as iter::traits::iterator::Iterator>::nth;1;0;0
+<slice::iter::ArrayChunksMut<'a, T, N> as iter::traits::iterator::Iterator>::last;1;0;0
+<slice::iter::ChunkBy<'a, T, P> as iter::traits::iterator::Iterator>::next;0;1;0
+<slice::iter::ChunkBy<'a, T, P> as iter::traits::double_ended::DoubleEndedIterator>::next_back;0;1;0
+<slice::iter::ChunkByMut<'a, T, P> as iter::traits::iterator::Iterator>::next;0;1;0
+<slice::iter::ChunkByMut<'a, T, P> as iter::traits::double_ended::DoubleEndedIterator>::next_back;0;1;0
+slice::rotate::ptr_rotate_gcd;0;6;0
+slice::rotate::ptr_rotate_swap;0;4;0
+<[T] as slice::specialize::SpecFill<T>>::spec_fill;0;1;0
+<[T] as slice::specialize::SpecFill<T>>::spec_fill;0;1;0
+slice::<impl [T]>::reverse::revswap;0;1;0
+slice::<impl [T]>::split_once;1;0;0
+slice::<impl [T]>::rsplit_once;1;0;0
+slice::<impl [T]>::binary_search_by;0;1;0
+slice::<impl [T]>::partition_dedup_by;0;3;0
+slice::<impl [T]>::fill_with;0;1;0
+slice::<impl [T]>::is_sorted;3;1;0
+slice::<impl [T]>::is_sorted_by;1;0;0
+slice::<impl [T]>::get_disjoint_unchecked_mut;0;1;0
+<[T] as slice::CloneFromSpec<T>>::spec_clone_from;0;1;0
+slice::get_disjoint_check_valid;0;2;0
+str::count::do_count_chars;0;4;0
+str::count::char_count_general_case;1;0;0
+<str::iter::Chars<'a> as iter::traits::iterator::Iterator>::advance_by;3;4;0
+<str::iter::CharIndices<'a> as iter::traits::iterator::Iterator>::count;1;0;0
+<str::iter::Bytes<'_> as iter::traits::iterator::Iterator>::count;1;0;0
+<str::iter::Bytes<'_> as iter::traits::iterator::Iterator>::last;1;0;0
+<str::iter::Bytes<'_> as iter::traits::iterator::Iterator>::nth;1;0;0
+<str::iter::Bytes<'_> as iter::traits::iterator::Iterator>::all;1;0;0
+<str::iter::Bytes<'_> as iter::traits::iterator::Iterator>::any;1;0;0
+<str::iter::Bytes<'_> as iter::traits::iterator::Iterator>::find;1;0;0
+<str::iter::Bytes<'_> as iter::traits::iterator::Iterator>::position;1;0;0
+<str::iter::Bytes<'_> as iter::traits::iterator::Iterator>::rposition;1;0;0
+<str::iter::EscapeDebug<'a> as fmt::Display>::fmt;1;0;0
+<str::iter::EscapeDebug<'a> as iter::traits::iterator::Iterator>::try_fold;1;0;0
+<str::iter::EscapeDebug<'a> as iter::traits::iterator::Iterator>::fold;1;0;0
+<str::iter::EscapeDefault<'a> as fmt::Display>::fmt;1;0;0
+<str::iter::EscapeDefault<'a> as iter::traits::iterator::Iterator>::try_fold;1;0;0
+<str::iter::EscapeDefault<'a> as iter::traits::iterator::Iterator>::fold;1;0;0
+<str::iter::EscapeUnicode<'a> as fmt::Display>::fmt;1;0;0
+<str::iter::EscapeUnicode<'a> as iter::traits::iterator::Iterator>::try_fold;1;0;0
+<str::iter::EscapeUnicode<'a> as iter::traits::iterator::Iterator>::fold;1;0;0
+str::validations::run_utf8_validation;0;19;0
+str::pattern::Searcher::next_match;0;1;0
+str::pattern::Searcher::next_reject;0;1;0
+str::pattern::ReverseSearcher::next_match_back;0;1;0
+str::pattern::ReverseSearcher::next_reject_back;0;1;0
+<str::pattern::CharSearcher<'a> as str::pattern::Searcher<'a>>::next_match;0;3;0
+<str::pattern::CharSearcher<'a> as str::pattern::ReverseSearcher<'a>>::next_match_back;0;3;0
+<str::pattern::StrSearcher<'a, 'b> as str::pattern::Searcher<'a>>::next;0;1;0
+<str::pattern::StrSearcher<'a, 'b> as str::pattern::Searcher<'a>>::next_match;0;1;0
+<str::pattern::StrSearcher<'a, 'b> as str::pattern::ReverseSearcher<'a>>::next_back;0;1;0
+<str::pattern::StrSearcher<'a, 'b> as str::pattern::ReverseSearcher<'a>>::next_match_back;0;1;0
+str::pattern::TwoWaySearcher::byteset_create;1;0;0
+str::pattern::TwoWaySearcher::next;0;30;0
+str::pattern::TwoWaySearcher::next_back;0;30;0
+str::pattern::TwoWaySearcher::maximal_suffix;0;15;0
+str::pattern::TwoWaySearcher::reverse_maximal_suffix;0;15;0
+str::pattern::simd_contains;1;6;0
+str::pattern::small_slice_eq;0;2;0
+<str::lossy::Debug<'_> as fmt::Debug>::fmt;0;5;0
+<str::lossy::Utf8Chunks<'a> as iter::traits::iterator::Iterator>::next;0;10;0
+str::<impl str>::floor_char_boundary;1;0;0
+str::<impl str>::ceil_char_boundary;1;0;0
+<time::Duration as iter::traits::accum::Sum>::sum;0;2;0
+<time::Duration as iter::traits::accum::Sum<&'a time::Duration>>::sum;0;2;0
+<time::Duration as fmt::Debug>::fmt::fmt_decimal;1;3;0
+unicode::printable::check;0;5;0
+unicode::unicode_data::skip_search;0;1;0
+escape::EscapeIterInner::<N>::advance_by;1;0;0
+unit::<impl iter::traits::collect::FromIterator<()> for ()>::from_iter;1;0;0
+core_simd::swizzle::<impl core_simd::vector::Simd<T, N>>::interleave::interleave;0;2;0
+core_simd::swizzle::<impl core_simd::vector::Simd<T, N>>::deinterleave::deinterleave;0;1;0
+core_simd::iter::<impl iter::traits::accum::Sum for core_simd::vector::Simd<f32, N>>::sum;1;0;0
+core_simd::iter::<impl iter::traits::accum::Product for core_simd::vector::Simd<f32, N>>::product;1;0;0
+core_simd::iter::<impl iter::traits::accum::Sum<&'a core_simd::vector::Simd<f32, N>> for core_simd::vector::Simd<f32, N>>::sum;1;0;0
+core_simd::iter::<impl iter::traits::accum::Product<&'a core_simd::vector::Simd<f32, N>> for core_simd::vector::Simd<f32, N>>::product;1;0;0
+core_simd::iter::<impl iter::traits::accum::Sum for core_simd::vector::Simd<f64, N>>::sum;1;0;0
+core_simd::iter::<impl iter::traits::accum::Product for core_simd::vector::Simd<f64, N>>::product;1;0;0
+core_simd::iter::<impl iter::traits::accum::Sum<&'a core_simd::vector::Simd<f64, N>> for core_simd::vector::Simd<f64, N>>::sum;1;0;0
+core_simd::iter::<impl iter::traits::accum::Product<&'a core_simd::vector::Simd<f64, N>> for core_simd::vector::Simd<f64, N>>::product;1;0;0
+core_simd::iter::<impl iter::traits::accum::Sum for core_simd::vector::Simd<u8, N>>::sum;1;0;0
+core_simd::iter::<impl iter::traits::accum::Product for core_simd::vector::Simd<u8, N>>::product;1;0;0
+core_simd::iter::<impl iter::traits::accum::Sum<&'a core_simd::vector::Simd<u8, N>> for core_simd::vector::Simd<u8, N>>::sum;1;0;0
+core_simd::iter::<impl iter::traits::accum::Product<&'a core_simd::vector::Simd<u8, N>> for core_simd::vector::Simd<u8, N>>::product;1;0;0
+core_simd::iter::<impl iter::traits::accum::Sum for core_simd::vector::Simd<u16, N>>::sum;1;0;0
+core_simd::iter::<impl iter::traits::accum::Product for core_simd::vector::Simd<u16, N>>::product;1;0;0
+core_simd::iter::<impl iter::traits::accum::Sum<&'a core_simd::vector::Simd<u16, N>> for core_simd::vector::Simd<u16, N>>::sum;1;0;0
+core_simd::iter::<impl iter::traits::accum::Product<&'a core_simd::vector::Simd<u16, N>> for core_simd::vector::Simd<u16, N>>::product;1;0;0
+core_simd::iter::<impl iter::traits::accum::Sum for core_simd::vector::Simd<u32, N>>::sum;1;0;0
+core_simd::iter::<impl iter::traits::accum::Product for core_simd::vector::Simd<u32, N>>::product;1;0;0
+core_simd::iter::<impl iter::traits::accum::Sum<&'a core_simd::vector::Simd<u32, N>> for core_simd::vector::Simd<u32, N>>::sum;1;0;0
+core_simd::iter::<impl iter::traits::accum::Product<&'a core_simd::vector::Simd<u32, N>> for core_simd::vector::Simd<u32, N>>::product;1;0;0
+core_simd::iter::<impl iter::traits::accum::Sum for core_simd::vector::Simd<u64, N>>::sum;1;0;0
+core_simd::iter::<impl iter::traits::accum::Product for core_simd::vector::Simd<u64, N>>::product;1;0;0
+core_simd::iter::<impl iter::traits::accum::Sum<&'a core_simd::vector::Simd<u64, N>> for core_simd::vector::Simd<u64, N>>::sum;1;0;0
+core_simd::iter::<impl iter::traits::accum::Product<&'a core_simd::vector::Simd<u64, N>> for core_simd::vector::Simd<u64, N>>::product;1;0;0
+core_simd::iter::<impl iter::traits::accum::Sum for core_simd::vector::Simd<usize, N>>::sum;1;0;0
+core_simd::iter::<impl iter::traits::accum::Product for core_simd::vector::Simd<usize, N>>::product;1;0;0
+core_simd::iter::<impl iter::traits::accum::Sum<&'a core_simd::vector::Simd<usize, N>> for core_simd::vector::Simd<usize, N>>::sum;1;0;0
+core_simd::iter::<impl iter::traits::accum::Product<&'a core_simd::vector::Simd<usize, N>> for core_simd::vector::Simd<usize, N>>::product;1;0;0
+core_simd::iter::<impl iter::traits::accum::Sum for core_simd::vector::Simd<i8, N>>::sum;1;0;0
+core_simd::iter::<impl iter::traits::accum::Product for core_simd::vector::Simd<i8, N>>::product;1;0;0
+core_simd::iter::<impl iter::traits::accum::Sum<&'a core_simd::vector::Simd<i8, N>> for core_simd::vector::Simd<i8, N>>::sum;1;0;0
+core_simd::iter::<impl iter::traits::accum::Product<&'a core_simd::vector::Simd<i8, N>> for core_simd::vector::Simd<i8, N>>::product;1;0;0
+core_simd::iter::<impl iter::traits::accum::Sum for core_simd::vector::Simd<i16, N>>::sum;1;0;0
+core_simd::iter::<impl iter::traits::accum::Product for core_simd::vector::Simd<i16, N>>::product;1;0;0
+core_simd::iter::<impl iter::traits::accum::Sum<&'a core_simd::vector::Simd<i16, N>> for core_simd::vector::Simd<i16, N>>::sum;1;0;0
+core_simd::iter::<impl iter::traits::accum::Product<&'a core_simd::vector::Simd<i16, N>> for core_simd::vector::Simd<i16, N>>::product;1;0;0
+core_simd::iter::<impl iter::traits::accum::Sum for core_simd::vector::Simd<i32, N>>::sum;1;0;0
+core_simd::iter::<impl iter::traits::accum::Product for core_simd::vector::Simd<i32, N>>::product;1;0;0
+core_simd::iter::<impl iter::traits::accum::Sum<&'a core_simd::vector::Simd<i32, N>> for core_simd::vector::Simd<i32, N>>::sum;1;0;0
+core_simd::iter::<impl iter::traits::accum::Product<&'a core_simd::vector::Simd<i32, N>> for core_simd::vector::Simd<i32, N>>::product;1;0;0
+core_simd::iter::<impl iter::traits::accum::Sum for core_simd::vector::Simd<i64, N>>::sum;1;0;0
+core_simd::iter::<impl iter::traits::accum::Product for core_simd::vector::Simd<i64, N>>::product;1;0;0
+core_simd::iter::<impl iter::traits::accum::Sum<&'a core_simd::vector::Simd<i64, N>> for core_simd::vector::Simd<i64, N>>::sum;1;0;0
+core_simd::iter::<impl iter::traits::accum::Product<&'a core_simd::vector::Simd<i64, N>> for core_simd::vector::Simd<i64, N>>::product;1;0;0
+core_simd::iter::<impl iter::traits::accum::Sum for core_simd::vector::Simd<isize, N>>::sum;1;0;0
+core_simd::iter::<impl iter::traits::accum::Product for core_simd::vector::Simd<isize, N>>::product;1;0;0
+core_simd::iter::<impl iter::traits::accum::Sum<&'a core_simd::vector::Simd<isize, N>> for core_simd::vector::Simd<isize, N>>::sum;1;0;0
+core_simd::iter::<impl iter::traits::accum::Product<&'a core_simd::vector::Simd<isize, N>> for core_simd::vector::Simd<isize, N>>::product;1;0;0
+core_simd::swizzle_dyn::<impl core_simd::vector::Simd<u8, N>>::swizzle_dyn;0;2;0
+core_simd::vector::lane_indices;0;1;0

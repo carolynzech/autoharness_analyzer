@@ -1,0 +1,714 @@
+fn_name;inline_assembly;unsafe_dereference;unsafe_call;unsafe_static_access;unsafe_union_access
+rt::init;0;0;2;0;0
+f128::<impl f128>::floor;0;0;1;0;0
+f128::<impl f128>::ceil;0;0;1;0;0
+f128::<impl f128>::round;0;0;1;0;0
+f128::<impl f128>::trunc;0;0;1;0;0
+f128::<impl f128>::mul_add;0;0;1;0;0
+f128::<impl f128>::powi;0;0;1;0;0
+f128::<impl f128>::powf;0;0;1;0;0
+f128::<impl f128>::sqrt;0;0;1;0;0
+f128::<impl f128>::exp;0;0;1;0;0
+f128::<impl f128>::exp2;0;0;1;0;0
+f128::<impl f128>::ln;0;0;1;0;0
+f128::<impl f128>::log2;0;0;1;0;0
+f128::<impl f128>::log10;0;0;1;0;0
+f128::<impl f128>::cbrt;0;0;1;0;0
+f128::<impl f128>::hypot;0;0;1;0;0
+f128::<impl f128>::sin;0;0;1;0;0
+f128::<impl f128>::cos;0;0;1;0;0
+f128::<impl f128>::tan;0;0;1;0;0
+f128::<impl f128>::asin;0;0;1;0;0
+f128::<impl f128>::acos;0;0;1;0;0
+f128::<impl f128>::atan;0;0;1;0;0
+f128::<impl f128>::atan2;0;0;1;0;0
+f128::<impl f128>::exp_m1;0;0;1;0;0
+f128::<impl f128>::ln_1p;0;0;1;0;0
+f128::<impl f128>::sinh;0;0;1;0;0
+f128::<impl f128>::cosh;0;0;1;0;0
+f128::<impl f128>::tanh;0;0;1;0;0
+f128::<impl f128>::gamma;0;0;1;0;0
+f128::<impl f128>::ln_gamma;0;0;1;0;0
+f128::<impl f128>::erf;0;0;1;0;0
+f128::<impl f128>::erfc;0;0;1;0;0
+f16::<impl f16>::floor;0;0;1;0;0
+f16::<impl f16>::ceil;0;0;1;0;0
+f16::<impl f16>::round;0;0;1;0;0
+f16::<impl f16>::trunc;0;0;1;0;0
+f16::<impl f16>::mul_add;0;0;1;0;0
+f16::<impl f16>::powi;0;0;1;0;0
+f16::<impl f16>::powf;0;0;1;0;0
+f16::<impl f16>::sqrt;0;0;1;0;0
+f16::<impl f16>::exp;0;0;1;0;0
+f16::<impl f16>::exp2;0;0;1;0;0
+f16::<impl f16>::ln;0;0;1;0;0
+f16::<impl f16>::log2;0;0;1;0;0
+f16::<impl f16>::log10;0;0;1;0;0
+f16::<impl f16>::cbrt;0;0;1;0;0
+f16::<impl f16>::hypot;0;0;1;0;0
+f16::<impl f16>::sin;0;0;1;0;0
+f16::<impl f16>::cos;0;0;1;0;0
+f16::<impl f16>::tan;0;0;1;0;0
+f16::<impl f16>::asin;0;0;1;0;0
+f16::<impl f16>::acos;0;0;1;0;0
+f16::<impl f16>::atan;0;0;1;0;0
+f16::<impl f16>::atan2;0;0;1;0;0
+f16::<impl f16>::exp_m1;0;0;1;0;0
+f16::<impl f16>::ln_1p;0;0;1;0;0
+f16::<impl f16>::sinh;0;0;1;0;0
+f16::<impl f16>::cosh;0;0;1;0;0
+f16::<impl f16>::tanh;0;0;1;0;0
+f16::<impl f16>::gamma;0;0;1;0;0
+f16::<impl f16>::ln_gamma;0;0;1;0;0
+f16::<impl f16>::erf;0;0;1;0;0
+f16::<impl f16>::erfc;0;0;1;0;0
+f32::<impl f32>::floor;0;0;1;0;0
+f32::<impl f32>::ceil;0;0;1;0;0
+f32::<impl f32>::round;0;0;1;0;0
+f32::<impl f32>::trunc;0;0;1;0;0
+f32::<impl f32>::mul_add;0;0;1;0;0
+f32::<impl f32>::powi;0;0;1;0;0
+f32::<impl f32>::powf;0;0;1;0;0
+f32::<impl f32>::sqrt;0;0;1;0;0
+f32::<impl f32>::exp;0;0;1;0;0
+f32::<impl f32>::exp2;0;0;1;0;0
+f32::<impl f32>::ln;0;0;1;0;0
+f32::<impl f32>::log2;0;0;1;0;0
+f32::<impl f32>::log10;0;0;1;0;0
+f32::<impl f32>::abs_sub;0;0;1;0;0
+f32::<impl f32>::cbrt;0;0;1;0;0
+f32::<impl f32>::hypot;0;0;1;0;0
+f32::<impl f32>::sin;0;0;1;0;0
+f32::<impl f32>::cos;0;0;1;0;0
+f32::<impl f32>::tan;0;0;1;0;0
+f32::<impl f32>::asin;0;0;1;0;0
+f32::<impl f32>::acos;0;0;1;0;0
+f32::<impl f32>::atan;0;0;1;0;0
+f32::<impl f32>::atan2;0;0;1;0;0
+f32::<impl f32>::exp_m1;0;0;1;0;0
+f32::<impl f32>::ln_1p;0;0;1;0;0
+f32::<impl f32>::sinh;0;0;1;0;0
+f32::<impl f32>::cosh;0;0;1;0;0
+f32::<impl f32>::tanh;0;0;1;0;0
+f32::<impl f32>::gamma;0;0;1;0;0
+f32::<impl f32>::ln_gamma;0;0;1;0;0
+f32::<impl f32>::erf;0;0;1;0;0
+f32::<impl f32>::erfc;0;0;1;0;0
+f64::<impl f64>::floor;0;0;1;0;0
+f64::<impl f64>::ceil;0;0;1;0;0
+f64::<impl f64>::round;0;0;1;0;0
+f64::<impl f64>::trunc;0;0;1;0;0
+f64::<impl f64>::mul_add;0;0;1;0;0
+f64::<impl f64>::powi;0;0;1;0;0
+f64::<impl f64>::powf;0;0;1;0;0
+f64::<impl f64>::sqrt;0;0;1;0;0
+f64::<impl f64>::exp;0;0;1;0;0
+f64::<impl f64>::exp2;0;0;1;0;0
+f64::<impl f64>::ln;0;0;1;0;0
+f64::<impl f64>::log2;0;0;1;0;0
+f64::<impl f64>::log10;0;0;1;0;0
+f64::<impl f64>::abs_sub;0;0;1;0;0
+f64::<impl f64>::cbrt;0;0;1;0;0
+f64::<impl f64>::hypot;0;0;1;0;0
+f64::<impl f64>::sin;0;0;1;0;0
+f64::<impl f64>::cos;0;0;1;0;0
+f64::<impl f64>::tan;0;0;1;0;0
+f64::<impl f64>::asin;0;0;1;0;0
+f64::<impl f64>::acos;0;0;1;0;0
+f64::<impl f64>::atan;0;0;1;0;0
+f64::<impl f64>::atan2;0;0;1;0;0
+f64::<impl f64>::exp_m1;0;0;1;0;0
+f64::<impl f64>::ln_1p;0;0;1;0;0
+f64::<impl f64>::sinh;0;0;1;0;0
+f64::<impl f64>::cosh;0;0;1;0;0
+f64::<impl f64>::tanh;0;0;1;0;0
+f64::<impl f64>::gamma;0;0;1;0;0
+f64::<impl f64>::ln_gamma;0;0;1;0;0
+f64::<impl f64>::erf;0;0;1;0;0
+f64::<impl f64>::erfc;0;0;1;0;0
+thread::scoped::scope;0;0;1;0;0
+thread::scoped::<impl thread::Builder>::spawn_scoped;0;0;1;0;0
+thread::current::set_current;0;0;0;1;0
+thread::current::try_with_current;0;0;1;1;0
+thread::current::current_or_unnamed;0;0;1;2;0
+thread::current::current;0;0;1;1;0
+thread::current::init_current;0;0;0;3;0
+thread::current::drop_current;0;0;1;2;0
+thread::local::LocalKey::<T>::try_with;0;0;1;0;0
+thread::local::LocalKey::<T>::initialize_with;0;0;1;0;0
+thread::Builder::spawn;0;0;1;0;0
+thread::Builder::spawn_unchecked;0;0;1;0;0
+thread::Builder::spawn_unchecked_;0;0;2;0;0
+thread::Builder::spawn_unchecked_::MaybeDangling::<T>::into_inner;0;0;1;0;1
+<thread::Builder::spawn_unchecked_::MaybeDangling<T> as core::ops::Drop>::drop;0;0;1;0;1
+thread::park;0;0;1;0;0
+thread::park_timeout;0;0;1;0;0
+thread::thread_name_string::ThreadNameString::as_str;0;0;1;0;0
+thread::Inner::parker;0;0;1;0;0
+thread::Thread::new;0;3;6;0;0
+thread::Thread::park;0;0;1;0;0
+thread::Thread::park_timeout;0;0;1;0;0
+thread::Thread::into_raw;0;0;1;0;0
+thread::Thread::from_raw;0;0;2;0;0
+<backtrace::BacktraceSymbol as core::fmt::Debug>::fmt;0;0;1;0;0
+backtrace::Backtrace::create;0;0;1;0;0
+collections::hash::map::HashMap::<K, V, S>::get_disjoint_unchecked_mut;0;0;1;0;0
+env::set_var;0;0;1;0;0
+env::remove_var;0;0;1;0;0
+error::Report::<E>::fmt_multiline;0;0;1;0;0
+ffi::os_str::OsString::from_encoded_bytes_unchecked;0;0;1;0;0
+ffi::os_str::OsString::into_boxed_os_str;0;0;1;0;0
+ffi::os_str::OsStr::from_encoded_bytes_unchecked;0;0;1;0;0
+ffi::os_str::OsStr::from_inner;0;1;0;0;0
+ffi::os_str::OsStr::from_inner_mut;0;1;0;0;0
+ffi::os_str::OsStr::into_os_string;0;0;1;0;0
+ffi::os_str::OsStr::slice_encoded_bytes;0;0;2;0;0
+ffi::os_str::<impl core::convert::From<&ffi::os_str::OsStr> for alloc_crate::boxed::Box<ffi::os_str::OsStr>>::from;0;0;1;0;0
+ffi::os_str::<impl core::clone::Clone for alloc_crate::boxed::Box<ffi::os_str::OsStr>>::clone;0;1;0;0;0
+<ffi::os_str::OsStr as core::clone::CloneToUninit>::clone_to_uninit;0;0;1;0;0
+ffi::os_str::<impl core::convert::From<ffi::os_str::OsString> for alloc_crate::sync::Arc<ffi::os_str::OsStr>>::from;0;0;1;0;0
+ffi::os_str::<impl core::convert::From<&ffi::os_str::OsStr> for alloc_crate::sync::Arc<ffi::os_str::OsStr>>::from;0;0;1;0;0
+ffi::os_str::<impl core::convert::From<ffi::os_str::OsString> for alloc_crate::rc::Rc<ffi::os_str::OsStr>>::from;0;0;1;0;0
+ffi::os_str::<impl core::convert::From<&ffi::os_str::OsStr> for alloc_crate::rc::Rc<ffi::os_str::OsStr>>::from;0;0;1;0;0
+ffi::os_str::<impl core::default::Default for alloc_crate::boxed::Box<ffi::os_str::OsStr>>::default;0;0;1;0;0
+io::buffered::bufreader::buffer::Buffer::buffer;0;1;2;0;0
+io::buffered::bufreader::buffer::Buffer::capacity;0;1;0;0;0
+io::buffered::bufreader::buffer::Buffer::read_more;0;1;1;0;0
+io::buffered::bufreader::buffer::Buffer::backshift;0;1;0;0;0
+io::buffered::bufreader::buffer::Buffer::fill_buf;0;1;1;0;0
+<io::buffered::bufreader::BufReader<R> as io::Read>::read_to_string;0;0;1;0;0
+io::buffered::bufwriter::BufWriter::<W>::into_parts;0;0;1;0;0
+io::buffered::bufwriter::BufWriter::<W>::write_to_buf;0;0;1;0;0
+io::buffered::bufwriter::BufWriter::<W>::write_cold;0;0;1;0;0
+io::buffered::bufwriter::BufWriter::<W>::write_all_cold;0;0;1;0;0
+io::buffered::bufwriter::BufWriter::<W>::write_to_buffer_unchecked;0;0;3;0;0
+<io::buffered::bufwriter::BufWriter<W> as io::Write>::write;0;0;1;0;0
+<io::buffered::bufwriter::BufWriter<W> as io::Write>::write_all;0;0;1;0;0
+<io::buffered::bufwriter::BufWriter<W> as io::Write>::write_vectored;0;0;2;0;0
+<io::buffered::bufwriter::BufWriter<I> as io::copy::BufferedWriterSpec>::copy_from;0;0;2;0;0
+io::cursor::reserve_and_pad;0;0;2;0;0
+io::cursor::vec_write_all_unchecked;0;0;2;0;0
+io::cursor::vec_write_all;0;0;2;0;0
+io::cursor::vec_write_all_vectored;0;0;2;0;0
+<io::cursor::Cursor<alloc_crate::boxed::Box<[u8], A>> as io::Write>::write;0;1;0;0;0
+<io::cursor::Cursor<alloc_crate::boxed::Box<[u8], A>> as io::Write>::write_vectored;0;1;0;0;0
+<io::cursor::Cursor<alloc_crate::boxed::Box<[u8], A>> as io::Write>::write_all;0;1;0;0;0
+<io::cursor::Cursor<alloc_crate::boxed::Box<[u8], A>> as io::Write>::write_all_vectored;0;1;0;0;0
+io::error::repr_bitpacked::Repr::new_custom;0;0;1;0;0
+io::error::repr_bitpacked::Repr::new_os;0;0;1;0;0
+io::error::repr_bitpacked::Repr::new_simple;0;0;1;0;0
+io::error::repr_bitpacked::Repr::new_simple_message;0;0;1;0;0
+io::error::repr_bitpacked::Repr::data;0;0;1;0;0
+io::error::repr_bitpacked::Repr::data_mut;0;0;1;0;0
+io::error::repr_bitpacked::Repr::into_data;0;0;1;0;0
+<io::error::repr_bitpacked::Repr as core::ops::Drop>::drop;0;0;1;0;0
+io::error::repr_bitpacked::decode_repr;0;1;0;0;0
+io::error::Error::get_ref;0;1;0;0;0
+io::error::Error::get_mut;0;1;0;0;0
+io::error::Error::into_inner;0;1;0;0;0
+io::error::Error::downcast;0;4;0;0;0
+<io::error::Error as core::error::Error>::description;0;1;0;0;0
+<io::error::Error as core::error::Error>::cause;0;1;0;0;0
+<io::error::Error as core::error::Error>::source;0;1;0;0;0
+io::impls::<impl io::Read for alloc_crate::boxed::Box<R>>::read;0;1;0;0;0
+io::impls::<impl io::Read for alloc_crate::boxed::Box<R>>::read_buf;0;1;0;0;0
+io::impls::<impl io::Read for alloc_crate::boxed::Box<R>>::read_vectored;0;1;0;0;0
+io::impls::<impl io::Read for alloc_crate::boxed::Box<R>>::is_read_vectored;0;1;0;0;0
+io::impls::<impl io::Read for alloc_crate::boxed::Box<R>>::read_to_end;0;1;0;0;0
+io::impls::<impl io::Read for alloc_crate::boxed::Box<R>>::read_to_string;0;1;0;0;0
+io::impls::<impl io::Read for alloc_crate::boxed::Box<R>>::read_exact;0;1;0;0;0
+io::impls::<impl io::Read for alloc_crate::boxed::Box<R>>::read_buf_exact;0;1;0;0;0
+io::impls::<impl io::Write for alloc_crate::boxed::Box<W>>::write;0;1;0;0;0
+io::impls::<impl io::Write for alloc_crate::boxed::Box<W>>::write_vectored;0;1;0;0;0
+io::impls::<impl io::Write for alloc_crate::boxed::Box<W>>::is_write_vectored;0;1;0;0;0
+io::impls::<impl io::Write for alloc_crate::boxed::Box<W>>::flush;0;1;0;0;0
+io::impls::<impl io::Write for alloc_crate::boxed::Box<W>>::write_all;0;1;0;0;0
+io::impls::<impl io::Write for alloc_crate::boxed::Box<W>>::write_all_vectored;0;1;0;0;0
+io::impls::<impl io::Write for alloc_crate::boxed::Box<W>>::write_fmt;0;1;0;0;0
+io::impls::<impl io::Seek for alloc_crate::boxed::Box<S>>::seek;0;1;0;0;0
+io::impls::<impl io::Seek for alloc_crate::boxed::Box<S>>::rewind;0;1;0;0;0
+io::impls::<impl io::Seek for alloc_crate::boxed::Box<S>>::stream_len;0;1;0;0;0
+io::impls::<impl io::Seek for alloc_crate::boxed::Box<S>>::stream_position;0;1;0;0;0
+io::impls::<impl io::Seek for alloc_crate::boxed::Box<S>>::seek_relative;0;1;0;0;0
+io::impls::<impl io::BufRead for alloc_crate::boxed::Box<B>>::fill_buf;0;1;0;0;0
+io::impls::<impl io::BufRead for alloc_crate::boxed::Box<B>>::consume;0;1;0;0;0
+io::impls::<impl io::BufRead for alloc_crate::boxed::Box<B>>::has_data_left;0;1;0;0;0
+io::impls::<impl io::BufRead for alloc_crate::boxed::Box<B>>::read_until;0;1;0;0;0
+io::impls::<impl io::BufRead for alloc_crate::boxed::Box<B>>::skip_until;0;1;0;0;0
+io::impls::<impl io::BufRead for alloc_crate::boxed::Box<B>>::read_line;0;1;0;0;0
+io::impls::<impl io::Read for alloc_crate::collections::VecDeque<u8, A>>::read_to_string;0;0;1;0;0
+<io::util::Repeat as io::Read>::read_buf;0;0;2;0;0
+<io::Guard<'_> as core::ops::Drop>::drop;0;0;1;0;0
+io::append_to_string;0;0;2;0;0
+io::default_read_to_end;0;0;2;0;0
+io::default_read_to_string;0;0;1;0;0
+io::BufRead::read_line;0;0;1;0;0
+<io::Take<T> as io::Read>::read_buf;0;0;4;0;0
+<alloc_crate::boxed::Box<T> as io::SizeHint>::lower_bound;0;1;0;0;0
+<alloc_crate::boxed::Box<T> as io::SizeHint>::upper_bound;0;1;0;0;0
+<(&str, u16) as net::socket_addr::ToSocketAddrs>::to_socket_addrs;0;2;2;0;0
+<str as net::socket_addr::ToSocketAddrs>::to_socket_addrs;0;1;1;0;0
+os::unix::net::addr::sockaddr_un;0;0;2;0;0
+os::unix::net::addr::SocketAddr::new;0;0;1;0;0
+<os::unix::net::addr::SocketAddr as os::net::linux_ext::addr::SocketAddrExt>::from_abstract_name;0;0;3;0;0
+os::unix::net::ancillary::recv_vectored_with_ancillary_from;0;0;2;0;0
+os::unix::net::ancillary::send_vectored_with_ancillary_to;0;0;2;0;0
+os::unix::net::ancillary::add_to_ancillary_data;0;3;7;0;0
+<os::unix::net::ancillary::AncillaryDataIter<'a, T> as core::iter::Iterator>::next;0;0;1;0;0
+os::unix::net::ancillary::AncillaryData::<'a>::as_rights;0;0;1;0;0
+os::unix::net::ancillary::AncillaryData::<'a>::as_credentials;0;0;1;0;0
+os::unix::net::ancillary::AncillaryData::<'a>::try_from_cmsghdr;0;0;5;0;0
+<os::unix::net::ancillary::Messages<'a> as core::iter::Iterator>::next;0;0;4;0;0
+os::unix::net::datagram::UnixDatagram::bind;0;0;1;0;0
+os::unix::net::datagram::UnixDatagram::bind_addr;0;0;1;0;0
+os::unix::net::datagram::UnixDatagram::connect;0;0;1;0;0
+os::unix::net::datagram::UnixDatagram::connect_addr;0;0;1;0;0
+os::unix::net::datagram::UnixDatagram::send_to;0;0;1;0;0
+os::unix::net::datagram::UnixDatagram::send_to_addr;0;0;1;0;0
+<os::unix::net::datagram::UnixDatagram as os::fd::raw::FromRawFd>::from_raw_fd;0;0;1;0;0
+os::unix::net::datagram::<impl core::convert::From<os::unix::net::datagram::UnixDatagram> for os::fd::owned::OwnedFd>::from;0;0;1;0;0
+<os::unix::net::datagram::UnixDatagram as core::convert::From<os::fd::owned::OwnedFd>>::from;0;0;1;0;0
+os::unix::net::listener::UnixListener::bind;0;0;2;0;0
+os::unix::net::listener::UnixListener::bind_addr;0;0;2;0;0
+os::unix::net::listener::UnixListener::accept;0;0;1;0;0
+<os::unix::net::listener::UnixListener as os::fd::raw::FromRawFd>::from_raw_fd;0;0;1;0;0
+os::unix::net::stream::UnixStream::connect;0;0;1;0;0
+os::unix::net::stream::UnixStream::connect_addr;0;0;1;0;0
+<os::unix::net::stream::UnixStream as os::fd::raw::FromRawFd>::from_raw_fd;0;0;1;0;0
+os::unix::net::stream::<impl core::convert::From<os::unix::net::stream::UnixStream> for os::fd::owned::OwnedFd>::from;0;0;1;0;0
+<os::unix::net::stream::UnixStream as core::convert::From<os::fd::owned::OwnedFd>>::from;0;0;1;0;0
+os::unix::net::ucred::impl_linux::peer_cred;0;0;1;0;0
+os::unix::process::CommandExt::before_exec;0;0;1;0;0
+<process::Command as os::unix::process::CommandExt>::pre_exec;0;0;1;0;0
+os::unix::process::<impl os::fd::raw::FromRawFd for process::Stdio>::from_raw_fd;0;0;1;0;0
+<fs::Metadata as os::linux::fs::MetadataExt>::as_raw_stat;0;1;0;0;0
+<os::linux::process::PidFd as os::fd::raw::FromRawFd>::from_raw_fd;0;0;1;0;0
+<fs::File as os::fd::raw::FromRawFd>::from_raw_fd;0;0;1;0;0
+<alloc_crate::boxed::Box<T> as os::fd::raw::AsRawFd>::as_raw_fd;0;1;0;0;0
+os::fd::owned::BorrowedFd::<'_>::try_clone_to_owned;0;0;2;0;0
+<os::fd::owned::OwnedFd as core::ops::Drop>::drop;0;0;1;0;0
+<os::fd::owned::OwnedFd as os::fd::owned::AsFd>::as_fd;0;0;1;0;0
+<alloc_crate::boxed::Box<T> as os::fd::owned::AsFd>::as_fd;0;1;0;0;0
+<io::stdio::Stdin as os::fd::owned::AsFd>::as_fd;0;0;1;0;0
+<io::stdio::StdinLock<'a> as os::fd::owned::AsFd>::as_fd;0;0;1;0;0
+<io::stdio::Stdout as os::fd::owned::AsFd>::as_fd;0;0;1;0;0
+<io::stdio::StdoutLock<'a> as os::fd::owned::AsFd>::as_fd;0;0;1;0;0
+<io::stdio::Stderr as os::fd::owned::AsFd>::as_fd;0;0;1;0;0
+<io::stdio::StderrLock<'a> as os::fd::owned::AsFd>::as_fd;0;0;1;0;0
+os::fd::net::<impl os::fd::raw::FromRawFd for net::tcp::TcpStream>::from_raw_fd;0;0;1;0;0
+os::fd::net::<impl os::fd::raw::FromRawFd for net::tcp::TcpListener>::from_raw_fd;0;0;1;0;0
+os::fd::net::<impl os::fd::raw::FromRawFd for net::udp::UdpSocket>::from_raw_fd;0;0;1;0;0
+panic::catch_unwind;0;0;1;0;0
+path::split_file_at_dot;0;0;2;0;0
+path::Components::<'a>::as_path;0;0;1;0;0
+path::Components::<'a>::parse_single_component;0;0;1;0;0
+path::Components::<'a>::parse_next_component;0;0;1;0;0
+path::Components::<'a>::parse_next_component_back;0;0;1;0;0
+<path::Components<'a> as core::iter::Iterator>::next;0;0;1;0;0
+<path::Components<'a> as core::iter::DoubleEndedIterator>::next_back;0;0;1;0;0
+path::PathBuf::into_boxed_path;0;0;1;0;0
+path::<impl core::convert::From<&path::Path> for alloc_crate::boxed::Box<path::Path>>::from;0;0;1;0;0
+path::<impl core::clone::Clone for alloc_crate::boxed::Box<path::Path>>::clone;0;1;0;0;0
+path::<impl core::convert::From<path::PathBuf> for alloc_crate::sync::Arc<path::Path>>::from;0;0;1;0;0
+path::<impl core::convert::From<&path::Path> for alloc_crate::sync::Arc<path::Path>>::from;0;0;1;0;0
+path::<impl core::convert::From<path::PathBuf> for alloc_crate::rc::Rc<path::Path>>::from;0;0;1;0;0
+path::<impl core::convert::From<&path::Path> for alloc_crate::rc::Rc<path::Path>>::from;0;0;1;0;0
+path::Path::from_u8_slice;0;0;1;0;0
+path::Path::new;0;1;0;0;0
+path::Path::from_inner_mut;0;1;0;0;0
+path::Path::into_path_buf;0;0;1;0;0
+<path::Path as core::clone::CloneToUninit>::clone_to_uninit;0;0;1;0;0
+sync::mpmc::array::Channel::<T>::start_send;0;2;1;0;0
+sync::mpmc::array::Channel::<T>::write;0;1;1;0;0
+sync::mpmc::array::Channel::<T>::start_recv;0;2;1;0;0
+sync::mpmc::array::Channel::<T>::read;0;1;2;0;0
+sync::mpmc::array::Channel::<T>::try_send;0;0;1;0;0
+sync::mpmc::array::Channel::<T>::send;0;0;1;0;0
+sync::mpmc::array::Channel::<T>::try_recv;0;0;1;0;0
+sync::mpmc::array::Channel::<T>::recv;0;0;1;0;0
+sync::mpmc::array::Channel::<T>::disconnect_receivers;0;0;1;0;0
+sync::mpmc::array::Channel::<T>::discard_all_messages;0;3;2;0;0
+sync::mpmc::context::Context::wait_until;0;0;2;0;0
+sync::mpmc::counter::Sender::<C>::counter;0;1;0;0;0
+sync::mpmc::counter::Sender::<C>::release;0;0;1;0;0
+sync::mpmc::counter::Receiver::<C>::counter;0;1;0;0;0
+sync::mpmc::counter::Receiver::<C>::release;0;0;1;0;0
+sync::mpmc::list::Block::<T>::new;0;0;1;0;0
+sync::mpmc::list::Block::<T>::destroy;0;1;2;0;0
+sync::mpmc::list::Channel::<T>::start_send;0;1;1;0;0
+sync::mpmc::list::Channel::<T>::write;0;1;2;0;0
+sync::mpmc::list::Channel::<T>::start_recv;0;2;0;0;0
+sync::mpmc::list::Channel::<T>::read;0;1;5;0;0
+sync::mpmc::list::Channel::<T>::send;0;0;1;0;0
+sync::mpmc::list::Channel::<T>::try_recv;0;0;1;0;0
+sync::mpmc::list::Channel::<T>::recv;0;0;1;0;0
+sync::mpmc::list::Channel::<T>::discard_all_messages;0;4;4;0;0
+<sync::mpmc::list::Channel<T> as core::ops::Drop>::drop;0;3;4;0;0
+sync::mpmc::zero::Channel::<T>::write;0;1;1;0;0
+sync::mpmc::zero::Channel::<T>::read;0;1;3;0;0
+sync::mpmc::zero::Channel::<T>::try_send;0;0;1;0;0
+sync::mpmc::zero::Channel::<T>::send;0;0;1;0;0
+sync::mpmc::zero::Channel::<T>::try_recv;0;0;1;0;0
+sync::mpmc::zero::Channel::<T>::recv;0;0;1;0;0
+<sync::mpmc::Sender<T> as core::ops::Drop>::drop;0;0;3;0;0
+<sync::mpmc::Receiver<T> as core::ops::Drop>::drop;0;0;3;0;0
+sync::poison::condvar::Condvar::wait;0;0;1;0;0
+sync::poison::condvar::Condvar::wait_timeout;0;0;1;0;0
+sync::poison::mutex::Mutex::<T>::lock;0;0;1;0;0
+sync::poison::mutex::Mutex::<T>::try_lock;0;0;1;0;0
+<sync::poison::mutex::MutexGuard<'_, T> as core::ops::Deref>::deref;0;1;0;0;0
+<sync::poison::mutex::MutexGuard<'_, T> as core::ops::DerefMut>::deref_mut;0;1;0;0;0
+<sync::poison::mutex::MutexGuard<'_, T> as core::ops::Drop>::drop;0;0;1;0;0
+sync::poison::mutex::MutexGuard::<'a, T>::map;0;1;0;0;0
+sync::poison::mutex::MutexGuard::<'a, T>::try_map;0;1;0;0;0
+<sync::poison::mutex::MappedMutexGuard<'_, T> as core::ops::Deref>::deref;0;0;1;0;0
+<sync::poison::mutex::MappedMutexGuard<'_, T> as core::ops::DerefMut>::deref_mut;0;0;1;0;0
+<sync::poison::mutex::MappedMutexGuard<'_, T> as core::ops::Drop>::drop;0;0;1;0;0
+sync::poison::mutex::MappedMutexGuard::<'a, T>::map;0;0;1;0;0
+sync::poison::mutex::MappedMutexGuard::<'a, T>::try_map;0;0;1;0;0
+sync::poison::rwlock::RwLock::<T>::read;0;0;1;0;0
+sync::poison::rwlock::RwLock::<T>::try_read;0;0;1;0;0
+sync::poison::rwlock::RwLock::<T>::write;0;0;1;0;0
+sync::poison::rwlock::RwLock::<T>::try_write;0;0;1;0;0
+<sync::poison::rwlock::RwLockReadGuard<'_, T> as core::ops::Deref>::deref;0;0;1;0;0
+<sync::poison::rwlock::RwLockWriteGuard<'_, T> as core::ops::Deref>::deref;0;1;0;0;0
+<sync::poison::rwlock::RwLockWriteGuard<'_, T> as core::ops::DerefMut>::deref_mut;0;1;0;0;0
+<sync::poison::rwlock::MappedRwLockReadGuard<'_, T> as core::ops::Deref>::deref;0;0;1;0;0
+<sync::poison::rwlock::MappedRwLockWriteGuard<'_, T> as core::ops::Deref>::deref;0;0;1;0;0
+<sync::poison::rwlock::MappedRwLockWriteGuard<'_, T> as core::ops::DerefMut>::deref_mut;0;0;1;0;0
+<sync::poison::rwlock::RwLockReadGuard<'_, T> as core::ops::Drop>::drop;0;0;1;0;0
+<sync::poison::rwlock::RwLockWriteGuard<'_, T> as core::ops::Drop>::drop;0;0;1;0;0
+<sync::poison::rwlock::MappedRwLockReadGuard<'_, T> as core::ops::Drop>::drop;0;0;1;0;0
+<sync::poison::rwlock::MappedRwLockWriteGuard<'_, T> as core::ops::Drop>::drop;0;0;1;0;0
+sync::poison::rwlock::RwLockReadGuard::<'a, T>::map;0;0;1;0;0
+sync::poison::rwlock::RwLockReadGuard::<'a, T>::try_map;0;0;1;0;0
+sync::poison::rwlock::MappedRwLockReadGuard::<'a, T>::map;0;0;1;0;0
+sync::poison::rwlock::MappedRwLockReadGuard::<'a, T>::try_map;0;0;1;0;0
+sync::poison::rwlock::RwLockWriteGuard::<'a, T>::map;0;1;0;0;0
+sync::poison::rwlock::RwLockWriteGuard::<'a, T>::try_map;0;1;0;0;0
+sync::poison::rwlock::RwLockWriteGuard::<'a, T>::downgrade;0;0;2;0;0
+sync::poison::rwlock::MappedRwLockWriteGuard::<'a, T>::map;0;0;1;0;0
+sync::poison::rwlock::MappedRwLockWriteGuard::<'a, T>::try_map;0;0;1;0;0
+sync::lazy_lock::LazyLock::<T, F>::into_inner;0;0;1;0;0
+sync::lazy_lock::LazyLock::<T, F>::force_mut;0;0;1;0;0
+sync::lazy_lock::LazyLock::<T, F>::force_mut::really_init_mut;0;0;1;0;0
+sync::lazy_lock::LazyLock::<T, F>::force;0;1;0;0;0
+sync::lazy_lock::LazyLock::<T, F>::get;0;1;0;0;0
+<sync::lazy_lock::LazyLock<T, F> as core::ops::Drop>::drop;0;0;2;0;0
+sync::once_lock::OnceLock::<T>::get;0;0;1;0;0
+sync::once_lock::OnceLock::<T>::get_mut;0;0;1;0;0
+sync::once_lock::OnceLock::<T>::wait;0;0;1;0;0
+sync::once_lock::OnceLock::<T>::get_or_try_init;0;0;1;0;0
+sync::once_lock::OnceLock::<T>::get_mut_or_try_init;0;0;1;0;0
+sync::once_lock::OnceLock::<T>::take;0;1;1;0;0
+sync::once_lock::OnceLock::<T>::get_unchecked;0;1;1;0;0
+sync::once_lock::OnceLock::<T>::get_unchecked_mut;0;1;1;0;0
+<sync::once_lock::OnceLock<T> as core::ops::Drop>::drop;0;1;1;0;0
+sync::reentrant_lock::ReentrantLock::<T>::lock;0;2;2;0;0
+sync::reentrant_lock::ReentrantLock::<T>::try_lock;0;2;2;0;0
+sync::reentrant_lock::ReentrantLock::<T>::increment_lock_count;0;2;0;0;0
+<sync::reentrant_lock::ReentrantLockGuard<'_, T> as core::ops::Drop>::drop;0;4;2;0;0
+std_float::StdFloat::mul_add;0;0;1;0;0
+std_float::StdFloat::sqrt;0;0;1;0;0
+std_float::StdFloat::log;0;0;1;0;0
+std_float::StdFloat::ceil;0;0;1;0;0
+std_float::StdFloat::floor;0;0;1;0;0
+std_float::StdFloat::round;0;0;1;0;0
+std_float::StdFloat::trunc;0;0;1;0;0
+<core::simd::Simd<f32, N> as std_float::StdFloat>::sin;0;0;1;0;0
+<core::simd::Simd<f32, N> as std_float::StdFloat>::cos;0;0;1;0;0
+<core::simd::Simd<f32, N> as std_float::StdFloat>::exp;0;0;1;0;0
+<core::simd::Simd<f32, N> as std_float::StdFloat>::exp2;0;0;1;0;0
+<core::simd::Simd<f32, N> as std_float::StdFloat>::ln;0;0;1;0;0
+<core::simd::Simd<f32, N> as std_float::StdFloat>::log2;0;0;1;0;0
+<core::simd::Simd<f32, N> as std_float::StdFloat>::log10;0;0;1;0;0
+<core::simd::Simd<f64, N> as std_float::StdFloat>::sin;0;0;1;0;0
+<core::simd::Simd<f64, N> as std_float::StdFloat>::cos;0;0;1;0;0
+<core::simd::Simd<f64, N> as std_float::StdFloat>::exp;0;0;1;0;0
+<core::simd::Simd<f64, N> as std_float::StdFloat>::exp2;0;0;1;0;0
+<core::simd::Simd<f64, N> as std_float::StdFloat>::ln;0;0;1;0;0
+<core::simd::Simd<f64, N> as std_float::StdFloat>::log2;0;0;1;0;0
+<core::simd::Simd<f64, N> as std_float::StdFloat>::log10;0;0;1;0;0
+sys::pal::common::small_c_string::run_with_cstr;0;0;1;0;0
+sys::pal::common::small_c_string::run_with_cstr_stack;0;0;4;0;0
+sys::pal::unix::weak::DlsymWeak::<F>::get;0;0;2;0;0
+sys::pal::unix::weak::DlsymWeak::<F>::initialize;0;0;2;0;0
+sys::pal::unix::weak::fetch;0;0;1;1;0
+sys::pal::unix::args::init;0;0;1;0;0
+sys::pal::unix::args::args;0;0;3;0;0
+sys::pal::unix::args::imp::init;0;0;1;0;0
+sys::pal::unix::args::imp::ARGV_INIT_ARRAY::init_wrapper;0;0;1;0;0
+sys::pal::unix::fd::FileDesc::read;0;0;1;0;0
+sys::pal::unix::fd::FileDesc::read_vectored;0;0;1;0;0
+sys::pal::unix::fd::FileDesc::read_at;0;0;1;0;0
+sys::pal::unix::fd::FileDesc::read_buf;0;0;3;0;0
+sys::pal::unix::fd::FileDesc::read_vectored_at;0;0;1;0;0
+sys::pal::unix::fd::FileDesc::write;0;0;1;0;0
+sys::pal::unix::fd::FileDesc::write_vectored;0;0;1;0;0
+sys::pal::unix::fd::FileDesc::write_at;0;0;1;0;0
+sys::pal::unix::fd::FileDesc::write_vectored_at;0;0;1;0;0
+sys::pal::unix::fd::FileDesc::set_cloexec;0;0;2;0;0
+sys::pal::unix::fd::FileDesc::set_nonblocking;0;0;1;0;0
+<sys::pal::unix::fd::FileDesc as os::fd::raw::FromRawFd>::from_raw_fd;0;0;1;0;0
+sys::pal::unix::futex::futex_wait;0;0;1;0;0
+sys::pal::unix::futex::futex_wake;0;0;1;0;0
+sys::pal::unix::futex::futex_wake_all;0;0;1;0;0
+sys::pal::unix::kernel_copy::fd_to_meta;0;0;1;0;0
+sys::pal::unix::kernel_copy::copy_regular_files;0;0;1;0;0
+sys::pal::unix::kernel_copy::copy_regular_files::copy_file_range;0;1;2;1;0
+sys::pal::unix::kernel_copy::copy_regular_files::probe_copy_file_range_support;0;0;1;0;0
+sys::pal::unix::kernel_copy::sendfile_splice;0;0;2;0;0
+sys::pal::unix::linux::pidfd::PidFd::kill;0;0;1;0;0
+sys::pal::unix::linux::pidfd::PidFd::wait;0;0;2;0;0
+sys::pal::unix::linux::pidfd::PidFd::try_wait;0;0;3;0;0
+<sys::pal::unix::linux::pidfd::PidFd as os::fd::raw::FromRawFd>::from_raw_fd;0;0;1;0;0
+sys::pal::unix::os::errno;0;1;1;0;0
+sys::pal::unix::os::set_errno;0;1;1;0;0
+sys::pal::unix::os::error_string;0;0;2;0;0
+sys::pal::unix::os::getcwd;0;0;4;0;0
+sys::pal::unix::os::environ;0;0;0;1;0
+sys::pal::unix::os::env;0;3;3;0;0
+sys::pal::unix::os::page_size;0;0;1;0;0
+sys::pal::unix::os::home_dir::fallback;0;1;4;0;0
+sys::pal::unix::os::exit;0;0;1;0;0
+sys::pal::unix::os::getpid;0;0;1;0;0
+sys::pal::unix::os::getppid;0;0;1;0;0
+sys::pal::unix::os::glibc_version;0;0;2;0;0
+sys::pal::unix::pipe::anon_pipe;0;0;3;0;0
+sys::pal::unix::pipe::read2;0;0;1;0;0
+<sys::pal::unix::pipe::AnonPipe as os::fd::raw::FromRawFd>::from_raw_fd;0;0;1;0;0
+sys::pal::unix::process::process_common::Command::new;0;2;2;0;0
+<sys::pal::unix::process::process_common::Stdio as core::convert::From<io::stdio::Stdout>>::from;0;0;1;0;0
+<sys::pal::unix::process::process_common::Stdio as core::convert::From<io::stdio::Stderr>>::from;0;0;1;0;0
+sys::pal::unix::process::process_inner::<impl sys::pal::unix::process::process_common::Command>::spawn;0;0;4;0;0
+sys::pal::unix::process::process_inner::<impl sys::pal::unix::process::process_common::Command>::do_fork;0;0;1;0;0
+sys::pal::unix::process::process_inner::<impl sys::pal::unix::process::process_common::Command>::exec;0;0;1;0;0
+sys::pal::unix::process::process_inner::<impl sys::pal::unix::process::process_common::Command>::do_exec;0;2;10;0;0
+<sys::pal::unix::process::process_inner::<impl sys::pal::unix::process::process_common::Command>::do_exec::Reset as core::ops::Drop>::drop;0;1;1;0;0
+sys::pal::unix::process::process_inner::<impl sys::pal::unix::process::process_common::Command>::posix_spawn;0;2;19;2;0
+sys::pal::unix::process::process_inner::<impl sys::pal::unix::process::process_common::Command>::posix_spawn::get_posix_spawn_addchdir;0;2;0;2;0
+<sys::pal::unix::process::process_inner::<impl sys::pal::unix::process::process_common::Command>::posix_spawn::PosixSpawnFileActions<'_> as core::ops::Drop>::drop;0;0;1;0;0
+<sys::pal::unix::process::process_inner::<impl sys::pal::unix::process::process_common::Command>::posix_spawn::PosixSpawnattr<'_> as core::ops::Drop>::drop;0;0;1;0;0
+sys::pal::unix::process::process_inner::<impl sys::pal::unix::process::process_common::Command>::send_pidfd;0;3;8;0;0
+sys::pal::unix::process::process_inner::<impl sys::pal::unix::process::process_common::Command>::recv_pidfd;0;3;6;0;0
+sys::pal::unix::process::process_inner::Process::kill;0;0;1;0;0
+sys::pal::unix::process::process_inner::Process::try_wait;0;0;1;0;0
+sys::pal::unix::process::process_inner::ExitStatus::from_waitid_siginfo;0;0;1;0;0
+<sys::pal::unix::process::process_inner::ExitStatus as core::fmt::Display>::fmt;0;0;1;0;0
+sys::pal::unix::stack_overflow::Handler::new;0;0;1;0;0
+<sys::pal::unix::stack_overflow::Handler as core::ops::Drop>::drop;0;0;1;0;0
+sys::pal::unix::stack_overflow::imp::signal_handler;0;1;3;0;0
+sys::pal::unix::stack_overflow::imp::init;0;0;5;0;0
+sys::pal::unix::stack_overflow::imp::cleanup;0;0;1;0;0
+sys::pal::unix::stack_overflow::imp::get_stack;0;0;3;1;0
+sys::pal::unix::stack_overflow::imp::make_handler;0;0;5;0;0
+sys::pal::unix::stack_overflow::imp::drop_handler;0;0;3;0;0
+sys::pal::unix::stack_overflow::imp::sigstack_size;0;0;1;0;0
+sys::pal::unix::stack_overflow::imp::get_stack_start;0;0;4;0;0
+sys::pal::unix::stack_overflow::imp::stack_start_aligned;0;0;1;0;0
+sys::pal::unix::stack_overflow::imp::install_main_guard;0;0;1;0;0
+sys::pal::unix::stack_overflow::imp::install_main_guard_default;0;0;2;1;0
+sys::pal::unix::stack_overflow::imp::current_guard;0;0;5;0;0
+sys::pal::unix::thread::Thread::new;0;0;8;0;0
+sys::pal::unix::thread::Thread::new::thread_start;0;0;2;0;0
+sys::pal::unix::thread::Thread::yield_now;0;0;1;0;0
+sys::pal::unix::thread::Thread::set_name;0;0;2;0;0
+sys::pal::unix::thread::Thread::sleep;0;0;1;0;0
+sys::pal::unix::thread::Thread::join;0;0;1;0;0
+<sys::pal::unix::thread::Thread as core::ops::Drop>::drop;0;0;1;0;0
+sys::pal::unix::thread::available_parallelism;0;0;5;0;0
+sys::pal::unix::thread::min_stack_size;0;0;1;0;0
+sys::pal::unix::time::Timespec::new_unchecked;0;0;1;0;0
+sys::pal::unix::time::Timespec::zero;0;0;1;0;0
+sys::pal::unix::time::Timespec::new;0;0;1;0;0
+sys::pal::unix::time::Timespec::now;0;0;2;0;0
+sys::pal::unix::time::Timespec::checked_add_duration;0;0;1;0;0
+sys::pal::unix::time::Timespec::checked_sub_duration;0;0;1;0;0
+sys::pal::unix::init;0;0;4;0;0
+sys::pal::unix::init::sanitize_standard_fds;0;0;7;0;0
+sys::pal::unix::init::reset_sigpipe;0;0;1;0;0
+sys::pal::unix::cleanup;0;0;1;0;0
+sys::pal::unix::abort_internal;0;0;1;0;0
+sys::alloc::realloc_fallback;0;0;4;0;0
+sys::alloc::unix::<impl core::alloc::GlobalAlloc for alloc::System>::alloc;0;0;2;0;0
+sys::alloc::unix::<impl core::alloc::GlobalAlloc for alloc::System>::alloc_zeroed;0;0;3;0;0
+sys::alloc::unix::<impl core::alloc::GlobalAlloc for alloc::System>::dealloc;0;0;1;0;0
+sys::alloc::unix::<impl core::alloc::GlobalAlloc for alloc::System>::realloc;0;0;2;0;0
+sys::alloc::unix::aligned_malloc;0;0;1;0;0
+sys::personality::dwarf::eh::find_eh_action;0;0;12;0;0
+sys::personality::dwarf::eh::interpret_cs_action;0;0;2;0;0
+sys::personality::dwarf::eh::read_encoded_offset;0;0;9;0;0
+sys::personality::dwarf::eh::read_encoded_pointer;0;1;2;0;0
+sys::personality::dwarf::DwarfReader::read;0;0;2;0;0
+sys::personality::dwarf::DwarfReader::read_uleb128;0;0;1;0;0
+sys::personality::dwarf::DwarfReader::read_sleb128;0;0;1;0;0
+sys::personality::gcc::rust_eh_personality_impl;0;0;4;0;0
+sys::personality::gcc::rust_eh_personality;0;0;1;0;0
+sys::personality::gcc::find_eh_action;0;0;4;0;0
+sys::anonymous_pipe::unix::<impl os::fd::raw::FromRawFd for io::pipe::PipeReader>::from_raw_fd;0;0;1;0;0
+sys::anonymous_pipe::unix::<impl os::fd::raw::FromRawFd for io::pipe::PipeWriter>::from_raw_fd;0;0;1;0;0
+<sys::backtrace::BacktraceLock<'_>::print::DisplayBacktrace as core::fmt::Display>::fmt;0;0;1;0;0
+sys::backtrace::_print_fmt;0;0;1;0;0
+sys::exit_guard::unique_thread_exit;0;0;2;0;0
+sys::fs::unix::try_statx;0;0;4;0;0
+sys::fs::unix::try_statx::statx;0;1;2;1;0
+<sys::fs::unix::ReadDir as core::iter::Iterator>::next;0;3;2;0;0
+sys::fs::unix::debug_assert_fd_is_open;0;0;1;0;0
+<sys::fs::unix::Dir as core::ops::Drop>::drop;0;0;2;0;0
+sys::fs::unix::DirEntry::metadata;0;0;4;0;0
+sys::fs::unix::File::open_c;0;0;1;0;0
+sys::fs::unix::File::file_attr;0;0;3;0;0
+sys::fs::unix::File::fsync::os_fsync;0;0;1;0;0
+sys::fs::unix::File::datasync::os_datasync;0;0;1;0;0
+sys::fs::unix::File::lock;0;0;1;0;0
+sys::fs::unix::File::lock_shared;0;0;1;0;0
+sys::fs::unix::File::try_lock;0;0;1;0;0
+sys::fs::unix::File::try_lock_shared;0;0;1;0;0
+sys::fs::unix::File::unlock;0;0;1;0;0
+sys::fs::unix::File::seek;0;0;1;0;0
+sys::fs::unix::File::set_times;0;0;1;0;0
+<sys::fs::unix::File as os::fd::raw::FromRawFd>::from_raw_fd;0;0;1;0;0
+<sys::fs::unix::File as core::fmt::Debug>::fmt::get_mode;0;0;1;0;0
+<sys::fs::unix::Mode as core::fmt::Debug>::fmt;0;0;1;0;0
+sys::fs::unix::canonicalize;0;0;2;0;0
+sys::fs::unix::fchown;0;0;1;0;0
+sys::fs::unix::remove_dir_impl::openat_nofollow_dironly;0;0;1;0;0
+sys::fs::unix::remove_dir_impl::fdreaddir;0;0;1;0;0
+sys::fs::unix::remove_dir_impl::remove_dir_all_recursive;0;0;3;0;0
+sys::io::io_slice::iovec::IoSlice::<'a>::advance;0;0;1;0;0
+sys::io::io_slice::iovec::IoSlice::<'a>::as_slice;0;0;1;0;0
+sys::io::io_slice::iovec::IoSliceMut::<'a>::advance;0;0;1;0;0
+sys::io::io_slice::iovec::IoSliceMut::<'a>::as_slice;0;0;1;0;0
+sys::io::io_slice::iovec::IoSliceMut::<'a>::into_slice;0;0;1;0;0
+sys::io::io_slice::iovec::IoSliceMut::<'a>::as_mut_slice;0;0;1;0;0
+sys::io::is_terminal::isatty::is_terminal;0;0;1;0;0
+sys::net::connection::socket::unix::cvt_gai;0;0;2;0;0
+sys::net::connection::socket::unix::Socket::new_raw;0;0;2;0;0
+sys::net::connection::socket::unix::Socket::new_pair;0;0;3;0;0
+sys::net::connection::socket::unix::Socket::connect;0;0;1;0;1
+sys::net::connection::socket::unix::Socket::connect_timeout;0;0;2;0;1
+sys::net::connection::socket::unix::Socket::accept;0;0;1;0;0
+sys::net::connection::socket::unix::Socket::recv_with_flags;0;0;3;0;0
+sys::net::connection::socket::unix::Socket::recv_from_with_flags;0;0;2;0;0
+sys::net::connection::socket::unix::Socket::recv_msg;0;0;1;0;0
+sys::net::connection::socket::unix::Socket::send_msg;0;0;1;0;0
+sys::net::connection::socket::unix::Socket::shutdown;0;0;1;0;0
+sys::net::connection::socket::unix::Socket::set_nonblocking;0;0;1;0;0
+<sys::net::connection::socket::unix::Socket as os::fd::raw::FromRawFd>::from_raw_fd;0;0;1;0;0
+sys::net::connection::socket::unix::on_resolver_failure;0;0;1;0;0
+sys::net::connection::socket::socket_addr_v4_to_c;0;0;1;0;0
+sys::net::connection::socket::socket_addr_v6_to_c;0;0;1;0;0
+sys::net::connection::socket::socket_addr_from_c;0;3;0;0;0
+sys::net::connection::socket::setsockopt;0;0;1;0;0
+sys::net::connection::socket::getsockopt;0;0;2;0;0
+sys::net::connection::socket::sockname;0;0;2;0;0
+<sys::net::connection::socket::LookupHost as core::iter::Iterator>::next;0;0;2;0;0
+<sys::net::connection::socket::LookupHost as core::ops::Drop>::drop;0;0;1;0;0
+sys::net::connection::socket::TcpStream::write;0;0;1;0;0
+sys::net::connection::socket::TcpListener::bind;0;0;2;0;1
+sys::net::connection::socket::TcpListener::accept;0;0;1;0;0
+sys::net::connection::socket::UdpSocket::bind;0;0;1;0;1
+sys::net::connection::socket::UdpSocket::send_to;0;0;1;0;1
+sys::net::connection::socket::UdpSocket::send;0;0;1;0;0
+sys::net::connection::socket::UdpSocket::connect;0;0;0;0;1
+sys::os_str::bytes::Slice::from_str;0;0;1;0;0
+sys::os_str::bytes::Slice::into_arc;0;0;1;0;0
+sys::os_str::bytes::Slice::into_rc;0;0;1;0;0
+<sys::os_str::bytes::Slice as core::clone::CloneToUninit>::clone_to_uninit;0;0;1;0;0
+sys::random::linux::getrandom;0;0;2;0;0
+sys::random::linux::getrandom::getrandom;0;1;2;1;0
+<sys::stdio::unix::Stdin as io::Read>::read;0;0;1;0;0
+<sys::stdio::unix::Stdin as io::Read>::read_buf;0;0;1;0;0
+<sys::stdio::unix::Stdin as io::Read>::read_vectored;0;0;1;0;0
+<sys::stdio::unix::Stdout as io::Write>::write;0;0;1;0;0
+<sys::stdio::unix::Stdout as io::Write>::write_vectored;0;0;1;0;0
+<sys::stdio::unix::Stderr as io::Write>::write;0;0;1;0;0
+<sys::stdio::unix::Stderr as io::Write>::write_vectored;0;0;1;0;0
+sys::sync::condvar::futex::Condvar::wait;0;0;1;0;0
+sys::sync::condvar::futex::Condvar::wait_timeout;0;0;1;0;0
+sys::sync::condvar::futex::Condvar::wait_optional_timeout;0;0;1;0;0
+sys::sync::once_box::OnceBox::<T>::get_unchecked;0;1;1;0;0
+sys::sync::once_box::OnceBox::<T>::get_or_init;0;0;2;0;0
+sys::sync::once_box::OnceBox::<T>::take;0;0;2;0;0
+sys::sync::once_box::OnceBox::<T>::initialize;0;2;4;0;0
+sys::sync::thread_parking::futex::Parker::new_in_place;0;0;1;0;0
+sys::thread_local::native::eager::Storage::<T>::get;0;0;1;0;0
+sys::thread_local::native::eager::Storage::<T>::initialize;0;0;1;0;0
+<() as sys::thread_local::native::lazy::DestroyedState>::register_dtor;0;0;1;0;0
+sys::thread_local::native::lazy::Storage::<T, D>::get_or_init;0;1;1;0;0
+sys::thread_local::native::lazy::Storage::<T, D>::initialize;0;1;2;0;0
+sys::thread_local::destructors::linux_like::register;0;1;1;2;0
+sys::thread_local::destructors::list::run;0;0;1;0;0
+sys::thread_local::guard::key::enable;0;0;1;0;0
+sys::thread_local::guard::key::enable::run;0;0;1;0;0
+sys::thread_local::key::racy::LazyKey::lazy_init;0;0;2;0;0
+sys::thread_local::key::unix::create;0;0;1;0;0
+sys::thread_local::key::unix::set;0;0;1;0;0
+sys::thread_local::key::unix::destroy;0;0;1;0;0
+sys_common::wstr::WStrUnits::<'_>::peek;0;1;0;0;0
+<sys_common::wstr::WStrUnits<'_> as core::iter::Iterator>::next;0;0;2;0;0
+<sys_common::wtf8::CodePoint as core::fmt::Debug>::fmt;0;0;1;0;0
+sys_common::wtf8::CodePoint::to_char;0;0;1;0;0
+sys_common::wtf8::Wtf8Buf::from_wide;0;0;1;0;0
+sys_common::wtf8::Wtf8Buf::as_slice;0;0;1;0;0
+sys_common::wtf8::Wtf8Buf::as_mut_slice;0;0;1;0;0
+sys_common::wtf8::Wtf8Buf::as_known_utf8;0;0;1;0;0
+sys_common::wtf8::Wtf8Buf::leak;0;0;1;0;0
+sys_common::wtf8::Wtf8Buf::into_string;0;0;1;0;0
+sys_common::wtf8::Wtf8Buf::into_string_lossy;0;0;1;0;0
+<sys_common::wtf8::Wtf8 as core::fmt::Debug>::fmt;0;0;2;0;0
+<sys_common::wtf8::Wtf8 as core::fmt::Display>::fmt;0;0;2;0;0
+sys_common::wtf8::Wtf8::from_str;0;0;1;0;0
+sys_common::wtf8::Wtf8::from_bytes_unchecked;0;1;0;0;0
+sys_common::wtf8::Wtf8::from_mut_bytes_unchecked;0;1;0;0;0
+sys_common::wtf8::Wtf8::to_string_lossy;0;0;2;0;0
+sys_common::wtf8::Wtf8::into_arc;0;0;1;0;0
+sys_common::wtf8::Wtf8::into_rc;0;0;1;0;0
+<sys_common::wtf8::Wtf8 as core::ops::Index<core::ops::Range<usize>>>::index;0;0;1;0;0
+<sys_common::wtf8::Wtf8 as core::ops::Index<core::ops::RangeFrom<usize>>>::index;0;0;1;0;0
+<sys_common::wtf8::Wtf8 as core::ops::Index<core::ops::RangeTo<usize>>>::index;0;0;1;0;0
+sys_common::wtf8::decode_surrogate_pair;0;0;1;0;0
+sys_common::wtf8::slice_unchecked;0;0;3;0;0
+<sys_common::wtf8::Wtf8CodePoints<'_> as core::iter::Iterator>::next;0;0;1;0;0
+<sys_common::wtf8::Wtf8 as core::clone::CloneToUninit>::clone_to_uninit;0;0;1;0;0
+alloc::System::alloc_impl;0;0;2;0;0
+alloc::System::grow_impl;0;0;6;0;0
+<alloc::System as core::alloc::Allocator>::deallocate;0;0;1;0;0
+<alloc::System as core::alloc::Allocator>::grow;0;0;1;0;0
+<alloc::System as core::alloc::Allocator>::grow_zeroed;0;0;1;0;0
+<alloc::System as core::alloc::Allocator>::shrink;0;0;5;0;0
+alloc::default_alloc_error_hook;0;1;0;1;0
+alloc::_::__rg_oom;0;0;1;0;0
+alloc::__default_lib_allocator::__rdl_alloc;0;0;2;0;0
+alloc::__default_lib_allocator::__rdl_dealloc;0;0;2;0;0
+alloc::__default_lib_allocator::__rdl_realloc;0;0;2;0;0
+alloc::__default_lib_allocator::__rdl_alloc_zeroed;0;0;2;0;0
+panicking::r#try;0;0;1;0;0
+panicking::r#try::cleanup;0;0;2;0;0
+panicking::r#try::do_call;0;1;1;0;0
+panicking::r#try::do_catch;0;1;1;0;0
+<panicking::rust_panic_without_hook::RewrapBox as core::panic::PanicPayload>::get;0;1;0;0;0
+panicking::rust_panic;0;0;1;0;0
+backtrace_rs::backtrace::trace_unsynchronized;0;0;1;0;0
+backtrace_rs::backtrace::libunwind::Frame::ip;0;0;1;0;0
+backtrace_rs::backtrace::libunwind::Frame::sp;0;0;1;0;0
+backtrace_rs::backtrace::libunwind::Frame::symbol_address;0;0;1;0;0
+backtrace_rs::backtrace::libunwind::trace;0;0;1;0;0
+backtrace_rs::backtrace::libunwind::trace::trace_fn;0;1;0;0;0
+backtrace_rs::symbolize::resolve_unsynchronized;0;0;1;0;0
+backtrace_rs::symbolize::resolve_frame_unsynchronized;0;0;1;0;0
+backtrace_rs::symbolize::gimli::mmap::Mmap::map;0;0;1;1;0
+<backtrace_rs::symbolize::gimli::mmap::Mmap as core::ops::Deref>::deref;0;0;1;0;0
+<backtrace_rs::symbolize::gimli::mmap::Mmap as core::ops::Drop>::drop;0;0;1;0;0
+backtrace_rs::symbolize::gimli::lru::Lru::<T, N>::clear;0;0;1;0;0
+backtrace_rs::symbolize::gimli::lru::Lru::<T, N>::push_front;0;0;2;0;0
+backtrace_rs::symbolize::gimli::stash::Stash::allocate;0;1;0;0;0
+backtrace_rs::symbolize::gimli::stash::Stash::cache_mmap;0;1;0;0;0
+backtrace_rs::symbolize::gimli::mmap;0;0;1;0;0
+backtrace_rs::symbolize::gimli::libs_dl_iterate_phdr::native_libraries;0;0;1;0;0
+backtrace_rs::symbolize::gimli::libs_dl_iterate_phdr::callback;0;6;2;0;0
+backtrace_rs::symbolize::gimli::clear_symbol_cache;0;0;1;0;0
+backtrace_rs::symbolize::gimli::Cache::with_global;0;1;0;1;0
+backtrace_rs::symbolize::gimli::resolve;0;0;1;0;0
+backtrace_rs::print::BacktraceFrameFmt::<'_, '_, '_>::print_raw_generic;0;0;4;0;0
+backtrace_rs::print::BacktraceFrameFmt::<'_, '_, '_>::print_fileline;0;0;1;0;0

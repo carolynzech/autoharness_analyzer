@@ -1,0 +1,10 @@
+name;is_unsafe;has_unsafe_ops;has_unsupported_input;has_loop_or_iterator
+configure::configure_f16_f128;false;false;true;true
+main;false;false;false;true
+configure::Target::has_feature;false;false;true;true
+configure_check_cfg;false;false;false;true
+generate_aarch64_outlined_atomics;false;false;false;true
+<configure::Target as std::fmt::Debug>::fmt;false;false;true;false
+aarch64_symbol;false;false;false;false
+configure::Target::from_env;false;false;false;true
+configure_libm;false;false;true;true

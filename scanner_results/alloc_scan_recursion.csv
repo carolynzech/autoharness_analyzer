@@ -1,0 +1,2 @@
+<collections::btree::map::BTreeMap<K, V, A> as core::clone::Clone>::clone::clone_subtree;recursive
+<collections::btree::map::BTreeMap<K, V, A> as core::clone::Clone>::clone;

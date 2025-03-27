@@ -1,0 +1,55 @@
+fn_name;iterators;loops;nested_loops
+raw::RawTable::<T, A>::get_many_mut;0;2;0
+raw::RawTableInner::find_or_find_insert_slot_inner;0;3;0
+raw::RawTableInner::find_insert_slot;0;1;0
+raw::RawTableInner::find_inner;0;2;0
+raw::RawTableInner::prepare_rehash_in_place;0;1;0
+raw::RawTableInner::drop_elements;0;1;0
+raw::RawTableInner::resize_inner;0;1;0
+raw::RawTableInner::rehash_in_place;0;4;0
+raw::RawTable::<T, A>::clone_from_impl;0;1;0
+raw::RawIterRange::<T>::next_impl;0;2;0
+raw::RawIterRange::<T>::fold_impl;0;2;0
+raw::RawIter::<T>::drop_elements;0;1;0
+raw::FullBucketsIndices::next_impl;0;1;0
+<raw::RawIterHashInner as rustc_std_workspace_core::iter::Iterator>::next;0;1;0
+raw::RawExtractIf::<'_, T, A>::next;0;1;0
+map::HashMap::<K, V, S, A>::retain;0;2;0
+map::HashMap::<K, V, S, A>::build_hashes_inner;0;1;0
+<map::HashMap<K, V, S, A> as rustc_std_workspace_core::cmp::PartialEq>::eq;1;0;0
+<map::IntoKeys<K, V, A> as rustc_std_workspace_core::iter::Iterator>::fold;1;0;0
+<map::IntoValues<K, V, A> as rustc_std_workspace_core::iter::Iterator>::fold;1;0;0
+<map::Iter<'a, K, V> as rustc_std_workspace_core::iter::Iterator>::fold;1;0;0
+<map::IterMut<'a, K, V> as rustc_std_workspace_core::iter::Iterator>::fold;1;0;0
+<map::IntoIter<K, V, A> as rustc_std_workspace_core::iter::Iterator>::fold;1;0;0
+<map::Keys<'a, K, V> as rustc_std_workspace_core::iter::Iterator>::fold;1;0;0
+<map::Values<'a, K, V> as rustc_std_workspace_core::iter::Iterator>::fold;1;0;0
+<map::ValuesMut<'a, K, V> as rustc_std_workspace_core::iter::Iterator>::fold;1;0;0
+<map::Drain<'_, K, V, A> as rustc_std_workspace_core::iter::Iterator>::fold;1;0;0
+<map::HashMap<K, V, S, A> as rustc_std_workspace_core::iter::FromIterator<(K, V)>>::from_iter;1;0;0
+<map::HashMap<K, V, S, A> as rustc_std_workspace_core::iter::Extend<(K, V)>>::extend;1;0;0
+set::HashSet::<T, S, A>::is_subset;1;0;0
+<set::HashSet<T, S, A> as rustc_std_workspace_core::cmp::PartialEq>::eq;1;0;0
+<&set::HashSet<T, S, A> as rustc_std_workspace_core::ops::BitOr<&set::HashSet<T, S, A>>>::bitor;1;0;0
+<&set::HashSet<T, S, A> as rustc_std_workspace_core::ops::BitAnd<&set::HashSet<T, S, A>>>::bitand;1;0;0
+<&set::HashSet<T, S, A> as rustc_std_workspace_core::ops::BitXor<&set::HashSet<T, S, A>>>::bitxor;1;0;0
+<&set::HashSet<T, S, A> as rustc_std_workspace_core::ops::Sub<&set::HashSet<T, S, A>>>::sub;1;0;0
+<set::HashSet<T, S, A> as rustc_std_workspace_core::ops::BitOrAssign<&set::HashSet<T, S, A>>>::bitor_assign;0;2;0
+<set::HashSet<T, S, A> as rustc_std_workspace_core::ops::BitXorAssign<&set::HashSet<T, S, A>>>::bitxor_assign;0;2;0
+<set::HashSet<T, S, A> as rustc_std_workspace_core::ops::SubAssign<&set::HashSet<T, S, A>>>::sub_assign;0;1;0
+<set::Iter<'a, K> as rustc_std_workspace_core::iter::Iterator>::fold;1;0;0
+<set::IntoIter<K, A> as rustc_std_workspace_core::iter::Iterator>::fold;1;0;0
+<set::Drain<'_, K, A> as rustc_std_workspace_core::iter::Iterator>::fold;1;0;0
+<set::Intersection<'a, T, S, A> as rustc_std_workspace_core::iter::Iterator>::next;0;1;0
+<set::Intersection<'a, T, S, A> as rustc_std_workspace_core::iter::Iterator>::fold;1;0;0
+<set::Difference<'a, T, S, A> as rustc_std_workspace_core::iter::Iterator>::next;0;1;0
+<set::Difference<'a, T, S, A> as rustc_std_workspace_core::iter::Iterator>::fold;1;0;0
+<set::SymmetricDifference<'a, T, S, A> as rustc_std_workspace_core::iter::Iterator>::fold;1;0;0
+<set::Union<'a, T, S, A> as rustc_std_workspace_core::iter::Iterator>::fold;1;0;0
+table::HashTable::<T, A>::retain;0;2;0
+<table::Iter<'a, T> as rustc_std_workspace_core::iter::Iterator>::fold;1;0;0
+<table::IterMut<'a, T> as rustc_std_workspace_core::iter::Iterator>::fold;1;0;0
+<table::IterHash<'a, T> as rustc_std_workspace_core::iter::Iterator>::fold;1;0;0
+<table::IterHashMut<'a, T> as rustc_std_workspace_core::iter::Iterator>::fold;1;0;0
+<table::IntoIter<T, A> as rustc_std_workspace_core::iter::Iterator>::fold;1;0;0
+<table::Drain<'_, T, A> as rustc_std_workspace_core::iter::Iterator>::fold;1;0;0

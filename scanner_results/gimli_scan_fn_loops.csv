@@ -1,0 +1,51 @@
+fn_name;iterators;loops;nested_loops
+leb128::read::skip;0;1;0
+leb128::read::unsigned;0;3;0
+leb128::read::signed;0;3;0
+<read::util::ArrayVec<A> as rustc_std_workspace_core::clone::Clone>::clone;0;1;0
+read::cfi::EhHdrTable::<'a, R>::lookup;0;8;0
+read::cfi::UnwindSection::fde_for_address;0;4;0
+read::cfi::CfiEntriesIter::<'bases, Section, R>::next;0;2;0
+read::cfi::Augmentation::parse;0;5;0
+read::cfi::FrameDescriptionEntry::<R>::unwind_info_for_address;0;1;0
+read::cfi::UnwindContext::<T, S>::initialize;0;1;0
+read::cfi::UnwindTable::<'a, 'ctx, R, S>::next_row;0;1;0
+read::cfi::RegisterRuleMap::<T, S>::get;1;0;0
+read::cfi::RegisterRuleMap::<T, S>::set;1;1;0
+<read::cfi::RegisterRuleMap<R, S> as rustc_std_workspace_core::iter::FromIterator<&'a (common::Register, read::cfi::RegisterRule<R>)>>::from_iter;0;1;0
+<read::cfi::RegisterRuleMap<T, S> as rustc_std_workspace_core::cmp::PartialEq>::eq;0;2;0
+read::dwarf::Dwarf::<R>::die_ranges;0;7;0
+read::dwarf::DwarfPackage::<R>::sections;0;10;0
+read::dwarf::Unit::<R>::new_with_abbreviations;0;21;0
+read::endian_slice::EndianSlice::<'input, Endian>::find;1;0;0
+read::abbrev::AbbreviationsCache::populate;1;4;0
+read::abbrev::Abbreviations::parse;0;1;0
+read::abbrev::Abbreviation::parse_attributes;0;1;0
+<read::abbrev::Attributes as rustc_std_workspace_core::iter::FromIterator<read::abbrev::AttributeSpecification>>::from_iter;0;1;0
+read::aranges::ArangeEntryIter::<R>::next;0;1;0
+read::index::UnitIndex::<R>::parse;0;15;0
+read::index::UnitIndex::<R>::find;0;1;0
+read::line::LineRows::<R, Program, Offset>::next_row;0;4;0
+read::line::LineInstruction::<R, Offset>::parse;0;1;0
+read::line::LineProgramHeader::<R, Offset>::file_has_timestamp;1;0;0
+read::line::LineProgramHeader::<R, Offset>::file_has_size;1;0;0
+read::line::LineProgramHeader::<R, Offset>::file_has_md5;1;0;0
+read::line::LineProgramHeader::<R, Offset>::file_has_source;1;0;0
+read::line::LineProgramHeader::<R, Offset>::parse;0;4;0
+read::line::IncompleteLineProgram::<R, Offset>::sequences;0;3;0
+read::line::FileEntryFormat::parse;0;4;0
+read::line::parse_directory_v5;0;4;0
+read::line::parse_file_v5;0;48;0
+read::loclists::LocListIter::<R>::next;0;1;0
+read::lookup::LookupEntryIter::<R, Parser>::next;0;4;0
+read::op::Evaluation::<R, S>::end_of_expression;0;1;0
+read::op::Evaluation::<R, S>::evaluate_internal;0;10;0
+read::rnglists::RngListIter::<R>::next;0;1;0
+read::unit::DebuggingInformationEntry::<'abbrev, 'unit, R, Offset>::attr;0;1;0
+read::unit::DebuggingInformationEntry::<'abbrev, 'unit, R, Offset>::after_attrs;0;1;0
+read::unit::parse_attribute;0;1;0
+read::unit::skip_attributes;0;33;0
+read::unit::EntriesCursor::<'abbrev, 'unit, R>::next_dfs;0;1;0
+read::unit::EntriesCursor::<'abbrev, 'unit, R>::next_sibling;0;16;0
+read::unit::EntriesTree::<'abbrev, 'unit, R>::next;0;8;0
+read::value::ValueType::from_entry;0;6;0

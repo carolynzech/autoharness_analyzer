@@ -1,0 +1,16 @@
+total_fns;5
+generic_fns;0
+mono_fns;5
+safe_fns;5
+unsafe_fns;0
+supported_inputs;4
+unsupported_inputs;1
+has_unsafe_ops;0
+no_unsafe_ops;5
+safe_abstractions;0
+has_loops;0
+no_loops;5
+has_iterators;0
+no_iterators;5
+with_recursion;0
+recursive_fns;0

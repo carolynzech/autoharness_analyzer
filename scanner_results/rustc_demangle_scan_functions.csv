@@ -1,0 +1,64 @@
+name;is_unsafe;has_unsafe_ops;has_unsupported_input;has_loop_or_iterator
+is_ascii_alphanumeric;false;false;false;false
+v0::Parser::<'s>::eat;false;false;true;false
+v0::Parser::<'s>::digit_62;false;false;true;false
+v0::ParseError::message;false;false;false;false
+v0::Parser::<'s>::push_depth;false;false;true;false
+v0::Printer::<'a, 'b, 's>::print_const_str_literal;false;false;true;false
+v0::Printer::<'a, 'b, 's>::print_dyn_trait;false;false;true;true
+legacy::demangle;false;false;false;true
+demangle;false;false;false;true
+v0::Parser::<'s>::next;false;false;true;false
+v0::demangle;false;false;false;true
+v0::Parser::<'s>::namespace;false;false;true;false
+<v0::ParseError as rustc_std_workspace_core::cmp::PartialEq>::eq;false;false;false;false
+v0::Printer::<'a, 'b, 's>::print_lifetime_from_index;false;false;true;false
+v0::Printer::<'a, 'b, 's>::print_backref;false;false;true;false
+v0::Printer::<'a, 'b, 's>::print_path;false;false;true;false
+<TryDemangleError as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+v0::Printer::<'a, 'b, 's>::print_type;false;false;true;false
+is_ascii_punctuation;false;false;false;false
+v0::Parser::<'s>::hex_nibbles;false;false;true;true
+try_demangle;false;false;false;false
+legacy::is_rust_hash;false;false;false;true
+<v0::ParseError as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+<v0::Ident<'s> as rustc_std_workspace_core::fmt::Display>::fmt;false;false;true;false
+is_symbol_like;false;false;false;true
+v0::Parser::<'s>::backref;false;false;true;false
+<v0::Demangle<'s> as rustc_std_workspace_core::fmt::Display>::fmt;false;false;true;false
+v0::Ident::<'s>::try_small_punycode_decode;false;false;true;false
+v0::HexNibbles::<'s>::try_parse_uint;false;false;false;true
+<SizeLimitExhausted as rustc_std_workspace_core::clone::Clone>::clone;false;false;false;false
+v0::Printer::<'a, 'b, 's>::eat;false;false;true;false
+Demangle::<'a>::as_str;false;false;true;false
+v0::Parser::<'s>::pop_depth;false;false;true;false
+v0::Printer::<'a, 'b, 's>::print_quoted_escaped_chars;false;false;true;true
+<SizeLimitExhausted as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+v0::Parser::<'s>::disambiguator;false;false;true;false
+v0::basic_type;false;false;false;false
+v0::Parser::<'s>::peek;false;false;false;false
+v0::Parser::<'s>::ident;false;false;true;true
+DemangleStyle::Legacy;false;false;false;false
+<Demangle<'a> as rustc_std_workspace_core::fmt::Display>::fmt;false;true;true;false
+<v0::ParseError as rustc_std_workspace_core::cmp::Eq>::assert_receiver_is_total_eq;false;false;false;false
+v0::Printer::<'a, 'b, 's>::print;false;false;true;false
+v0::Printer::<'a, 'b, 's>::print_generic_arg;false;false;true;false
+v0::Ident::<'s>::punycode_decode;false;false;true;true
+v0::Printer::<'a, 'b, 's>::pop_depth;false;false;true;false
+<SizeLimitedFmtAdapter<F> as rustc_std_workspace_core::fmt::Write>::write_str;false;false;true;false
+<Demangle<'a> as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+v0::Parser::<'s>::digit_10;false;false;true;false
+v0::Printer::<'a, 'b, 's>::print_const;false;false;true;false
+v0::HexNibbles::<'s>::try_parse_str_chars::{closure#2}::{closure#0}::utf8_len_from_first_byte;false;false;false;false
+v0::Printer::<'a, 'b, 's>::in_binder;false;false;true;true
+<TryDemangleError as rustc_std_workspace_core::clone::Clone>::clone;false;false;false;false
+v0::Printer::<'a, 'b, 's>::print_sep_list;false;false;true;true
+v0::Printer::<'a, 'b, 's>::print_const_uint;false;false;true;false
+v0::Parser::<'s>::opt_integer_62;false;false;true;false
+v0::Parser::<'s>::integer_62;false;false;true;true
+<DemangleStyle<'a> as rustc_std_workspace_core::fmt::Display>::fmt;false;false;true;false
+v0::Printer::<'a, 'b, 's>::print_path_maybe_open_generics;false;false;true;false
+v0::HexNibbles::<'s>::try_parse_str_chars;false;false;false;true
+DemangleStyle::V0;false;false;false;false
+<legacy::Demangle<'a> as rustc_std_workspace_core::fmt::Display>::fmt;false;false;true;true
+v0::Printer::<'a, 'b, 's>::skipping_printing;false;false;true;false

@@ -1,0 +1,653 @@
+name;is_unsafe;has_unsafe_ops;has_unsupported_input;has_loop_or_iterator
+raw::RawTable::<T, A>::resize;true;true;true;false
+raw::RawTableInner::probe_seq;false;false;true;false
+<set::IntoIter<K, A> as rustc_std_workspace_core::iter::Iterator>::size_hint;false;false;true;false
+raw::RawTableInner::drop_inner_table;true;true;true;false
+set::HashSet::<T, S, A>::entry;false;false;true;false
+raw_entry::RawOccupiedEntryMut::<'a, K, V, S, A>::into_key_value;false;true;true;false
+<table::IterHashMut<'_, T> as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+rustc_entry::RustcVacantEntry::<'a, K, V, A>::insert;false;true;true;false
+<set::HashSet<T, S, A> as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+raw::RawTable::<T, A>::with_capacity_in;false;false;false;false
+map::HashMap::<K, V, S, A>::insert_unique_unchecked;true;true;true;false
+raw::RawTableInner::find_inner;true;true;true;true
+<raw::RawIterHash<T> as rustc_std_workspace_core::default::Default>::default;false;true;false;false
+raw::RawTable::<T, A>::bucket_index;true;true;true;false
+raw::RawTableInner::ctrl;true;true;true;false
+<raw::RawDrain<'_, T, A> as rustc_std_workspace_core::iter::Iterator>::size_hint;false;false;true;false
+<raw::RawIterHashInner as rustc_std_workspace_core::iter::Iterator>::next;false;true;true;true
+table::HashTable::<T, A>::new_in;false;false;false;false
+set::HashSet::<T, S, A>::iter;false;false;true;false
+raw::RawTable::<T, A>::get_many_mut;false;true;true;true
+map::assert_covariance::iter_val;false;false;true;false
+table::HashTable::<T, A>::iter_hash;false;true;true;false
+control::bitmask::BitMask::invert;false;false;false;false
+<table::Iter<'_, T> as rustc_std_workspace_core::iter::ExactSizeIterator>::len;false;false;true;false
+map::OccupiedEntry::<'a, K, V, S, A>::remove;false;false;true;false
+table::HashTable::<T, A>::entry;false;false;true;false
+table::VacantEntry::<'a, T, A>::insert;false;true;true;false
+<table::Drain<'_, T, A> as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+<table::AbsentEntry<'_, T, A> as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+raw::RawTableInner::iter;true;true;true;false
+control::tag::Tag::is_special;false;false;false;false
+<map::Keys<'_, K, V> as rustc_std_workspace_core::clone::Clone>::clone;false;false;true;false
+raw_entry::RawEntryBuilderMut::<'a, K, V, S, A>::from_hash;false;false;true;false
+raw::RawTable::<T, A>::iter;true;true;true;false
+raw_entry::RawOccupiedEntryMut::<'a, K, V, S, A>::into_mut;false;true;true;false
+<table::Iter<'a, T> as rustc_std_workspace_core::iter::Iterator>::next;false;true;true;false
+map::HashMap::<K, V, S, A>::find_or_find_insert_slot;false;false;true;false
+raw::RawTable::<T, A>::data_end;false;false;true;false
+<raw::RawTable<T, A> as rustc_std_workspace_core::ops::Drop>::drop;false;true;true;false
+map::OccupiedEntry::<'a, K, V, S, A>::insert;false;false;true;false
+map::assert_covariance::keys_key;false;false;true;false
+raw_entry::RawOccupiedEntryMut::<'a, K, V, S, A>::key_mut;false;true;true;false
+<set::IntoIter<K, A> as rustc_std_workspace_core::iter::Iterator>::next;false;false;true;false
+<table::Iter<'a, T> as rustc_std_workspace_core::iter::Iterator>::fold;false;false;true;true
+raw::TableLayout::calculate_layout_for;false;true;true;false
+raw::RawTable::<T, A>::insert;false;true;true;false
+raw::RawIterRange::<T>::fold_impl;true;true;true;true
+<map::Iter<'_, K, V> as rustc_std_workspace_core::default::Default>::default;false;false;false;false
+rustc_entry::<impl map::Drain<'_, K, V>>::rustc_iter;false;false;true;false
+set::HashSet::<T, S, A>::union;false;false;true;false
+<set::IntoIter<K, A> as rustc_std_workspace_core::iter::Iterator>::fold;false;false;true;true
+raw::RawTableInner::fallible_with_capacity;false;true;true;false
+rustc_entry::<impl map::IterMut<'_, K, V>>::rustc_iter;false;false;true;false
+<set::Difference<'_, T, S, A> as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+<set::Entry<'_, T, S, A> as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+<map::Iter<'a, K, V> as rustc_std_workspace_core::iter::Iterator>::fold;false;false;true;true
+<TryReserveError as rustc_std_workspace_core::clone::Clone>::clone;false;false;false;false
+map::equivalent_key;false;false;false;false
+set::Entry::Occupied;false;false;true;false
+set::Entry::Vacant;false;false;true;false
+map::OccupiedEntry::<'a, K, V, S, A>::into_mut;false;true;true;false
+map::HashMap::<K, V, S, A>::shrink_to;false;false;true;false
+control::bitmask::BitMask::nonzero_trailing_zeros;false;false;false;false
+map::HashMap::<K, V, S, A>::entry_ref;false;false;true;false
+map::HashMap::<K, V, S, A>::remove;false;false;true;false
+raw::RawTable::<T, A>::into_allocation;false;true;true;false
+<map::ValuesMut<'a, K, V> as rustc_std_workspace_core::iter::Iterator>::size_hint;false;false;true;false
+set::assert_covariance::union;false;false;true;false
+map::assert_covariance;false;false;false;false
+set::Entry::<'a, T, S, A>::or_insert;false;false;true;false
+<map::HashMap<K, V, S, A> as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+set::HashSet::<T, S, A>::with_hasher_in;false;false;false;false
+control::group::sse2::Group::match_empty_or_deleted;false;true;false;false
+<map::IntoIter<K, V, A> as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+<table::IterHash<'_, T> as rustc_std_workspace_core::default::Default>::default;false;false;false;false
+raw::RawTableInner::erase;true;true;true;false
+<control::bitmask::BitMaskIter as rustc_std_workspace_core::clone::Clone>::clone;false;false;false;false
+<control::tag::Tag as rustc_std_workspace_core::cmp::PartialEq>::eq;false;false;false;false
+raw::RawTableInner::new;false;true;false;false
+map::HashMap::<K, V, S, A>::get_many_unchecked_mut_inner;true;true;true;false
+map::Entry::<'a, K, V, S, A>::or_insert_with;false;false;true;false
+control::bitmask::BitMask::leading_zeros;false;false;false;false
+<raw::RawTable<T, A> as rustc_std_workspace_core::default::Default>::default;false;false;false;false
+map::HashMap::<K, V, S, A>::contains_key;false;false;true;false
+<map::ValuesMut<'a, K, V> as rustc_std_workspace_core::iter::Iterator>::fold;false;false;true;true
+control::group::sse2::Group::load;true;true;true;false
+raw_entry::RawOccupiedEntryMut::<'a, K, V, S, A>::into_key;false;true;true;false
+raw_entry::RawEntryMut::<'a, K, V, S, A>::insert;false;false;true;false
+map::HashMap::<K, V, S, A>::get_many_key_value_unchecked_mut;true;true;true;false
+scopeguard::guard;false;false;false;false
+<raw_entry::RawEntryBuilder<'_, K, V, S, A> as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+set::HashSet::<T, S, A>::is_empty;false;false;true;false
+table::HashTable::<T, A>::iter;false;true;true;false
+<&set::HashSet<T, S, A> as rustc_std_workspace_core::ops::BitAnd<&set::HashSet<T, S, A>>>::bitand;false;false;true;true
+<map::HashMap<K, V, S, A> as rustc_std_workspace_core::clone::Clone>::clone_from;false;false;true;false
+<table::Entry<'_, T, A> as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+table::VacantEntry::<'a, T, A>::into_table;false;false;true;false
+<table::IterHash<'a, T> as rustc_std_workspace_core::clone::Clone>::clone;false;false;true;false
+raw_entry::RawVacantEntryMut::<'a, K, V, S, A>::insert;false;false;true;false
+<map::HashMap<K, V, S, A> as rustc_std_workspace_core::cmp::PartialEq>::eq;false;false;true;true
+raw::RawTable::<T, A>::insert_in_slot;true;true;true;false
+map::OccupiedEntry::<'a, K, V, S, A>::remove_entry;false;true;true;false
+<set::HashSet<T, S, A> as rustc_std_workspace_core::iter::Extend<T>>::extend_reserve;false;false;true;false
+raw_entry::RawOccupiedEntryMut::<'a, K, V, S, A>::replace_entry_with;false;true;true;false
+map::HashMap::<K, V, S, A>::with_hasher_in;false;false;false;false
+set::HashSet::<T, S, A>::with_capacity_and_hasher_in;false;false;false;false
+<set::HashSet<T, S, A> as rustc_std_workspace_core::cmp::PartialEq>::eq;false;false;true;true
+<set::HashSet<T, S, A> as rustc_std_workspace_core::iter::Extend<&'a T>>::extend_one;false;false;true;false
+map::HashMap::<K, V, S>::with_capacity_and_hasher;false;false;false;false
+<map::Values<'_, K, V> as rustc_std_workspace_core::default::Default>::default;false;false;false;false
+map::HashMap::<K, V, S, A>::allocation_size;false;false;true;false
+<set::Iter<'_, K> as rustc_std_workspace_core::clone::Clone>::clone;false;false;true;false
+<map::Values<'a, K, V> as rustc_std_workspace_core::iter::Iterator>::next;false;false;true;false
+<set::Iter<'_, K> as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+<set::Iter<'_, K> as rustc_std_workspace_core::iter::ExactSizeIterator>::len;false;false;true;false
+raw::RawTableInner::data_end;false;false;true;false
+set::assert_covariance::difference;false;false;true;false
+<table::HashTable<T, A> as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+control::bitmask::BitMask::trailing_zeros;false;false;false;false
+<raw_entry::RawEntryBuilderMut<'_, K, V, S, A> as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+raw::RawTableInner::prepare_rehash_in_place;true;true;true;true
+raw::RawTableInner::rehash_in_place;true;true;true;true
+map::Entry::<'a, K, V, S, A>::or_insert_with_key;false;false;true;false
+<set::Intersection<'_, T, S, A> as rustc_std_workspace_core::clone::Clone>::clone;false;false;true;false
+raw::RawTableInner::record_item_insert_at;true;true;true;false
+<map::Values<'_, K, V> as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+<set::Intersection<'a, T, S, A> as rustc_std_workspace_core::iter::Iterator>::next;false;false;true;true
+raw::RawTableInner::allocation_info;true;true;true;false
+<table::IterMut<'a, T> as rustc_std_workspace_core::iter::Iterator>::fold;false;false;true;true
+map::HashMap::<K, V, S, A>::get_inner_mut;false;false;true;false
+<map::Iter<'_, K, V> as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+map::HashMap::<K, V, S, A>::get_many_mut_inner;false;false;true;false
+map::IterMut::<'_, K, V>::iter;false;false;true;false
+<map::Iter<'_, K, V> as rustc_std_workspace_core::clone::Clone>::clone;false;false;true;false
+control::bitmask::BitMask::remove_lowest_bit;false;false;false;false
+raw::RawTable::<T, A>::clear_no_drop;false;false;true;false
+<map::HashMap<K, V, S, A> as rustc_std_workspace_core::iter::Extend<(&'a K, &'a V)>>::extend_one;false;false;true;false
+raw::RawTable::<T, A>::shrink_to;false;true;true;false
+raw::RawTableInner::clear_no_drop;false;false;true;false
+<map::ValuesMut<'_, K, V> as rustc_std_workspace_core::iter::ExactSizeIterator>::len;false;false;true;false
+<raw::RawIterHashInner as rustc_std_workspace_core::clone::Clone>::clone;false;false;true;false
+set::HashSet::<T, S, A>::is_disjoint;false;false;true;false
+table::HashTable::<T, A>::find_mut;false;false;true;false
+<table::IterHash<'_, T> as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+raw::RawTable::<T, A>::allocation_size;false;true;true;false
+raw::RawTable::<T, A>::remove;true;true;true;false
+set::OccupiedEntry::<'_, T, S, A>::remove;false;false;true;false
+map::HashMap::<K, V, S, A>::values;false;false;true;false
+raw::RawTableInner::prepare_insert_slot;true;true;true;false
+scopeguard::ScopeGuard::<T, F>::into_inner;false;true;true;false
+table::OccupiedEntry::<'a, T, A>::get;false;true;true;false
+raw::capacity_to_buckets;false;false;false;false
+raw::RawExtractIf::<'_, T, A>::next;false;true;true;true
+map::Entry::<'a, K, V, S, A>::and_modify;false;false;true;false
+control::bitmask::BitMaskIter;false;false;false;false
+set::VacantEntry::<'a, T, S, A>::into_value;false;false;true;false
+raw_entry::RawEntryBuilder::<'a, K, V, S, A>::from_key;false;false;true;false
+raw::FullBucketsIndices::next_impl;true;true;true;true
+<map::HashMap<K, V, S, A> as rustc_std_workspace_core::iter::FromIterator<(K, V)>>::from_iter;false;false;false;true
+map::Drain::<'_, K, V, A>::iter;false;false;true;false
+set::OccupiedEntry::<'_, T, S, A>::get;false;false;true;false
+<set::Intersection<'a, T, S, A> as rustc_std_workspace_core::iter::Iterator>::fold;false;false;true;true
+raw_entry::RawEntryBuilder::<'a, K, V, S, A>::search;false;false;true;false
+table::HashTable::<T>::new;false;false;false;false
+raw::Bucket::<T>::from_base_index;true;true;true;false
+map::make_hash;false;false;false;false
+map::HashMap::<K, V, S, A>::clear;false;false;true;false
+table::OccupiedEntry::<'a, T, A>::remove;false;true;true;false
+raw::RawTable::<T, A>::reserve_rehash;true;true;true;false
+map::HashMap::<K, V, S, A>::shrink_to_fit;false;false;true;false
+<raw::RawIterRange<T> as rustc_std_workspace_core::iter::Iterator>::next;false;true;true;false
+raw_entry::RawOccupiedEntryMut::<'a, K, V, S, A>::insert;false;false;true;false
+set::Entry::<'a, T, S, A>::get;false;false;true;false
+<map::Keys<'a, K, V> as rustc_std_workspace_core::iter::Iterator>::size_hint;false;false;true;false
+set::HashSet::<T, S, A>::insert_unique_unchecked;true;true;true;false
+rustc_entry::RustcEntry::Vacant;false;false;true;false
+raw::RawTable::<T, A>::new_in;false;false;false;false
+raw::RawTableInner::resize_inner;true;true;true;true
+<table::IntoIter<T, A> as rustc_std_workspace_core::iter::Iterator>::next;false;false;true;false
+<set::HashSet<T, S, A> as rustc_std_workspace_core::iter::Extend<T>>::extend;false;false;true;false
+<control::tag::Tag as rustc_std_workspace_core::cmp::Eq>::assert_receiver_is_total_eq;false;false;false;false
+raw_entry::RawOccupiedEntryMut::<'a, K, V, S, A>::insert_key;false;false;true;false
+<rustc_entry::RustcOccupiedEntry<'_, K, V, A> as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+<map::EntryRef<'_, '_, K, Q, V, S, A> as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+<scopeguard::ScopeGuard<T, F> as rustc_std_workspace_core::ops::Deref>::deref;false;false;true;false
+set::assert_covariance::into_iter;false;false;true;false
+table::HashTable::<T, A>::len;false;false;true;false
+raw_entry::RawOccupiedEntryMut::<'a, K, V, S, A>::remove;false;false;true;false
+<map::HashMap<K, V, S, A> as rustc_std_workspace_core::iter::Extend<&'a (K, V)>>::extend_reserve;false;false;true;false
+<table::IntoIter<T, A> as rustc_std_workspace_core::default::Default>::default;false;false;false;false
+<set::Iter<'_, K> as rustc_std_workspace_core::default::Default>::default;false;false;false;false
+map::HashMap::<K, V, S, A>::get_key_value_mut;false;false;true;false
+<set::Drain<'_, K, A> as rustc_std_workspace_core::iter::Iterator>::next;false;false;true;false
+raw::RawIterHashInner::new;true;true;true;false
+<table::HashTable<T, A> as rustc_std_workspace_core::iter::IntoIterator>::into_iter;false;false;true;false
+control::group::sse2::Group;false;false;false;false
+raw::offset_from;true;true;true;false
+<raw::RawTable<T, A> as rustc_std_workspace_core::clone::Clone>::clone_from;false;true;true;false
+set::HashSet::<T, S, A>::shrink_to_fit;false;false;true;false
+map::Entry::<'a, K, V, S, A>::insert;false;false;true;false
+<TryReserveError as rustc_std_workspace_core::cmp::Eq>::assert_receiver_is_total_eq;false;false;false;false
+set::HashSet::<T, S>::with_hasher;false;false;false;false
+control::tag::Tag::full;false;false;false;false
+<table::Drain<'_, T, A> as rustc_std_workspace_core::iter::Iterator>::next;false;false;true;false
+<map::Iter<'a, K, V> as rustc_std_workspace_core::iter::Iterator>::size_hint;false;false;true;false
+map::EntryRef::<'a, 'b, K, Q, V, S, A>::or_default;false;false;true;false
+<map::OccupiedEntry<'_, K, V, S, A> as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+<raw_entry::RawOccupiedEntryMut<'_, K, V, S, A> as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+<set::SymmetricDifference<'a, T, S, A> as rustc_std_workspace_core::iter::Iterator>::size_hint;false;false;true;false
+control::group::sse2::Group::store_aligned;true;true;true;false
+raw::RawTable::<T, A>::data_start;true;true;true;false
+<set::Difference<'a, T, S, A> as rustc_std_workspace_core::iter::Iterator>::fold;false;false;true;true
+table::HashTable::<T, A>::insert_unique;false;false;true;false
+util::invalid_mut;false;false;false;false
+rustc_entry::RustcEntry::<'a, K, V, A>::or_default;false;false;true;false
+<map::HashMap<K, V, S, A> as rustc_std_workspace_core::iter::Extend<(K, V)>>::extend;false;false;true;true
+raw::Bucket::<T>::to_base_index;true;true;true;false
+raw::RawTable::<T, A>::new_uninitialized;true;true;false;false
+table::OccupiedEntry::<'a, T, A>::into_table;false;false;true;false
+raw_entry::RawEntryBuilderMut::<'a, K, V, S, A>::from_key_hashed_nocheck;false;false;true;false
+<map::IterMut<'a, K, V> as rustc_std_workspace_core::iter::Iterator>::fold;false;false;true;true
+raw::RawTable::<T, A>::drain_iter_from;true;false;true;false
+set::HashSet::<T, S, A>::difference;false;false;true;false
+<map::Drain<'_, K, V, A> as rustc_std_workspace_core::iter::Iterator>::size_hint;false;false;true;false
+map::OccupiedEntry::<'a, K, V, S, A>::replace_entry_with;false;true;true;false
+<set::Intersection<'_, T, S, A> as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+table::HashTable::<T, A>::iter_hash_mut;false;true;true;false
+map::HashMap::<K, V, S, A>::insert;false;true;true;false
+raw::Bucket::<T>::write;true;true;true;false
+control::bitmask::BitMask::any_bit_set;false;false;false;false
+raw::RawTable::<T, A>::insert_no_grow;true;true;true;false
+rustc_entry::RustcOccupiedEntry::<'a, K, V, A>::insert;false;false;true;false
+map::VacantEntryRef::<'a, 'b, K, Q, V, S, A>::insert;false;false;true;false
+rustc_entry::RustcVacantEntry::<'a, K, V, A>::key;false;false;true;false
+map::VacantEntry::<'a, K, V, S, A>::insert_entry;false;false;true;false
+raw::RawTable::<T, A>::replace_bucket_with;true;true;true;false
+<set::ExtractIf<'_, K, F, A> as rustc_std_workspace_core::iter::Iterator>::next;false;false;true;false
+set::HashSet::<T, S, A>::intersection;false;false;true;false
+<set::SymmetricDifference<'_, T, S, A> as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+<set::Union<'a, T, S, A> as rustc_std_workspace_core::iter::Iterator>::next;false;false;true;false
+<raw::ProbeSeq as rustc_std_workspace_core::clone::Clone>::clone;false;false;true;false
+map::HashMap::<K, V, S, A>::len;false;false;true;false
+control::group::sse2::Group::match_full;false;false;false;false
+<map::ExtractIf<'_, K, V, F, A> as rustc_std_workspace_core::iter::Iterator>::size_hint;false;false;true;false
+<set::HashSet<T, S, A> as rustc_std_workspace_core::clone::Clone>::clone_from;false;false;true;false
+raw::RawTableInner::num_ctrl_bytes;false;false;true;false
+raw::RawDrain::<'_, T, A>::iter;false;false;true;false
+<raw::RawIter<T> as rustc_std_workspace_core::default::Default>::default;false;true;false;false
+<table::IterHash<'a, T> as rustc_std_workspace_core::iter::Iterator>::next;false;true;true;false
+<TryReserveError as rustc_std_workspace_core::cmp::PartialEq>::eq;false;false;false;false
+<map::ExtractIf<'_, K, V, F, A> as rustc_std_workspace_core::iter::Iterator>::next;false;false;true;false
+set::HashSet::<T, S, A>::insert;false;false;true;false
+set::HashSet::<T, S, A>::hasher;false;false;true;false
+<set::HashSet<T, S, A> as rustc_std_workspace_core::convert::From<map::HashMap<T, (), S, A>>>::from;false;false;true;false
+table::HashTable::<T, A>::get_many_mut;false;false;true;false
+<map::Keys<'_, K, V> as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+map::assert_covariance::keys_val;false;false;true;false
+set::Entry::<'a, T, S, A>::insert;false;false;true;false
+raw::RawTableInner::is_in_same_group;false;false;true;false
+set::HashSet::<T, S, A>::get_or_insert;false;true;true;false
+raw::RawTable::<T, A>::reserve;false;true;true;false
+<map::IterMut<'a, K, V> as rustc_std_workspace_core::iter::Iterator>::next;false;true;true;false
+raw_entry::RawEntryMut::<'a, K, V, S, A>::and_modify;false;false;true;false
+raw::Fallibility::alloc_err;false;false;false;false
+raw_entry::RawEntryMut::<'a, K, V, S, A>::and_replace_entry_with;false;false;true;false
+set::HashSet::<T, S, A>::allocator;false;false;true;false
+set::HashSet::<T, S, A>::allocation_size;false;false;true;false
+<set::VacantEntry<'_, T, S, A> as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+table::OccupiedEntry::<'a, T, A>::into_mut;false;true;true;false
+<table::IterHashMut<'a, T> as rustc_std_workspace_core::iter::Iterator>::next;false;true;true;false
+<table::ExtractIf<'_, T, F, A> as rustc_std_workspace_core::iter::Iterator>::size_hint;false;false;true;false
+<raw::TableLayout as rustc_std_workspace_core::clone::Clone>::clone;false;false;true;false
+<map::IterMut<'a, K, V> as rustc_std_workspace_core::iter::Iterator>::size_hint;false;false;true;false
+raw::RawIterRange::<T>::next_impl;true;true;true;true
+raw_entry::RawOccupiedEntryMut::<'a, K, V, S, A>::get_mut;false;true;true;false
+<raw::RawDrain<'_, T, A> as rustc_std_workspace_core::ops::Drop>::drop;false;true;true;false
+map::HashMap::<K, V, S, A>::get_many_key_value_mut;false;false;true;false
+map::assert_covariance::values_val;false;false;true;false
+<set::HashSet<T, S, A> as rustc_std_workspace_core::ops::BitAndAssign<&set::HashSet<T, S, A>>>::bitand_assign;false;false;true;false
+table::Entry::Vacant;false;false;true;false
+raw::RawIterRange::<T>::new;true;true;true;false
+<map::HashMap<K, V, S, A> as rustc_std_workspace_core::ops::Index<&Q>>::index;false;false;true;false
+<rustc_entry::RustcVacantEntry<'_, K, V, A> as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+<set::HashSet<T, S, A> as rustc_std_workspace_core::iter::FromIterator<T>>::from_iter;false;false;false;false
+<raw::Fallibility as rustc_std_workspace_core::clone::Clone>::clone;false;false;false;false
+<raw::RawDrain<'_, T, A> as rustc_std_workspace_core::iter::Iterator>::next;false;true;true;false
+<map::Iter<'a, K, V> as rustc_std_workspace_core::iter::Iterator>::next;false;true;true;false
+<raw::FullBucketsIndices as rustc_std_workspace_core::iter::Iterator>::size_hint;false;false;true;false
+raw::Bucket::<T>::as_ptr;false;true;true;false
+<&set::HashSet<T, S, A> as rustc_std_workspace_core::ops::BitXor<&set::HashSet<T, S, A>>>::bitxor;false;false;true;true
+<map::Drain<'_, K, V, A> as rustc_std_workspace_core::iter::ExactSizeIterator>::len;false;false;true;false
+rustc_entry::RustcEntry::<'a, K, V, A>::or_insert_with;false;false;true;false
+map::EntryRef::Vacant;false;false;true;false
+<table::HashTable<T, A> as rustc_std_workspace_core::default::Default>::default;false;false;false;false
+raw::Fallibility::capacity_overflow;false;false;false;false
+map::HashMap::<K, V, S, A>::reserve;false;false;true;false
+table::Entry::Occupied;false;false;true;false
+<raw_entry::RawEntryMut<'_, K, V, S, A> as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+raw::RawTable::<T>::with_capacity;false;false;false;false
+map::assert_covariance::map_key;false;false;true;false
+<Q as Equivalent<K>>::equivalent;false;false;false;false
+<set::HashSet<T, S, A> as rustc_std_workspace_core::iter::Extend<&'a T>>::extend_reserve;false;false;true;false
+<set::Difference<'a, T, S, A> as rustc_std_workspace_core::iter::Iterator>::size_hint;false;false;true;false
+set::assert_covariance::iter;false;false;true;false
+raw::RawTable::<T, A>::get_many_mut_pointers;true;false;true;false
+rustc_entry::RustcOccupiedEntry::<'a, K, V, A>::remove;false;false;true;false
+raw::RawTable::<T, A>::find_or_find_insert_slot;false;true;true;false
+raw::RawTableInner::reserve_rehash_inner;true;true;true;false
+set::HashSet::<T, S, A>::clear;false;false;true;false
+table::HashTable::<T, A>::with_capacity_in;false;false;false;false
+raw::RawTableInner::drop_elements;true;true;true;true
+<raw::RawIntoIter<T, A> as rustc_std_workspace_core::iter::Iterator>::size_hint;false;false;true;false
+<map::IterMut<'_, K, V> as rustc_std_workspace_core::iter::ExactSizeIterator>::len;false;false;true;false
+raw::Bucket::<T>::as_mut;true;true;true;false
+raw_entry::<impl map::HashMap<K, V, S, A>>::raw_entry;false;false;true;false
+map::EntryRef::<'a, 'b, K, Q, V, S, A>::or_insert;false;false;true;false
+<set::Difference<'_, T, S, A> as rustc_std_workspace_core::clone::Clone>::clone;false;false;true;false
+table::HashTable::<T>::with_capacity;false;false;false;false
+rustc_entry::<impl map::IntoIter<K, V>>::rustc_iter;false;false;true;false
+<table::IntoIter<T, A> as rustc_std_workspace_core::iter::Iterator>::size_hint;false;false;true;false
+<&'a table::HashTable<T, A> as rustc_std_workspace_core::iter::IntoIterator>::into_iter;false;false;true;false
+rustc_entry::RustcEntry::<'a, K, V, A>::and_modify;false;false;true;false
+raw::RawTable::<T, A>::get_mut;false;true;true;false
+raw::Bucket::<T>::read;true;true;true;false
+map::HashMap::<K, V, S, A>::iter;false;true;true;false
+<map::Values<'a, K, V> as rustc_std_workspace_core::iter::Iterator>::fold;false;false;true;true
+map::Entry::<'a, K, V, S, A>::or_insert;false;false;true;false
+<rustc_entry::RustcEntry<'_, K, V, A> as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+<raw::RawIntoIter<T, A> as rustc_std_workspace_core::default::Default>::default;false;false;false;false
+<set::HashSet<T, S, A> as rustc_std_workspace_core::ops::SubAssign<&set::HashSet<T, S, A>>>::sub_assign;false;false;true;true
+raw::RawTable::<T, A>::capacity;false;false;true;false
+<set::Difference<'a, T, S, A> as rustc_std_workspace_core::iter::Iterator>::next;false;false;true;true
+raw::RawTable::<T, A>::erase;true;true;true;false
+map::HashMap::<K, V, S, A>::into_keys;false;false;true;false
+<raw::RawIter<T> as rustc_std_workspace_core::iter::Iterator>::size_hint;false;false;true;false
+map::HashMap::<K, V, S, A>::get;false;false;true;false
+<raw_entry::RawVacantEntryMut<'_, K, V, S, A> as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+control::group::sse2::Group::static_empty;false;false;false;false
+<set::Intersection<'a, T, S, A> as rustc_std_workspace_core::iter::Iterator>::size_hint;false;false;true;false
+table::Entry::<'a, T, A>::insert;false;false;true;false
+raw::RawTableInner::fix_insert_slot;true;true;true;false
+map::EntryRef::<'a, 'b, K, Q, V, S, A>::and_modify;false;false;true;false
+<set::OccupiedEntry<'_, T, S, A> as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+<map::IntoKeys<K, V, A> as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+control::group::sse2::Group::convert_special_to_empty_and_full_to_deleted;false;true;false;false
+control::tag::TagSliceExt::fill_empty;false;false;true;false
+<set::Iter<'a, K> as rustc_std_workspace_core::iter::Iterator>::fold;false;false;true;true
+<map::HashMap<K, V, S, A> as rustc_std_workspace_core::iter::Extend<(K, V)>>::extend_one;false;false;true;false
+raw_entry::RawVacantEntryMut::<'a, K, V, S, A>::insert_hashed_nocheck;false;false;true;false
+raw::RawTable::<T, A>::get_many_unchecked_mut;true;true;true;false
+raw::RawTableInner::full_buckets_indices;true;true;true;false
+raw::RawTableInner::ctrl_slice;false;true;true;false
+map::HashMap::<K, V, S, A>::hasher;false;false;true;false
+map::assert_covariance::iter_key;false;false;true;false
+rustc_entry::RustcEntry::<'a, K, V, A>::or_insert;false;false;true;false
+raw::RawTable::<T, A>::len;false;false;true;false
+<set::HashSet<T, S, A> as rustc_std_workspace_core::iter::Extend<T>>::extend_one;false;false;true;false
+<map::Drain<'_, K, V, A> as rustc_std_workspace_core::iter::Iterator>::fold;false;false;true;true
+<set::Drain<'_, K, A> as rustc_std_workspace_core::iter::ExactSizeIterator>::len;false;false;true;false
+<set::SymmetricDifference<'a, T, S, A> as rustc_std_workspace_core::iter::Iterator>::next;false;false;true;false
+raw::RawTable::<T>::new;false;false;false;false
+map::HashMap::<K, V, S, A>::entry;false;false;true;false
+set::HashSet::<T, S, A>::extract_if;false;true;true;false
+set::HashSet::<T, S, A>::reserve;false;false;true;false
+map::HashMap::<K, V, S, A>::with_capacity_and_hasher_in;false;false;false;false
+rustc_entry::RustcOccupiedEntry::<'a, K, V, A>::into_mut;false;true;true;false
+set::HashSet::<T, S, A>::remove;false;false;true;false
+map::Entry::Occupied;false;false;true;false
+<&set::HashSet<T, S, A> as rustc_std_workspace_core::ops::BitOr<&set::HashSet<T, S, A>>>::bitor;false;false;true;true
+map::HashMap::<K, V, S>::with_hasher;false;false;false;false
+map::VacantEntry::<'a, K, V, S, A>::key;false;false;true;false
+<table::Iter<'a, T> as rustc_std_workspace_core::clone::Clone>::clone;false;false;true;false
+map::OccupiedEntry::<'a, K, V, S, A>::get;false;true;true;false
+control::group::sse2::Group::match_empty;false;false;false;false
+raw::RawTableInner::replace_ctrl_hash;true;true;true;false
+raw::RawTableInner::with_capacity;false;true;true;false
+map::HashMap::<K, V, S, A>::retain;false;true;true;true
+set::HashSet::<T, S, A>::try_reserve;false;false;true;false
+map::EntryRef::<'a, 'b, K, Q, V, S, A>::key;false;false;true;false
+<map::HashMap<K, V, S, A> as rustc_std_workspace_core::iter::Extend<(K, V)>>::extend_reserve;false;false;true;false
+map::EntryRef::Occupied;false;false;true;false
+<set::HashSet<T, S, A> as rustc_std_workspace_core::iter::IntoIterator>::into_iter;false;false;true;false
+raw::RawTableInner::find_or_find_insert_slot_inner;true;true;true;true
+<map::IntoValues<K, V, A> as rustc_std_workspace_core::iter::Iterator>::size_hint;false;false;true;false
+raw::RawTableInner::buckets;false;false;true;false
+raw::Bucket::<T>::as_non_null;false;true;true;false
+map::HashMap::<K, V, S, A>::iter_mut;false;true;true;false
+table::HashTable::<T, A>::capacity;false;false;true;false
+table::HashTable::<T, A>::shrink_to_fit;false;false;true;false
+raw::RawTable::<T, A>::buckets;false;false;true;false
+map::Entry::<'a, K, V, S, A>::and_replace_entry_with;false;false;true;false
+map::assert_covariance::into_iter_val;false;false;true;false
+table::HashTable::<T, A>::is_empty;false;false;true;false
+<raw::RawIter<T> as rustc_std_workspace_core::iter::Iterator>::next;false;true;true;false
+map::VacantEntryRef::<'a, 'b, K, Q, V, S, A>::key;false;false;true;false
+<table::Iter<'_, T> as rustc_std_workspace_core::default::Default>::default;false;false;false;false
+<map::IntoIter<K, V, A> as rustc_std_workspace_core::iter::Iterator>::fold;false;false;true;true
+<map::IntoValues<K, V, A> as rustc_std_workspace_core::iter::ExactSizeIterator>::len;false;false;true;false
+raw_entry::RawVacantEntryMut::<'a, K, V, S, A>::insert_entry;false;false;true;false
+raw::RawIter::<T>::drop_elements;true;true;true;true
+<control::tag::Tag as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+<map::IterMut<'_, K, V> as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+raw_entry::RawEntryBuilder::<'a, K, V, S, A>::from_key_hashed_nocheck;false;false;true;false
+raw_entry::RawEntryMut::<'a, K, V, S, A>::or_insert_with;false;false;true;false
+set::HashSet::<T, S, A>::capacity;false;false;true;false
+<map::Entry<'_, K, V, S, A> as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+<set::SymmetricDifference<'_, T, S, A> as rustc_std_workspace_core::clone::Clone>::clone;false;false;true;false
+set::HashSet::<T, S, A>::shrink_to;false;false;true;false
+set::assert_covariance::set;false;false;true;false
+table::HashTable::<T, A>::retain;false;true;true;true
+<raw::RawTable<T, A> as rustc_std_workspace_core::iter::IntoIterator>::into_iter;false;true;true;false
+<&set::HashSet<T, S, A> as rustc_std_workspace_core::ops::Sub<&set::HashSet<T, S, A>>>::sub;false;false;true;true
+raw::bucket_mask_to_capacity;false;false;false;false
+set::HashSet::<T, S, A>::contains;false;false;true;false
+table::HashTable::<T, A>::shrink_to;false;false;true;false
+<map::Keys<'_, K, V> as rustc_std_workspace_core::iter::ExactSizeIterator>::len;false;false;true;false
+table::HashTable::<T, A>::clear;false;false;true;false
+set::assert_covariance::symmetric_difference;false;false;true;false
+<set::HashSet<T, S, A> as rustc_std_workspace_core::clone::Clone>::clone;false;false;true;false
+map::HashMap::<K, V, S, A>::build_hashes_inner;false;false;true;true
+<&'a mut map::HashMap<K, V, S, A> as rustc_std_workspace_core::iter::IntoIterator>::into_iter;false;false;true;false
+raw::RawTable::<T, A>::is_empty;false;false;true;false
+raw::RawTableInner::set_ctrl_hash;true;true;true;false
+<table::IterHash<'a, T> as rustc_std_workspace_core::iter::Iterator>::fold;false;false;true;true
+map::HashMap::<K, V, S, A>::keys;false;false;true;false
+map::HashMap::<K, V, S, A>::get_many_mut;false;false;true;false
+<control::bitmask::BitMask as rustc_std_workspace_core::iter::IntoIterator>::into_iter;false;false;false;false
+<raw::RawIterRange<T> as rustc_std_workspace_core::iter::Iterator>::size_hint;false;true;true;false
+<map::Values<'_, K, V> as rustc_std_workspace_core::clone::Clone>::clone;false;false;true;false
+<raw::RawTable<T, A> as raw::RawTableClone>::clone_from_spec;true;true;true;false
+raw_entry::RawEntryMut::Occupied;false;false;true;false
+map::HashMap::<K, V, S, A>::try_insert;false;false;true;false
+raw_entry::RawVacantEntryMut::<'a, K, V, S, A>::insert_with_hasher;false;false;true;false
+<raw::RawIterHash<T> as rustc_std_workspace_core::clone::Clone>::clone;false;false;true;false
+set::HashSet::<T, S, A>::symmetric_difference;false;false;true;false
+raw::h1;false;false;false;false
+map::Entry::<'a, K, V, S, A>::or_default;false;false;true;false
+<raw::FullBucketsIndices as rustc_std_workspace_core::iter::Iterator>::next;false;true;true;false
+rustc_entry::RustcEntry::<'a, K, V, A>::insert;false;false;true;false
+raw::Bucket::<T>::drop;true;true;true;false
+rustc_entry::RustcOccupiedEntry::<'a, K, V, A>::get;false;true;true;false
+map::Entry::Vacant;false;false;true;false
+raw::RawIterHash::<T>::new;true;true;true;false
+raw::RawTable::<T, A>::try_reserve;false;true;true;false
+<table::IntoIter<T, A> as rustc_std_workspace_core::iter::ExactSizeIterator>::len;false;false;true;false
+raw_entry::<impl map::HashMap<K, V, S, A>>::raw_entry_mut;false;false;true;false
+raw::RawTable::<T, A>::find;false;true;true;false
+control::bitmask::BitMask;false;false;false;false
+rustc_entry::RustcEntry::<'a, K, V, A>::key;false;false;true;false
+<raw::RawIter<T> as rustc_std_workspace_core::clone::Clone>::clone;false;false;true;false
+<map::ValuesMut<'a, K, V> as rustc_std_workspace_core::iter::Iterator>::next;false;false;true;false
+raw::RawTableInner::is_bucket_full;true;true;true;false
+<map::IntoIter<K, V, A> as rustc_std_workspace_core::iter::ExactSizeIterator>::len;false;false;true;false
+<map::IntoKeys<K, V, A> as rustc_std_workspace_core::iter::Iterator>::fold;false;false;true;true
+<map::ValuesMut<'_, K, V> as rustc_std_workspace_core::default::Default>::default;false;false;false;false
+<table::Drain<'_, T, A> as rustc_std_workspace_core::iter::Iterator>::size_hint;false;false;true;false
+<map::Values<'a, K, V> as rustc_std_workspace_core::iter::Iterator>::size_hint;false;false;true;false
+map::EntryRef::<'a, 'b, K, Q, V, S, A>::insert;false;false;true;false
+<control::tag::Tag as rustc_std_workspace_core::clone::Clone>::clone;false;false;false;false
+<map::IntoKeys<K, V, A> as rustc_std_workspace_core::default::Default>::default;false;false;false;false
+raw::RawTable::<T, A>::erase_no_drop;true;true;true;false
+map::HashMap::<K, V, S, A>::into_values;false;false;true;false
+<raw::RawTable<T, A> as rustc_std_workspace_core::clone::Clone>::clone;false;true;true;false
+<set::Drain<'_, K, A> as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+<map::ValuesMut<'_, K, V> as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+<map::HashMap<K, V, S, A> as rustc_std_workspace_core::iter::Extend<&'a (K, V)>>::extend_one;false;false;true;false
+raw::alloc::inner::do_alloc;false;false;false;false
+raw::RawIntoIter::<T, A>::iter;false;false;true;false
+map::HashMap::<K, V, S, A>::allocator;false;false;true;false
+control::tag::Tag::special_is_empty;false;false;false;false
+<map::IntoValues<K, V, A> as rustc_std_workspace_core::default::Default>::default;false;false;false;false
+<set::Union<'a, T, S, A> as rustc_std_workspace_core::iter::Iterator>::fold;false;false;true;true
+<&'a map::HashMap<K, V, S, A> as rustc_std_workspace_core::iter::IntoIterator>::into_iter;false;false;true;false
+raw::ProbeSeq::move_next;false;false;true;false
+<raw::RawIter<T> as rustc_std_workspace_core::iter::Iterator>::fold;false;true;true;false
+<table::IterHashMut<'_, T> as rustc_std_workspace_core::default::Default>::default;false;false;false;false
+<table::ExtractIf<'_, T, F, A> as rustc_std_workspace_core::iter::Iterator>::next;false;false;true;false
+<table::Drain<'_, T, A> as rustc_std_workspace_core::iter::Iterator>::fold;false;false;true;true
+<control::group::sse2::Group as rustc_std_workspace_core::clone::Clone>::clone;false;false;false;false
+<set::Iter<'a, K> as rustc_std_workspace_core::iter::Iterator>::size_hint;false;false;true;false
+map::assert_covariance::values_key;false;false;true;false
+<table::IterMut<'_, T> as rustc_std_workspace_core::iter::ExactSizeIterator>::len;false;false;true;false
+<set::HashSet<T, S, A> as rustc_std_workspace_core::default::Default>::default;false;false;false;false
+raw_entry::RawEntryMut::Vacant;false;false;true;false
+<set::IntoIter<K, A> as rustc_std_workspace_core::default::Default>::default;false;false;false;false
+<table::IterMut<'a, T> as rustc_std_workspace_core::iter::Iterator>::size_hint;false;false;true;false
+map::IntoIter::<K, V, A>::iter;false;false;true;false
+<set::HashSet<T, S, A> as rustc_std_workspace_core::ops::BitOrAssign<&set::HashSet<T, S, A>>>::bitor_assign;false;false;true;true
+map::HashMap::<K, V, S, A>::capacity;false;false;true;false
+table::HashTable::<T, A>::allocation_size;false;false;true;false
+table::HashTable::<T, A>::allocator;false;false;true;false
+<map::IntoKeys<K, V, A> as rustc_std_workspace_core::iter::Iterator>::next;false;false;true;false
+raw_entry::RawEntryBuilderMut::<'a, K, V, S, A>::search;false;false;true;false
+control::group::sse2::Group::match_tag;false;true;false;false
+<set::Union<'_, T, S, A> as rustc_std_workspace_core::clone::Clone>::clone;false;false;true;false
+table::HashTable::<T, A>::find_entry;false;false;true;false
+<set::SymmetricDifference<'a, T, S, A> as rustc_std_workspace_core::iter::Iterator>::fold;false;false;true;true
+<table::VacantEntry<'_, T, A> as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+raw::RawTable::<T, A>::remove_entry;false;true;true;false
+map::assert_covariance::drain;false;false;true;false
+rustc_entry::RustcOccupiedEntry::<'a, K, V, A>::key;false;true;true;false
+<table::IterMut<'_, T> as rustc_std_workspace_core::default::Default>::default;false;false;false;false
+<map::IntoValues<K, V, A> as rustc_std_workspace_core::iter::Iterator>::fold;false;false;true;true
+raw_entry::RawOccupiedEntryMut::<'a, K, V, S, A>::remove_entry;false;true;true;false
+raw::Bucket::<T>::next_n;true;true;true;false
+<map::Drain<'_, K, V, A> as rustc_std_workspace_core::iter::Iterator>::next;false;false;true;false
+set::VacantEntry::<'a, T, S, A>::get;false;false;true;false
+<map::IntoIter<K, V, A> as rustc_std_workspace_core::iter::Iterator>::next;false;false;true;false
+<map::OccupiedError<'_, K, V, S, A> as rustc_std_workspace_core::fmt::Display>::fmt;false;false;true;false
+<table::IterMut<'a, T> as rustc_std_workspace_core::iter::Iterator>::next;false;true;true;false
+<control::bitmask::BitMaskIter as rustc_std_workspace_core::iter::Iterator>::next;false;false;true;false
+map::OccupiedEntry::<'a, K, V, S, A>::get_mut;false;true;true;false
+<set::Union<'a, T, S, A> as rustc_std_workspace_core::iter::Iterator>::size_hint;false;false;true;false
+table::HashTable::<T, A>::find;false;false;true;false
+<control::bitmask::BitMask as rustc_std_workspace_core::clone::Clone>::clone;false;false;false;false
+raw::RawTableInner::bucket_ptr;true;true;true;false
+set::HashSet::<T, S, A>::take;false;false;true;false
+raw_entry::RawOccupiedEntryMut::<'a, K, V, S, A>::get;false;true;true;false
+<table::IntoIter<T, A> as rustc_std_workspace_core::iter::Iterator>::fold;false;false;true;true
+raw::RawTableInner::bucket;true;true;true;false
+map::make_hasher;false;false;false;false
+map::Entry::<'a, K, V, S, A>::key;false;false;true;false
+raw::RawTableInner::new_uninitialized;true;true;true;false
+raw::RawTableInner::free_buckets;true;true;true;false
+rustc_entry::RustcEntry::Occupied;false;false;true;false
+set::VacantEntry::<'a, T, S, A>::insert;false;false;true;false
+raw::Bucket::<T>::as_ref;true;true;true;false
+map::VacantEntryRef::<'a, 'b, K, Q, V, S, A>::insert_entry;false;false;true;false
+raw_entry::RawEntryMut::<'a, K, V, S, A>::or_insert;false;false;true;false
+map::HashMap::<K, V, S, A>::get_many_unchecked_mut;true;true;true;false
+<map::OccupiedError<'_, K, V, S, A> as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+<table::IntoIter<T, A> as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+raw::RawTableInner::find_insert_slot;true;true;true;true
+<map::HashMap<K, V, S, A> as rustc_std_workspace_core::clone::Clone>::clone;false;false;true;false
+raw::RawTable::<T, A>::into_iter_from;true;false;true;false
+raw::RawTable::<T, A>::drain;false;true;true;false
+<set::HashSet<T, S, A> as rustc_std_workspace_core::iter::Extend<&'a T>>::extend;false;false;true;false
+<map::HashMap<K, V, S, A> as rustc_std_workspace_core::iter::Extend<(&'a K, &'a V)>>::extend;false;false;true;false
+<raw::RawIntoIter<T, A> as rustc_std_workspace_core::iter::Iterator>::next;false;true;true;false
+<map::HashMap<K, V, S, A> as rustc_std_workspace_core::iter::Extend<(&'a K, &'a V)>>::extend_reserve;false;false;true;false
+<set::ExtractIf<'_, K, F, A> as rustc_std_workspace_core::iter::Iterator>::size_hint;false;false;true;false
+<map::IntoIter<K, V, A> as rustc_std_workspace_core::iter::Iterator>::size_hint;false;false;true;false
+<map::Values<'_, K, V> as rustc_std_workspace_core::iter::ExactSizeIterator>::len;false;false;true;false
+<map::VacantEntryRef<'_, '_, K, Q, V, S, A> as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+raw::RawTable::<T, A>::iter_hash;true;true;true;false
+<map::IterMut<'_, K, V> as rustc_std_workspace_core::default::Default>::default;false;false;false;false
+set::HashSet::<T, S, A>::get;false;false;true;false
+<TryReserveError as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+rustc_entry::RustcVacantEntry::<'a, K, V, A>::into_key;false;false;true;false
+rustc_entry::RustcVacantEntry::<'a, K, V, A>::insert_entry;false;true;true;false
+set::HashSet::<T, S, A>::retain;false;false;true;false
+control::bitmask::BitMask::lowest_set_bit;false;false;false;false
+<table::OccupiedEntry<'_, T, A> as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+<set::Drain<'_, K, A> as rustc_std_workspace_core::iter::Iterator>::size_hint;false;false;true;false
+raw::RawTable::<T, A>::get;false;true;true;false
+raw_entry::RawOccupiedEntryMut::<'a, K, V, S, A>::get_key_value_mut;false;true;true;false
+<set::HashSet<T, S, A> as rustc_std_workspace_core::ops::BitXorAssign<&set::HashSet<T, S, A>>>::bitxor_assign;false;true;true;true
+<raw::Bucket<T> as rustc_std_workspace_core::clone::Clone>::clone;false;false;true;false
+raw::RawTableInner::set_ctrl;true;true;true;false
+map::EntryRef::<'a, 'b, K, Q, V, S, A>::or_insert_with_key;false;false;true;false
+map::HashMap::<K, V, S, A>::drain;false;false;true;false
+<map::IntoValues<K, V, A> as rustc_std_workspace_core::iter::Iterator>::next;false;false;true;false
+<raw::RawTable<T, A> as raw::RawTableClone>::clone_from_spec;true;true;true;false
+map::OccupiedEntry::<'a, K, V, S, A>::key;false;true;true;false
+set::HashSet::<T, S, A>::get_or_insert_with;false;true;true;false
+<map::HashMap<K, V, S, A> as rustc_std_workspace_core::iter::IntoIterator>::into_iter;false;false;true;false
+set::HashSet::<T, S, A>::len;false;false;true;false
+<raw::RawIntoIter<T, A> as rustc_std_workspace_core::ops::Drop>::drop;false;true;true;false
+rustc_entry::RustcOccupiedEntry::<'a, K, V, A>::remove_entry;false;true;true;false
+map::EntryRef::<'a, 'b, K, Q, V, S, A>::or_insert_with;false;false;true;false
+raw::RawTable::<T, A>::clone_from_impl;true;true;true;true
+raw::RawTable::<T, A>::insert_entry;false;true;true;false
+map::equivalent;false;false;false;false
+<raw::RawIterHash<T> as rustc_std_workspace_core::iter::Iterator>::next;false;true;true;false
+map::HashMap::<K, V, S, A>::extract_if;false;true;true;false
+map::HashMap::<K, V, S, A>::remove_entry;false;false;true;false
+<map::IntoValues<K, V, A> as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+<raw::RawIterRange<T> as rustc_std_workspace_core::clone::Clone>::clone;false;false;true;false
+raw::TableLayout::new;false;false;false;false
+map::assert_covariance::into_iter_key;false;false;true;false
+raw_entry::RawEntryBuilderMut::<'a, K, V, S, A>::from_key;false;false;true;false
+<map::Drain<'_, K, V, A> as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+raw_entry::RawOccupiedEntryMut::<'a, K, V, S, A>::key;false;true;true;false
+<map::IntoKeys<K, V, A> as rustc_std_workspace_core::iter::ExactSizeIterator>::len;false;false;true;false
+rustc_entry::<impl map::HashMap<K, V, S, A>>::rustc_entry;false;false;true;false
+rustc_entry::RustcOccupiedEntry::<'a, K, V, A>::get_mut;false;true;true;false
+map::HashMap::<K, V, S, A>::get_inner;false;false;true;false
+<map::Iter<'_, K, V> as rustc_std_workspace_core::iter::ExactSizeIterator>::len;false;false;true;false
+<scopeguard::ScopeGuard<T, F> as rustc_std_workspace_core::ops::DerefMut>::deref_mut;false;false;true;false
+set::HashSet::<T, S, A>::drain;false;false;true;false
+set::HashSet::<T, S, A>::is_superset;false;false;true;false
+<set::IntoIter<K, A> as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+map::HashMap::<K, V, S, A>::try_reserve;false;false;true;false
+set::assert_covariance::intersection;false;false;true;false
+table::HashTable::<T, A>::drain;false;false;true;false
+raw::RawTableInner::find_insert_slot_in_group;false;false;true;false
+table::HashTable::<T, A>::get_many_unchecked_mut;true;true;true;false
+table::Entry::<'a, T, A>::or_insert_with;false;false;true;false
+<table::Iter<'_, T> as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+set::HashSet::<T, S, A>::is_subset;false;false;true;true
+table::Entry::<'a, T, A>::and_modify;false;false;true;false
+raw_entry::RawOccupiedEntryMut::<'a, K, V, S, A>::get_key_value;false;true;true;false
+map::assert_covariance::map_val;false;false;true;false
+<table::IterMut<'_, T> as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+control::group::sse2::Group::load_aligned;true;true;true;false
+table::AbsentEntry::<'a, T, A>::into_table;false;false;true;false
+control::tag::Tag;false;false;false;false
+map::VacantEntry::<'a, K, V, S, A>::into_key;false;false;true;false
+raw::RawTable::<T, A>::is_bucket_full;true;true;true;false
+<map::HashMap<K, V, S, A> as rustc_std_workspace_core::iter::Extend<&'a (K, V)>>::extend;false;false;true;false
+raw::RawTable::<T, A>::allocator;false;false;true;false
+<[control::tag::Tag] as control::tag::TagSliceExt>::fill_tag;false;true;true;false
+raw::RawTable::<T, A>::bucket;true;true;true;false
+<&'a set::HashSet<T, S, A> as rustc_std_workspace_core::iter::IntoIterator>::into_iter;false;false;true;false
+table::HashTable::<T, A>::try_reserve;false;false;true;false
+map::HashMap::<K, V, S, A>::get_mut;false;false;true;false
+<set::Iter<'a, K> as rustc_std_workspace_core::iter::Iterator>::next;false;false;true;false
+map::HashMap::<K, V, S, A>::is_empty;false;false;true;false
+map::VacantEntry::<'a, K, V, S, A>::insert;false;false;true;false
+<table::IterHashMut<'a, T> as rustc_std_workspace_core::iter::Iterator>::fold;false;false;true;true
+control::tag::Tag::is_full;false;false;false;false
+<set::Union<'_, T, S, A> as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+<map::IntoKeys<K, V, A> as rustc_std_workspace_core::iter::Iterator>::size_hint;false;false;true;false
+table::HashTable::<T, A>::reserve;false;false;true;false
+map::HashMap::<K, V, S, A>::get_key_value;false;false;true;false
+<map::Keys<'a, K, V> as rustc_std_workspace_core::iter::Iterator>::fold;false;false;true;true
+<table::HashTable<T, A> as rustc_std_workspace_core::clone::Clone>::clone;false;false;true;false
+raw::RawTableInner::allocation_size_or_zero;true;true;true;false
+set::HashSet::<T, S, A>::replace;false;true;true;false
+table::OccupiedEntry::<'a, T, A>::get_mut;false;true;true;false
+<map::Keys<'_, K, V> as rustc_std_workspace_core::default::Default>::default;false;false;false;false
+<table::Drain<'_, T, A> as rustc_std_workspace_core::iter::ExactSizeIterator>::len;false;false;true;false
+set::assert_covariance::drain;false;false;true;false
+<set::Drain<'_, K, A> as rustc_std_workspace_core::iter::Iterator>::fold;false;false;true;true
+raw::RawTable::<T, A>::clear;false;true;true;false
+raw::RawTableInner::is_empty_singleton;false;false;true;false
+<set::IntoIter<K, A> as rustc_std_workspace_core::iter::ExactSizeIterator>::len;false;false;true;false
+table::HashTable::<T, A>::iter_mut;false;true;true;false
+table::Entry::<'a, T, A>::or_insert;false;false;true;false
+<scopeguard::ScopeGuard<T, F> as rustc_std_workspace_core::ops::Drop>::drop;false;false;true;false
+<&'a mut table::HashTable<T, A> as rustc_std_workspace_core::iter::IntoIterator>::into_iter;false;false;true;false
+<map::IntoIter<K, V, A> as rustc_std_workspace_core::default::Default>::default;false;false;false;false
+<map::Keys<'a, K, V> as rustc_std_workspace_core::iter::Iterator>::next;false;false;true;false
+raw::RawTableInner::prepare_resize;false;false;true;false
+map::HashMap::<K, V, S, A>::values_mut;false;false;true;false
+<map::HashMap<K, V, S, A> as rustc_std_workspace_core::default::Default>::default;false;false;false;false
+set::HashSet::<T, S>::with_capacity_and_hasher;false;false;false;false
+set::assert_covariance;false;false;false;false
+table::HashTable::<T, A>::extract_if;false;true;true;false
+raw_entry::RawEntryBuilder::<'a, K, V, S, A>::from_hash;false;false;true;false
+<table::Iter<'a, T> as rustc_std_workspace_core::iter::Iterator>::size_hint;false;false;true;false
+<map::VacantEntry<'_, K, V, S, A> as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false

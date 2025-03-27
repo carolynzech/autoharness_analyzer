@@ -1,0 +1,106 @@
+name;is_unsafe;has_unsafe_ops;has_unsupported_input;has_loop_or_iterator
+inflate::core::start_static_table;false;false;true;false
+<inflate::TINFLStatus as rustc_std_workspace_core::cmp::PartialEq>::eq;false;false;false;false
+MZFlush::new;false;false;false;false
+inflate::core::read_u16_le;false;false;true;false
+<DataFormat as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+inflate::output_buffer::OutputBuffer::<'a>::write_slice;false;false;true;false
+inflate::core::read_bits;false;false;true;true
+inflate::core::fill_bit_buffer;false;false;true;false
+<DataFormat as rustc_std_workspace_core::hash::Hash>::hash;false;false;true;false
+inflate::output_buffer::OutputBuffer::<'a>::get_mut;false;false;true;false
+DataFormat::to_window_bits;false;false;false;false
+<inflate::core::LocalVars as rustc_std_workspace_core::clone::Clone>::clone;false;false;true;false
+StreamResult::error;false;false;false;false
+inflate::core::Action::End;false;false;false;false
+inflate::output_buffer::InputWrapper::<'a>::bytes_left;false;false;false;false
+<inflate::stream::InflateState as rustc_std_workspace_core::clone::Clone>::clone;false;false;true;false
+inflate::output_buffer::OutputBuffer::<'a>::get_ref;false;false;true;false
+inflate::stream::push_dict_out;false;false;true;false
+inflate::core::reverse_bits;false;false;false;false
+<MZStatus as rustc_std_workspace_core::cmp::Eq>::assert_receiver_is_total_eq;false;false;false;false
+<MZError as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+inflate::stream::inflate_loop;false;false;true;true
+<inflate::stream::FullReset as inflate::stream::ResetPolicy>::reset;false;false;true;false
+<inflate::TINFLStatus as rustc_std_workspace_core::cmp::Eq>::assert_receiver_is_total_eq;false;false;false;false
+<MZFlush as rustc_std_workspace_core::hash::Hash>::hash;false;false;true;false
+<MZError as rustc_std_workspace_core::clone::Clone>::clone;false;false;false;false
+<inflate::TINFLStatus as rustc_std_workspace_core::clone::Clone>::clone;false;false;false;false
+<MZFlush as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+<MZFlush as rustc_std_workspace_core::cmp::PartialEq>::eq;false;false;false;false
+inflate::core::validate_zlib_header;false;false;false;false
+<impl rustc_std_workspace_core::convert::From<&StreamResult> for rustc_std_workspace_core::result::Result<MZStatus, MZError>>::from;false;false;true;false
+<MZStatus as rustc_std_workspace_core::clone::Clone>::clone;false;false;false;false
+DataFormat::from_window_bits;false;false;false;false
+<inflate::TINFLStatus as rustc_std_workspace_core::hash::Hash>::hash;false;false;true;false
+<StreamResult as rustc_std_workspace_core::clone::Clone>::clone;false;false;true;false
+inflate::decompress_slice_iter_to_slice;false;false;true;true
+inflate::core::decompress_fast;false;false;true;true
+<MZError as rustc_std_workspace_core::cmp::PartialEq>::eq;false;false;false;false
+inflate::output_buffer::InputWrapper::<'a>::read_byte;false;false;true;false
+inflate::output_buffer::OutputBuffer::<'a>::set_position;false;false;true;false
+inflate::stream::FullReset;false;false;false;false
+inflate::core::num_extra_bits_for_distance_code;false;false;false;false
+<inflate::output_buffer::InputWrapper<'a> as rustc_std_workspace_core::clone::Clone>::clone;false;false;false;false
+<DataFormat as rustc_std_workspace_core::cmp::PartialEq>::eq;false;false;false;false
+inflate::core::transfer;false;false;true;true
+inflate::core::end_of_input;false;false;false;false
+<inflate::core::State as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+inflate::core::HuffmanTable::lookup;false;false;true;false
+<MZFlush as rustc_std_workspace_core::cmp::Eq>::assert_receiver_is_total_eq;false;false;false;false
+<MZError as rustc_std_workspace_core::cmp::Eq>::assert_receiver_is_total_eq;false;false;false;false
+inflate::stream::InflateState::reset;false;false;true;false
+<DataFormat as rustc_std_workspace_core::clone::Clone>::clone;false;false;false;false
+inflate::core::State::is_failure;false;false;false;false
+inflate::core::State::begin;false;false;true;false
+inflate::core::HuffmanTable::tree_lookup;false;false;true;true
+<inflate::stream::ZeroReset as inflate::stream::ResetPolicy>::reset;false;false;true;false
+inflate::core::decompress;false;false;true;true
+<DataFormat as rustc_std_workspace_core::cmp::Eq>::assert_receiver_is_total_eq;false;false;false;false
+<StreamResult as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+inflate::core::undo_bytes;false;false;true;false
+inflate::core::HuffmanTable::new;false;false;false;false
+inflate::core::pad_to_bytes;false;false;true;false
+inflate::output_buffer::OutputBuffer::<'a>::from_slice_and_pos;false;false;true;false
+inflate::stream::InflateState::new;false;false;false;false
+inflate::output_buffer::OutputBuffer::<'a>::position;false;false;true;false
+inflate::TINFLStatus::from_i32;false;false;false;false
+shared::update_adler32;false;false;false;false
+<MZError as rustc_std_workspace_core::hash::Hash>::hash;false;false;true;false
+<inflate::core::State as rustc_std_workspace_core::cmp::Eq>::assert_receiver_is_total_eq;false;false;false;false
+<inflate::stream::InflateState as rustc_std_workspace_core::default::Default>::default;false;false;false;false
+inflate::stream::inflate;false;false;true;false
+<inflate::core::DecompressorOxide as rustc_std_workspace_core::clone::Clone>::clone;false;false;true;false
+inflate::core::decode_huffman_code;false;false;true;true
+<inflate::TINFLStatus as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+<MZFlush as rustc_std_workspace_core::clone::Clone>::clone;false;false;false;false
+inflate::core::DecompressorOxide::adler32;false;false;true;false
+<StreamResult as rustc_std_workspace_core::cmp::Eq>::assert_receiver_is_total_eq;false;false;true;false
+<inflate::core::DecompressorOxide as rustc_std_workspace_core::default::Default>::default;false;false;false;false
+<inflate::stream::MinReset as inflate::stream::ResetPolicy>::reset;false;false;true;false
+<StreamResult as rustc_std_workspace_core::hash::Hash>::hash;false;false;true;false
+inflate::core::HuffmanTable::fast_lookup;false;false;true;false
+inflate::stream::InflateState::decompressor;false;false;true;false
+inflate::output_buffer::OutputBuffer::<'a>::bytes_left;false;false;true;false
+<StreamResult as rustc_std_workspace_core::cmp::PartialEq>::eq;false;false;true;false
+<inflate::core::HuffmanTable as rustc_std_workspace_core::clone::Clone>::clone;false;false;true;false
+inflate::output_buffer::InputWrapper::<'a>::read_u32_le;false;false;true;false
+<impl rustc_std_workspace_core::convert::From<StreamResult> for rustc_std_workspace_core::result::Result<MZStatus, MZError>>::from;false;false;true;false
+inflate::core::Action::Jump;false;false;false;false
+inflate::output_buffer::InputWrapper::<'a>::as_slice;false;false;false;false
+inflate::stream::InflateState::reset_as;false;false;true;false
+inflate::core::DecompressorOxide::adler32_header;false;false;true;false
+inflate::core::DecompressorOxide::init;false;false;true;false
+<MZStatus as rustc_std_workspace_core::cmp::PartialEq>::eq;false;false;false;false
+inflate::output_buffer::OutputBuffer::<'a>::write_byte;false;false;true;false
+inflate::core::read_byte;false;false;true;false
+inflate::core::DecompressorOxide::new;false;false;false;false
+inflate::core::init_tree;false;false;true;true
+inflate::output_buffer::InputWrapper::<'a>::from_slice;false;false;false;false
+<MZStatus as rustc_std_workspace_core::hash::Hash>::hash;false;false;true;false
+<inflate::core::State as rustc_std_workspace_core::clone::Clone>::clone;false;false;false;false
+inflate::stream::InflateState::last_status;false;false;true;false
+inflate::core::apply_match;false;false;true;false
+<inflate::core::State as rustc_std_workspace_core::cmp::PartialEq>::eq;false;false;false;false
+<MZStatus as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+inflate::output_buffer::InputWrapper::<'a>::advance;false;false;true;false

@@ -1,0 +1,65 @@
+fn_name;boxes;closures;coroutines;floats;fn_defs;fn_ptrs;generics;interior_muts;raw_ptrs;recursive_types;mut_refs;simd;unions
+<inflate::core::HuffmanTable as rustc_std_workspace_core::clone::Clone>::clone;0;0;0;0;0;0;0;0;0;1;0;0;0
+inflate::core::HuffmanTable::fast_lookup;0;0;0;0;0;0;0;0;0;1;0;0;0
+inflate::core::HuffmanTable::tree_lookup;0;0;0;0;0;0;0;0;0;1;0;0;0
+inflate::core::HuffmanTable::lookup;0;0;0;0;0;0;0;0;0;1;0;0;0
+<inflate::core::DecompressorOxide as rustc_std_workspace_core::clone::Clone>::clone;0;0;0;0;0;0;0;0;0;14;0;0;0
+inflate::core::DecompressorOxide::init;0;0;0;0;0;0;0;0;0;14;1;0;0
+inflate::core::DecompressorOxide::adler32;0;0;0;0;0;0;0;0;0;14;0;0;0
+inflate::core::DecompressorOxide::adler32_header;0;0;0;0;0;0;0;0;0;14;0;0;0
+<inflate::core::State as rustc_std_workspace_core::fmt::Debug>::fmt;0;0;0;0;0;0;1;0;0;2;2;0;0
+inflate::core::State::begin;0;0;0;0;0;0;0;0;0;0;1;0;0
+inflate::core::read_u16_le;0;0;0;0;0;0;0;0;0;0;1;0;0
+inflate::core::fill_bit_buffer;0;0;0;0;0;0;0;0;0;2;2;0;0
+inflate::core::decode_huffman_code;0;0;0;0;0;0;1;0;0;16;3;0;0
+inflate::core::read_byte;0;0;0;0;0;0;1;0;0;0;1;0;0
+inflate::core::read_bits;0;0;0;0;0;0;1;0;0;2;2;0;0
+inflate::core::pad_to_bytes;0;0;0;0;0;0;1;0;0;2;2;0;0
+inflate::core::undo_bytes;0;0;0;0;0;0;0;0;0;2;1;0;0
+inflate::core::start_static_table;0;0;0;0;0;0;0;0;0;14;1;0;0
+inflate::core::init_tree;0;0;0;0;0;0;0;0;0;16;2;0;0
+<inflate::core::LocalVars as rustc_std_workspace_core::clone::Clone>::clone;0;0;0;0;0;0;0;0;0;2;0;0;0
+inflate::core::transfer;0;0;0;0;0;0;0;0;0;0;1;0;0
+inflate::core::apply_match;0;0;0;0;0;0;0;0;0;0;1;0;0
+inflate::core::decompress_fast;0;0;0;0;0;0;0;0;0;16;5;0;0
+inflate::core::decompress;0;0;0;0;0;0;0;0;0;14;2;0;0
+inflate::output_buffer::OutputBuffer::<'a>::from_slice_and_pos;0;0;0;0;0;0;0;0;0;0;1;0;0
+inflate::output_buffer::OutputBuffer::<'a>::position;0;0;0;0;0;0;0;0;0;0;1;0;0
+inflate::output_buffer::OutputBuffer::<'a>::set_position;0;0;0;0;0;0;0;0;0;0;2;0;0
+inflate::output_buffer::OutputBuffer::<'a>::write_byte;0;0;0;0;0;0;0;0;0;0;2;0;0
+inflate::output_buffer::OutputBuffer::<'a>::write_slice;0;0;0;0;0;0;0;0;0;0;2;0;0
+inflate::output_buffer::OutputBuffer::<'a>::bytes_left;0;0;0;0;0;0;0;0;0;0;1;0;0
+inflate::output_buffer::OutputBuffer::<'a>::get_ref;0;0;0;0;0;0;0;0;0;0;1;0;0
+inflate::output_buffer::OutputBuffer::<'a>::get_mut;0;0;0;0;0;0;0;0;0;0;2;0;0
+inflate::output_buffer::InputWrapper::<'a>::advance;0;0;0;0;0;0;0;0;0;0;1;0;0
+inflate::output_buffer::InputWrapper::<'a>::read_byte;0;0;0;0;0;0;0;0;0;0;1;0;0
+inflate::output_buffer::InputWrapper::<'a>::read_u32_le;0;0;0;0;0;0;0;0;0;0;1;0;0
+<inflate::stream::MinReset as inflate::stream::ResetPolicy>::reset;0;0;0;0;0;0;0;0;0;18;1;0;0
+<inflate::stream::ZeroReset as inflate::stream::ResetPolicy>::reset;0;0;0;0;0;0;0;0;0;18;1;0;0
+<inflate::stream::FullReset as inflate::stream::ResetPolicy>::reset;0;0;0;0;0;0;0;0;0;18;1;0;0
+<inflate::stream::InflateState as rustc_std_workspace_core::clone::Clone>::clone;0;0;0;0;0;0;0;0;0;18;0;0;0
+inflate::stream::InflateState::decompressor;0;0;0;0;0;0;0;0;0;18;1;0;0
+inflate::stream::InflateState::last_status;0;0;0;0;0;0;0;0;0;18;0;0;0
+inflate::stream::InflateState::reset;0;0;0;0;0;0;0;0;0;18;1;0;0
+inflate::stream::InflateState::reset_as;0;0;0;0;0;0;1;0;0;18;1;0;0
+inflate::stream::inflate;0;0;0;0;0;0;0;0;0;18;2;0;0
+inflate::stream::inflate_loop;0;0;0;0;0;0;0;0;0;18;6;0;0
+inflate::stream::push_dict_out;0;0;0;0;0;0;0;0;0;18;3;0;0
+<inflate::TINFLStatus as rustc_std_workspace_core::fmt::Debug>::fmt;0;0;0;0;0;0;1;0;0;2;2;0;0
+<inflate::TINFLStatus as rustc_std_workspace_core::hash::Hash>::hash;0;0;0;0;0;0;1;0;0;0;1;0;0
+inflate::decompress_slice_iter_to_slice;0;0;0;0;0;0;1;0;0;0;1;0;0
+<MZFlush as rustc_std_workspace_core::fmt::Debug>::fmt;0;0;0;0;0;0;1;0;0;2;2;0;0
+<MZFlush as rustc_std_workspace_core::hash::Hash>::hash;0;0;0;0;0;0;1;0;0;0;1;0;0
+<MZStatus as rustc_std_workspace_core::fmt::Debug>::fmt;0;0;0;0;0;0;1;0;0;2;2;0;0
+<MZStatus as rustc_std_workspace_core::hash::Hash>::hash;0;0;0;0;0;0;1;0;0;0;1;0;0
+<MZError as rustc_std_workspace_core::fmt::Debug>::fmt;0;0;0;0;0;0;1;0;0;2;2;0;0
+<MZError as rustc_std_workspace_core::hash::Hash>::hash;0;0;0;0;0;0;1;0;0;0;1;0;0
+<DataFormat as rustc_std_workspace_core::fmt::Debug>::fmt;0;0;0;0;0;0;1;0;0;2;2;0;0
+<DataFormat as rustc_std_workspace_core::hash::Hash>::hash;0;0;0;0;0;0;1;0;0;0;1;0;0
+<StreamResult as rustc_std_workspace_core::fmt::Debug>::fmt;0;0;0;0;0;0;3;0;0;3;2;0;0
+<StreamResult as rustc_std_workspace_core::clone::Clone>::clone;0;0;0;0;0;0;2;0;0;1;0;0;0
+<StreamResult as rustc_std_workspace_core::cmp::PartialEq>::eq;0;0;0;0;0;0;4;0;0;2;0;0;0
+<StreamResult as rustc_std_workspace_core::cmp::Eq>::assert_receiver_is_total_eq;0;0;0;0;0;0;2;0;0;1;0;0;0
+<StreamResult as rustc_std_workspace_core::hash::Hash>::hash;0;0;0;0;0;0;3;0;0;1;1;0;0
+<impl rustc_std_workspace_core::convert::From<StreamResult> for rustc_std_workspace_core::result::Result<MZStatus, MZError>>::from;0;0;0;0;0;0;2;0;0;1;0;0;0
+<impl rustc_std_workspace_core::convert::From<&StreamResult> for rustc_std_workspace_core::result::Result<MZStatus, MZError>>::from;0;0;0;0;0;0;2;0;0;1;0;0;0

@@ -1,0 +1,76 @@
+fn_name;iterators;loops;nested_loops
+<&'a read::read_cache::ReadCache<R> as read::read_ref::ReadRef<'a>>::read_bytes_at_until;0;1;0
+read::util::Bytes::<'data>::read_uleb128;0;3;0
+read::util::Bytes::<'data>::read_sleb128;0;3;0
+read::archive::parse_u64_digits;0;1;0
+<read::coff::file::CoffFile<'data, R, Coff> as read::traits::Object<'data>>::section_by_name_bytes;1;0;0
+read::coff::section::SectionTable::<'data>::section_by_name;1;0;0
+read::coff::section::SectionTable::<'data>::max_section_file_offset;0;3;0
+read::coff::section::<impl pe::ImageSectionHeader>::name_offset;0;24;0
+read::coff::symbol::SymbolTable::<'data, R, Coff>::map;0;7;0
+<read::coff::comdat::CoffComdatIterator<'data, 'file, R, Coff> as rustc_std_workspace_core::iter::Iterator>::next;0;1;0
+read::coff::comdat::CoffComdat::<'data, 'file, R, Coff>::parse;0;1;0
+<read::coff::comdat::CoffComdatSectionIterator<'data, 'file, R, Coff> as rustc_std_workspace_core::iter::Iterator>::next;0;5;0
+<read::elf::file::ElfFile<'data, Elf, R> as read::traits::Object<'data>>::imports;0;4;0
+<read::elf::file::ElfFile<'data, Elf, R> as read::traits::Object<'data>>::exports;0;2;0
+<read::elf::file::ElfFile<'data, Elf, R> as read::traits::Object<'data>>::has_debug_symbols;0;2;0
+<read::elf::file::ElfFile<'data, Elf, R> as read::traits::Object<'data>>::build_id;0;8;0
+<read::elf::segment::ElfSegmentIterator<'data, 'file, Elf, R> as rustc_std_workspace_core::iter::Iterator>::next;0;1;0
+read::elf::segment::ProgramHeader::interpreter;1;0;0
+read::elf::section::SectionTable::<'data, Elf, R>::section_by_name;1;0;0
+read::elf::section::SectionTable::<'data, Elf, R>::symbols;1;0;0
+read::elf::section::SectionTable::<'data, Elf, R>::dynamic;0;1;0
+read::elf::section::SectionTable::<'data, Elf, R>::hash_header;0;1;0
+read::elf::section::SectionTable::<'data, Elf, R>::hash;0;1;0
+read::elf::section::SectionTable::<'data, Elf, R>::gnu_hash_header;0;1;0
+read::elf::section::SectionTable::<'data, Elf, R>::gnu_hash;0;1;0
+read::elf::section::SectionTable::<'data, Elf, R>::gnu_versym;0;1;0
+read::elf::section::SectionTable::<'data, Elf, R>::gnu_verdef;0;1;0
+read::elf::section::SectionTable::<'data, Elf, R>::gnu_verneed;0;1;0
+read::elf::symbol::SymbolTable::<'data, Elf, R>::parse;0;3;0
+read::elf::symbol::SymbolTable::<'data, Elf, R>::map;0;7;0
+read::elf::relocation::RelocationSections::parse;0;7;0
+<read::elf::relocation::ElfDynamicRelocationIterator<'data, 'file, Elf, R> as rustc_std_workspace_core::iter::Iterator>::next;0;12;0
+<read::elf::relocation::ElfSectionRelocationIterator<'data, 'file, Elf, R> as rustc_std_workspace_core::iter::Iterator>::next;0;10;0
+<read::elf::relocation::RelrIterator<'data, Elf> as rustc_std_workspace_core::iter::Iterator>::next;0;2;0
+<read::elf::comdat::ElfComdatIterator<'data, 'file, Elf, R> as rustc_std_workspace_core::iter::Iterator>::next;0;1;0
+read::elf::note::Note::<'data, Elf>::name;0;1;0
+read::elf::hash::HashTable::<'data, Elf>::find;0;3;0
+read::elf::hash::GnuHashTable::<'data, Elf>::symbol_table_length;0;3;0
+read::elf::hash::GnuHashTable::<'data, Elf>::find;0;3;0
+read::elf::version::VersionTable::<'data, Elf>::parse;0;13;0
+read::macho::dyld_cache::DyldCache::<'data, E, R>::parse;0;1;0
+read::macho::dyld_cache::DyldCache::<'data, E, R>::data_and_offset_for_address;0;1;0
+read::macho::dyld_cache::address_to_file_offset;0;2;0
+read::macho::file::MachOFile::<'data, Mach, R>::parse;0;4;0
+read::macho::file::MachOFile::<'data, Mach, R>::parse_dyld_cache_image;0;5;0
+read::macho::file::MachOFile::<'data, Mach, R>::build_version;0;1;0
+<read::macho::file::MachOFile<'data, Mach, R> as read::traits::Object<'data>>::section_by_name_bytes;1;0;0
+<read::macho::file::MachOFile<'data, Mach, R> as read::traits::Object<'data>>::imports;0;8;0
+<read::macho::file::MachOFile<'data, Mach, R> as read::traits::Object<'data>>::exports;0;2;0
+<read::macho::file::MachOFile<'data, Mach, R> as read::traits::Object<'data>>::entry;0;2;0
+read::macho::file::MachHeader::uuid;0;2;0
+read::macho::symbol::SymbolTable::<'data, Mach, R>::map;0;7;0
+read::macho::symbol::SymbolTable::<'data, Mach, R>::object_map;0;11;0
+<read::macho::symbol::MachOSymbolIterator<'data, 'file, Mach, R> as rustc_std_workspace_core::iter::Iterator>::next;0;1;0
+<read::macho::relocation::MachORelocationIterator<'data, 'file, Mach, R> as rustc_std_workspace_core::iter::Iterator>::next;0;3;0
+<read::pe::file::PeFile<'data, Pe, R> as read::traits::Object<'data>>::imports;0;4;0
+<read::pe::file::PeFile<'data, Pe, R> as read::traits::Object<'data>>::exports;0;2;0
+<read::pe::file::PeFile<'data, Pe, R> as read::traits::Object<'data>>::pdb_info;0;2;0
+read::pe::section::<impl read::coff::section::SectionTable<'data>>::pe_file_range_at;1;0;0
+read::pe::section::<impl read::coff::section::SectionTable<'data>>::pe_data_at;1;0;0
+read::pe::section::<impl read::coff::section::SectionTable<'data>>::pe_data_containing;1;0;0
+read::pe::section::<impl read::coff::section::SectionTable<'data>>::section_containing;1;0;0
+read::pe::export::ExportTable::<'data>::target_from_address;1;0;0
+read::pe::export::ExportTable::<'data>::exports;0;2;0
+read::pe::export::parse_ordinal;0;1;0
+<read::pe::relocation::RelocationIterator<'data> as rustc_std_workspace_core::iter::Iterator>::next;0;1;0
+read::pe::resource::ResourceName::to_string_lossy;1;0;0
+read::pe::rich::memmem;0;1;0
+<read::xcoff::file::XcoffFile<'data, Xcoff, R> as read::traits::Object<'data>>::section_by_name_bytes;1;0;0
+<read::xcoff::symbol::SymbolIterator<'data, 'table, Xcoff, R> as rustc_std_workspace_core::iter::Iterator>::next;0;1;0
+read::traits::Object::symbol_by_name_bytes;1;0;0
+read::traits::Object::symbol_map;0;26;0
+read::RelocationMap::new;0;1;0
+elf::hash;0;1;0
+elf::gnu_hash;0;1;0

@@ -1,0 +1,2 @@
+math::libm::frexpf::frexpf;recursive
+math::libm::frexp::frexp;recursive

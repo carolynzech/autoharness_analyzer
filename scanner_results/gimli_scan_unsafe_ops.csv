@@ -1,0 +1,15 @@
+fn_name;inline_assembly;unsafe_dereference;unsafe_call;unsafe_static_access;unsafe_union_access
+"read::util::<impl read::util::sealed::Sealed for [T; N]>::new_storage";0;0;1;0;0
+"read::util::<impl read::util::sealed::Sealed for alloc::boxed::Box<[T; N]>>::new_storage";0;0;1;0;0
+"<alloc::boxed::Box<[T; N]> as read::util::ArrayLike>::as_slice";0;1;0;0;0
+"<alloc::boxed::Box<[T; N]> as read::util::ArrayLike>::as_mut_slice";0;1;0;0;0
+read::util::<impl read::util::sealed::Sealed for alloc::vec::Vec<T>>::grow;0;0;1;0;0
+<alloc::vec::Vec<T> as read::util::ArrayLike>::as_slice;0;1;0;0;0
+<alloc::vec::Vec<T> as read::util::ArrayLike>::as_mut_slice;0;1;0;0;0
+read::util::ArrayVec::<A>::clear;0;0;1;0;0
+read::util::ArrayVec::<A>::try_insert;0;0;3;0;0
+read::util::ArrayVec::<A>::pop;0;0;1;0;0
+read::util::ArrayVec::<alloc::vec::Vec<T>>::into_vec;0;0;1;0;0
+<read::util::ArrayVec<A> as rustc_std_workspace_core::ops::Deref>::deref;0;0;1;0;0
+<read::util::ArrayVec<A> as rustc_std_workspace_core::ops::DerefMut>::deref_mut;0;0;1;0;0
+<read::endian_slice::DebugByte as rustc_std_workspace_core::fmt::Debug>::fmt;0;0;1;0;0

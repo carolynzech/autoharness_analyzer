@@ -1,0 +1,44 @@
+fn_name;boxes;closures;coroutines;floats;fn_defs;fn_ptrs;generics;interior_muts;raw_ptrs;recursive_types;mut_refs;simd;unions
+<legacy::Demangle<'a> as rustc_std_workspace_core::fmt::Display>::fmt;0;0;0;0;0;0;1;0;0;2;2;0;0
+<v0::ParseError as rustc_std_workspace_core::fmt::Debug>::fmt;0;0;0;0;0;0;1;0;0;2;2;0;0
+<v0::Demangle<'s> as rustc_std_workspace_core::fmt::Display>::fmt;0;0;0;0;0;0;1;0;0;2;2;0;0
+v0::Ident::<'s>::try_small_punycode_decode;0;0;0;0;0;0;1;0;0;1;0;0;0
+v0::Ident::<'s>::punycode_decode;0;0;0;0;0;0;1;0;0;1;0;0;0
+<v0::Ident<'s> as rustc_std_workspace_core::fmt::Display>::fmt;0;0;0;0;0;0;1;0;0;3;2;0;0
+v0::Parser::<'s>::push_depth;0;0;0;0;0;0;0;0;0;0;1;0;0
+v0::Parser::<'s>::pop_depth;0;0;0;0;0;0;0;0;0;0;1;0;0
+v0::Parser::<'s>::eat;0;0;0;0;0;0;0;0;0;0;1;0;0
+v0::Parser::<'s>::next;0;0;0;0;0;0;0;0;0;0;1;0;0
+v0::Parser::<'s>::hex_nibbles;0;0;0;0;0;0;0;0;0;0;1;0;0
+v0::Parser::<'s>::digit_10;0;0;0;0;0;0;0;0;0;0;1;0;0
+v0::Parser::<'s>::digit_62;0;0;0;0;0;0;0;0;0;0;1;0;0
+v0::Parser::<'s>::integer_62;0;0;0;0;0;0;0;0;0;0;1;0;0
+v0::Parser::<'s>::opt_integer_62;0;0;0;0;0;0;0;0;0;0;1;0;0
+v0::Parser::<'s>::disambiguator;0;0;0;0;0;0;0;0;0;0;1;0;0
+v0::Parser::<'s>::namespace;0;0;0;0;0;0;0;0;0;0;1;0;0
+v0::Parser::<'s>::backref;0;0;0;0;0;0;0;0;0;0;1;0;0
+v0::Parser::<'s>::ident;0;0;0;0;0;0;0;0;0;0;1;0;0
+v0::Printer::<'a, 'b, 's>::eat;0;0;0;0;0;0;2;0;0;6;3;0;0
+v0::Printer::<'a, 'b, 's>::skipping_printing;0;0;0;0;0;0;3;0;0;6;3;0;0
+v0::Printer::<'a, 'b, 's>::print_backref;0;0;0;0;0;0;3;0;0;6;3;0;0
+v0::Printer::<'a, 'b, 's>::pop_depth;0;0;0;0;0;0;2;0;0;6;3;0;0
+v0::Printer::<'a, 'b, 's>::print;0;0;0;0;0;0;3;0;0;6;3;0;0
+v0::Printer::<'a, 'b, 's>::print_quoted_escaped_chars;0;0;0;0;0;0;3;0;0;6;3;0;0
+v0::Printer::<'a, 'b, 's>::print_lifetime_from_index;0;0;0;0;0;0;2;0;0;6;3;0;0
+v0::Printer::<'a, 'b, 's>::in_binder;0;0;0;0;0;0;3;0;0;6;3;0;0
+v0::Printer::<'a, 'b, 's>::print_sep_list;0;0;0;0;0;0;3;0;0;6;3;0;0
+v0::Printer::<'a, 'b, 's>::print_path;0;0;0;0;0;0;2;0;0;6;3;0;0
+v0::Printer::<'a, 'b, 's>::print_generic_arg;0;0;0;0;0;0;2;0;0;6;3;0;0
+v0::Printer::<'a, 'b, 's>::print_type;0;0;0;0;0;0;2;0;0;6;3;0;0
+v0::Printer::<'a, 'b, 's>::print_path_maybe_open_generics;0;0;0;0;0;0;2;0;0;6;3;0;0
+v0::Printer::<'a, 'b, 's>::print_dyn_trait;0;0;0;0;0;0;2;0;0;6;3;0;0
+v0::Printer::<'a, 'b, 's>::print_const;0;0;0;0;0;0;2;0;0;6;3;0;0
+v0::Printer::<'a, 'b, 's>::print_const_uint;0;0;0;0;0;0;2;0;0;6;3;0;0
+v0::Printer::<'a, 'b, 's>::print_const_str_literal;0;0;0;0;0;0;2;0;0;6;3;0;0
+<TryDemangleError as rustc_std_workspace_core::fmt::Debug>::fmt;0;0;0;0;0;0;1;0;0;2;2;0;0
+Demangle::<'a>::as_str;0;0;0;0;0;0;1;0;0;3;0;0;0
+<DemangleStyle<'a> as rustc_std_workspace_core::fmt::Display>::fmt;0;0;0;0;0;0;1;0;0;3;2;0;0
+<SizeLimitExhausted as rustc_std_workspace_core::fmt::Debug>::fmt;0;0;0;0;0;0;1;0;0;2;2;0;0
+<SizeLimitedFmtAdapter<F> as rustc_std_workspace_core::fmt::Write>::write_str;0;0;0;0;0;0;3;0;0;1;1;0;0
+<Demangle<'a> as rustc_std_workspace_core::fmt::Display>::fmt;0;0;0;0;0;0;2;0;0;5;2;0;0
+<Demangle<'a> as rustc_std_workspace_core::fmt::Debug>::fmt;0;0;0;0;0;0;2;0;0;5;2;0;0

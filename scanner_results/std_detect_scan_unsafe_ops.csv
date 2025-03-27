@@ -1,0 +1,2 @@
+fn_name;inline_assembly;unsafe_dereference;unsafe_call;unsafe_static_access;unsafe_union_access
+detect::os::detect_features;0;0;9;0;0

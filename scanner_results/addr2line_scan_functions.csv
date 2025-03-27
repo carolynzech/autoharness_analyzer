@@ -1,0 +1,93 @@
+name;is_unsafe;has_unsafe_ops;has_unsupported_input;has_loop_or_iterator
+line::Lines::ranges;false;true;true;false
+frame::FrameIterState::Location;false;false;true;false
+line::has_unix_root;false;false;false;false
+RangeAttributes::<R>::for_each_range;false;false;true;true
+Context::<R>::find_frames;false;false;true;false
+line::Lines::row_location;false;true;true;false
+Context::<R>::find_location_range;false;false;true;false
+frame::FunctionName::<R>::raw_name;false;false;true;false
+lookup::SimpleLookup::<T, R, F>::new_needs_load;false;false;true;false
+frame::FrameIter::<'ctx, R>::new_frames;false;false;true;false
+Context::<R>::find_location;false;false;true;true
+frame::FrameIter::<'ctx, R>::new_location;false;false;true;false
+<DebugFile as rustc_std_workspace_core::cmp::PartialEq>::eq;false;false;false;false
+frame::FunctionName::<R>::demangle;false;false;true;false
+unit::ResUnit::<R>::find_function_or_location;false;false;true;false
+<lookup::SimpleLookup<T, R, F> as lookup::LookupContinuation>::resume;false;false;true;false
+<unit::SupUnits<R> as rustc_std_workspace_core::default::Default>::default;false;false;false;false
+unit::ResUnit::<R>::unit_ref;false;false;true;false
+unit::SupUnits::<R>::parse;false;false;true;true
+line::Lines::parse;false;false;true;true
+unit::LocationRangeIter::<'ctx, R>::next_loc;false;false;true;true
+line::Lines::file;false;true;true;false
+Context::<R>::preload_units;false;false;true;false
+line::LazyLines::new;false;false;false;false
+<RangeAttributes<R> as rustc_std_workspace_core::default::Default>::default;false;false;false;false
+<DebugFile as rustc_std_workspace_core::cmp::Eq>::assert_receiver_is_total_eq;false;false;false;false
+<lookup::LoopingLookup<T, L, F> as lookup::LookupContinuation>::resume;false;false;true;false
+line::LazyLines;false;false;true;false
+lookup::LoopingLookup::<T, L, F>::new_complete;false;false;false;false
+function::Functions::<R>::parse_inlined_functions;false;true;true;true
+lookup::LookupResult::<L>::map;false;false;true;false
+<line::LineLocationRangeIter<'ctx> as rustc_std_workspace_core::iter::Iterator>::next;false;true;true;true
+unit::ResUnits::<R>::find_offset;false;true;true;false
+unit::SupUnits::<R>::find_offset;false;true;true;false
+line::LazyLines::borrow;false;false;true;false
+unit::ResUnits::<R>::iter;false;true;true;false
+function::LazyFunctions;false;false;true;false
+unit::ResUnit::<R>::parse_inlined_functions;false;false;true;false
+unit::ResUnit::<R>::parse_functions;false;false;true;false
+function::Function::<R>::find_inlined_functions;false;true;true;true
+Context::<R>::parse_lines;false;false;true;true
+function::Function::<R>::parse;false;false;true;true
+function::name_entry;false;false;true;true
+function::Functions::<R>::find_address;false;true;true;false
+line::has_windows_root;false;false;false;false
+unit::ResUnit::<R>::dwarf_and_unit;false;false;true;false
+frame::demangle_auto;false;false;true;false
+<lookup::MappedLookup<T, L, F> as lookup::LookupContinuation>::resume;false;false;true;false
+function::LazyFunctions::<R>::new;false;false;false;false
+function::LazyFunction::<R>::borrow;false;false;true;false
+unit::ResUnits::<R>::find_location_range;false;false;true;false
+frame::FrameIter::<'ctx, R>::next;false;false;true;false
+lazy::LazyCell::<T>::borrow;false;true;true;false
+unit::ResUnits::<R>::find;false;false;true;false
+<unit::LocationRangeIter<'ctx, R> as rustc_std_workspace_core::iter::Iterator>::next;false;false;true;false
+unit::ResUnit::<R>::find_location;false;false;true;false
+unit::ResUnits::<R>::find_range;false;true;true;false
+function::InlinedFunction::<R>::parse;false;false;true;true
+frame::FrameIterState::Frames;false;false;true;false
+lookup::LookupResult::<L>::skip_all_loads;false;false;true;true
+frame::demangle;false;false;false;false
+lookup::LookupResult::Output;false;false;false;false
+unit::ResUnit::<R>::find_location_range;false;false;true;false
+function::Functions::<R>::parse;false;false;true;true
+<DebugFile as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+Context::<R>::from_dwarf;false;false;true;false
+Context::<R>::parse_inlined_functions;false;false;true;true
+function::LazyFunctions::<R>::borrow;false;false;true;false
+lazy::LazyCell::<T>::borrow_with;false;true;true;false
+line::render_file;false;false;true;false
+lookup::LookupResult::<L>::unwrap;false;false;true;false
+unit::ResUnit::<R>::parse_lines;false;false;true;false
+frame::FrameIter;false;false;true;false
+function::name_attr;false;false;true;false
+line::Lines::find_location;false;true;true;false
+lookup::LoopingLookup::<T, L, F>::new_lookup;false;false;true;true
+function::Function::<R>::parse_children;false;false;true;true
+frame::FrameIter::<'ctx, R>::new_empty;false;false;false;false
+unit::DwoUnit::<R>::unit_ref;false;false;true;false
+Context::<R>::find_dwarf_and_unit;false;false;true;false
+Context::<R>::parse_functions;false;false;true;true
+Context::<R>::from_arc_dwarf;false;false;true;false
+line::path_push;false;false;true;false
+unit::ResUnits::<R>::parse;false;false;true;true
+line::Lines::find_location_range;false;true;true;false
+lazy::LazyCell::<T>::new;false;false;false;false
+function::Function::<R>::skip;false;false;true;true
+Context::<R>::from_sections;false;false;true;false
+lookup::SimpleLookup::<T, R, F>::new_complete;false;false;true;false
+<DebugFile as rustc_std_workspace_core::clone::Clone>::clone;false;false;false;false
+Context::<R>::find_unit;false;false;true;false
+function::LazyFunction::<R>::new;false;false;false;false

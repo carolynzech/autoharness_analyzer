@@ -1,0 +1,21 @@
+fn_name;inline_assembly;unsafe_dereference;unsafe_call;unsafe_static_access;unsafe_union_access
+unix::linux_like::CMSG_FIRSTHDR;0;2;0;0;0
+unix::linux_like::CMSG_DATA;0;0;1;0;0
+unix::linux_like::FD_CLR;0;3;0;0;0
+unix::linux_like::FD_ISSET;0;2;0;0;0
+unix::linux_like::FD_SET;0;3;0;0;0
+unix::linux_like::FD_ZERO;0;1;0;0;0
+unix::linux_like::SIGRTMAX;0;0;1;0;0
+unix::linux_like::SIGRTMIN;0;0;1;0;0
+unix::linux_like::linux::CMSG_NXTHDR;0;5;0;0;0
+unix::linux_like::linux::CPU_ALLOC_SIZE;0;0;1;0;0
+unix::linux_like::linux::CPU_COUNT;0;0;1;0;0
+unix::linux_like::linux::SO_EE_OFFENDER;0;0;1;0;0
+unix::linux_like::linux::gnu::<impl unix::linux_like::linux::gnu::b64::x86_64::siginfo_t>::si_addr;0;1;0;0;0
+unix::linux_like::linux::gnu::<impl unix::linux_like::linux::gnu::b64::x86_64::siginfo_t>::si_value;0;1;0;0;0
+unix::linux_like::linux::gnu::<impl unix::linux_like::linux::gnu::b64::x86_64::siginfo_t>::sifields;0;1;0;0;1
+unix::linux_like::linux::gnu::<impl unix::linux_like::linux::gnu::b64::x86_64::siginfo_t>::si_pid;0;0;1;0;0
+unix::linux_like::linux::gnu::<impl unix::linux_like::linux::gnu::b64::x86_64::siginfo_t>::si_uid;0;0;1;0;0
+unix::linux_like::linux::gnu::<impl unix::linux_like::linux::gnu::b64::x86_64::siginfo_t>::si_status;0;0;1;0;0
+unix::linux_like::linux::gnu::<impl unix::linux_like::linux::gnu::b64::x86_64::siginfo_t>::si_utime;0;0;1;0;0
+unix::linux_like::linux::gnu::<impl unix::linux_like::linux::gnu::b64::x86_64::siginfo_t>::si_stime;0;0;1;0;0

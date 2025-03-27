@@ -1,0 +1,6 @@
+fn_name;inline_assembly;unsafe_dereference;unsafe_call;unsafe_static_access;unsafe_union_access
+imp::panic;0;0;1;0;0
+imp::panic::exception_cleanup;0;0;2;0;0
+imp::cleanup;0;3;5;0;0
+__rust_panic_cleanup;0;0;1;0;0
+__rust_start_panic;0;0;2;0;0

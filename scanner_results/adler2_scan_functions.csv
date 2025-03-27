@@ -1,0 +1,18 @@
+name;is_unsafe;has_unsafe_ops;has_unsupported_input;has_loop_or_iterator
+<algo::U32X4 as rustc_std_workspace_core::clone::Clone>::clone;false;false;false;false
+algo::<impl Adler32>::compute;false;false;true;true
+Adler32::checksum;false;false;true;false
+Adler32::from_checksum;false;false;false;false
+<algo::U32X4 as rustc_std_workspace_core::ops::AddAssign>::add_assign;false;false;true;false
+adler32_slice;false;false;false;false
+Adler32::new;false;false;false;false
+algo::U32X4;false;false;false;false
+Adler32::write_slice;false;false;true;false
+<algo::U32X4 as rustc_std_workspace_core::ops::RemAssign<u32>>::rem_assign;false;false;true;false
+<algo::U32X4 as rustc_std_workspace_core::ops::MulAssign<u32>>::mul_assign;false;false;true;false
+<Adler32 as rustc_std_workspace_core::hash::Hasher>::finish;false;false;true;false
+<Adler32 as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+<Adler32 as rustc_std_workspace_core::default::Default>::default;false;false;false;false
+<Adler32 as rustc_std_workspace_core::hash::Hasher>::write;false;false;true;false
+algo::U32X4::from;false;false;false;false
+<Adler32 as rustc_std_workspace_core::clone::Clone>::clone;false;false;true;false

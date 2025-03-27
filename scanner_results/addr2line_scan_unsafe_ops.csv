@@ -1,0 +1,16 @@
+fn_name;inline_assembly;unsafe_dereference;unsafe_call;unsafe_static_access;unsafe_union_access
+function::Functions::<R>::find_address;0;1;0;0;0
+function::Functions::<R>::parse_inlined_functions;0;1;0;0;0
+function::Function::<R>::find_inlined_functions;0;2;0;0;0
+lazy::LazyCell::<T>::borrow;0;1;0;0;0
+lazy::LazyCell::<T>::borrow_with;0;2;0;0;0
+line::Lines::file;0;1;0;0;0
+line::Lines::ranges;0;1;0;0;0
+line::Lines::row_location;0;1;0;0;0
+line::Lines::find_location;0;4;0;0;0
+line::Lines::find_location_range;0;3;0;0;0
+<line::LineLocationRangeIter<'ctx> as rustc_std_workspace_core::iter::Iterator>::next;0;3;0;0;0
+unit::ResUnits::<R>::iter;0;1;0;0;0
+unit::ResUnits::<R>::find_offset;0;2;0;0;0
+unit::ResUnits::<R>::find_range;0;2;0;0;0
+unit::SupUnits::<R>::find_offset;0;2;0;0;0

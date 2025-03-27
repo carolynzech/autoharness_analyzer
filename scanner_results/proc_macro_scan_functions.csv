@@ -1,0 +1,620 @@
+name;is_unsafe;has_unsafe_ops;has_unsupported_input;has_loop_or_iterator
+<std::num::NonZero<u32> as bridge::rpc::DecodeMut<'_, '_, S>>::decode;false;false;true;false
+<() as bridge::Unmark>::unmark;false;false;false;false
+Literal::f64_suffixed;false;false;true;false
+<bridge::Diagnostic<Span> as std::fmt::Debug>::fmt;false;false;true;false
+bridge::symbol::<impl bridge::rpc::Encode<bridge::server::HandleStore<bridge::server::MarkedTypes<S>>> for bridge::Marked<<S as bridge::server::Types>::Symbol, bridge::symbol::Symbol>>::encode;false;false;true;false
+bridge::<impl bridge::rpc::DecodeMut<'a, '_, S> for std::result::Result<T, E>>::decode;false;false;true;false
+<bridge::server::MarkedTypes<S> as bridge::server::TokenStream>::concat_trees;false;false;true;false
+<token_stream::IntoIter as std::clone::Clone>::clone;false;false;true;false
+<bridge::rpc::PanicMessage as std::convert::From<std::boxed::Box<(dyn std::any::Any + std::marker::Send + 'static)>>>::from;false;true;false;false
+bridge::api_tags::Method::SourceFile;false;false;false;false
+<bridge::Literal<Span, Symbol> as std::clone::Clone>::clone;false;false;true;false
+Literal::u64_unsuffixed;false;false;false;false
+<diagnostic::Diagnostic as std::fmt::Debug>::fmt;false;false;true;false
+bridge::rpc::<impl std::convert::From<bridge::rpc::PanicMessage> for std::boxed::Box<(dyn std::any::Any + std::marker::Send + 'static)>>::from;false;false;true;false
+Literal::i128_unsuffixed;false;false;false;false
+<bridge::ExpnGlobals<Span> as std::clone::Clone>::clone;false;false;true;false
+<bridge::server::MaybeCrossThread<P> as bridge::server::ExecutionStrategy>::run_bridge_and_client;false;false;true;false
+bridge::client::is_available;false;false;false;false
+<bridge::server::MarkedTypes<S> as bridge::server::Server>::with_symbol_string;false;false;true;false
+<bridge::buffer::Buffer as std::io::Write>::write;false;false;true;false
+<TokenTree as std::convert::From<Group>>::from;false;false;true;false
+<bridge::Literal<Span, Symbol> as std::cmp::Eq>::assert_receiver_is_total_eq;false;false;true;false
+<bridge::server::Dispatcher<bridge::server::MarkedTypes<S>> as bridge::server::DispatcherTrait>::dispatch;false;false;true;false
+<bridge::Literal<Sp, Sy> as bridge::Unmark>::unmark;false;false;true;false
+bridge::handle::OwnedStore::<T>::take;false;false;true;false
+Literal::with_symbol_and_suffix;false;false;true;false
+<bridge::symbol::Symbol as std::hash::Hash>::hash;false;false;true;false
+<std::rc::Rc<T> as to_tokens::ToTokens>::to_tokens;false;false;true;false
+<bridge::api_tags::FreeFunctions as bridge::rpc::Encode<S>>::encode;false;false;true;false
+<bridge::buffer::Buffer as std::ops::DerefMut>::deref_mut;false;true;true;false
+bridge::client::Span::end;false;false;true;false
+bridge::client::TokenStream::is_empty;false;false;true;false
+<std::option::Option<T> as to_tokens::ToTokens>::to_tokens;false;false;true;false
+<bridge::buffer::Buffer as std::ops::Deref>::deref;false;true;true;false
+bridge::client::Span::start;false;false;true;false
+<SourceFile as std::cmp::PartialEq>::eq;false;false;true;false
+<bridge::buffer::Buffer as std::convert::From<std::vec::Vec<u8>>>::from::to_vec;false;true;true;false
+<bridge::server::MarkedTypes<S> as bridge::server::TokenStream>::expand_expr;false;false;true;false
+<u16 as to_tokens::ToTokens>::to_tokens;false;false;true;false
+Punct::as_char;false;false;true;false
+Ident;false;false;true;false
+<bridge::server::MarkedTypes<S> as bridge::server::TokenStream>::to_string;false;false;true;false
+bridge::server::HandleStore::<S>::new;false;false;true;false
+bridge::server::CrossThread;false;false;false;false
+<Ident as std::fmt::Display>::fmt;false;false;true;false
+<bridge::Group<TokenStream, Span> as bridge::rpc::Encode<S>>::encode;false;false;true;false
+bridge::client::Span::debug;false;false;true;false
+<bridge::client::ProcMacro as std::clone::Clone>::clone;false;false;true;false
+<std::collections::Bound<T> as bridge::Mark>::mark;false;false;true;false
+Span::byte_range;false;false;true;false
+<TokenStream as std::iter::Extend<TokenStream>>::extend;false;false;true;true
+<TokenTree as std::clone::Clone>::clone;false;false;true;false
+Literal::u16_suffixed;false;false;false;false
+TokenTree::Literal;false;false;true;false
+<ExpandError as std::fmt::Display>::fmt;false;false;true;false
+Group::stream;false;false;true;false
+<Literal as std::fmt::Debug>::fmt;false;false;true;false
+bridge::symbol::Interner::get;false;false;true;false
+<bridge::TokenTree<TokenStream, Span, Symbol> as std::clone::Clone>::clone;false;false;true;false
+Ident::span;false;false;true;false
+bridge::TokenTree::Literal;false;false;true;false
+<bridge::Literal<Sp, Sy> as bridge::rpc::Encode<S>>::encode;false;false;true;false
+Literal::i8_unsuffixed;false;false;false;false
+bridge::closure::Closure::<'a, A, R>::call;false;true;true;false
+bridge::client::SourceFile::drop;false;false;true;false
+bridge::server::<impl bridge::rpc::Encode<bridge::server::HandleStore<bridge::server::MarkedTypes<S>>> for bridge::Marked<<S as bridge::server::Types>::Span, bridge::client::Span>>::encode;false;false;true;false
+Span::recover_proc_macro_span;false;false;false;false
+Group::span_open;false;false;true;false
+Ident::new;false;false;true;false
+<bridge::handle::OwnedStore<T> as std::ops::IndexMut<std::num::NonZero<u32>>>::index_mut;false;false;true;false
+bridge::arena::Arena::alloc_raw;false;false;true;true
+bridge::symbol::Interner::intern;false;true;true;false
+<escape::EscapeOptions as std::clone::Clone>::clone;false;false;true;false
+<TokenStream as std::convert::From<TokenTree>>::from;false;false;true;false
+Literal::string;false;false;false;false
+bridge::TokenTree::Punct;false;false;false;false
+<bridge::client::Span as bridge::rpc::Encode<S>>::encode;false;false;true;false
+<std::string::String as bridge::rpc::Encode<S>>::encode;false;false;true;false
+<bridge::server::MarkedTypes<S> as bridge::server::Span>::save_span;false;false;true;false
+Literal::byte_character;false;false;false;false
+<usize as bridge::Unmark>::unmark;false;false;false;false
+bridge::client::ProcMacro::name;false;false;true;false
+bridge::<impl bridge::rpc::DecodeMut<'a, '_, S> for std::option::Option<T>>::decode;false;false;true;false
+Literal::u8_unsuffixed;false;false;false;false
+<bridge::api_tags::Symbol as bridge::rpc::Encode<S>>::encode;false;false;true;false
+<str as to_tokens::ToTokens>::to_tokens;false;false;true;false
+Span::located_at;false;false;true;false
+<TokenStream as to_tokens::ToTokens>::into_token_stream;false;false;true;false
+bridge::client::Span::column;false;false;true;false
+<bridge::Punct<Span> as bridge::Unmark>::unmark;false;false;true;false
+<u128 as to_tokens::ToTokens>::to_tokens;false;false;true;false
+<TokenTree as std::convert::From<Literal>>::from;false;false;true;false
+<usize as to_tokens::ToTokens>::to_tokens;false;false;true;false
+<std::boxed::Box<T> as to_tokens::ToTokens>::to_tokens;false;true;true;false
+bridge::server::<impl bridge::rpc::DecodeMut<'_, 's, bridge::server::HandleStore<bridge::server::MarkedTypes<S>>> for &'s mut bridge::Marked<<S as bridge::server::Types>::FreeFunctions, bridge::client::FreeFunctions>>::decode;false;false;true;false
+Punct;false;false;true;false
+Literal::i32_unsuffixed;false;false;false;false
+<bridge::buffer::Buffer as std::convert::From<std::vec::Vec<u8>>>::from::reserve;false;false;true;false
+<bridge::server::MarkedTypes<S> as bridge::server::Span>::resolved_at;false;false;true;false
+<bridge::api_tags::TokenStream as bridge::rpc::DecodeMut<'a, '_, S>>::decode;false;false;true;false
+diagnostic::Diagnostic::note;false;false;true;false
+<bridge::server::MarkedTypes<S> as bridge::server::Span>::debug;false;false;true;false
+Literal::new;false;false;true;false
+<std::option::Option<T> as bridge::Unmark>::unmark;false;false;true;false
+<&str as bridge::Unmark>::unmark;false;false;false;false
+diagnostic::Diagnostic::new;false;false;false;false
+<bridge::LitKind as std::fmt::Debug>::fmt;false;false;true;false
+<isize as to_tokens::ToTokens>::to_tokens;false;false;true;false
+<bridge::fxhash::FxHasher as std::hash::Hasher>::write;false;false;true;true
+<std::result::Result<T, E> as bridge::Unmark>::unmark;false;false;true;false
+<diagnostic::Children<'a> as std::clone::Clone>::clone;false;false;true;false
+<bridge::DelimSpan<Span> as bridge::rpc::Encode<S>>::encode;false;false;true;false
+bridge::server::<impl bridge::rpc::Encode<bridge::server::HandleStore<bridge::server::MarkedTypes<S>>> for bridge::Marked<<S as bridge::server::Types>::SourceFile, bridge::client::SourceFile>>::encode;false;false;true;false
+<bridge::api_tags::Span as bridge::rpc::DecodeMut<'a, '_, S>>::decode;false;false;true;false
+Span::call_site;false;false;false;false
+<bool as bridge::Mark>::mark;false;false;false;false
+<std::vec::Vec<T> as bridge::Mark>::mark;false;false;true;true
+Span::error;false;false;true;false
+<bridge::server::MarkedTypes<S> as bridge::server::FreeFunctions>::track_path;false;false;true;false
+Span::source_text;false;false;true;false
+diagnostic::Diagnostic::emit::to_internal;false;false;true;true
+<&mut bridge::client::SourceFile as bridge::rpc::Encode<S>>::encode;false;false;true;false
+<bridge::buffer::Buffer as std::convert::From<std::vec::Vec<u8>>>::from::drop;false;false;true;false
+bridge::arena::Arena::new;false;false;false;false
+<std::result::Result<T, E> as bridge::Mark>::mark;false;false;true;false
+<Spacing as std::cmp::Eq>::assert_receiver_is_total_eq;false;false;false;false
+<bridge::closure::Closure<'a, A, R> as std::convert::From<&'a mut F>>::from::call;true;true;true;false
+<bridge::client::TokenStream as bridge::rpc::DecodeMut<'_, '_, S>>::decode;false;false;true;false
+bridge::server::RunningSameThreadGuard::new;false;false;false;false
+diagnostic::Diagnostic::set_level;false;false;true;false
+<LexError as std::fmt::Display>::fmt;false;false;true;false
+<TokenStream as std::str::FromStr>::from_str;false;false;false;false
+Literal::byte_string;false;false;false;false
+<bridge::ExpnGlobals<Span> as bridge::rpc::Encode<S>>::encode;false;false;true;false
+<bridge::Ident<Span, Symbol> as std::cmp::Eq>::assert_receiver_is_total_eq;false;false;true;false
+bridge::server::TokenStream::drop;false;false;true;false
+<bridge::server::MarkedTypes<S> as bridge::server::SourceFile>::eq;false;false;true;false
+<bridge::LitKind as std::cmp::PartialEq>::eq;false;false;true;false
+to_tokens::ToTokens::into_token_stream;false;false;false;false
+<TokenStream as std::iter::FromIterator<TokenTree>>::from_iter;false;false;false;true
+Literal::usize_suffixed;false;false;false;false
+<bridge::client::TokenStream as std::clone::Clone>::clone;false;false;true;false
+diagnostic::Diagnostic::error;false;false;true;false
+<std::num::NonZero<u32> as bridge::rpc::Encode<S>>::encode;false;false;true;false
+bridge::client::SourceFile::clone;false;false;true;false
+<i8 as to_tokens::ToTokens>::to_tokens;false;false;true;false
+<bridge::Marked<T, M> as std::cmp::PartialEq>::eq;false;false;true;false
+bridge::handle::OwnedStore::<T>::alloc;false;false;true;false
+<bridge::Diagnostic<Span> as bridge::Unmark>::unmark;false;false;true;false
+<u8 as bridge::Unmark>::unmark;false;false;false;false
+diagnostic::Diagnostic::span_help;false;false;true;false
+is_available;false;false;false;false
+<f64 as to_tokens::ToTokens>::to_tokens;false;false;true;false
+<bridge::client::TokenStream as std::ops::Drop>::drop;false;false;true;false
+bridge::symbol::<impl bridge::rpc::DecodeMut<'_, '_, bridge::server::HandleStore<bridge::server::MarkedTypes<S>>> for bridge::Marked<<S as bridge::server::Types>::Symbol, bridge::symbol::Symbol>>::decode;false;false;true;false
+bridge::symbol::Symbol::invalidate_all;false;false;false;false
+<std::string::String as bridge::Mark>::mark;false;false;true;false
+<TokenStream as std::fmt::Debug>::fmt;false;false;true;false
+Literal::u128_suffixed;false;false;false;false
+bridge::api_tags::Method::Symbol;false;false;false;false
+<bridge::server::MarkedTypes<S> as bridge::server::FreeFunctions>::literal_from_str;false;false;true;false
+<&'a bridge::Marked<T, M> as bridge::Unmark>::unmark;false;false;false;false
+diagnostic::Diagnostic::message;false;false;true;false
+TokenTree::set_span;false;false;true;false
+TokenStream::expand_expr;false;false;true;false
+<diagnostic::Children<'a> as std::fmt::Debug>::fmt;false;false;true;false
+<bridge::rpc::PanicMessage as bridge::rpc::DecodeMut<'_, '_, S>>::decode;false;false;true;false
+ConcatTreesHelper::new;false;false;false;false
+<bridge::server::MarkedTypes<S> as bridge::server::FreeFunctions>::injected_env_var;false;false;true;false
+bridge::client::state::set::RestoreOnDrop;false;false;true;false
+<i64 as to_tokens::ToTokens>::to_tokens;false;false;true;false
+escape::escape_single_byte;false;false;true;false
+<f32 as to_tokens::ToTokens>::to_tokens;false;false;true;false
+<bool as bridge::Unmark>::unmark;false;false;false;false
+<bridge::Ident<Span, Symbol> as std::clone::Clone>::clone;false;false;true;false
+bridge::client::Client::<(TokenStream, TokenStream), TokenStream>::expand2;false;false;false;false
+<Punct as std::cmp::PartialEq<char>>::eq;false;false;true;false
+<bridge::server::MarkedTypes<S> as bridge::server::TokenStream>::from_token_tree;false;false;true;false
+<Ident as to_tokens::ToTokens>::to_tokens;false;false;true;false
+<bridge::client::FreeFunctions as std::ops::Drop>::drop;false;false;true;false
+bridge::client::FreeFunctions::drop;false;false;true;false
+<bridge::symbol::Symbol as std::cmp::PartialEq>::eq;false;false;false;false
+Group::span;false;false;true;false
+token_stream::IntoIter;false;false;true;false
+<bridge::fxhash::FxHasher as std::hash::Hasher>::write_u32;false;false;true;false
+<&mut T as to_tokens::ToTokens>::to_tokens;false;false;true;false
+<Span as std::clone::Clone>::clone;false;false;true;false
+Group;false;false;true;false
+bridge::symbol::Symbol::with;false;false;false;false
+diagnostic::Diagnostic::children;false;false;true;false
+<bridge::client::FreeFunctions as bridge::rpc::Encode<S>>::encode;false;false;true;false
+<std::vec::Vec<T> as bridge::rpc::DecodeMut<'a, '_, S>>::decode;false;false;true;true
+<Delimiter as std::cmp::Eq>::assert_receiver_is_total_eq;false;false;false;false
+bridge::client::Span::parent;false;false;true;false
+<bridge::Punct<Span> as std::clone::Clone>::clone;false;false;true;false
+<&str as bridge::Mark>::mark;false;false;false;false
+<SourceFile as std::fmt::Debug>::fmt;false;false;true;false
+<bridge::server::MarkedTypes<S> as bridge::server::SourceFile>::clone;false;false;true;false
+Punct::span;false;false;true;false
+Literal::u8_suffixed;false;false;false;false
+TokenTree::Punct;false;false;true;false
+<bridge::Marked<T, M> as std::hash::Hash>::hash;false;false;true;false
+<bridge::Group<TokenStream, Span> as bridge::Mark>::mark;false;false;true;false
+bridge::client::Span::source_file;false;false;true;false
+<bridge::api_tags::Method as bridge::rpc::DecodeMut<'a, '_, S>>::decode;false;false;true;false
+diagnostic::Diagnostic::set_spans;false;false;true;false
+bridge::client::Span::mixed_site;false;false;false;false
+bridge::<impl bridge::rpc::Encode<S> for std::collections::Bound<T>>::encode;false;false;true;false
+<TokenStream as std::iter::Extend<TokenTree>>::extend;false;false;true;true
+<Span as std::fmt::Debug>::fmt;false;false;true;false
+<&'a str as bridge::rpc::DecodeMut<'a, '_, S>>::decode;false;false;true;false
+TokenStream;false;false;true;false
+<bridge::DelimSpan<Span> as bridge::Mark>::mark;false;false;true;false
+bridge::LitKind::CStrRaw;false;false;false;false
+<Spacing as std::clone::Clone>::clone;false;false;false;false
+<bridge::server::MarkedTypes<S> as bridge::server::FreeFunctions>::drop;false;false;true;false
+bridge::selfless_reify::_reify_to_extern_c_fn_unary;false;false;false;false
+<char as bridge::rpc::Encode<S>>::encode;false;false;true;false
+<bridge::LitKind as std::clone::Clone>::clone;false;false;true;false
+<diagnostic::Level as bridge::Mark>::mark;false;false;false;false
+<bridge::buffer::Buffer as std::convert::From<std::vec::Vec<u8>>>::from;false;false;true;false
+bridge::<impl bridge::rpc::Encode<S> for std::result::Result<T, E>>::encode;false;false;true;false
+bridge::server::run_server;false;false;true;false
+bridge::<impl bridge::rpc::DecodeMut<'a, '_, S> for Delimiter>::decode;false;false;true;false
+bridge::client::TokenStream::clone;false;false;true;false
+Span::mixed_site;false;false;false;false
+<bridge::client::SourceFile as bridge::rpc::DecodeMut<'_, '_, S>>::decode;false;false;true;false
+bridge::client::ProcMacro::custom_derive;false;false;false;false
+<bridge::client::SourceFile as bridge::rpc::Encode<S>>::encode;false;false;true;false
+bridge::server::<impl bridge::rpc::DecodeMut<'_, '_, bridge::server::HandleStore<bridge::server::MarkedTypes<S>>> for bridge::Marked<<S as bridge::server::Types>::SourceFile, bridge::client::SourceFile>>::decode;false;false;true;false
+<std::ops::Range<T> as bridge::Unmark>::unmark;false;false;true;false
+bridge::LitKind::ByteStrRaw;false;false;false;false
+bridge::server::<impl bridge::client::Client<TokenStream, TokenStream>>::run;false;false;true;false
+<bridge::api_tags::Method as bridge::rpc::Encode<S>>::encode;false;false;true;false
+Literal::c_string;false;false;false;false
+Literal::character;false;false;false;false
+<bridge::server::MarkedTypes<S> as bridge::server::Span>::join;false;false;true;false
+<ExpandError as std::fmt::Debug>::fmt;false;false;true;false
+bridge::server::<impl bridge::rpc::DecodeMut<'_, 's, bridge::server::HandleStore<bridge::server::MarkedTypes<S>>> for &'s mut bridge::Marked<<S as bridge::server::Types>::TokenStream, bridge::client::TokenStream>>::decode;false;false;true;false
+<bridge::server::MarkedTypes<S> as bridge::server::TokenStream>::into_trees;false;false;true;false
+<&[u8] as bridge::Mark>::mark;false;false;false;false
+<bridge::api_tags::SourceFile as bridge::rpc::Encode<S>>::encode;false;false;true;false
+bridge::client::state::set;false;false;true;false
+<bridge::Diagnostic<Span> as bridge::rpc::Encode<S>>::encode;false;false;true;false
+<bridge::ExpnGlobals<Span> as bridge::Mark>::mark;false;false;true;false
+<TokenTree as std::convert::From<Punct>>::from;false;false;true;false
+Group::new;false;false;true;false
+<Spacing as std::cmp::PartialEq>::eq;false;false;false;false
+bridge::selfless_reify::reify_to_extern_c_fn_hrt_bridge::wrapper;false;true;true;false
+Literal::isize_suffixed;false;false;false;false
+Literal::i64_unsuffixed;false;false;false;false
+<bridge::handle::OwnedStore<T> as std::ops::Index<std::num::NonZero<u32>>>::index;false;false;true;false
+Punct::set_span;false;false;true;false
+<Span as diagnostic::MultiSpan>::into_spans;false;true;true;false
+<i16 as to_tokens::ToTokens>::to_tokens;false;false;true;false
+Literal::i32_suffixed;false;false;false;false
+<bridge::server::MarkedTypes<S> as bridge::server::FreeFunctions>::emit_diagnostic;false;false;true;false
+bridge::client::FreeFunctions::literal_from_str;false;false;false;false
+bridge::<impl bridge::rpc::Encode<S> for std::option::Option<T>>::encode;false;false;true;false
+bridge::api_tags::Method::Span;false;false;false;false
+diagnostic::Diagnostic::emit;false;false;true;false
+bridge::selfless_reify::_reify_to_extern_c_fn_unary::wrapper;false;true;false;false
+SourceFile::is_real;false;false;true;false
+bridge::server::MaybeCrossThread::<P>::new;false;false;false;false
+diagnostic::Diagnostic::help;false;false;true;false
+bridge::server::<impl bridge::rpc::Encode<bridge::server::HandleStore<bridge::server::MarkedTypes<S>>> for bridge::Marked<<S as bridge::server::Types>::TokenStream, bridge::client::TokenStream>>::encode;false;false;true;false
+Group::set_span;false;false;true;false
+<bridge::server::MarkedTypes<S> as bridge::server::Symbol>::normalize_and_validate_ident;false;false;true;false
+<u8 as to_tokens::ToTokens>::to_tokens;false;false;true;false
+escape::escape_bytes;false;false;true;true
+bridge::handle::InternedStore::<T>::copy;false;false;true;false
+<char as bridge::rpc::DecodeMut<'_, '_, S>>::decode;false;false;true;false
+bridge::client::ProcMacro::attr;false;false;false;false
+bridge::arena::Arena::grow;false;true;true;false
+bridge::buffer::Buffer::new;false;false;false;false
+<bridge::fxhash::FxHasher as std::hash::Hasher>::write_u8;false;false;true;false
+diagnostic::Diagnostic::level;false;false;true;false
+Span::source;false;false;true;false
+Literal::with_stringify_parts::get_hashes_str;false;false;false;false
+<bridge::buffer::Buffer as std::ops::Drop>::drop;false;false;true;false
+Span::line;false;false;true;false
+Literal::with_stringify_parts;false;false;true;false
+TokenTree::Ident;false;false;true;false
+Literal::i128_suffixed;false;false;false;false
+<bridge::Literal<Sp, Sy> as bridge::Mark>::mark;false;false;true;false
+Literal::u128_unsuffixed;false;false;false;false
+<Punct as to_tokens::ToTokens>::to_tokens;false;false;true;false
+<bridge::TokenTree<TokenStream, Span, Symbol> as bridge::Unmark>::unmark;false;false;true;false
+<u32 as to_tokens::ToTokens>::to_tokens;false;false;true;false
+<std::ffi::CStr as to_tokens::ToTokens>::to_tokens;false;false;true;false
+tree_to_bridge_tree;false;false;true;false
+bridge::client::ProcMacro::bang;false;false;false;false
+<bridge::server::MarkedTypes<S> as bridge::server::Span>::parent;false;false;true;false
+<bridge::Marked<T, M> as bridge::Mark>::mark;false;false;true;false
+<std::string::String as bridge::Unmark>::unmark;false;false;true;false
+<bridge::DelimSpan<Span> as bridge::rpc::DecodeMut<'a, '_, S>>::decode;false;false;true;false
+<bridge::client::Span as std::cmp::Eq>::assert_receiver_is_total_eq;false;false;true;false
+<std::vec::Vec<T> as bridge::Unmark>::unmark;false;false;true;true
+<bridge::fxhash::FxHasher as std::hash::Hasher>::write_u64;false;false;true;false
+<bridge::closure::Closure<'a, A, R> as std::convert::From<&'a mut F>>::from;false;false;true;false
+<bridge::Group<TokenStream, Span> as bridge::rpc::DecodeMut<'a, '_, S>>::decode;false;false;true;false
+<bridge::server::MarkedTypes<S> as bridge::server::SourceFile>::is_real;false;false;true;false
+<Literal as to_tokens::ToTokens>::to_tokens;false;false;true;false
+bridge::client::SourceFile::eq;false;false;true;false
+<&bridge::client::SourceFile as bridge::rpc::Encode<S>>::encode;false;false;true;false
+<Spacing as bridge::Mark>::mark;false;false;false;false
+<std::borrow::Cow<'_, T> as to_tokens::ToTokens>::to_tokens;false;false;true;false
+<token_stream::IntoIter as std::iter::Iterator>::next;false;false;true;false
+bridge::fxhash::FxHasher::add_to_hash;false;false;true;false
+<() as bridge::Mark>::mark;false;false;false;false
+<bridge::rpc::PanicMessage as bridge::rpc::Encode<S>>::encode;false;false;true;false
+<&[u8] as bridge::Unmark>::unmark;false;false;false;false
+TokenTree::span;false;false;true;false
+Punct::spacing;false;false;true;false
+bridge::client::TokenStream::concat_trees;false;false;true;false
+bridge::rpc::PanicMessage::String;false;false;true;false
+Ident::new_raw;false;false;true;false
+tracked_path::path;false;false;false;false
+bridge::client::FreeFunctions::injected_env_var;false;false;false;false
+<bridge::server::MarkedTypes<S> as bridge::server::Span>::source_file;false;false;true;false
+<Spacing as bridge::Unmark>::unmark;false;false;false;false
+<TokenTree as std::fmt::Debug>::fmt;false;false;true;false
+TokenStream::is_empty;false;false;true;false
+<char as to_tokens::ToTokens>::to_tokens;false;false;true;false
+<bridge::server::MarkedTypes<S> as bridge::server::SourceFile>::drop;false;false;true;false
+ConcatStreamsHelper::push;false;false;true;false
+<LexError as std::fmt::Debug>::fmt;false;false;true;false
+Literal::u64_suffixed;false;false;false;false
+<Literal as std::str::FromStr>::from_str;false;false;false;false
+<(A, B) as bridge::rpc::DecodeMut<'a, '_, S>>::decode;false;false;true;false
+<bridge::buffer::Buffer as std::default::Default>::default;false;false;false;false
+<bridge::symbol::Symbol as std::clone::Clone>::clone;false;false;false;false
+Span::def_site;false;false;false;false
+Span::save_span;false;false;true;false
+<bridge::server::RunningSameThreadGuard as std::ops::Drop>::drop;false;false;true;false
+<bridge::Ident<Span, Symbol> as bridge::rpc::Encode<S>>::encode;false;false;true;false
+<bridge::server::MarkedTypes<S> as bridge::server::TokenStream>::clone;false;false;true;false
+<u64 as to_tokens::ToTokens>::to_tokens;false;false;true;false
+<Spacing as std::fmt::Debug>::fmt;false;false;true;false
+bridge::<impl bridge::rpc::Encode<S> for Spacing>::encode;false;false;true;false
+bridge::TokenTree::Ident;false;false;false;false
+<u32 as bridge::rpc::DecodeMut<'_, '_, S>>::decode;false;false;true;false
+bridge::client::Span::subspan;false;false;true;false
+Literal::f64_unsuffixed;false;false;true;false
+<TokenStream as std::iter::FromIterator<TokenStream>>::from_iter;false;false;false;true
+ConcatTreesHelper::build;false;false;true;false
+<bridge::LitKind as bridge::Mark>::mark;false;false;true;false
+bridge::DelimSpan::<Span>::from_single;false;false;false;false
+<bridge::api_tags::TokenStream as bridge::rpc::Encode<S>>::encode;false;false;true;false
+<Punct as std::clone::Clone>::clone;false;false;true;false
+<std::collections::Bound<T> as bridge::Unmark>::unmark;false;false;true;false
+ConcatTreesHelper::push;false;false;true;false
+<bridge::Literal<Span, Symbol> as std::cmp::PartialEq>::eq;false;false;true;false
+<SourceFile as std::clone::Clone>::clone;false;false;true;false
+Span::warning;false;false;true;false
+bridge::handle::InternedStore::<T>::alloc;false;false;true;false
+<bridge::server::MarkedTypes<S> as bridge::server::FreeFunctions>::track_env_var;false;false;true;false
+bridge::arena::Arena::alloc_raw_without_grow;false;true;true;false
+bridge::symbol::Interner::clear;false;false;true;false
+<bridge::server::MarkedTypes<S> as bridge::server::Span>::source;false;false;true;false
+bridge::client::run_client;false;false;true;false
+bridge::client::TokenStream::from_token_tree;false;false;true;false
+<u8 as bridge::rpc::DecodeMut<'_, '_, S>>::decode;false;false;true;false
+bridge::client::Span::join;false;false;true;false
+SourceFile::path;false;false;true;false
+bridge::client::FreeFunctions::track_path;false;false;false;false
+<&str as bridge::rpc::Encode<S>>::encode;false;false;true;false
+bridge::<impl bridge::rpc::DecodeMut<'a, '_, S> for std::collections::Bound<T>>::decode;false;false;true;false
+Group::span_close;false;false;true;false
+<bridge::ExpnGlobals<Span> as bridge::rpc::DecodeMut<'a, '_, S>>::decode;false;false;true;false
+Span::help;false;false;true;false
+bridge::symbol::INTERNER::__init;false;false;false;false
+<&[u8] as bridge::rpc::Encode<S>>::encode;false;false;true;false
+<std::string::String as bridge::rpc::DecodeMut<'_, '_, S>>::decode;false;false;true;false
+escape::escape_single_char;false;false;true;false
+bridge::rpc::PanicMessage::as_str;false;false;true;false
+bridge::handle::InternedStore::<T>::new;false;false;true;false
+diagnostic::Diagnostic::span_warning;false;false;true;false
+<Group as std::clone::Clone>::clone;false;false;true;false
+tracked_env::var;false;false;false;false
+<std::vec::Vec<Span> as diagnostic::MultiSpan>::into_spans;false;false;true;false
+<bridge::TokenTree<TokenStream, Span, Symbol> as bridge::rpc::Encode<S>>::encode;false;false;true;false
+<bridge::api_tags::Span as bridge::rpc::Encode<S>>::encode;false;false;true;false
+<token_stream::IntoIter as std::iter::Iterator>::size_hint;false;false;true;false
+<bridge::api_tags::FreeFunctions as bridge::rpc::DecodeMut<'a, '_, S>>::decode;false;false;true;false
+<bridge::TokenTree<TokenStream, Span, Symbol> as bridge::rpc::DecodeMut<'a, '_, S>>::decode;false;false;true;false
+bridge::client::<impl bridge::symbol::Symbol>::normalize_and_validate_ident;false;false;false;false
+<bridge::LitKind as bridge::Unmark>::unmark;false;false;true;false
+SourceFile;false;false;true;false
+bridge::server::<impl bridge::rpc::Decode<'_, 's, bridge::server::HandleStore<bridge::server::MarkedTypes<S>>> for &'s bridge::Marked<<S as bridge::server::Types>::FreeFunctions, bridge::client::FreeFunctions>>::decode;false;false;true;false
+Literal::f32_suffixed;false;false;true;false
+<bridge::client::Span as bridge::rpc::DecodeMut<'_, '_, S>>::decode;false;false;true;false
+<bridge::server::MarkedTypes<S> as bridge::server::Span>::line;false;false;true;false
+bridge::selfless_reify::reify_to_extern_c_fn_hrt_bridge;false;false;false;false
+bridge::server::<impl bridge::rpc::Decode<'_, 's, bridge::server::HandleStore<bridge::server::MarkedTypes<S>>> for &'s bridge::Marked<<S as bridge::server::Types>::SourceFile, bridge::client::SourceFile>>::decode;false;false;true;false
+bridge::symbol::Symbol::new_ident;false;false;false;false
+bridge::LitKind::StrRaw;false;false;false;false
+bridge::client::TokenStream::from_str;false;false;false;false
+to_tokens::ToTokens::to_token_stream;false;false;false;false
+<bridge::server::SameThread as bridge::server::ExecutionStrategy>::run_bridge_and_client;false;false;true;false
+<bridge::client::Span as std::clone::Clone>::clone;false;false;true;false
+bridge::server::SourceFile::drop;false;false;true;false
+<&T as to_tokens::ToTokens>::to_tokens;false;false;true;false
+<i32 as to_tokens::ToTokens>::to_tokens;false;false;true;false
+<bridge::symbol::Symbol as std::cmp::Eq>::assert_receiver_is_total_eq;false;false;false;false
+Literal::u32_suffixed;false;false;false;false
+<bridge::ExpnGlobals<Span> as bridge::Unmark>::unmark;false;false;true;false
+Literal::f32_unsuffixed;false;false;true;false
+<bridge::server::MarkedTypes<S> as bridge::server::Span>::column;false;false;true;false
+TokenTree::Group;false;false;true;false
+bridge::handle::OwnedStore::<T>::new;false;false;true;false
+Literal::i16_unsuffixed;false;false;false;false
+<char as bridge::Mark>::mark;false;false;false;false
+<bridge::server::CrossThread<P> as bridge::server::ExecutionStrategy>::run_bridge_and_client;false;false;true;true
+Literal::span;false;false;true;false
+<&bridge::client::TokenStream as bridge::rpc::Encode<S>>::encode;false;false;true;false
+<u32 as bridge::rpc::Encode<S>>::encode;false;false;true;false
+bridge::client::SourceFile::path;false;false;true;false
+bridge::server::SourceFile::clone;false;false;true;false
+<bridge::Diagnostic<Span> as std::clone::Clone>::clone;false;false;true;false
+<bridge::symbol::Symbol as bridge::rpc::DecodeMut<'_, '_, S>>::decode;false;false;true;false
+quote::quote_span;false;false;true;true
+<bridge::Ident<Span, Symbol> as bridge::Mark>::mark;false;false;true;false
+<bridge::Ident<Span, Symbol> as bridge::Unmark>::unmark;false;false;true;false
+<std::ffi::CString as to_tokens::ToTokens>::to_tokens;false;false;true;false
+ConcatTreesHelper::append_to;false;false;true;false
+Literal::set_span;false;false;true;false
+bridge::client::Span::recover_proc_macro_span;false;false;false;false
+<u8 as bridge::rpc::Encode<S>>::encode;false;false;true;false
+<bridge::Diagnostic<Span> as bridge::Mark>::mark;false;false;true;false
+<bridge::Group<TokenStream, Span> as bridge::Unmark>::unmark;false;false;true;false
+Literal;false;false;true;false
+bridge::client::TokenStream::concat_streams;false;false;true;false
+Span::parent;false;false;true;false
+<u8 as bridge::Mark>::mark;false;false;false;false
+<Delimiter as bridge::Mark>::mark;false;false;false;false
+bridge::client::FreeFunctions::emit_diagnostic;false;false;true;false
+<bridge::fxhash::FxHasher as std::hash::Hasher>::write_usize;false;false;true;false
+<bridge::symbol::Symbol as std::fmt::Debug>::fmt;false;false;true;false
+<diagnostic::Level as std::clone::Clone>::clone;false;false;false;false
+Ident::set_span;false;false;true;false
+<usize as bridge::rpc::Encode<S>>::encode;false;false;true;false
+<TokenStream as std::fmt::Display>::fmt;false;false;true;false
+bridge::client::Span::line;false;false;true;false
+<bridge::server::MarkedTypes<S> as bridge::server::Span>::subspan;false;false;true;false
+<bridge::server::MarkedTypes<S> as bridge::server::Span>::recover_proc_macro_span;false;false;true;false
+<bridge::Literal<Sp, Sy> as bridge::rpc::DecodeMut<'a, '_, S>>::decode;false;false;true;false
+Literal::u32_unsuffixed;false;false;false;false
+<Literal as std::clone::Clone>::clone;false;false;true;false
+<Delimiter as bridge::Unmark>::unmark;false;false;false;false
+<bridge::client::TokenStream as bridge::rpc::Encode<S>>::encode;false;false;true;false
+<bridge::fxhash::FxHasher as std::default::Default>::default;false;false;false;false
+<&mut bridge::client::TokenStream as bridge::rpc::Encode<S>>::encode;false;false;true;false
+<Group as std::fmt::Display>::fmt;false;false;true;false
+<Literal as std::fmt::Display>::fmt;false;false;true;false
+bridge::client::Span::source;false;false;true;false
+<bridge::Marked<T, M> as std::clone::Clone>::clone;false;false;true;false
+bridge::<impl bridge::rpc::Encode<S> for Delimiter>::encode;false;false;true;false
+<TokenTree as std::convert::From<Ident>>::from;false;false;true;false
+diagnostic::Diagnostic::warning;false;false;true;false
+<bridge::LitKind as bridge::rpc::DecodeMut<'a, '_, S>>::decode;false;false;true;false
+Literal::u16_unsuffixed;false;false;false;false
+<usize as bridge::rpc::DecodeMut<'_, '_, S>>::decode;false;false;true;false
+<bridge::client::SourceFile as std::ops::Drop>::drop;false;false;true;false
+<bridge::server::MarkedTypes<S> as bridge::server::Span>::start;false;false;true;false
+Span::join;false;false;true;false
+<bridge::Diagnostic<Span> as bridge::rpc::DecodeMut<'a, '_, S>>::decode;false;false;true;false
+<TokenStream as std::clone::Clone>::clone;false;false;true;false
+Span::end;false;false;true;false
+<bridge::client::SourceFile as std::clone::Clone>::clone;false;false;true;false
+<bridge::api_tags::Symbol as bridge::rpc::DecodeMut<'a, '_, S>>::decode;false;false;true;false
+<TokenStream as std::default::Default>::default;false;false;false;false
+<(A, B) as bridge::rpc::Encode<S>>::encode;false;false;true;false
+bridge::server::<impl bridge::rpc::Decode<'_, 's, bridge::server::HandleStore<bridge::server::MarkedTypes<S>>> for &'s bridge::Marked<<S as bridge::server::Types>::TokenStream, bridge::client::TokenStream>>::decode;false;false;true;false
+bridge::symbol::Symbol::is_valid_ascii_ident;false;false;false;true
+<diagnostic::Level as bridge::Unmark>::unmark;false;false;false;false
+<bridge::Punct<Span> as bridge::Mark>::mark;false;false;true;false
+<&mut bridge::client::FreeFunctions as bridge::rpc::Encode<S>>::encode;false;false;true;false
+<&'a mut bridge::Marked<T, M> as bridge::Unmark>::unmark;false;false;true;false
+bridge::server::RunningSameThreadGuard;false;false;false;false
+bridge::client::Span::byte_range;false;false;true;false
+<TokenTree as to_tokens::ToTokens>::to_tokens;false;false;true;false
+diagnostic::Children;false;false;true;false
+bridge::client::Bridge::<'_>::with;false;false;false;false
+<bridge::client::Client<I, O> as std::clone::Clone>::clone;false;false;true;false
+bridge::symbol::Symbol::can_be_raw;false;false;false;false
+<impl std::cmp::PartialEq<Punct> for char>::eq;false;false;true;false
+<bridge::api_tags::SourceFile as bridge::rpc::DecodeMut<'a, '_, S>>::decode;false;false;true;false
+<bridge::DelimSpan<Span> as bridge::Unmark>::unmark;false;false;true;false
+Span::source_file;false;false;true;false
+<bridge::server::MarkedTypes<S> as bridge::server::SourceFile>::path;false;false;true;false
+<&'a [u8] as bridge::rpc::DecodeMut<'a, '_, S>>::decode;false;false;true;false
+<bridge::DelimSpan<Span> as std::clone::Clone>::clone;false;false;true;false
+<&'a [Span] as diagnostic::MultiSpan>::into_spans;false;false;true;false
+bridge::<impl bridge::rpc::DecodeMut<'a, '_, S> for diagnostic::Level>::decode;false;false;true;false
+<std::ops::Range<T> as bridge::Mark>::mark;false;false;true;false
+<&bridge::client::FreeFunctions as bridge::rpc::Encode<S>>::encode;false;false;true;false
+token_stream::<impl std::iter::IntoIterator for TokenStream>::into_iter;false;false;true;false
+bridge::arena::Arena::alloc_str;false;true;true;false
+<bridge::buffer::Buffer as std::io::Write>::flush;false;false;true;false
+<bridge::buffer::Buffer as std::io::Write>::write_all;false;false;true;false
+bridge::client::state::with;false;true;false;false
+bridge::client::Client::<TokenStream, TokenStream>::expand1;false;false;false;false
+bridge::server::<impl bridge::rpc::DecodeMut<'_, '_, bridge::server::HandleStore<bridge::server::MarkedTypes<S>>> for bridge::Marked<<S as bridge::server::Types>::FreeFunctions, bridge::client::FreeFunctions>>::decode;false;false;true;false
+<bridge::server::MarkedTypes<S> as bridge::server::TokenStream>::drop;false;false;true;false
+<bridge::Ident<Span, Symbol> as bridge::rpc::DecodeMut<'a, '_, S>>::decode;false;false;true;false
+ConcatStreamsHelper::append_to;false;false;true;false
+Span::eq;false;false;true;false
+Literal::usize_unsuffixed;false;false;false;false
+quote::quote;false;false;true;true
+Literal::isize_unsuffixed;false;false;false;false
+bridge::server::MarkedTypes;false;false;false;false
+<Punct as std::fmt::Display>::fmt;false;false;true;false
+<bridge::server::MarkedTypes<S> as bridge::server::TokenStream>::is_empty;false;false;true;false
+<bridge::server::MarkedTypes<S> as bridge::server::TokenStream>::concat_streams;false;false;true;false
+bridge::<impl bridge::rpc::Encode<S> for std::ops::Range<T>>::encode;false;false;true;false
+diagnostic::Diagnostic::span_note;false;false;true;false
+bridge::server::TokenStream::clone;false;false;true;false
+bridge::buffer::Buffer::extend_from_array;false;true;true;false
+<TokenStream as to_tokens::ToTokens>::to_tokens;false;false;true;false
+<bridge::server::MarkedTypes<S> as bridge::server::TokenStream>::from_str;false;false;true;false
+<bridge::LitKind as bridge::rpc::Encode<S>>::encode;false;false;true;false
+bridge::client::Span::resolved_at;false;false;true;false
+bridge::api_tags::Method::TokenStream;false;false;false;false
+<bridge::Group<TokenStream, Span> as std::clone::Clone>::clone;false;false;true;false
+<token_stream::IntoIter as std::iter::Iterator>::count;false;false;true;true
+<() as bridge::rpc::Encode<S>>::encode;false;false;true;false
+<bridge::server::MarkedTypes<S> as bridge::server::Span>::byte_range;false;false;true;false
+Span::resolved_at;false;false;true;false
+ConcatStreamsHelper::new;false;false;false;false
+bridge::buffer::Buffer::clear;false;false;true;false
+bridge::symbol::Symbol;false;false;false;false
+bridge::server::CrossThread::<P>::new;false;false;false;false
+bridge::server::<impl bridge::rpc::DecodeMut<'_, '_, bridge::server::HandleStore<bridge::server::MarkedTypes<S>>> for bridge::Marked<<S as bridge::server::Types>::TokenStream, bridge::client::TokenStream>>::decode;false;false;true;false
+<bridge::fxhash::FxHasher as std::hash::Hasher>::finish;false;false;false;false
+bridge::symbol::Symbol::new;false;false;false;false
+<Punct as std::fmt::Debug>::fmt;false;false;true;false
+Literal::i64_suffixed;false;false;false;false
+<Delimiter as std::cmp::PartialEq>::eq;false;false;false;false
+bridge::api_tags::Method::FreeFunctions;false;false;false;false
+<std::string::String as to_tokens::ToTokens>::to_tokens;false;false;true;false
+Punct::new;false;false;false;false
+<TokenTree as to_tokens::ToTokens>::into_token_stream;false;false;true;false
+bridge::server::<impl bridge::rpc::Encode<bridge::server::HandleStore<bridge::server::MarkedTypes<S>>> for bridge::Marked<<S as bridge::server::Types>::FreeFunctions, bridge::client::FreeFunctions>>::encode;false;false;true;false
+<bridge::symbol::Symbol as std::fmt::Display>::fmt;false;false;true;false
+<Group as std::fmt::Debug>::fmt;false;false;true;false
+Span::column;false;false;true;false
+bridge::<impl bridge::rpc::DecodeMut<'a, '_, S> for Spacing>::decode;false;false;true;false
+bridge::buffer::Buffer::extend_from_slice;false;true;true;false
+bridge::client::TokenStream::to_string;false;false;true;false
+bridge::client::Span::save_span;false;false;true;false
+<bool as bridge::rpc::DecodeMut<'_, '_, S>>::decode;false;false;true;false
+<usize as bridge::Mark>::mark;false;false;false;false
+<bridge::Marked<T, M> as std::cmp::Eq>::assert_receiver_is_total_eq;false;false;true;false
+bridge::<impl bridge::rpc::Encode<S> for diagnostic::Level>::encode;false;false;true;false
+<bridge::Punct<Span> as bridge::rpc::DecodeMut<'a, '_, S>>::decode;false;false;true;false
+bridge::server::<impl bridge::rpc::DecodeMut<'_, '_, bridge::server::HandleStore<bridge::server::MarkedTypes<S>>> for bridge::Marked<<S as bridge::server::Types>::Span, bridge::client::Span>>::decode;false;false;true;false
+<bridge::client::state::set::RestoreOnDrop as std::ops::Drop>::drop;false;false;true;false
+<diagnostic::Diagnostic as std::clone::Clone>::clone;false;false;true;false
+diagnostic::Diagnostic::set_message;false;false;true;false
+<bridge::fxhash::FxHasher as std::hash::Hasher>::write_u16;false;false;true;false
+<bridge::server::MarkedTypes<S> as bridge::server::Span>::source_text;false;false;true;false
+bridge::client::Span::source_text;false;false;true;false
+<bridge::client::Span as std::hash::Hash>::hash;false;false;true;false
+Span::note;false;false;true;false
+bridge::client::TokenStream::into_trees;false;false;true;false
+<diagnostic::Level as std::fmt::Debug>::fmt;false;false;true;false
+bridge::client::TokenStream::drop;false;false;true;false
+<bridge::client::FreeFunctions as bridge::rpc::DecodeMut<'_, '_, S>>::decode;false;false;true;false
+bridge::buffer::Buffer::push;false;true;true;false
+bridge::server::<impl bridge::rpc::DecodeMut<'_, 's, bridge::server::HandleStore<bridge::server::MarkedTypes<S>>> for &'s mut bridge::Marked<<S as bridge::server::Types>::SourceFile, bridge::client::SourceFile>>::decode;false;false;true;false
+<bridge::Marked<T, M> as bridge::Unmark>::unmark;false;false;true;false
+<Delimiter as std::clone::Clone>::clone;false;false;false;false
+bridge::server::<impl bridge::client::Client<(TokenStream, TokenStream), TokenStream>>::run;false;false;true;false
+diagnostic::Diagnostic::spans;false;false;true;false
+bridge::rpc::PanicMessage::StaticStr;false;false;false;false
+<std::vec::Vec<T> as bridge::rpc::Encode<S>>::encode;false;false;true;true
+<std::option::Option<T> as bridge::Mark>::mark;false;false;true;false
+bridge::client::Span::def_site;false;false;false;false
+Group::delimiter;false;false;true;false
+<bridge::client::Span as std::fmt::Debug>::fmt;false;false;true;false
+<bool as bridge::rpc::Encode<S>>::encode;false;false;true;false
+bridge::<impl bridge::rpc::DecodeMut<'a, '_, S> for std::ops::Range<T>>::decode;false;false;true;false
+bridge::client::TokenStream::expand_expr;false;false;true;false
+<bridge::LitKind as std::cmp::Eq>::assert_receiver_is_total_eq;false;false;true;false
+<i128 as to_tokens::ToTokens>::to_tokens;false;false;true;false
+<Delimiter as std::fmt::Debug>::fmt;false;false;true;false
+<bridge::Ident<Span, Symbol> as std::cmp::PartialEq>::eq;false;false;true;false
+Literal::i16_suffixed;false;false;false;false
+bridge::client::Span::call_site;false;false;false;false
+Literal::subspan;false;false;true;false
+<bridge::server::MarkedTypes<S> as bridge::server::Server>::intern_symbol;false;false;false;false
+Literal::i8_suffixed;false;false;false;false
+<char as bridge::Unmark>::unmark;false;false;false;false
+diagnostic::Diagnostic::spanned;false;false;false;false
+<bridge::client::Span as std::cmp::PartialEq>::eq;false;false;true;false
+<bridge::TokenTree<TokenStream, Span, Symbol> as bridge::Mark>::mark;false;false;true;false
+<bool as to_tokens::ToTokens>::to_tokens;false;false;true;false
+<Group as to_tokens::ToTokens>::to_tokens;false;false;true;false
+Span;false;false;true;false
+<TokenTree as std::fmt::Display>::fmt;false;false;true;false
+<() as bridge::rpc::DecodeMut<'_, '_, S>>::decode;false;false;true;false
+diagnostic::Diagnostic::span_error;false;false;true;false
+<Ident as std::fmt::Debug>::fmt;false;false;true;false
+<diagnostic::Children<'a> as std::iter::Iterator>::next;false;false;true;false
+bridge::TokenTree::Group;false;false;true;false
+<bridge::server::MarkedTypes<S> as bridge::server::Span>::end;false;false;true;false
+<bridge::symbol::Symbol as bridge::rpc::Encode<S>>::encode;false;false;true;false
+<Ident as std::clone::Clone>::clone;false;false;true;false
+bridge::client::maybe_install_panic_hook;false;false;false;false
+<bridge::Punct<Span> as bridge::rpc::Encode<S>>::encode;false;false;true;false
+TokenStream::new;false;false;false;false
+bridge::buffer::Buffer::take;false;false;true;false
+ConcatStreamsHelper::build;false;false;true;false
+bridge::client::SourceFile::is_real;false;false;true;false
+bridge::server::FreeFunctions::drop;false;false;true;false
+bridge::client::FreeFunctions::track_env_var;false;false;false;false
+<bridge::server::MarkedTypes<S> as bridge::server::Server>::globals;false;false;true;false
+Span::start;false;false;true;false

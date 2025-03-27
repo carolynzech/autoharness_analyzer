@@ -1,0 +1,4 @@
+fn_name;iterators;loops;nested_loops
+unix::linux_like::FD_ZERO;0;1;0
+unix::linux_like::linux::CPU_ZERO;0;1;0
+unix::linux_like::linux::CPU_COUNT_S;0;1;0

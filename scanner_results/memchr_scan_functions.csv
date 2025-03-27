@@ -1,0 +1,516 @@
+name;is_unsafe;has_unsafe_ops;has_unsupported_input;has_loop_or_iterator
+<memmem::searcher::PrefilterState as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+arch::x86_64::avx2::memchr::One::iter;false;false;true;false
+arch::x86_64::sse2::memchr::Two;false;false;true;false
+arch::all::twoway::Shift::reverse;false;false;false;false
+arch::x86_64::avx2::memchr::Three::find_raw_avx2;true;true;true;false
+<arch::x86_64::sse2::memchr::One as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+<arch::all::twoway::TwoWay as rustc_std_workspace_core::clone::Clone>::clone;false;false;true;false
+<memmem::FindIter<'h, 'n> as rustc_std_workspace_core::iter::Iterator>::next;false;false;true;false
+arch::all::packedpair::Finder::with_pair;false;false;true;false
+memmem::FinderBuilder::build_forward_with_ranker;false;false;false;false
+<arch::x86_64::sse2::memchr::TwoIter<'a, 'h> as rustc_std_workspace_core::iter::DoubleEndedIterator>::next_back;false;true;true;false
+<arch::x86_64::sse2::memchr::OneIter<'a, 'h> as rustc_std_workspace_core::iter::DoubleEndedIterator>::next_back;false;true;true;false
+<memchr::Memchr3<'h> as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+memchr::memchr3;false;true;false;false
+<arch::all::packedpair::Finder as rustc_std_workspace_core::clone::Clone>::clone;false;false;true;false
+<arch::all::rabinkarp::Finder as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+arch::all::rabinkarp::is_fast;false;false;false;false
+memchr::memchr_raw;true;false;true;false
+arch::all::is_equal_raw;true;true;true;true
+arch::generic::packedpair::Finder::<V>::find;true;true;true;true
+<memchr::Memchr<'h> as rustc_std_workspace_core::iter::DoubleEndedIterator>::next_back;false;true;true;false
+arch::x86_64::avx2::memchr::Three::find_raw_sse2;true;true;true;false
+<arch::x86_64::sse2::packedpair::Finder as rustc_std_workspace_core::clone::Clone>::clone;false;false;true;false
+<memmem::searcher::PrefilterKind as rustc_std_workspace_core::clone::Clone>::clone;false;false;false;false
+<arch::all::memchr::One as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+arch::all::rabinkarp::is_equal_raw;true;true;true;false
+arch::generic::memchr::Iter::<'h>::count;false;false;true;false
+arch::x86_64::sse2::memchr::Two::new;false;true;false;false
+arch::x86_64::sse2::memchr::Two::find_raw_impl;true;true;true;false
+vector::x86sse2::<impl vector::Vector for rustc_std_workspace_core::arch::x86_64::__m128i>::cmpeq;true;true;false;false
+arch::generic::packedpair::Finder::<V>::new;true;true;true;false
+arch::generic::memchr::Two::<V>::search_chunk;true;true;true;false
+arch::generic::memchr::Iter::<'h>::size_hint;false;false;true;false
+<arch::x86_64::sse2::memchr::ThreeIter<'a, 'h> as rustc_std_workspace_core::iter::DoubleEndedIterator>::next_back;false;true;true;false
+arch::generic::memchr::Iter::<'h>::new;false;false;false;false
+arch::x86_64::memchr::memchr2_raw;false;true;true;false
+arch::x86_64::memchr::memchr3_raw::detect;true;true;true;false
+<arch::all::memchr::Three as rustc_std_workspace_core::clone::Clone>::clone;false;false;true;false
+arch::all::rabinkarp::FinderRev::rfind;false;true;true;false
+<memchr::Memchr<'h> as rustc_std_workspace_core::iter::Iterator>::count;false;false;true;false
+vector::x86avx2::<impl vector::Vector for rustc_std_workspace_core::arch::x86_64::__m256i>::load_unaligned;true;true;true;false
+memmem::searcher::SearcherRev::new;false;false;false;false
+arch::generic::memchr::Two::<V>::needle1;false;false;true;false
+arch::x86_64::avx2::memchr::Two::rfind_raw_sse2;true;true;true;false
+memchr::memrchr2_iter;false;false;false;false
+<memchr::Memchr<'h> as rustc_std_workspace_core::iter::Iterator>::next;false;true;true;false
+memmem::searcher::Searcher::twoway;false;false;true;false
+memmem::searcher::searcher_kind_empty;true;false;true;false
+arch::x86_64::avx2::memchr::One::find_raw;true;true;true;false
+memmem::FinderRev::<'n>::new;false;false;false;false
+arch::all::twoway::Finder::new;false;false;false;false
+arch::x86_64::sse2::memchr::Two::rfind_raw_impl;true;true;true;false
+arch::x86_64::avx2::memchr::Three::rfind_raw_avx2;true;true;true;false
+arch::all::twoway::Finder::find_large_imp;false;false;true;true
+<arch::generic::memchr::Two<V> as rustc_std_workspace_core::clone::Clone>::clone;false;false;true;false
+memmem::FindRevIter::<'h, 'n>::new;false;false;true;false
+memchr::memrchr3_iter;false;false;false;false
+arch::x86_64::sse2::memchr::Three::rfind;false;true;true;false
+arch::all::memchr::One::count_raw;true;true;true;true
+arch::x86_64::sse2::memchr::Three::iter;false;false;true;false
+arch::x86_64::memchr::memchr3_raw;false;true;true;false
+<vector::SensibleMoveMask as vector::MoveMask>::all_zeros_except_least_significant;false;false;false;false
+arch::all::rabinkarp::Hash::del;false;false;true;false
+arch::x86_64::avx2::memchr::Two::rfind;false;true;true;false
+memmem::Finder::<'n>::find;false;false;true;false
+<vector::SensibleMoveMask as vector::MoveMask>::first_offset;false;false;false;false
+arch::x86_64::memchr::memchr3_raw::find_avx2;true;true;true;false
+arch::generic::memchr::One::<V>::find_raw;true;true;true;true
+<memmem::searcher::SearcherRev as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+<arch::all::twoway::Shift as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+memmem::searcher::Pre::<'a>::find;false;false;true;false
+<arch::all::memchr::TwoIter<'a, 'h> as rustc_std_workspace_core::iter::DoubleEndedIterator>::next_back;false;true;true;false
+<arch::all::rabinkarp::Hash as rustc_std_workspace_core::clone::Clone>::clone;false;false;false;false
+<arch::generic::packedpair::Finder<V> as rustc_std_workspace_core::clone::Clone>::clone;false;false;true;false
+arch::x86_64::sse2::memchr::Three::is_available;false;false;false;false
+arch::x86_64::sse2::packedpair::Finder;false;false;true;false
+arch::all::memchr::One::count;false;true;false;false
+<arch::x86_64::avx2::memchr::OneIter<'a, 'h> as rustc_std_workspace_core::iter::Iterator>::size_hint;false;false;true;false
+cow::Imp;false;false;false;false
+<memmem::searcher::Prefilter as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+arch::generic::memchr::Three::<V>::needle3;false;false;true;false
+cow::Imp::<'a>::as_slice;false;false;false;false
+<vector::SensibleMoveMask as vector::MoveMask>::last_offset;false;false;false;false
+<arch::x86_64::sse2::memchr::ThreeIter<'a, 'h> as rustc_std_workspace_core::clone::Clone>::clone;false;false;true;false
+arch::generic::packedpair::Finder::<V>::find_prefilter_in_chunk;true;true;true;false
+arch::all::twoway::Finder::find_small_imp;false;false;true;true
+arch::all::twoway::FinderRev;false;false;true;false
+arch::x86_64::avx2::memchr::Two::rfind_raw;true;true;true;false
+<memmem::searcher::Searcher as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+<arch::x86_64::avx2::memchr::ThreeIter<'a, 'h> as rustc_std_workspace_core::iter::Iterator>::size_hint;false;false;true;false
+<memchr::Memchr<'h> as rustc_std_workspace_core::iter::Iterator>::size_hint;false;false;true;false
+arch::x86_64::avx2::memchr::Two::new_unchecked;true;true;false;false
+arch::x86_64::memchr::memrchr3_raw::find_sse2;true;true;true;false
+arch::x86_64::memchr::memchr2_raw::find_avx2;true;true;true;false
+<arch::x86_64::avx2::memchr::TwoIter<'a, 'h> as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+memchr::Memchr3::<'h>::new;false;false;false;false
+<arch::all::twoway::SuffixOrdering as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+arch::x86_64::sse2::memchr::One::new_unchecked;true;true;false;false
+<arch::all::memchr::TwoIter<'a, 'h> as rustc_std_workspace_core::iter::Iterator>::next;false;true;true;false
+<arch::generic::packedpair::Finder<V> as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+arch::all::memchr::One::find;false;true;false;false
+<arch::x86_64::avx2::packedpair::Finder as rustc_std_workspace_core::clone::Clone>::clone;false;false;true;false
+arch::x86_64::memchr::memrchr3_raw::find_fallback;true;true;true;false
+<cow::CowBytes<'a> as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+memmem::searcher::PrefilterState::is_effective;false;false;true;false
+vector::x86avx2::<impl vector::Vector for rustc_std_workspace_core::arch::x86_64::__m256i>::splat;true;true;false;false
+arch::all::memchr::Three::find;false;true;true;false
+arch::generic::memchr::Two::<V>::find_raw;true;true;true;true
+<arch::x86_64::sse2::memchr::Three as rustc_std_workspace_core::clone::Clone>::clone;false;false;true;false
+arch::x86_64::sse2::memchr::Three::find_raw_impl;true;true;true;false
+<arch::x86_64::avx2::memchr::OneIter<'a, 'h> as rustc_std_workspace_core::clone::Clone>::clone;false;false;true;false
+arch::x86_64::sse2::packedpair::Finder::new;false;false;false;false
+arch::x86_64::sse2::packedpair::Finder::with_pair_impl;true;true;true;false
+arch::x86_64::memchr::count_raw;false;true;true;false
+memmem::FindIter::<'h, 'n>::new;false;false;true;false
+<arch::all::memchr::OneIter<'a, 'h> as rustc_std_workspace_core::clone::Clone>::clone;false;false;true;false
+arch::all::twoway::Suffix::reverse;false;false;false;true
+memmem::FinderRev::<'n>::rfind;false;false;true;false
+<vector::SensibleMoveMask as vector::MoveMask>::and;false;false;false;false
+<arch::all::memchr::ThreeIter<'a, 'h> as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+arch::x86_64::avx2::memchr::Two::find_raw_avx2;true;true;true;false
+arch::x86_64::memchr::memchr3_raw::find_fallback;true;true;true;false
+<arch::x86_64::avx2::memchr::ThreeIter<'a, 'h> as rustc_std_workspace_core::clone::Clone>::clone;false;false;true;false
+arch::generic::memchr::One::<V>::rfind_raw;true;true;true;true
+<arch::x86_64::avx2::memchr::ThreeIter<'a, 'h> as rustc_std_workspace_core::iter::Iterator>::next;false;true;true;false
+arch::x86_64::sse2::memchr::Two::find_raw;true;true;true;false
+arch::x86_64::avx2::memchr::Three::rfind;false;true;true;false
+memmem::searcher::searcher_kind_sse2;true;true;true;false
+<arch::x86_64::avx2::memchr::OneIter<'a, 'h> as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+<arch::all::rabinkarp::FinderRev as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+<arch::all::memchr::OneIter<'a, 'h> as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+memmem::Finder::<'n>::find_iter;false;false;true;false
+arch::x86_64::sse2::memchr::One::count_raw_impl;true;true;true;false
+<arch::all::memchr::OneIter<'a, 'h> as rustc_std_workspace_core::iter::Iterator>::size_hint;false;false;true;false
+<*mut T as ext::Pointer>::as_usize;false;false;true;false
+<arch::all::memchr::OneIter<'a, 'h> as rustc_std_workspace_core::iter::Iterator>::next;false;true;true;false
+arch::all::packedpair::Pair::with_indices;false;false;false;false
+<arch::all::rabinkarp::Hash as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+<arch::x86_64::sse2::packedpair::Finder as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+memmem::searcher::PrefilterState::skips;false;false;true;false
+memmem::rfind_iter;false;false;false;false
+arch::all::packedpair::Finder::pair;false;false;true;false
+vector::Vector::movemask_will_have_non_zero;true;true;false;false
+memchr::memchr2_iter;false;false;false;false
+<memmem::FindRevIter<'h, 'n> as rustc_std_workspace_core::iter::Iterator>::next;false;false;true;false
+cow::CowBytes::<'a>::new;false;false;false;false
+arch::generic::memchr::search_slice_with_raw;true;true;false;false
+<arch::all::twoway::Finder as rustc_std_workspace_core::clone::Clone>::clone;false;false;true;false
+arch::x86_64::avx2::memchr::Three::new_unchecked;true;true;false;false
+memchr::memchr2;false;true;false;false
+arch::generic::memchr::count_byte_by_byte;true;true;true;true
+arch::x86_64::avx2::memchr::Two::find_raw_sse2;true;true;true;false
+arch::x86_64::sse2::memchr::Two::find;false;true;true;false
+arch::all::rabinkarp::FinderRev::new;false;false;false;true
+<arch::x86_64::avx2::memchr::One as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+<memchr::Memchr3<'h> as rustc_std_workspace_core::clone::Clone>::clone;false;false;true;false
+arch::all::memchr::Two::rfind_raw;true;true;true;true
+arch::x86_64::memchr::memchr_raw::find_avx2;true;true;true;false
+memmem::FinderBuilder::new;false;false;false;false
+arch::all::memchr::has_zero_byte;false;false;false;false
+memmem::searcher::Prefilter::find;false;true;true;false
+arch::all::twoway::Finder;false;false;true;false
+<arch::x86_64::sse2::memchr::Three as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+arch::x86_64::avx2::memchr::Three::find_raw;true;true;true;false
+memmem::FinderBuilder::build_reverse;false;false;false;false
+<vector::SensibleMoveMask as rustc_std_workspace_core::clone::Clone>::clone;false;false;false;false
+<arch::x86_64::sse2::memchr::OneIter<'a, 'h> as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+memmem::find;false;false;false;false
+arch::x86_64::memchr::memrchr_raw::find_avx2;true;true;true;false
+<memchr::Memchr3<'h> as rustc_std_workspace_core::iter::Iterator>::next;false;true;true;false
+arch::x86_64::memchr::memchr_raw;false;true;true;false
+arch::all::memchr::Two::confirm;false;false;true;false
+memchr::memchr3_raw;true;false;true;false
+<memmem::searcher::PrefilterState as rustc_std_workspace_core::clone::Clone>::clone;false;false;true;false
+vector::x86sse2::<impl vector::Vector for rustc_std_workspace_core::arch::x86_64::__m128i>::and;true;true;false;false
+<memchr::Memchr2<'h> as rustc_std_workspace_core::iter::DoubleEndedIterator>::next_back;false;true;true;false
+memmem::searcher::searcher_kind_two_way;true;true;true;false
+<*const T as ext::Pointer>::as_usize;false;false;true;false
+arch::x86_64::avx2::memchr::One::rfind;false;true;true;false
+<arch::x86_64::sse2::memchr::ThreeIter<'a, 'h> as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+arch::all::memchr::Two::iter;false;false;true;false
+vector::x86avx2::<impl vector::Vector for rustc_std_workspace_core::arch::x86_64::__m256i>::load_aligned;true;true;true;false
+arch::x86_64::avx2::memchr::One::count;false;true;true;false
+<arch::all::memchr::TwoIter<'a, 'h> as rustc_std_workspace_core::clone::Clone>::clone;false;false;true;false
+<arch::all::twoway::Finder as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+<arch::all::twoway::TwoWay as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+<vector::SensibleMoveMask as vector::MoveMask>::has_non_zero;false;false;false;false
+arch::all::twoway::SuffixKind::cmp;false;false;false;false
+arch::generic::memchr::Three::<V>::new;true;true;false;false
+arch::x86_64::sse2::memchr::Two::rfind;false;true;true;false
+<memmem::Finder<'n> as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+<arch::all::memchr::Three as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+arch::all::memchr::One::iter;false;false;false;false
+arch::x86_64::sse2::packedpair::Finder::is_available;false;false;false;false
+<arch::x86_64::avx2::memchr::Three as rustc_std_workspace_core::clone::Clone>::clone;false;false;true;false
+arch::x86_64::memchr::memrchr2_raw;false;true;true;false
+<arch::all::memchr::OneIter<'a, 'h> as rustc_std_workspace_core::iter::DoubleEndedIterator>::next_back;false;true;true;false
+arch::x86_64::sse2::memchr::Three::new_unchecked;true;true;false;false
+arch::all::packedpair::Finder::new;false;false;false;false
+arch::x86_64::sse2::packedpair::Finder::find;false;true;true;false
+cow::CowBytes::<'a>::as_slice;false;false;false;false
+arch::x86_64::avx2::memchr::One::is_available;false;false;false;false
+<memchr::Memchr<'h> as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+arch::generic::memchr::One::<V>::search_chunk;true;true;true;false
+<memmem::searcher::SearcherRev as rustc_std_workspace_core::clone::Clone>::clone;false;false;true;false
+<memmem::FinderRev<'n> as rustc_std_workspace_core::clone::Clone>::clone;false;false;true;false
+<arch::all::twoway::FinderRev as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+memmem::searcher::Prefilter::sse2;false;false;true;false
+arch::x86_64::sse2::memchr::Two::rfind_raw;true;true;true;false
+<arch::x86_64::sse2::memchr::TwoIter<'a, 'h> as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+arch::x86_64::avx2::memchr::One::rfind_raw_avx2;true;true;true;false
+arch::x86_64::memchr::memrchr3_raw::find_avx2;true;true;true;false
+<arch::all::twoway::SuffixKind as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+arch::x86_64::avx2::memchr::One::count_raw_avx2;true;true;true;false
+<arch::x86_64::sse2::memchr::TwoIter<'a, 'h> as rustc_std_workspace_core::iter::Iterator>::size_hint;false;false;true;false
+memmem::searcher::PrefilterState::new;false;false;false;false
+arch::x86_64::avx2::packedpair::Finder::new;false;false;false;false
+<cow::CowBytes<'a> as rustc_std_workspace_core::clone::Clone>::clone;false;false;false;false
+<memmem::searcher::Prefilter as rustc_std_workspace_core::clone::Clone>::clone;false;false;true;false
+<arch::x86_64::avx2::packedpair::Finder as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+memmem::searcher::Searcher::new;false;false;false;false
+memmem::searcher::do_packed_search;false;false;false;false
+<arch::all::twoway::ApproximateByteSet as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+vector::x86avx2::<impl vector::Vector for rustc_std_workspace_core::arch::x86_64::__m256i>::or;true;true;false;false
+arch::all::twoway::FinderRev::new;false;false;false;false
+memmem::searcher::Pre::<'a>::is_effective;false;false;true;false
+arch::all::twoway::FinderRev::rfind_large_imp;false;false;true;true
+arch::x86_64::memchr::memchr_raw::find_sse2;true;true;true;false
+<arch::x86_64::sse2::memchr::Two as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+arch::x86_64::sse2::memchr::One::count_raw;true;true;true;false
+arch::x86_64::memchr::memrchr_raw::find_sse2;true;true;true;false
+<arch::x86_64::avx2::memchr::TwoIter<'a, 'h> as rustc_std_workspace_core::clone::Clone>::clone;false;false;true;false
+arch::x86_64::memchr::count_raw::find_fallback;true;true;true;false
+arch::x86_64::sse2::packedpair::Finder::find_prefilter_impl;true;true;true;false
+arch::generic::packedpair::Finder::<V>::min_haystack_len;false;false;true;false
+arch::all::twoway::Finder::find_with_prefilter;false;false;true;false
+<memmem::searcher::PrefilterConfig as rustc_std_workspace_core::clone::Clone>::clone;false;false;false;false
+memchr::memchr_iter;false;false;false;false
+memchr::memrchr2_raw;true;false;true;false
+arch::x86_64::sse2::memchr::One::rfind;false;true;false;false
+arch::x86_64::avx2::packedpair::Finder::find_prefilter;false;true;true;false
+arch::all::memchr::Two::rfind;false;true;true;false
+<arch::generic::memchr::Iter<'h> as rustc_std_workspace_core::clone::Clone>::clone;false;false;true;false
+<arch::x86_64::avx2::memchr::Two as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+arch::x86_64::avx2::memchr::One::find_raw_avx2;true;true;true;false
+<memchr::Memchr2<'h> as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+arch::x86_64::avx2::memchr::Two::find_raw;true;true;true;false
+arch::x86_64::avx2::memchr::Three::rfind_raw_sse2;true;true;true;false
+vector::x86sse2::<impl vector::Vector for rustc_std_workspace_core::arch::x86_64::__m128i>::splat;true;true;false;false
+arch::x86_64::sse2::memchr::Three::new;false;true;false;false
+arch::generic::memchr::rev_byte_by_byte;true;true;true;true
+arch::all::rabinkarp::FinderRev::rfind_raw;true;true;true;true
+arch::x86_64::sse2::memchr::Three::find_raw;true;true;true;false
+arch::all::twoway::ApproximateByteSet::new;false;false;false;true
+arch::all::memchr::Two::new;false;false;false;false
+arch::x86_64::avx2::memchr::Three::find;false;true;true;false
+<arch::x86_64::sse2::memchr::OneIter<'a, 'h> as rustc_std_workspace_core::iter::Iterator>::count;false;false;true;false
+arch::generic::memchr::Two::<V>::needle2;false;false;true;false
+arch::x86_64::memchr::count_raw::find_sse2;true;true;true;false
+arch::x86_64::memchr::memrchr2_raw::find_fallback;true;true;true;false
+vector::x86avx2::<impl vector::Vector for rustc_std_workspace_core::arch::x86_64::__m256i>::cmpeq;true;true;false;false
+arch::all::memchr::One::rfind;false;true;false;false
+arch::generic::memchr::Three::<V>::needle1;false;false;true;false
+arch::x86_64::sse2::memchr::One::iter;false;false;false;false
+arch::x86_64::avx2::memchr::Three::rfind_raw;true;true;true;false
+<memmem::searcher::TwoWayWithPrefilter as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+<memmem::FindRevIter<'h, 'n> as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+<memchr::Memchr2<'h> as rustc_std_workspace_core::iter::Iterator>::size_hint;false;false;true;false
+arch::x86_64::sse2::memchr::One::find_raw;true;true;true;false
+arch::generic::memchr::Three::<V>::rfind_raw;true;true;true;true
+vector::SensibleMoveMask;false;false;false;false
+arch::x86_64::avx2::packedpair::Finder::with_pair_impl;true;true;true;false
+<arch::all::memchr::Two as rustc_std_workspace_core::clone::Clone>::clone;false;false;true;false
+arch::all::rabinkarp::Finder::find_raw;true;true;true;true
+<cow::Imp<'a> as rustc_std_workspace_core::clone::Clone>::clone;false;false;false;false
+memchr::count_raw;true;false;true;false
+vector::x86sse2::<impl vector::Vector for rustc_std_workspace_core::arch::x86_64::__m128i>::load_aligned;true;true;true;false
+<arch::x86_64::avx2::memchr::Two as rustc_std_workspace_core::clone::Clone>::clone;false;false;true;false
+memmem::searcher::PrefilterState::is_inert;false;false;true;false
+arch::x86_64::avx2::packedpair::Finder::min_haystack_len;false;false;true;false
+arch::x86_64::sse2::memchr::One::find;false;true;false;false
+<arch::x86_64::avx2::memchr::TwoIter<'a, 'h> as rustc_std_workspace_core::iter::Iterator>::next;false;true;true;false
+arch::x86_64::sse2::memchr::Two::is_available;false;false;false;false
+<arch::all::memchr::TwoIter<'a, 'h> as rustc_std_workspace_core::iter::Iterator>::size_hint;false;false;true;false
+memchr::memrchr2;false;true;false;false
+memmem::searcher::searcher_kind_two_way_with_prefilter;true;true;true;false
+arch::x86_64::avx2::memchr::One::find;false;true;true;false
+<memmem::FindIter<'h, 'n> as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+arch::x86_64::memchr::memchr_raw::find_fallback;true;true;true;false
+arch::all::rabinkarp::Hash::reverse;true;true;true;true
+<arch::generic::memchr::One<V> as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+arch::x86_64::avx2::memchr::Two::new;false;true;false;false
+arch::x86_64::sse2::memchr::One::count;false;true;false;false
+<arch::all::twoway::Suffix as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+memchr::memrchr3_raw;true;false;true;false
+arch::x86_64::avx2::memchr::One::count_raw;true;true;true;false
+vector::x86avx2::<impl vector::Vector for rustc_std_workspace_core::arch::x86_64::__m256i>::movemask;true;true;false;false
+<arch::generic::memchr::Three<V> as rustc_std_workspace_core::clone::Clone>::clone;false;false;true;false
+<*mut T as ext::Pointer>::distance;true;true;true;false
+<arch::x86_64::avx2::memchr::TwoIter<'a, 'h> as rustc_std_workspace_core::iter::DoubleEndedIterator>::next_back;false;true;true;false
+memmem::searcher::searcher_kind_avx2;true;true;true;false
+arch::all::memchr::Three::find_raw;true;true;true;true
+<arch::generic::memchr::Three<V> as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+arch::all::memchr::Two::find;false;true;true;false
+<arch::all::packedpair::Finder as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+arch::x86_64::sse2::memchr::One::rfind_raw;true;true;true;false
+memchr::Memchr::<'h>::new;false;false;false;false
+arch::all::twoway::FinderRev::rfind_small_imp;false;false;true;true
+memchr::memrchr;false;true;false;false
+<memmem::FindIter<'h, 'n> as rustc_std_workspace_core::clone::Clone>::clone;false;false;true;false
+<arch::all::memchr::One as rustc_std_workspace_core::clone::Clone>::clone;false;false;false;false
+arch::x86_64::avx2::memchr::One::new_unchecked;true;true;false;false
+arch::generic::memchr::Three::<V>::find_raw;true;true;true;true
+arch::generic::memchr::Three::<V>::needle2;false;false;true;false
+arch::x86_64::avx2::memchr::One::rfind_raw;true;true;true;false
+<arch::x86_64::avx2::memchr::ThreeIter<'a, 'h> as rustc_std_workspace_core::iter::DoubleEndedIterator>::next_back;false;true;true;false
+<arch::x86_64::sse2::memchr::One as rustc_std_workspace_core::clone::Clone>::clone;false;false;false;false
+<arch::all::packedpair::DefaultFrequencyRank as arch::all::packedpair::HeuristicFrequencyRank>::rank;false;false;false;false
+arch::all::packedpair::Pair::index1;false;false;true;false
+memchr::memchr;false;true;false;false
+arch::x86_64::avx2::packedpair::Finder::find_impl;true;true;true;false
+arch::x86_64::sse2::memchr::Two::new_unchecked;true;true;false;false
+memmem::Finder::<'n>::as_ref;false;false;true;false
+<memmem::searcher::SearcherRevKind as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+arch::all::rabinkarp::Hash::forward;true;true;true;true
+arch::x86_64::memchr::memrchr_raw;false;true;true;false
+memchr::memrchr3;false;true;false;false
+arch::x86_64::sse2::packedpair::Finder::with_pair;false;true;true;false
+arch::x86_64::avx2::packedpair::Finder::is_available;false;false;false;false
+<memmem::searcher::PrefilterConfig as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+arch::all::rabinkarp::Finder::find;false;true;true;false
+arch::all::memchr::Three::has_needle;false;false;true;false
+<arch::x86_64::avx2::memchr::One as rustc_std_workspace_core::clone::Clone>::clone;false;false;true;false
+<arch::x86_64::avx2::memchr::Three as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+arch::x86_64::avx2::memchr::Three::iter;false;false;true;false
+<memmem::searcher::PrefilterConfig as rustc_std_workspace_core::default::Default>::default;false;false;false;false
+memmem::searcher::prefilter_kind_sse2;true;true;true;false
+memmem::find_iter;false;false;false;false
+arch::x86_64::sse2::memchr::Three::rfind_raw;true;true;true;false
+<memmem::FinderRev<'n> as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+vector::x86sse2::<impl vector::Vector for rustc_std_workspace_core::arch::x86_64::__m128i>::or;true;true;false;false
+arch::all::memchr::Three::iter;false;false;true;false
+arch::all::memchr::One::rfind_raw;true;true;true;true
+<arch::all::twoway::ApproximateByteSet as rustc_std_workspace_core::clone::Clone>::clone;false;false;false;false
+arch::x86_64::memchr::memrchr3_raw;false;true;true;false
+<memchr::Memchr3<'h> as rustc_std_workspace_core::iter::Iterator>::size_hint;false;false;true;false
+<arch::x86_64::sse2::memchr::OneIter<'a, 'h> as rustc_std_workspace_core::iter::Iterator>::size_hint;false;false;true;false
+<arch::all::rabinkarp::Hash as rustc_std_workspace_core::default::Default>::default;false;false;false;false
+arch::generic::memchr::fwd_byte_by_byte;true;true;true;true
+arch::generic::memchr::One::<V>::new;true;true;false;false
+<arch::all::memchr::TwoIter<'a, 'h> as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+cow::CowBytes;false;false;false;false
+arch::x86_64::memchr::memchr2_raw::find_fallback;true;true;true;false
+arch::x86_64::memchr::memchr2_raw::detect;true;true;true;false
+<arch::x86_64::avx2::memchr::ThreeIter<'a, 'h> as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+<arch::x86_64::avx2::memchr::OneIter<'a, 'h> as rustc_std_workspace_core::iter::DoubleEndedIterator>::next_back;false;true;true;false
+<arch::all::memchr::ThreeIter<'a, 'h> as rustc_std_workspace_core::iter::Iterator>::next;false;true;true;false
+arch::x86_64::memchr::count_raw::detect;true;true;true;false
+<memmem::searcher::Searcher as rustc_std_workspace_core::clone::Clone>::clone;false;true;true;false
+arch::x86_64::memchr::memchr2_raw::find_sse2;true;true;true;false
+arch::x86_64::avx2::memchr::Three::is_available;false;false;false;false
+arch::all::memchr::Two::find_raw;true;true;true;true
+arch::all::twoway::Suffix::forward;false;false;false;true
+<&'a R as arch::all::packedpair::HeuristicFrequencyRank>::rank;false;false;false;false
+arch::generic::packedpair::Finder::<V>::find_in_chunk;true;true;true;true
+<memmem::FindRevIter<'h, 'n> as rustc_std_workspace_core::clone::Clone>::clone;false;false;true;false
+arch::generic::memchr::Three::<V>::search_chunk;true;true;true;false
+memmem::searcher::SearcherRev::rfind;false;false;true;false
+vector::x86sse2::<impl vector::Vector for rustc_std_workspace_core::arch::x86_64::__m128i>::movemask;true;true;false;false
+memchr::memrchr_raw;true;false;true;false
+memmem::rfind;false;false;false;false
+<memchr::Memchr2<'h> as rustc_std_workspace_core::iter::Iterator>::next;false;true;true;false
+arch::all::rabinkarp::FinderRev;false;false;true;false
+arch::x86_64::sse2::memchr::One::is_available;false;false;false;false
+arch::generic::memchr::Two::<V>::rfind_raw;true;true;true;true
+arch::all::memchr::Two::has_needle;false;false;true;false
+memmem::searcher::Prefilter::fallback;false;false;true;false
+<arch::all::memchr::ThreeIter<'a, 'h> as rustc_std_workspace_core::iter::DoubleEndedIterator>::next_back;false;true;true;false
+arch::all::memchr::Three::rfind;false;true;true;false
+memchr::Memchr2::<'h>::new;false;false;false;false
+<arch::all::twoway::FinderRev as rustc_std_workspace_core::clone::Clone>::clone;false;false;true;false
+memmem::searcher::PrefilterState::update;false;false;true;false
+<arch::x86_64::avx2::memchr::OneIter<'a, 'h> as rustc_std_workspace_core::iter::Iterator>::next;false;true;true;false
+memchr::memchr2_raw;true;false;true;false
+memmem::searcher::Prefilter::find_simple;false;false;true;false
+<arch::x86_64::sse2::memchr::TwoIter<'a, 'h> as rustc_std_workspace_core::iter::Iterator>::next;false;true;true;false
+arch::all::packedpair::Pair::with_ranker;false;false;false;true
+<arch::all::memchr::OneIter<'a, 'h> as rustc_std_workspace_core::iter::Iterator>::count;false;false;true;false
+<cow::Imp<'a> as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+arch::x86_64::sse2::packedpair::Finder::min_haystack_len;false;false;true;false
+cow::Imp::<'a>::new;false;false;false;false
+arch::x86_64::sse2::memchr::One::new;false;true;false;false
+arch::all::packedpair::Finder::find_prefilter;false;false;true;true
+arch::generic::memchr::One::<V>::count_raw;true;true;true;true
+arch::all::is_equal;false;true;false;false
+arch::x86_64::avx2::memchr::Two::iter;false;false;true;false
+arch::x86_64::avx2::memchr::Two::find;false;true;true;false
+<arch::x86_64::sse2::memchr::Two as rustc_std_workspace_core::clone::Clone>::clone;false;false;true;false
+memchr::memrchr_iter;false;false;false;false
+arch::x86_64::avx2::memchr::Three::new;false;true;false;false
+arch::generic::memchr::Iter::<'h>::next;true;true;true;false
+<memmem::FinderBuilder as rustc_std_workspace_core::clone::Clone>::clone;false;false;false;false
+arch::x86_64::avx2::packedpair::Finder::find;false;true;true;false
+arch::x86_64::avx2::memchr::One::find_raw_sse2;true;true;true;false
+arch::x86_64::sse2::memchr::One;false;false;false;false
+<arch::generic::memchr::Iter<'h> as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+<arch::all::twoway::SuffixKind as rustc_std_workspace_core::clone::Clone>::clone;false;false;false;false
+arch::x86_64::avx2::packedpair::Finder::with_pair;false;true;true;false
+arch::x86_64::sse2::memchr::Three::find;false;true;true;false
+arch::generic::memchr::Two::<V>::new;true;true;false;false
+arch::all::memchr::Three::confirm;false;false;true;false
+<arch::all::packedpair::Pair as rustc_std_workspace_core::clone::Clone>::clone;false;false;true;false
+<arch::all::rabinkarp::Finder as rustc_std_workspace_core::clone::Clone>::clone;false;false;true;false
+<vector::SensibleMoveMask as vector::MoveMask>::or;false;false;false;false
+memmem::FinderRev::<'n>::needle;false;false;true;false
+arch::all::twoway::ApproximateByteSet::contains;false;false;false;false
+arch::x86_64::sse2::packedpair::Finder::find_prefilter;false;true;true;false
+<arch::all::memchr::Two as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+arch::all::rabinkarp::Hash::new;false;false;false;false
+arch::all::is_prefix;false;false;false;false
+<arch::generic::memchr::One<V> as rustc_std_workspace_core::clone::Clone>::clone;false;false;true;false
+arch::generic::packedpair::Finder::<V>::find_prefilter;true;true;true;true
+<memchr::Memchr2<'h> as rustc_std_workspace_core::clone::Clone>::clone;false;false;true;false
+arch::all::memchr::One::has_needle;false;false;false;false
+<vector::SensibleMoveMask as vector::MoveMask>::count_ones;false;false;false;false
+<arch::all::memchr::ThreeIter<'a, 'h> as rustc_std_workspace_core::clone::Clone>::clone;false;false;true;false
+arch::x86_64::memchr::memchr_raw::detect;true;true;true;false
+<vector::SensibleMoveMask as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+<arch::x86_64::avx2::memchr::TwoIter<'a, 'h> as rustc_std_workspace_core::iter::Iterator>::size_hint;false;false;true;false
+arch::all::rabinkarp::Finder::new;false;false;false;true
+arch::all::twoway::Shift::forward;false;false;false;false
+<vector::SensibleMoveMask as vector::MoveMask>::clear_least_significant_bit;false;false;false;false
+memmem::searcher::PrefilterConfig::is_none;false;false;false;false
+arch::x86_64::memchr::memrchr_raw::detect;true;true;true;false
+arch::x86_64::memchr::memrchr3_raw::detect;true;true;true;false
+memmem::FinderRev::<'n>::as_ref;false;false;true;false
+<memmem::FinderBuilder as rustc_std_workspace_core::default::Default>::default;false;false;false;false
+vector::SensibleMoveMask::get_for_offset;false;false;false;false
+<arch::all::twoway::Shift as rustc_std_workspace_core::clone::Clone>::clone;false;false;true;false
+arch::all::rabinkarp::Hash::add;false;false;true;false
+<memmem::FinderBuilder as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+arch::all::rabinkarp::Hash::roll;false;false;true;false
+arch::x86_64::sse2::packedpair::Finder::find_impl;true;true;true;false
+memmem::searcher::Searcher::find;false;true;true;false
+arch::x86_64::avx2::memchr::One::rfind_raw_sse2;true;true;true;false
+<arch::x86_64::avx2::memchr::OneIter<'a, 'h> as rustc_std_workspace_core::iter::Iterator>::count;false;false;true;false
+<memmem::FindIter<'h, 'n> as rustc_std_workspace_core::iter::Iterator>::size_hint;false;false;true;false
+arch::x86_64::avx2::packedpair::Finder::find_prefilter_impl;true;true;true;false
+memmem::FinderRev::<'n>::rfind_iter;false;false;true;false
+<arch::x86_64::sse2::memchr::ThreeIter<'a, 'h> as rustc_std_workspace_core::iter::Iterator>::size_hint;false;false;true;false
+arch::all::memchr::Three::new;false;false;false;false
+<memchr::Memchr3<'h> as rustc_std_workspace_core::iter::DoubleEndedIterator>::next_back;false;true;true;false
+arch::all::is_suffix;false;false;false;false
+arch::x86_64::memchr::memrchr2_raw::find_avx2;true;true;true;false
+arch::all::memchr::splat;false;false;false;false
+arch::all::memchr::Three::rfind_raw;true;true;true;true
+<arch::x86_64::sse2::memchr::ThreeIter<'a, 'h> as rustc_std_workspace_core::iter::Iterator>::next;false;true;true;false
+<arch::generic::memchr::Two<V> as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+arch::generic::memchr::Iter::<'h>::next_back;true;true;true;false
+memchr::memchr3_iter;false;false;false;false
+<memmem::searcher::TwoWayWithPrefilter as rustc_std_workspace_core::clone::Clone>::clone;false;false;true;false
+arch::x86_64::avx2::memchr::Two::is_available;false;false;false;false
+arch::all::twoway::ApproximateByteSet;false;false;false;false
+<memchr::Memchr<'h> as rustc_std_workspace_core::clone::Clone>::clone;false;false;true;false
+arch::all::twoway::FinderRev::rfind;false;false;true;false
+arch::x86_64::sse2::memchr::One::find_raw_impl;true;true;true;false
+arch::all::memchr::One::find_raw;true;true;true;true
+<memmem::searcher::SearcherKind as rustc_std_workspace_core::clone::Clone>::clone;false;false;false;false
+<arch::all::twoway::SuffixOrdering as rustc_std_workspace_core::clone::Clone>::clone;false;false;false;false
+arch::x86_64::avx2::memchr::Two::rfind_raw_avx2;true;true;true;false
+arch::x86_64::sse2::packedpair::Finder::pair;false;false;true;false
+memmem::searcher::searcher_kind_one_byte;true;true;true;false
+memmem::searcher::prefilter_kind_avx2;true;true;true;false
+<arch::x86_64::sse2::memchr::TwoIter<'a, 'h> as rustc_std_workspace_core::clone::Clone>::clone;false;false;true;false
+arch::all::packedpair::Pair::index2;false;false;true;false
+arch::all::packedpair::Pair::new;false;false;false;false
+<arch::all::rabinkarp::Hash as rustc_std_workspace_core::cmp::PartialEq>::eq;false;false;false;false
+arch::x86_64::memchr::memrchr_raw::find_fallback;true;true;true;false
+<arch::all::rabinkarp::FinderRev as rustc_std_workspace_core::clone::Clone>::clone;false;false;true;false
+arch::x86_64::sse2::memchr::One::rfind_raw_impl;true;true;true;false
+<arch::all::rabinkarp::Hash as rustc_std_workspace_core::cmp::Eq>::assert_receiver_is_total_eq;false;false;false;false
+<arch::all::packedpair::Pair as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+arch::generic::packedpair::Finder::<V>::pair;false;false;true;false
+memmem::searcher::Prefilter::avx2;false;false;true;false
+memmem::searcher::prefilter_kind_fallback;true;true;true;false
+arch::all::rabinkarp::Hash;false;false;false;false
+<memmem::searcher::Pre<'a> as rustc_std_workspace_core::fmt::Debug>::fmt;false;false;true;false
+<memmem::Finder<'n> as rustc_std_workspace_core::clone::Clone>::clone;false;false;true;false
+arch::all::twoway::Finder::find;false;false;true;false
+arch::x86_64::avx2::packedpair::Finder::pair;false;false;true;false
+arch::x86_64::memchr::memrchr2_raw::find_sse2;true;true;true;false
+arch::x86_64::avx2::memchr::One::new;false;true;false;false
+<memmem::searcher::SearcherRevKind as rustc_std_workspace_core::clone::Clone>::clone;false;false;true;false
+<arch::x86_64::sse2::memchr::OneIter<'a, 'h> as rustc_std_workspace_core::clone::Clone>::clone;false;false;true;false
+memmem::FinderBuilder::prefilter;false;false;true;false
+vector::x86sse2::<impl vector::Vector for rustc_std_workspace_core::arch::x86_64::__m128i>::load_unaligned;true;true;true;false
+arch::x86_64::memchr::memrchr2_raw::detect;true;true;true;false
+arch::x86_64::avx2::memchr::One::count_raw_sse2;true;true;true;false
+vector::x86avx2::<impl vector::Vector for rustc_std_workspace_core::arch::x86_64::__m256i>::and;true;true;false;false
+arch::all::memchr::One::new;false;false;false;false
+arch::x86_64::memchr::count_raw::find_avx2;true;true;true;false
+arch::generic::memchr::One::<V>::needle1;false;false;true;false
+arch::x86_64::sse2::memchr::Three;false;false;true;false
+<arch::x86_64::sse2::memchr::OneIter<'a, 'h> as rustc_std_workspace_core::iter::Iterator>::next;false;true;true;false
+<*const T as ext::Pointer>::distance;true;true;true;false
+arch::x86_64::sse2::memchr::Three::rfind_raw_impl;true;true;true;false
+memmem::Finder::<'n>::new;false;false;false;false
+arch::generic::packedpair::matched;true;true;true;false
+memmem::Finder::<'n>::needle;false;false;true;false
+arch::all::memchr::One::confirm;false;false;false;false
+memmem::FinderBuilder::build_forward;false;false;false;false
+<arch::all::memchr::ThreeIter<'a, 'h> as rustc_std_workspace_core::iter::Iterator>::size_hint;false;false;true;false
+arch::x86_64::sse2::memchr::Two::iter;false;false;true;false
+arch::x86_64::memchr::memchr3_raw::find_sse2;true;true;true;false
+<cow::CowBytes<'a> as rustc_std_workspace_core::ops::Deref>::deref;false;false;false;false

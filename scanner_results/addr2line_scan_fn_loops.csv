@@ -1,0 +1,21 @@
+fn_name;iterators;loops;nested_loops
+function::Functions::<R>::parse;0;13;0
+function::Functions::<R>::parse_inlined_functions;0;1;0
+function::Function::<R>::parse;0;19;0
+function::Function::<R>::parse_children;0;4;0
+function::Function::<R>::skip;0;2;0
+function::Function::<R>::find_inlined_functions;0;1;0
+function::InlinedFunction::<R>::parse;0;33;0
+function::name_entry;0;11;0
+line::Lines::parse;0;9;0
+<line::LineLocationRangeIter<'ctx> as rustc_std_workspace_core::iter::Iterator>::next;0;1;0
+lookup::LookupResult::<L>::skip_all_loads;0;2;0
+lookup::LoopingLookup::<T, L, F>::new_lookup;0;1;0
+unit::ResUnits::<R>::parse;0;88;0
+unit::SupUnits::<R>::parse;0;5;0
+unit::LocationRangeIter::<'ctx, R>::next_loc;0;2;0
+Context::<R>::find_location;0;1;0
+Context::<R>::parse_lines;0;1;0
+Context::<R>::parse_functions;0;1;0
+Context::<R>::parse_inlined_functions;0;1;0
+RangeAttributes::<R>::for_each_range;0;1;0

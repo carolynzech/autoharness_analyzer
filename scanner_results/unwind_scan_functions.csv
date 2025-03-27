@@ -1,0 +1,6 @@
+name;is_unsafe;has_unsafe_ops;has_unsupported_input;has_loop_or_iterator
+<libunwind::_Unwind_Reason_Code as core::clone::Clone>::clone;false;false;false;false
+<libunwind::_Unwind_Reason_Code as core::cmp::PartialEq>::eq;false;false;false;false
+<libunwind::_Unwind_Action as core::cmp::PartialEq>::eq;false;false;false;false
+<libunwind::_Unwind_Reason_Code as core::fmt::Debug>::fmt;false;false;true;false
+<libunwind::_Unwind_Action as core::clone::Clone>::clone;false;false;false;false
