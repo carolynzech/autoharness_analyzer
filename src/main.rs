@@ -1,4 +1,5 @@
 use anyhow::Result;
+use clap::Parser;
 use make_tables::compute_metrics;
 use parse_scanner_output::process_scan_fns;
 use serde::{Deserialize, Serialize};
@@ -13,6 +14,28 @@ use strum_macros::{Display, EnumString};
 mod make_tables;
 mod parse_scanner_output;
 
+#[derive(Parser, Debug)]
+struct Args {
+    /// Path to directory with kani_metadata.json files
+    #[arg(required = true)]
+    metadata_dir_path: String,
+
+    /// Scanner results directory path
+    #[arg(required = true)]
+    scanner_results_path: String,
+
+    /// Generate per-crate tables instead of combined data
+    #[arg(long)]
+    per_crate: bool,
+
+    /// Process only the specified crate
+    #[arg(long, value_name = "CRATE")]
+    for_crate: Option<String>,
+
+    /// Show precise types in the output tables
+    #[arg(long)]
+    show_precise_types: bool,
+}
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct AutoHarnessMetadata {
     /// Functions we generated automatic harnesses for.
@@ -63,21 +86,15 @@ impl AutoHarnessMetadata {
     }
 }
 
-// TODO: add a command line flag --per-crate that outputs per-crate tables, not just the combined data
 fn main() -> Result<()> {
-    let metadata_dir_path = std::env::args()
-        .nth(1)
-        .expect("No path to directory with kani_metadata.json files provided");
-    let scanner_results_path = std::env::args()
-        .nth(2)
-        .expect("No scanner results directory path provided");
+    let args = Args::parse();
 
     // Collection of data from all crates
     let mut cross_crate_fn_to_row_data = HashMap::new();
     let mut cross_crate_autoharness_md = AutoHarnessMetadata::new();
 
     // Iterate over all kani-metadata.json files; one per crate
-    for entry in fs::read_dir(&metadata_dir_path)? {
+    for entry in fs::read_dir(&args.metadata_dir_path)? {
         let entry = entry?;
         let path = entry.path();
         if !path.to_string_lossy().contains("kani-metadata.json") {
@@ -89,20 +106,55 @@ fn main() -> Result<()> {
         let v: Value = serde_json::from_str(&kani_md_file_data)?;
         let crate_name = v["crate_name"].as_str().unwrap();
 
+        // Skip if a specific crate was requested and this isn't it
+        if let Some(ref target_crate) = args.for_crate {
+            if target_crate != crate_name {
+                continue;
+            }
+        }
+
         println!("Processing crate {crate_name}");
 
-        let scanner_fn_csv = format!("{scanner_results_path}/{crate_name}_scan_functions.csv");
+        let scanner_fn_csv = format!(
+            "{}/{}_scan_functions.csv",
+            args.scanner_results_path, crate_name
+        );
         let scanner_fn_csv_path = Path::new(&scanner_fn_csv);
         let fn_to_row_data = process_scan_fns(scanner_fn_csv_path)?;
 
         let autoharness_md: AutoHarnessMetadata =
             serde_json::from_value(v["autoharness_md"].clone())?;
 
-        cross_crate_fn_to_row_data.extend(fn_to_row_data);
-        cross_crate_autoharness_md.extend(autoharness_md);
+        if args.per_crate {
+            // Process each crate separately
+            compute_metrics(
+                crate_name,
+                &autoharness_md,
+                &fn_to_row_data,
+                args.show_precise_types,
+            )?;
+        } else if args.for_crate.is_some() {
+            return compute_metrics(
+                crate_name,
+                &autoharness_md,
+                &fn_to_row_data,
+                args.show_precise_types,
+            );
+        } else {
+            cross_crate_fn_to_row_data.extend(fn_to_row_data);
+            cross_crate_autoharness_md.extend(autoharness_md);
+        }
     }
 
-    compute_metrics(&cross_crate_autoharness_md, &cross_crate_fn_to_row_data)?;
+    // Process combined data if not doing per-crate or single-crate analysis
+    if !args.per_crate {
+        compute_metrics(
+            "all_crates",
+            &cross_crate_autoharness_md,
+            &cross_crate_fn_to_row_data,
+            args.show_precise_types,
+        )?;
+    }
 
     Ok(())
 }

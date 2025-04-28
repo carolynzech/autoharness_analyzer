@@ -7,8 +7,8 @@ use std::io::BufRead;
 use std::io::BufReader;
 use std::path::Path;
 
-/// Parse the CSV files that the Kani `scanner` tool outputs
-/// and store which functions are safe and unsafe
+// Parse the CSV files that the Kani `scanner` tool outputs
+// and store which functions are safe and unsafe
 
 /// Single row of data in {crate_name}_scan_functions.csv
 #[derive(Debug, Deserialize)]

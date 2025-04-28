@@ -12,7 +12,6 @@ use to_markdown_table::MarkdownTable;
 use crate::{parse_scanner_output::ScanFnsRow, AutoHarnessMetadata, AutoHarnessSkipReason};
 
 /// Create Markdown tables with the analysis results
-
 fn chosen_overview_table(
     autoharness_md: &AutoHarnessMetadata,
     fn_to_row_data: &HashMap<String, ScanFnsRow>,
@@ -87,7 +86,10 @@ fn skipped_overview_table(autoharness_md: &AutoHarnessMetadata) -> Result<Markdo
     )?)
 }
 
-fn skipped_breakdown_table(autoharness_md: &AutoHarnessMetadata) -> Result<MarkdownTable> {
+fn skipped_breakdown_table(
+    autoharness_md: &AutoHarnessMetadata,
+    show_precise_types: bool,
+) -> Result<MarkdownTable> {
     // Rust type -- &mut i32, &mut u32, bool, etc.
     type PreciseType = String;
     // Grouping of PreciseTypes into larger categories, e.g. &mut i32 and &mut u32 are both in the same category of mutable reference
@@ -147,32 +149,45 @@ fn skipped_breakdown_table(autoharness_md: &AutoHarnessMetadata) -> Result<Markd
         .map(|(_, (_, precise_types))| precise_types.len())
         .sum::<usize>();
 
-    // TODO: the tables get huge with precise types, but it's useful data.
-    // For now, comment it out for readability, but add a command line flag called --precise-types or something that toggles it on and off
     Ok(MarkdownTable::new(
-        Some(vec![
-            "Unsupported Type Category".to_string(),
-            "# of occurences".to_string(),
-            // "Precise Types".to_string(),
-        ]),
+        Some(if show_precise_types {
+            vec![
+                "Unsupported Type Category".to_string(),
+                "# of occurences".to_string(),
+                "Precise Types".to_string(),
+            ]
+        } else {
+            vec![
+                "Unsupported Type Category".to_string(),
+                "# of occurences".to_string(),
+            ]
+        }),
         sorted_by_count
             .into_iter()
             .map(|(category, (count, precise_types))| {
-                vec![
-                    category.to_string(),
-                    count.to_string(),
-                    // precise_types
-                    //     .iter()
-                    //     .map(|precise_type| precise_type.to_string())
-                    //     .collect::<Vec<_>>()
-                    //     .join(", "),
-                ]
+                if show_precise_types {
+                    vec![
+                        category.to_string(),
+                        count.to_string(),
+                        precise_types
+                            .iter()
+                            .map(|precise_type| precise_type.to_string())
+                            .collect::<Vec<_>>()
+                            .join(", "),
+                    ]
+                } else {
+                    vec![category.to_string(), count.to_string()]
+                }
             })
-            .chain(std::iter::once(vec![
-                "Total".to_string(),
-                total_precise_types.to_string(),
-                // "".to_string(),
-            ]))
+            .chain(std::iter::once(if show_precise_types {
+                vec![
+                    "Total".to_string(),
+                    total_precise_types.to_string(),
+                    "".to_string(),
+                ]
+            } else {
+                vec!["Total".to_string(), total_precise_types.to_string()]
+            }))
             .collect(),
     )?)
 }
@@ -184,14 +199,16 @@ fn write_table_to_file(out_file: &mut File, table: &MarkdownTable) -> Result<()>
 }
 
 pub fn compute_metrics(
+    crate_name: &str,
     autoharness_md: &AutoHarnessMetadata,
     fn_to_row_data: &HashMap<String, ScanFnsRow>,
+    show_precise_types: bool,
 ) -> Result<()> {
     let chosen_overview_table = chosen_overview_table(autoharness_md, fn_to_row_data)?;
     let skipped_overview_table = skipped_overview_table(autoharness_md)?;
-    let skipped_breakdown_table = skipped_breakdown_table(autoharness_md)?;
+    let skipped_breakdown_table = skipped_breakdown_table(autoharness_md, show_precise_types)?;
 
-    let out_path = Path::new("autoharness_data").with_extension("md");
+    let out_path = Path::new(&format!("{crate_name}_autoharness_data")).with_extension("md");
     let mut out_file = File::create(out_path)?;
 
     write_table_to_file(&mut out_file, &chosen_overview_table)?;
