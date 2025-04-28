@@ -35,6 +35,10 @@ struct Args {
     /// Show precise types in the output tables
     #[arg(long)]
     show_precise_types: bool,
+
+    /// Only output data for unsafe functions
+    #[arg(long)]
+    unsafe_fns_only: bool,
 }
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct AutoHarnessMetadata {
@@ -132,6 +136,7 @@ fn main() -> Result<()> {
                 &autoharness_md,
                 &fn_to_row_data,
                 args.show_precise_types,
+                args.unsafe_fns_only,
             )?;
         } else if args.for_crate.is_some() {
             return compute_metrics(
@@ -139,6 +144,7 @@ fn main() -> Result<()> {
                 &autoharness_md,
                 &fn_to_row_data,
                 args.show_precise_types,
+                args.unsafe_fns_only,
             );
         } else {
             cross_crate_fn_to_row_data.extend(fn_to_row_data);
@@ -153,6 +159,7 @@ fn main() -> Result<()> {
             &cross_crate_autoharness_md,
             &cross_crate_fn_to_row_data,
             args.show_precise_types,
+            args.unsafe_fns_only,
         )?;
     }
 

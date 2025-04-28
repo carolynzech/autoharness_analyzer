@@ -203,17 +203,54 @@ pub fn compute_metrics(
     autoharness_md: &AutoHarnessMetadata,
     fn_to_row_data: &HashMap<String, ScanFnsRow>,
     show_precise_types: bool,
+    unsafe_fns_only: bool,
 ) -> Result<()> {
-    let chosen_overview_table = chosen_overview_table(autoharness_md, fn_to_row_data)?;
-    let skipped_overview_table = skipped_overview_table(autoharness_md)?;
-    let skipped_breakdown_table = skipped_breakdown_table(autoharness_md, show_precise_types)?;
+    let unsafe_metadata = if unsafe_fns_only {
+        AutoHarnessMetadata {
+            chosen: autoharness_md
+                .chosen
+                .iter()
+                .filter(|fn_name| {
+                    fn_to_row_data
+                        .get(*fn_name)
+                        .map(|row| row.is_unsafe)
+                        .unwrap_or(false)
+                })
+                .cloned()
+                .collect(),
+            skipped: autoharness_md
+                .skipped
+                .iter()
+                .filter(|(fn_name, _)| {
+                    fn_to_row_data
+                        .get(*fn_name)
+                        .map(|row| row.is_unsafe)
+                        .unwrap_or(false)
+                })
+                .map(|(k, v)| (k.clone(), v.clone()))
+                .collect(),
+        }
+    } else {
+        autoharness_md.clone()
+    };
 
-    let out_path = Path::new(&format!("{crate_name}_autoharness_data")).with_extension("md");
-    let mut out_file = File::create(out_path)?;
+    let chosen_overview_table = chosen_overview_table(&unsafe_metadata, fn_to_row_data)?;
+    let skipped_overview_table = skipped_overview_table(&unsafe_metadata)?;
+    let skipped_breakdown_table = skipped_breakdown_table(&unsafe_metadata, show_precise_types)?;
+
+    let out_path = Path::new(&format!(
+        "{}{}_autoharness_data",
+        crate_name,
+        if unsafe_fns_only { "_unsafe" } else { "" }
+    ))
+    .with_extension("md");
+    let mut out_file = File::create(&out_path)?;
 
     write_table_to_file(&mut out_file, &chosen_overview_table)?;
     write_table_to_file(&mut out_file, &skipped_overview_table)?;
     write_table_to_file(&mut out_file, &skipped_breakdown_table)?;
+
+    println!("Wrote results to {}", out_path.to_string_lossy());
 
     Ok(())
 }
