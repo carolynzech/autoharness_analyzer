@@ -1,11 +1,11 @@
-use anyhow::{Context, Result};
+use anyhow::Result;
 use make_tables::compute_metrics;
 use parse_scanner_output::process_scan_fns;
 use serde::{Deserialize, Serialize};
 use serde_json::Value;
 use std::{
     collections::{BTreeMap, HashMap},
-    env, fs,
+    fs,
     path::Path,
 };
 use strum_macros::{Display, EnumString};
@@ -41,6 +41,12 @@ pub enum AutoHarnessSkipReason {
     /// The function doesn't match the user's provided filters.
     #[strum(serialize = "Did not match provided filters")]
     UserFilter,
+}
+
+impl Default for AutoHarnessMetadata {
+    fn default() -> Self {
+        Self::new()
+    }
 }
 
 impl AutoHarnessMetadata {
@@ -79,7 +85,7 @@ fn main() -> Result<()> {
         }
 
         let kani_md_file_data =
-            std::fs::read_to_string(&path).expect(&format!("Unable to read {:?}", path));
+            std::fs::read_to_string(&path).unwrap_or_else(|_| panic!("Unable to read {:?}", path));
         let v: Value = serde_json::from_str(&kani_md_file_data)?;
         let crate_name = v["crate_name"].as_str().unwrap();
 

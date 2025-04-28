@@ -22,7 +22,7 @@ pub struct ScanFnsRow {
 }
 
 pub fn process_scan_fns(file_path: &Path) -> Result<HashMap<String, ScanFnsRow>> {
-    let file = File::open(file_path).expect(&format!("Cannot open file {:?}", file_path));
+    let file = File::open(file_path).unwrap_or_else(|_| panic!("Cannot open file {:?}", file_path));
     let reader = BufReader::new(file);
     let mut fn_to_row_data = HashMap::new();
 

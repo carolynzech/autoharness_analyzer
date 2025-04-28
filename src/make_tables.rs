@@ -23,9 +23,9 @@ fn chosen_overview_table(
 
     for fn_name in &autoharness_md.chosen {
         if let Some(record) = fn_to_row_data.get(fn_name) {
-            if (*record).is_unsafe {
+            if record.is_unsafe {
                 unsafe_count += 1;
-            } else if (*record).has_unsafe_ops {
+            } else if record.has_unsafe_ops {
                 safe_abstractions_count += 1;
             } else {
                 safe_count += 1;
@@ -63,7 +63,7 @@ fn skipped_overview_table(autoharness_md: &AutoHarnessMetadata) -> Result<Markdo
     // We convert to a string first so that we treat all MissingArbitraryImpls as the same key, instead of differentiating on its vector contents.
     let mut skip_reason_count: BTreeMap<String, u32> = BTreeMap::new();
 
-    for (_func, reason) in &autoharness_md.skipped {
+    for reason in autoharness_md.skipped.values() {
         *skip_reason_count.entry(reason.to_string()).or_insert(0) += 1;
     }
 
@@ -72,7 +72,10 @@ fn skipped_overview_table(autoharness_md: &AutoHarnessMetadata) -> Result<Markdo
     sorted_by_count.sort_by(|(_, count_a), (_, count_b)| count_b.cmp(count_a));
 
     Ok(MarkdownTable::new(
-        Some(vec!["Reason function was skipped".to_string(), "# of functions skipped for this reason".to_string()]),
+        Some(vec![
+            "Reason function was skipped".to_string(),
+            "# of functions skipped for this reason".to_string(),
+        ]),
         sorted_by_count
             .iter()
             .map(|(reason, count)| vec![reason.to_string(), count.to_string()])
@@ -109,7 +112,7 @@ fn skipped_breakdown_table(autoharness_md: &AutoHarnessMetadata) -> Result<Markd
         }
     };
 
-    for (_func, reason) in &autoharness_md.skipped {
+    for reason in autoharness_md.skipped.values() {
         if let AutoHarnessSkipReason::MissingArbitraryImpl(args) = reason {
             for (_, arg_type) in args {
                 let mut is_categorized = false;
@@ -176,7 +179,7 @@ fn skipped_breakdown_table(autoharness_md: &AutoHarnessMetadata) -> Result<Markd
 
 fn write_table_to_file(out_file: &mut File, table: &MarkdownTable) -> Result<()> {
     let mut table_as_string = table.to_string();
-    table_as_string.push_str("\n");
+    table_as_string.push('\n');
     Ok(out_file.write_all(table_as_string.as_bytes())?)
 }
 
