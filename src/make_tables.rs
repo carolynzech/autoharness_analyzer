@@ -31,8 +31,7 @@ fn chosen_overview_table(
                 safe_count += 1;
             }
         } else {
-            // TODO: this indicates bugs in autoharness.
-            // Note that we don't include these functions in the totals, so the metrics are still right,
+            // TODO: Note that we don't include these functions in the totals, so the metrics are still right,
             // and thankfully it seems to affect a pretty small slice of the whole.
             // (The todo is for Carolyn to investigate these mistakes).
             println!(
